@@ -1,3 +1,19 @@
-<div class="h-full bg-space-background text-space-accent">
-  Tailwind fonctionne
+<div class="min-h-screen flex flex-col">
+
+  <!-- HEADER -->
+  <app-header />
+
+  <!-- MAIN -->
+  <main class="flex flex-1 overflow-hidden">
+
+    <!-- SIDE PANEL -->
+    <app-side-panel />
+
+    <!-- SKYMAP -->
+    <section class="flex-1 relative">
+      <app-sky-map />
+    </section>
+
+  </main>
+
 </div>
