@@ -1,15 +1,14 @@
 <div class="min-h-screen flex flex-col">
 
-  <!-- HEADER -->
   <app-header />
 
-  <!-- MAIN -->
+  <!-- Contenaire principal -->
   <main class="flex flex-1 overflow-hidden">
 
-    <!-- SIDE PANEL -->
-    <app-side-panel />
+    <!-- Panel de sélection (gauche) -->
+    <app-side-panel [currentObject]="currentObject" />
 
-    <!-- SKYMAP -->
+    <!-- Contenaire de la SkyMap -->
     <section class="flex-1 relative">
       <app-sky-map />
     </section>

@@ -1,5 +1,6 @@
-import { Component, AfterViewInit } from '@angular/core';
-declare let A: any;
+import { Component, AfterViewInit, inject } from '@angular/core';
+import { SkyMapService } from '../../services/sky-map.service';
+
 
 @Component({
   selector: 'app-sky-map',
@@ -9,34 +10,19 @@ declare let A: any;
 })
 export class SkyMap implements AfterViewInit{
   public aladin: any;
+  private readonly DEFAULT_TARGET = 'Orion';
+
+  private readonly DEFAULT_FOV = 20;
+
+  private skyMapService = inject(SkyMapService);
+
+
 
   ngAfterViewInit(): void {
+    //body de la requête avec paramêtre d'affichage
+    this.skyMapService.initializeMap('#aladin-lite-div')
 
-    this.aladin = A.aladin('#aladin-lite-div', {
-
-      survey: 'P/2MASS/color',
-
-      target: 'Orion',
-
-      fov: 20,
-
-      showFullscreenControl: false,
-
-      showLayersControl: false,
-
-      showGotoControl: false,
-    });
-
-    this.aladin.on('click', (position: any) => {
-
-      console.log(
-        'RA:',
-        position.ra,
-        'DEC:',
-        position.dec
-      );
-
-    });
+    this.skyMapService.registerMapEvents();
 
   }
 }
