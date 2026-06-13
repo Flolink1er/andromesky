@@ -1,29 +1,72 @@
 export interface AstronomicalObject {
+  target: string; //sert pour l'instant d'id car unique et est en même temps utilisé par aladin pour
 
   name: string;
 
-  desc: string;
+  description: string;
 
-  target: string;
+  type: AstronomicalType;
+
+  constellation?: string; //plus tard pourra être un type spécifique, soit un enum soit un AstronomicalObject de type constellation
+
+  magnitude?: number;
+
+  imageUrl?: string;
+
+  ra?: number;
+  dec?: number;
+}
+
+export enum AstronomicalType {
+  Galaxy = 'Galaxy',
+  Nebula = 'Nebula',
+  Star = 'Star',
+  Constellation = 'Constellation',
 }
 
 export const ASTRONOMICAL_OBJECTS: AstronomicalObject[] = [
-
   {
+    target: 'M42',
+
     name: "Nébuleuse d'Orion",
-    desc: "Nébulseuse diffuse localisé près d'Orion",
-    target: "M42"
+
+    description: "Nébuleuse diffuse située dans la constellation d'Orion.",
+
+    type: AstronomicalType.Nebula,
+
+    constellation: 'Orion',
+
+    magnitude: 4,
+
+    ra: 83.822,
+    dec: -5.391,
   },
 
   {
+    target: 'M31',
+
     name: "Galaxie d'Andromède",
-    desc: "Galaxie la plus proche de la Voie Lactée",
-    target: "M31"
+
+    description: 'Galaxie spirale la plus proche de la Voie Lactée.',
+
+    type: AstronomicalType.Galaxy,
+
+    constellation: 'Andromeda',
+
+    magnitude: 3.44,
   },
 
   {
-    name: "Les Pléiades",
-    desc: "Amas ouvert d'étoile présente dans la constellation de Taurus",
-    target: "M45"
-  }
+    target: 'M45',
+
+    name: 'Les Pléiades',
+
+    description: 'Amas ouvert visible dans la constellation du Taureau.',
+
+    type: AstronomicalType.Star,
+
+    constellation: 'Taurus',
+
+    magnitude: 1.6,
+  },
 ];

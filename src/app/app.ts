@@ -38,6 +38,6 @@ export class App {
     } else if (action == 'previous') {
       this.previousObject();
     }
-    this.skyMapService.goToObject(this.currentObject.target);
+    this.skyMapService.goToObject(this.currentObject);
   }
 }
