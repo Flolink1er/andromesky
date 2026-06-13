@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 import { AstronomicalObject } from '../../data/astronomical-objects';
 
 @Component({
@@ -9,4 +9,13 @@ import { AstronomicalObject } from '../../data/astronomical-objects';
 })
 export class SidePanel {
   public readonly currentObject = input.required<AstronomicalObject>();
+  public readonly action = output<string>();
+
+  public toPreviousObject() {
+    this.action.emit('previous');
+  }
+
+  public toNextObject() {
+    this.action.emit('next');
+  }
 }
