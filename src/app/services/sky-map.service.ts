@@ -8,9 +8,7 @@ export class SkyMapService {
   private aladin: any;
 
   public initializeMap(container: string): void {
-
     this.aladin = A.aladin(container, {
-
       survey: 'P/2MASS/color',
 
       target: 'Orion',
@@ -37,22 +35,16 @@ export class SkyMapService {
     });
   }
 
-  public goToObject(target: string){
-    if (!this.aladin){return}
-    this.aladin.goToObject(target);
+  public goToObject(target: string) {
+    if (!this.aladin) {
+      return;
+    }
+    this.aladin.gotoObject(target);
   }
 
   public registerMapEvents(): void {
-
     this.aladin.on('click', (position: any) => {
-
-      console.log(
-        'RA:',
-        position.ra,
-        'DEC:',
-        position.dec
-      );
-
+      console.log('RA:', position.ra, 'DEC:', position.dec);
     });
   }
 }

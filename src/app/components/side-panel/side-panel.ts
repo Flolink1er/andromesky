@@ -9,6 +9,7 @@ import { AstronomicalObject } from '../../data/astronomical-objects';
 })
 export class SidePanel {
   public readonly currentObject = input.required<AstronomicalObject>();
+  public readonly currentIndex = input.required<number>();
   public readonly action = output<string>();
 
   public toPreviousObject() {
