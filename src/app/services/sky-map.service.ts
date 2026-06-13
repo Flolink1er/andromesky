@@ -55,16 +55,20 @@ export class SkyMapService {
     this.highlightObject(object);
   }
 
-  public registerMapEvents(): void {
-    this.aladin.on('click', (position: any) => {
-      console.log('RA:', position.ra, 'DEC:', position.dec);
-    });
-  }
-
   private highlightObject(object: AstronomicalObject): void {
     this.markerCatalog.clear();
     const marker = A.marker(object.ra!, object.dec!);
 
     this.markerCatalog.addSources([marker]);
+  }
+
+  private clickCallback?: (ra: number, dec: number) => void;
+
+  registerClickHandler(callback: (ra: number, dec: number) => void): void {
+    this.clickCallback = callback;
+
+    this.aladin.on('click', (position: any) => {
+      callback(position.ra, position.dec);
+    });
   }
 }

@@ -54,6 +54,9 @@ export const ASTRONOMICAL_OBJECTS: AstronomicalObject[] = [
     constellation: 'Andromeda',
 
     magnitude: 3.44,
+
+    ra: 10.6847,
+    dec: 41.269,
   },
 
   {
@@ -68,5 +71,8 @@ export const ASTRONOMICAL_OBJECTS: AstronomicalObject[] = [
     constellation: 'Taurus',
 
     magnitude: 1.6,
+
+    ra: 56.75,
+    dec: 24.1167,
   },
 ];
