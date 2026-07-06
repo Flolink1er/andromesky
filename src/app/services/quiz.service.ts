@@ -18,7 +18,7 @@ export class QuizService {
   private readonly _currentQuestionIndex = signal(0);
   private readonly _questions = signal<QuizQuestion[]>([]);
   private readonly _currentObject = signal<AstronomicalObject | null>(null);
-  private readonly totalQuestions = signal(0);
+  public readonly totalQuestions = signal(10); //valeur par défaut du nombre de question dans un quiz
 
   public readonly isRunning = this._isRunning.asReadonly(); //getter permettant de rendre l'info disponible en readonly pour les composants
   public readonly currentQuestionIndex = this._currentQuestionIndex.asReadonly();

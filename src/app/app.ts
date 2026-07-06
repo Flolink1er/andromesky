@@ -115,7 +115,8 @@ export class App implements AfterViewInit {
   }
 
   public startQuiz(): void {
-    const questions = this.astronomicalObjectService.generateQuizQuestions(10, 4);
+    let nbQuestions = this.quizService.totalQuestions();
+    const questions = this.astronomicalObjectService.generateQuizQuestions(nbQuestions, 4);
 
     this.quizService.startQuiz(questions);
 
