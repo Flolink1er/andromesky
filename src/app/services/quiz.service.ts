@@ -31,6 +31,12 @@ export class QuizService {
   private readonly _selectedAnswer = signal<AstronomicalObject | null>(null);
   public readonly selectedAnswer = this._selectedAnswer.asReadonly();
 
+  private readonly _correctAnswers = signal(0);
+  public readonly correctAnswers = this._correctAnswers.asReadonly();
+
+  private readonly _isFinished = signal(false);
+  public readonly isFinished = this._isFinished.asReadonly();
+
   public readonly currentQuestion = computed(() => {
     const questions = this._questions();
 
@@ -48,15 +54,21 @@ export class QuizService {
   });
 
   public startQuiz(questions: QuizQuestion[]): void {
+    this._selectedAnswer.set(null);
+    this._lastAnswerCorrect.set(null);
+    this._correctAnswers.set(0);
     this._questions.set(questions);
 
     this._currentQuestionIndex.set(0);
 
     this._isRunning.set(true);
+
+    this.scoreService.reset();
   }
 
   public stopQuiz(): void {
     this._isRunning.set(false);
+    this._isFinished.set(true);
 
     this._questions.set([]);
 
@@ -91,6 +103,7 @@ export class QuizService {
     this._lastAnswerCorrect.set(isCorrect);
 
     if (isCorrect) {
+      this._correctAnswers.update((correct) => (correct += 1));
       this.scoreService.addEvent(ScoreEvent.QuizCorrect);
     } else {
       this.scoreService.addEvent(ScoreEvent.QuizWrong);

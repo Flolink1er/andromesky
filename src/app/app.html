@@ -1,6 +1,6 @@
 <div class="min-h-screen flex flex-col">
 
-  <app-header />
+  <app-header (action)="changeMode($event)" />
 
   <!-- Contenaire principal -->
   <main class="flex flex-1 overflow-hidden">

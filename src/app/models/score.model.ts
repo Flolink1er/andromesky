@@ -7,7 +7,7 @@ export enum ScoreEvent {
 
   QuizFastCorrect = 15,
 
-  QuizWrong = -2,
+  QuizWrong = 0,
 
   SPACE_GUESSR_CLOSE = 50,
 

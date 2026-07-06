@@ -5,29 +5,29 @@ import { ScoreEvent } from '../models/score.model';
   providedIn: 'root',
 })
 export class ScoreService {
-  private readonly score = signal(0);
+  private readonly _score = signal(0);
 
   public addPoints(points: number): void {
-    this.score.update((score) => score + points);
+    this._score.update((score) => score + points);
+  }
+
+  public addEvent(event: ScoreEvent): void {
+    this._score.update((score) => score + event);
   }
 
   public removePoints(points: number): void {
-    this.score.update((score) => Math.max(0, score - points));
+    this._score.update((score) => Math.max(0, score - points));
   }
 
   public reset(): void {
-    this.score.set(0);
+    this._score.set(0);
   }
 
-  public getScore(): number {
-    return this.score();
+  public get score(): number {
+    return this._score();
   }
 
   private saveScore() {}
 
   private loadScore() {}
-
-  public addEvent(event: ScoreEvent): void {
-    this.score.update((score) => score + event);
-  }
 }

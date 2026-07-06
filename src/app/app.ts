@@ -24,7 +24,6 @@ export class App implements AfterViewInit {
   public _currentIndex = signal(0);
 
   constructor() {
-    this.startQuiz();
     effect(() => {
       if (!this.quizService.isRunning()) {
         return;
@@ -60,6 +59,12 @@ export class App implements AfterViewInit {
     });
   }
 
+  public changeMode(mode: string) {
+    if (mode === 'toQuiz') {
+      this.startQuiz();
+    }
+  }
+
   public get currentObject(): AstronomicalObject {
     return this.astronomicalObjectService.objects()[this.currentIndex];
   }
@@ -87,6 +92,8 @@ export class App implements AfterViewInit {
       this.nextObject();
     } else if (action == 'previous') {
       this.previousObject();
+    } else if (action == 'restartQuiz') {
+      this.startQuiz();
     }
     this.skyMapService.goToObject(this.currentObject);
   }

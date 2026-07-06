@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, output } from '@angular/core';
 import { SvgIconComponent } from '../svg-icon/svg-icon';
 
 @Component({
@@ -8,6 +8,9 @@ import { SvgIconComponent } from '../svg-icon/svg-icon';
   styleUrl: './header.css',
 })
 export class Header {
+  public readonly action = output<string>();
 
-
+  public toQuiz() {
+    this.action.emit('toQuiz');
+  }
 }
