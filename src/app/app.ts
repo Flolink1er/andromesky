@@ -8,6 +8,8 @@ import { SkyMapService } from './services/sky-map.service';
 import { AstronomicalObjectService } from './services/astronomical-object.service';
 import { AstronomicalObject } from './models/astronomical-object.model';
 import { QuizService } from './services/quiz.service';
+import { AppStateService } from './services/app-state.service';
+import { AppMode } from './models/app-mode.model';
 
 @Component({
   selector: 'app-root',
@@ -20,10 +22,23 @@ export class App implements AfterViewInit {
   public readonly skyMapService = inject(SkyMapService);
   public readonly astronomicalObjectService = inject(AstronomicalObjectService);
   public readonly quizService = inject(QuizService);
+  public readonly appStateService = inject(AppStateService);
 
   public _currentIndex = signal(0);
 
   constructor() {
+    effect(() => {
+      if (!this.appStateService.isQuiz()) {
+        return;
+      }
+
+      const questions = this.astronomicalObjectService.generateQuizQuestions(
+        this.quizService.totalQuestions(),
+        4,
+      );
+
+      this.quizService.startQuiz(questions);
+    });
     effect(() => {
       if (!this.quizService.isRunning()) {
         return;
@@ -59,10 +74,8 @@ export class App implements AfterViewInit {
     });
   }
 
-  public changeMode(mode: string) {
-    if (mode === 'toQuiz') {
-      this.startQuiz();
-    }
+  public changeMode(mode: AppMode) {
+    this.appStateService.setMode(mode);
   }
 
   public get currentObject(): AstronomicalObject {

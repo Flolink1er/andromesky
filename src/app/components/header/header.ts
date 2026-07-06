@@ -1,5 +1,6 @@
 import { Component, output } from '@angular/core';
 import { SvgIconComponent } from '../svg-icon/svg-icon';
+import { AppMode } from '../../models/app-mode.model';
 
 @Component({
   selector: 'app-header',
@@ -8,9 +9,21 @@ import { SvgIconComponent } from '../svg-icon/svg-icon';
   styleUrl: './header.css',
 })
 export class Header {
-  public readonly action = output<string>();
+  public readonly changeMode = output<AppMode>();
 
   public toQuiz() {
-    this.action.emit('toQuiz');
+    this.changeMode.emit(AppMode.Quiz);
+  }
+
+  public toGuidedExploration() {
+    this.changeMode.emit(AppMode.GuidedExploration);
+  }
+
+  public toFreeExploration() {
+    this.changeMode.emit(AppMode.FreeExploration);
+  }
+
+  public toSpaceGuessR() {
+    this.changeMode.emit(AppMode.SpaceGuessR);
   }
 }
