@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { AstronomicalObject } from '../data/astronomical-objects';
+import { AstronomicalObject } from '../models/astronomical-object.model';
 
 @Injectable({
   providedIn: 'root',

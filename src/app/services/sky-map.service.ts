@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { AstronomicalObject } from '../data/astronomical-objects';
+import { AstronomicalObject } from '../models/astronomical-object.model';
+
 declare let A: any;
 
 @Injectable({

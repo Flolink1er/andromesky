@@ -1,5 +1,5 @@
 import { Component, input, output } from '@angular/core';
-import { AstronomicalObject } from '../../data/astronomical-objects';
+import { AstronomicalObject } from '../../models/astronomical-object.model';
 
 @Component({
   selector: 'app-side-panel',

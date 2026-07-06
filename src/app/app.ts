@@ -3,9 +3,10 @@ import { RouterOutlet } from '@angular/router';
 import { Header } from './components/header/header';
 import { SidePanel } from './components/side-panel/side-panel';
 import { SkyMap } from './components/sky-map/sky-map';
-import { ASTRONOMICAL_OBJECTS, AstronomicalObject } from './data/astronomical-objects';
+import { ASTRONOMICAL_OBJECTS } from './data/astronomical-objects';
 import { SkyMapService } from './services/sky-map.service';
 import { AstronomicalObjectService } from './services/astronomical-object.service';
+import { AstronomicalObject } from './models/astronomical-object.model';
 
 @Component({
   selector: 'app-root',
