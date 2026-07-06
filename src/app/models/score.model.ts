@@ -3,11 +3,11 @@ export interface Score {
 }
 
 export enum ScoreEvent {
-  QUIZ_CORRECT = 10,
+  QuizCorrect = 10,
 
-  QUIZ_FAST_CORRECT = 15,
+  QuizFastCorrect = 15,
 
-  QUIZ_WRONG = -2,
+  QuizWrong = -2,
 
   SPACE_GUESSR_CLOSE = 50,
 

@@ -21,5 +21,6 @@ export enum AstronomicalType {
   Galaxy = 'Galaxy',
   Nebula = 'Nebula',
   Star = 'Star',
+  Cluster = 'Cluster',
   Constellation = 'Constellation',
 }

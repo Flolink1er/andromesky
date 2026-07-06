@@ -6,7 +6,8 @@
   <main class="flex flex-1 overflow-hidden">
 
     <!-- Panel de sélection (gauche) -->
-    <app-side-panel [currentObject]="currentObject" [currentIndex]="currentIndex" (action)="handleAction($event)" />
+    <app-side-panel [currentObject]="currentObject" [currentIndex]="currentIndex" (action)="handleAction($event)"
+      (answer)="answerQuestion($event)" />
 
     <!-- Contenaire de la SkyMap -->
     <section class="flex-1 relative">
