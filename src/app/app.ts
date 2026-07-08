@@ -1,9 +1,7 @@
-import { AfterViewInit, Component, inject, signal, effect } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AfterViewInit, Component, inject, signal, effect, computed } from '@angular/core';
 import { Header } from './components/header/header';
 import { SidePanel } from './components/side-panel/side-panel';
 import { SkyMap } from './components/sky-map/sky-map';
-import { ASTRONOMICAL_OBJECTS } from './data/astronomical-objects';
 import { SkyMapService } from './services/sky-map.service';
 import { AstronomicalObjectService } from './services/astronomical-object.service';
 import { AstronomicalObject } from './models/astronomical-object.model';
@@ -25,6 +23,10 @@ export class App implements AfterViewInit {
   public readonly appStateService = inject(AppStateService);
 
   public _currentIndex = signal(0);
+
+  public readonly currentObject = computed(() => {
+    return this.astronomicalObjectService.objects()[this.currentIndex];
+  });
 
   constructor() {
     effect(() => {
@@ -55,31 +57,11 @@ export class App implements AfterViewInit {
   }
 
   public ngAfterViewInit(): void {
-    this.skyMapService.registerClickHandler((ra, dec) => {
-      const nearest = this.astronomicalObjectService.findNearestObject(
-        ra,
-        dec,
-        this.astronomicalObjectService.objects(),
-      );
-
-      if (!nearest) {
-        return;
-      }
-
-      this.currentIndex = this.astronomicalObjectService
-        .objects()
-        .findIndex((object) => object.target === nearest.target);
-
-      this.skyMapService.goToObject(this.currentObject);
-    });
+    this.skyMapService.registerClickHandler((ra, dec) => this.selectObject(ra, dec));
   }
 
   public changeMode(mode: AppMode) {
     this.appStateService.setMode(mode);
-  }
-
-  public get currentObject(): AstronomicalObject {
-    return this.astronomicalObjectService.objects()[this.currentIndex];
   }
 
   public get currentIndex(): number {
@@ -105,10 +87,8 @@ export class App implements AfterViewInit {
       this.nextObject();
     } else if (action == 'previous') {
       this.previousObject();
-    } else if (action == 'restartQuiz') {
-      this.startQuiz();
     }
-    this.skyMapService.goToObject(this.currentObject);
+    this.skyMapService.goToObject(this.currentObject());
   }
 
   public selectObject(ra: number, dec: number): void {
@@ -125,15 +105,6 @@ export class App implements AfterViewInit {
     this.currentIndex = this.astronomicalObjectService.objects().indexOf(nearest);
 
     this.skyMapService.goToObject(nearest);
-  }
-
-  public startQuiz(): void {
-    let nbQuestions = this.quizService.totalQuestions();
-    const questions = this.astronomicalObjectService.generateQuizQuestions(nbQuestions, 4);
-
-    this.quizService.startQuiz(questions);
-
-    this.skyMapService.goToObject(this.quizService.currentQuestion()!.correctAnswer);
   }
 
   public answerQuestion(answer: AstronomicalObject): void {
