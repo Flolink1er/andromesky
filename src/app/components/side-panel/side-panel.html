@@ -1,120 +1,86 @@
-<aside class="
-    w-80
-    border-r
-    border-white/10
-    bg-space-panel/60
-    backdrop-blur-md
-    p-4
-    flex
-    flex-col
-    gap-4
-    overflow-y-auto
-    max-h-lvh
-  ">
-  @if (quizService.isRunning()) {
+<aside
+  class="w-80 border-r border-white/10 bg-space-panel/60 backdrop-blur-md p-4 flex flex-col gap-4 overflow-y-auto max-h-lvh min-h-full"
+>
+  @if (appStateService.isQuiz()) {
+    @if (quizService.isFinished()) {
+      <app-quiz-results
+        [score]="scoreService.score()"
+        [correctAnswers]="quizService.correctAnswers()"
+        [totalQuestions]="quizService.totalQuestions()"
+        [successRate]="quizService.successRate()"
+        [resultMessage]="quizService.resultMessage()"
+        (restartQuiz)="restartQuiz()"
+        (backToExploration)="backToExploration()"
+      />
+    } @else {
+      @if (quizService.isRunning()) {
+        <h2 class="text-xl font-bold">
+          {{ quizService.currentQuestion().label }}
+        </h2>
 
-  <h2 class="text-xl font-bold">
-    {{ quizService.currentQuestion()?.label }}
-  </h2>
+        @for (choice of quizService.currentQuestion().choices; track choice.target) {
+          <button
+            class="w-full mt-3 rounded-lg border p-3 text-left hover:cursor-pointer hover:brightness-120 disabled:cursor-not-allowed disabled:opacity-70"
+            (click)="answerQuestion(choice)"
+            [ngClass]="{
+              'bg-emerald-500 border-emerald-700 text-white':
+                choice.target === quizService.currentQuestion().correctAnswer.target &&
+                quizService.selectedAnswer() !== null,
+              'bg-red-500 border-red-700 text-white':
+                choice.target === quizService.selectedAnswer()?.target &&
+                quizService.lastAnswerCorrect() === false,
+            }"
+            [disabled]="quizService.selectedAnswer() !== null"
+          >
+            {{ choice.name }}
+          </button>
+        }
+        <progress
+          value="{{ quizService.progress() }}"
+          max="100"
+          class="w-full [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-space-dark [&::-webkit-progress-value]:bg-space-glow [&::-moz-progress-bar]:bg-space-blue [&::-webkit-progress-value]:transition-all [&::-webkit-progress-value]:duration-500"
+        ></progress>
+        <p class="text-sm text-space-muted">Score : {{ scoreService.score() }}</p>
+      }
+    }
+  } @else {
+    <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
+      <h2 class="text-xl font-semibold text-space-text">
+        {{ currentObject()!.name }}
+      </h2>
+      <i>Objet {{ currentIndex() + 1 }}/{{ astronomicalObjectService.objects().length }}</i>
 
-  @for (choice of quizService.currentQuestion()?.choices; track choice.target) {
-
-  <button
-    class="w-full mt-3 rounded-lg border p-3 text-left hover:cursor-pointer hover:brightness-120 disabled:cursor-not-allowed disabled:opacity-70"
-    (click)="answerQuestion(choice)" [ngClass]="{
-      'bg-emerald-500 border-emerald-700 text-white' : choice.target === quizService.currentQuestion().correctAnswer.target && quizService.selectedAnswer() !== null,
-      'bg-red-500 border-red-700 text-white': choice.target === quizService.selectedAnswer()?.target && quizService.lastAnswerCorrect() === false
-    }" [disabled]="quizService.selectedAnswer() !== null">
-    {{ choice.name }}
-  </button>
-
-
-  }
-  <progress value="{{quizService.progress()}}" max="100"
-    class="w-full [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-space-dark [&::-webkit-progress-value]:bg-space-glow [&::-moz-progress-bar]:bg-space-blue [&::-webkit-progress-value]:transition-all [&::-webkit-progress-value]:duration-500"></progress>
-  <p class="text-sm text-space-muted">
-    Score : {{ scoreService.score }}
-  </p>
-
-  }
-  @else {
-  @if(quizService.isFinished()){
-
-  <div>
-
-    <h2>Quiz terminé !</h2>
-
-    <div>
-      <p>
-        Score :
-        {{ scoreService.score }}
+      <p class="text-space-muted mt-2">
+        {{ currentObject()!.description }}
       </p>
-      <p>
-        Bonne réponses :
-        {{quizService.correctAnswers()}}/{{quizService.totalQuestions()}}
-      </p>
+
+      <div class="mt-4 space-y-2">
+        <p>
+          <strong>Type :</strong>
+          {{ currentObject().type }}
+        </p>
+        @if (currentObject().constellation) {
+          <p>
+            <strong>Constellation :</strong>
+            {{ currentObject().constellation }}
+          </p>
+        }
+        @if (currentObject().magnitude) {
+          <p>
+            <strong>Magnitude :</strong>
+            {{ currentObject().magnitude }}
+          </p>
+        }
+        <p>
+          <strong>Catalogue :</strong>
+          {{ currentObject().target }}
+        </p>
+      </div>
     </div>
 
-    <button class="rounded p-2 bg-green-600 hover:bg-green-700 hover:cursor-pointer" (click)="restartQuiz()">
-
-      Rejouer
-
-    </button>
-
-  </div>
-
-  }
-
-
-  <div class="
-      rounded-2xl
-      bg-white/5
-      border border-white/10
-      p-4
-      ">
-
-    <h2 class="text-xl font-semibold text-space-text">
-      {{currentObject()!.name}}
-    </h2>
-    <i>Objet {{currentIndex()+1}}/{{astronomicalObjectService.objects().length}}</i>
-
-    <p class="text-space-muted mt-2">
-      {{currentObject()!.description}}
-    </p>
-
-    <div class="mt-4 space-y-2">
-      <p>
-        <strong>Type :</strong>
-        {{currentObject().type}}
-      </p>
-      @if (currentObject().constellation){
-      <p>
-        <strong>Constellation :</strong>
-        {{currentObject().constellation}}
-      </p>
-      }
-      @if (currentObject().magnitude){
-      <p>
-        <strong>Magnitude :</strong>
-        {{currentObject().magnitude}}
-      </p>
-      }
-      <p>
-        <strong>Catalogue :</strong>
-        {{currentObject().target}}
-      </p>
-
+    <div class="flex justify-around gap-2">
+      <button class="button-green" (click)="toPreviousObject()">Précédent</button>
+      <button class="button-green" (click)="toNextObject()">Suivant</button>
     </div>
-
-  </div>
-
-  <div class="flex justify-around gap-2">
-    <button class="rounded p-2 bg-green-600 hover:bg-green-700 hover:cursor-pointer"
-      (click)="toPreviousObject()">Précédent</button>
-    <button class="rounded p-2 bg-green-600 hover:bg-green-700 hover:cursor-pointer"
-      (click)="toNextObject()">Suivant</button>
-  </div>
   }
-
-
 </aside>

@@ -4,12 +4,13 @@ import { QuizMode, QuizQuestion } from '../models/quiz.model';
 import { AstronomicalObjectService } from './astronomical-object.service';
 import { ScoreService } from './score.service';
 import { ScoreEvent } from '../models/score.model';
-import { SkyMapService } from './sky-map.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class QuizService {
+  private readonly DEFAULT_QUESTION_COUNT = 10; //valeur par défaut du nombre de question dans un quiz
+
   private readonly objectService = inject(AstronomicalObjectService);
   private readonly scoreService = inject(ScoreService);
 
@@ -17,13 +18,11 @@ export class QuizService {
   private readonly _currentQuizMode = signal<QuizMode>(QuizMode.FindObject);
   private readonly _currentQuestionIndex = signal(0);
   private readonly _questions = signal<QuizQuestion[]>([]);
-  private readonly _currentObject = signal<AstronomicalObject | null>(null);
-  public readonly totalQuestions = signal(10); //valeur par défaut du nombre de question dans un quiz
+  public readonly totalQuestions = signal(this.DEFAULT_QUESTION_COUNT);
 
   public readonly isRunning = this._isRunning.asReadonly(); //getter permettant de rendre l'info disponible en readonly pour les composants
   public readonly currentQuestionIndex = this._currentQuestionIndex.asReadonly();
   public readonly questions = this._questions.asReadonly();
-  public readonly currentObject = this._currentObject.asReadonly();
 
   private readonly _lastAnswerCorrect = signal<boolean | null>(null);
   public readonly lastAnswerCorrect = this._lastAnswerCorrect.asReadonly();
@@ -53,6 +52,32 @@ export class QuizService {
     return Math.round(((this._currentQuestionIndex() + 1) / this._questions().length) * 100);
   });
 
+  public readonly successRate = computed(() => {
+    if (this.totalQuestions() === 0) {
+      return 0;
+    }
+
+    return Math.round((this.correctAnswers() / this.totalQuestions()) * 100);
+  });
+
+  public readonly resultMessage = computed(() => {
+    const rate = this.successRate();
+
+    if (rate === 100) {
+      return '🌟 Impressionnant !';
+    }
+
+    if (rate >= 80) {
+      return '🚀 Excellent travail !';
+    }
+
+    if (rate >= 50) {
+      return '👍 Bien joué !';
+    }
+
+    return '🔭 Continue à explorer le ciel !';
+  });
+
   public startQuiz(questions: QuizQuestion[]): void {
     this._selectedAnswer.set(null);
     this._lastAnswerCorrect.set(null);
@@ -62,8 +87,15 @@ export class QuizService {
     this._currentQuestionIndex.set(0);
 
     this._isRunning.set(true);
+    this._isFinished.set(false);
 
     this.scoreService.reset();
+  }
+
+  public startNewQuiz(): void {
+    const questions = this.objectService.generateQuizQuestions(this.totalQuestions(), 4);
+
+    this.startQuiz(questions);
   }
 
   public stopQuiz(): void {
@@ -103,11 +135,23 @@ export class QuizService {
     this._lastAnswerCorrect.set(isCorrect);
 
     if (isCorrect) {
-      this._correctAnswers.update((correct) => (correct += 1));
+      this._correctAnswers.update((correct) => correct + 1);
       this.scoreService.addEvent(ScoreEvent.QuizCorrect);
     } else {
       this.scoreService.addEvent(ScoreEvent.QuizWrong);
     }
     return isCorrect;
+  }
+
+  public reset(): void {
+    this._isRunning.set(false);
+    this._isFinished.set(false);
+
+    this._selectedAnswer.set(null);
+    this._lastAnswerCorrect.set(null);
+    this._correctAnswers.set(0);
+
+    this._questions.set([]);
+    this._currentQuestionIndex.set(0);
   }
 }

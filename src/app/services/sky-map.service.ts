@@ -12,7 +12,7 @@ export class SkyMapService {
 
   public initializeMap(container: string): void {
     this.aladin = A.aladin(container, {
-      survey: 'P/2MASS/color',
+      survey: 'P/DSS2/color',
 
       target: 'Orion',
 
@@ -49,14 +49,19 @@ export class SkyMapService {
     if (!this.aladin) {
       return;
     }
+    console.log('goto', object.target);
     this.markerCatalog.clear();
 
-    this.aladin.gotoObject(object.target);
+    this.aladin.gotoRaDec(object.ra!, object.dec!);
 
     this.highlightObject(object);
   }
 
   private highlightObject(object: AstronomicalObject): void {
+    if (object.ra === undefined || object.dec === undefined) {
+      return;
+    }
+
     this.markerCatalog.clear();
     const marker = A.marker(object.ra!, object.dec!);
 

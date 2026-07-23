@@ -1,6 +1,7 @@
-import { computed, Injectable, signal } from '@angular/core';
+import { computed, inject, Injectable, signal } from '@angular/core';
 import { AppMode } from '../models/app-mode.model';
-import { App } from '../app';
+import { AstronomicalObjectService } from './astronomical-object.service';
+import { SkyMapService } from './sky-map.service';
 
 @Injectable({
   providedIn: 'root',
@@ -8,6 +9,7 @@ import { App } from '../app';
 export class AppStateService {
   private readonly _mode = signal(AppMode.FreeExploration);
   private readonly _previousMode = signal(AppMode.FreeExploration);
+  private readonly skymapService = inject(SkyMapService);
 
   public readonly mode = this._mode.asReadonly();
   public readonly previousMode = this._previousMode.asReadonly();

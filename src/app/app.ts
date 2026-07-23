@@ -34,13 +34,9 @@ export class App implements AfterViewInit {
         return;
       }
 
-      const questions = this.astronomicalObjectService.generateQuizQuestions(
-        this.quizService.totalQuestions(),
-        4,
-      );
-
-      this.quizService.startQuiz(questions);
+      this.quizService.startNewQuiz();
     });
+
     effect(() => {
       if (!this.quizService.isRunning()) {
         return;
@@ -62,6 +58,24 @@ export class App implements AfterViewInit {
 
   public changeMode(mode: AppMode) {
     this.appStateService.setMode(mode);
+  }
+
+  public switchMode(mode: AppMode) {
+    switch (mode) {
+      case AppMode.Quiz:
+        this.restartQuiz();
+        break;
+
+      case AppMode.FreeExploration:
+        this.quizService.reset();
+        this.appStateService.startFreeExploration();
+        this.skyMapService.goToObject(this.currentObject());
+        break;
+    }
+  }
+
+  public restartQuiz(): void {
+    this.quizService.startNewQuiz();
   }
 
   public get currentIndex(): number {
@@ -112,6 +126,6 @@ export class App implements AfterViewInit {
 
     setTimeout(() => {
       this.quizService.nextQuestion();
-    }, 1200);
+    }, 2500);
   }
 }

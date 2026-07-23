@@ -7,6 +7,8 @@ import { ScoreEvent } from '../models/score.model';
 export class ScoreService {
   private readonly _score = signal(0);
 
+  public readonly score = this._score.asReadonly();
+
   public addPoints(points: number): void {
     this._score.update((score) => score + points);
   }
@@ -23,11 +25,9 @@ export class ScoreService {
     this._score.set(0);
   }
 
-  public get score(): number {
-    return this._score();
-  }
-
+  //TODO: persistence du classement
   private saveScore() {}
 
+  //TODO: chargement du classement
   private loadScore() {}
 }

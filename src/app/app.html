@@ -7,7 +7,7 @@
 
     <!-- Panel de sélection (gauche) -->
     <app-side-panel [currentObject]="currentObject()" [currentIndex]="currentIndex" (action)="handleAction($event)"
-      (answer)="answerQuestion($event)" />
+      (answer)="answerQuestion($event)" (switchMode)="switchMode($event)" />
 
     <!-- Contenaire de la SkyMap -->
     <section class="flex-1 relative">

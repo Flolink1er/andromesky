@@ -1,0 +1,40 @@
+<div class="rounded-xl border border-white/10 bg-slate-900 p-6">
+
+  <h2 class="mb-6 text-2xl font-bold">
+    🎉 Quiz terminé !
+  </h2>
+
+  <div class="space-y-3">
+
+    <p>
+      ⭐ Score :
+      <strong>{{ score() }} pts</strong>
+    </p>
+
+    <p>
+      ✅ Bonnes réponses :
+      <strong>{{ correctAnswers() }} / {{ totalQuestions() }}</strong>
+    </p>
+
+    <p>
+      📈 Réussite :
+      <strong>{{ successRate() }} %</strong>
+    </p>
+
+    <p>{{resultMessage()}}</p>
+
+  </div>
+
+  <div class="mt-8 flex gap-3 justify-around">
+
+    <button (click)="restartQuiz.emit()" class="button-green">
+      Rejouer
+    </button>
+
+    <button (click)="backToExploration.emit()" class="button-green">
+      Retour
+    </button>
+
+  </div>
+
+</div>
