@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Orion",
+    "name": "Orion",
+    "abbreviation": "Ori",
+    "description": "L'une des constellations les plus reconnaissables du ciel d'hiver, célèbre pour sa ceinture.",
+    "segments": [
+      { "fromTarget": "Betelgeuse", "toTarget": "Bellatrix" },
+      { "fromTarget": "Betelgeuse", "toTarget": "Alnitak" },
+      { "fromTarget": "Bellatrix", "toTarget": "Mintaka" },
+      { "fromTarget": "Alnitak", "toTarget": "Alnilam" },
+      { "fromTarget": "Alnilam", "toTarget": "Mintaka" },
+      { "fromTarget": "Alnitak", "toTarget": "Saiph" },
+      { "fromTarget": "Mintaka", "toTarget": "Rigel" },
+      { "fromTarget": "Rigel", "toTarget": "Saiph" }
+    ]
+  },
+  {
+    "id": "Andromeda",
+    "name": "Andromède",
+    "abbreviation": "And",
+    "description": "Constellation boréale contenant la galaxie d'Andromède.",
+    "segments": [
+      { "fromTarget": "Alpheratz", "toTarget": "Mirach" },
+      { "fromTarget": "Mirach", "toTarget": "Almach" }
+    ]
+  },
+  {
+    "id": "Taurus",
+    "name": "Taureau",
+    "abbreviation": "Tau",
+    "description": "Constellation du zodiaque abritant les Pléiades et la nébuleuse du Crabe.",
+    "segments": [
+      { "fromTarget": "Aldebaran", "toTarget": "Elnath" },
+      { "fromTarget": "Aldebaran", "toTarget": "Hyadum I" },
+      { "fromTarget": "Hyadum I", "toTarget": "Ain" }
+    ]
+  },
+  {
+    "id": "Hercules",
+    "name": "Hercule",
+    "abbreviation": "Her",
+    "description": "Grande constellation boréale contenant le célèbre amas globulaire M13.",
+    "segments": [
+      { "fromTarget": "Pi Herculis", "toTarget": "Eta Herculis" },
+      { "fromTarget": "Eta Herculis", "toTarget": "Zeta Herculis" },
+      { "fromTarget": "Zeta Herculis", "toTarget": "Epsilon Herculis" },
+      { "fromTarget": "Epsilon Herculis", "toTarget": "Pi Herculis" }
+    ]
+  },
+  {
+    "id": "Lyra",
+    "name": "Lyre",
+    "abbreviation": "Lyr",
+    "description": "Petite constellation dominée par l'étoile Véga.",
+    "segments": [
+      { "fromTarget": "Vega", "toTarget": "Sheliak" },
+      { "fromTarget": "Sheliak", "toTarget": "Sulafat" },
+      { "fromTarget": "Sulafat", "toTarget": "Vega" }
+    ]
+  },
+  {
+    "id": "Sagittarius",
+    "name": "Sagittaire",
+    "abbreviation": "Sgr",
+    "description": "Constellation du zodiaque dirigée vers le centre de la Voie lactée.",
+    "segments": [
+      { "fromTarget": "Kaus Australis", "toTarget": "Kaus Media" },
+      { "fromTarget": "Kaus Media", "toTarget": "Kaus Borealis" },
+      { "fromTarget": "Kaus Media", "toTarget": "Nunki" },
+      { "fromTarget": "Nunki", "toTarget": "Ascella" }
+    ]
+  },
+  {
+    "id": "Canes Venatici",
+    "name": "Chiens de Chasse",
+    "abbreviation": "CVn",
+    "description": "Petite constellation boréale contenant la galaxie du Tourbillon.",
+    "segments": [{ "fromTarget": "Cor Caroli", "toTarget": "Chara" }]
+  },
+  {
+    "id": "Ursa Major",
+    "name": "Grande Ourse",
+    "abbreviation": "UMa",
+    "description": "Constellation célèbre pour son Grand Chariot.",
+    "segments": [
+      { "fromTarget": "Dubhe", "toTarget": "Merak" },
+      { "fromTarget": "Merak", "toTarget": "Phecda" },
+      { "fromTarget": "Phecda", "toTarget": "Megrez" },
+      { "fromTarget": "Megrez", "toTarget": "Alioth" },
+      { "fromTarget": "Alioth", "toTarget": "Mizar" },
+      { "fromTarget": "Mizar", "toTarget": "Alkaid" }
+    ]
+  },
+  {
+    "id": "Vulpecula",
+    "name": "Petit Renard",
+    "abbreviation": "Vul",
+    "description": "Petite constellation estivale où se trouve M27.",
+    "segments": [{ "fromTarget": "Anser", "toTarget": "23 Vulpeculae" }]
+  }
+]

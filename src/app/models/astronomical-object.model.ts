@@ -1,13 +1,15 @@
-export interface AstronomicalObject {
+export interface IAstronomicalObject {
   target: string; //sert pour l'instant d'id car unique et est en même temps utilisé par aladin pour
 
   name: string;
 
   description: string;
 
-  type: AstronomicalType;
+  type: AstronomicalObjectType;
 
-  constellation?: string; //plus tard pourra être un type spécifique, soit un enum soit un AstronomicalObject de type constellation
+  catalog: AstronomicalCatalog;
+
+  constellationId?: string;
 
   magnitude?: number;
 
@@ -17,10 +19,42 @@ export interface AstronomicalObject {
   dec?: number;
 }
 
-export enum AstronomicalType {
+export enum AstronomicalObjectType {
   Galaxy = 'Galaxy',
   Nebula = 'Nebula',
+  OpenCluster = 'OpenCluster',
+  GlobularCluster = 'GlobularCluster',
+  PlanetaryNebula = 'PlanetaryNebula',
+  SupernovaRemnant = 'SupernovaRemnant',
   Star = 'Star',
-  Cluster = 'Cluster',
-  Constellation = 'Constellation',
+  Planet = 'Planet',
+  Asterism = 'Asterism',
+}
+
+export enum AstronomicalCatalog {
+  Messier = 'Messier',
+  NGC = 'NGC',
+  Caldwell = 'Caldwell',
+  Hipparcos = 'Hipparcos',
+  Planet = 'Planet',
+}
+
+export interface ICatalogDefinition {
+  catalog: AstronomicalCatalog;
+  file: string;
+  enabled: boolean;
+}
+
+export interface IConstellation {
+  id: string;
+  name: string;
+  abbreviation: string;
+  description: string;
+
+  segments: IConstellationSegment[];
+}
+
+export interface IConstellationSegment {
+  fromTarget: string;
+  toTarget: string;
 }

@@ -59,10 +59,10 @@
           <strong>Type :</strong>
           {{ currentObject().type }}
         </p>
-        @if (currentObject().constellation) {
+        @if (currentObject().constellationId) {
           <p>
             <strong>Constellation :</strong>
-            {{ currentObject().constellation }}
+            {{ currentObject().constellationId }}
           </p>
         }
         @if (currentObject().magnitude) {
@@ -76,6 +76,19 @@
           {{ currentObject().target }}
         </p>
       </div>
+
+      @if (constellation()) {
+        <div class="mt-6 border-t border-slate-700 pt-4">
+          <h3 class="font-semibold text-lg">
+            {{ constellation()!.name }}
+            ({{ constellation()!.abbreviation }})
+          </h3>
+
+          <p class="text-sm text-slate-300 mt-2">
+            {{ constellation()!.description }}
+          </p>
+        </div>
+      }
     </div>
 
     <div class="flex justify-around gap-2">

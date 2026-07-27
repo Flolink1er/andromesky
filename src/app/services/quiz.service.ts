@@ -1,5 +1,5 @@
 import { computed, inject, Injectable, signal } from '@angular/core';
-import { AstronomicalObject } from '../models/astronomical-object.model';
+import { IAstronomicalObject } from '../models/astronomical-object.model';
 import { QuizMode, QuizQuestion } from '../models/quiz.model';
 import { AstronomicalObjectService } from './astronomical-object.service';
 import { ScoreService } from './score.service';
@@ -27,7 +27,7 @@ export class QuizService {
   private readonly _lastAnswerCorrect = signal<boolean | null>(null);
   public readonly lastAnswerCorrect = this._lastAnswerCorrect.asReadonly();
 
-  private readonly _selectedAnswer = signal<AstronomicalObject | null>(null);
+  private readonly _selectedAnswer = signal<IAstronomicalObject | null>(null);
   public readonly selectedAnswer = this._selectedAnswer.asReadonly();
 
   private readonly _correctAnswers = signal(0);
@@ -121,7 +121,7 @@ export class QuizService {
     this._currentQuestionIndex.set(next);
   }
 
-  public submitAnswer(answer: AstronomicalObject): boolean {
+  public submitAnswer(answer: IAstronomicalObject): boolean {
     const currentQuestion = this.currentQuestion();
 
     if (!currentQuestion) {

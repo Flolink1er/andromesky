@@ -1,4 +1,4 @@
-import { AstronomicalObject } from './astronomical-object.model';
+import { IAstronomicalObject } from './astronomical-object.model';
 
 export enum QuizMode {
   GuessObject,
@@ -11,7 +11,7 @@ export enum QuizMode {
 export interface QuizQuestion {
   label: string;
 
-  correctAnswer: AstronomicalObject;
+  correctAnswer: IAstronomicalObject;
 
-  choices: AstronomicalObject[];
+  choices: IAstronomicalObject[];
 }

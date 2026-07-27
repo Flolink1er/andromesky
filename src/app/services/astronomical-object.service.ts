@@ -1,22 +1,35 @@
-import { Injectable, signal } from '@angular/core';
-import { AstronomicalObject } from '../models/astronomical-object.model';
-import { ASTRONOMICAL_OBJECTS } from '../data/astronomical-objects';
+import { inject, Injectable, signal } from '@angular/core';
+import { IAstronomicalObject } from '../models/astronomical-object.model';
+// import { ASTRONOMICAL_OBJECTS } from '../data/astronomical-objects';
 import { QuizQuestion } from '../models/quiz.model';
+import { CatalogLoaderService } from './catalog-loader.service';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AstronomicalObjectService {
-  private readonly _objects = signal<AstronomicalObject[]>(ASTRONOMICAL_OBJECTS);
+  private readonly catalogService = inject(CatalogLoaderService);
+
+  private readonly _objects = signal<IAstronomicalObject[]>([]);
+  // private readonly _objects = signal<AstronomicalObject[]>(ASTRONOMICAL_OBJECTS);
+
+  constructor() {
+    this.loadObjects();
+  }
 
   public readonly objects = this._objects.asReadonly();
 
-  findNearestObject(
-    ra: number,
-    dec: number,
-    objects: AstronomicalObject[],
-  ): AstronomicalObject | null {
-    let nearest: AstronomicalObject | null = null;
+  private loadObjects(): void {
+    this.catalogService.loadCatalogs().subscribe({
+      next: (objects) => this._objects.set(objects),
+      error: (error) => console.error('Unable to load astronomical catalog', error),
+    });
+  }
+
+  findNearestObject(ra: number, dec: number): IAstronomicalObject | null {
+    const objects = this._objects();
+    let nearest: IAstronomicalObject | null = null;
     let minDistance = Number.MAX_VALUE;
 
     const MAX_SELECTION_DISTANCE = 3;
@@ -41,11 +54,12 @@ export class AstronomicalObjectService {
     return nearest;
   }
 
-  findByTarget(target: string, objects: AstronomicalObject[]): AstronomicalObject | undefined {
+  findByTarget(target: string): IAstronomicalObject | undefined {
+    const objects = this._objects();
     return objects.find((object) => object.target === target);
   }
 
-  private selectRandomObjects(count: number): AstronomicalObject[] {
+  private selectRandomObjects(count: number): IAstronomicalObject[] {
     return this.shuffle(this._objects()).slice(0, count);
   }
 
@@ -53,7 +67,7 @@ export class AstronomicalObjectService {
     return [...array].sort(() => Math.random() - 0.5);
   }
 
-  private createQuestion(object: AstronomicalObject, choicesCount: number): QuizQuestion {
+  private createQuestion(object: IAstronomicalObject, choicesCount: number): QuizQuestion {
     const wrongAnswers = this._objects().filter((candidate) => candidate.target !== object.target);
 
     const choices = this.shuffle(wrongAnswers).slice(0, choicesCount - 1);
@@ -68,6 +82,10 @@ export class AstronomicalObjectService {
   }
 
   public generateQuizQuestions(questionCount: number, choicesCount: number): QuizQuestion[] {
+    if (this._objects().length === 0) {
+      return [];
+    }
+
     if (this._objects().length < choicesCount) {
       throw new Error(`Not enough astronomical objects to generate ${choicesCount} choices.`);
     }

@@ -4,7 +4,7 @@ import { SidePanel } from './components/side-panel/side-panel';
 import { SkyMap } from './components/sky-map/sky-map';
 import { SkyMapService } from './services/sky-map.service';
 import { AstronomicalObjectService } from './services/astronomical-object.service';
-import { AstronomicalObject } from './models/astronomical-object.model';
+import { IAstronomicalObject } from './models/astronomical-object.model';
 import { QuizService } from './services/quiz.service';
 import { AppStateService } from './services/app-state.service';
 import { AppMode } from './models/app-mode.model';
@@ -15,7 +15,7 @@ import { AppMode } from './models/app-mode.model';
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
-export class App implements AfterViewInit {
+export class App {
   protected readonly title = signal('AndromeSky');
   public readonly skyMapService = inject(SkyMapService);
   public readonly astronomicalObjectService = inject(AstronomicalObjectService);
@@ -50,10 +50,6 @@ export class App implements AfterViewInit {
 
       this.skyMapService.goToObject(question.correctAnswer);
     });
-  }
-
-  public ngAfterViewInit(): void {
-    this.skyMapService.registerClickHandler((ra, dec) => this.selectObject(ra, dec));
   }
 
   public changeMode(mode: AppMode) {
@@ -106,11 +102,7 @@ export class App implements AfterViewInit {
   }
 
   public selectObject(ra: number, dec: number): void {
-    const nearest = this.astronomicalObjectService.findNearestObject(
-      ra,
-      dec,
-      this.astronomicalObjectService.objects(),
-    );
+    const nearest = this.astronomicalObjectService.findNearestObject(ra, dec);
 
     if (!nearest) {
       return;
@@ -121,7 +113,7 @@ export class App implements AfterViewInit {
     this.skyMapService.goToObject(nearest);
   }
 
-  public answerQuestion(answer: AstronomicalObject): void {
+  public answerQuestion(answer: IAstronomicalObject): void {
     this.quizService.submitAnswer(answer);
 
     setTimeout(() => {
