@@ -1,0 +1,34 @@
+<div class="relative">
+  <input
+    type="text"
+    [formControl]="searchControl"
+    (keydown)="onKeyDown($event)"
+    class="p-2 border border-cyan-200/10 rounded bg-space-dark/70"
+    placeholder="Rechercher un objet..."
+  />
+
+  @if (results().length > 0) {
+    <ul
+      class="absolute top-full left-0 mt-1 w-full rounded-lg border border-white/10 bg-space-panel shadow-xl z-10"
+    >
+      @for (result of results(); track result.target) {
+        <li
+          [ngClass]="{
+            'bg-cyan-500/20 text-cyan-300': selectedIndex() === $index,
+          }"
+          class="cursor-pointer px-3 py-2 transition-colors duration-150 hover:bg-white/10"
+          (click)="select(result)"
+        >
+          <span class="font-semibold">{{ result.target }}</span>
+          <span class="text-space-text-secondary"> - {{ result.name }} </span>
+        </li>
+      }
+    </ul>
+  } @else if (isSearching()) {
+    <ul
+      class="absolute top-full left-0 mt-1 w-full rounded-lg border border-white/10 bg-space-panel shadow-xl z-10"
+    >
+      <li class="px-3 py-2 bg-white/10">Aucun objet trouvé.</li>
+    </ul>
+  }
+</div>

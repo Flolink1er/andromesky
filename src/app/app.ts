@@ -8,10 +8,11 @@ import { IAstronomicalObject } from './models/astronomical-object.model';
 import { QuizService } from './services/quiz.service';
 import { AppStateService } from './services/app-state.service';
 import { AppMode } from './models/app-mode.model';
+import { SearchBar } from './components/search-bar/search-bar';
 
 @Component({
   selector: 'app-root',
-  imports: [Header, SidePanel, SkyMap],
+  imports: [Header, SidePanel, SkyMap, SearchBar],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
@@ -119,5 +120,10 @@ export class App {
     setTimeout(() => {
       this.quizService.nextQuestion();
     }, 2500);
+  }
+
+  public onObjectSelected(object: IAstronomicalObject): void {
+    this.currentIndex = this.astronomicalObjectService.objects().indexOf(object);
+    this.skyMapService.goToObject(object);
   }
 }

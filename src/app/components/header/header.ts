@@ -1,10 +1,11 @@
 import { Component, output } from '@angular/core';
 import { SvgIconComponent } from '../svg-icon/svg-icon';
 import { AppMode } from '../../models/app-mode.model';
+import { ɵEmptyOutletComponent } from '@angular/router';
 
 @Component({
   selector: 'app-header',
-  imports: [SvgIconComponent],
+  imports: [SvgIconComponent, ɵEmptyOutletComponent],
   templateUrl: './header.html',
   styleUrl: './header.css',
 })

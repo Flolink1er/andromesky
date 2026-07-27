@@ -1,5 +1,9 @@
 <div class="min-h-screen flex flex-col">
-  <app-header (changeMode)="changeMode($event)" />
+  <app-header (changeMode)="changeMode($event)">
+    @if (!appStateService.isQuiz()) {
+      <app-search-bar (objectSelected)="onObjectSelected($event)" />
+    }
+  </app-header>
 
   <!-- Contenaire principal -->
   <main class="flex flex-1 overflow-hidden">

@@ -59,6 +59,25 @@ export class AstronomicalObjectService {
     return objects.find((object) => object.target === target);
   }
 
+  public search(query: string): IAstronomicalObject[] {
+    const normalized = this.normalize(query);
+
+    if (!normalized) {
+      return [];
+    }
+
+    return this.objects()
+      .filter((object) => {
+        return (
+          this.normalize(object.name).includes(normalized) ||
+          this.normalize(object.target).includes(normalized) ||
+          this.normalize(object.constellationId ?? '').includes(normalized) ||
+          this.normalize(object.type).includes(normalized)
+        );
+      })
+      .slice(0, 8);
+  }
+
   private selectRandomObjects(count: number): IAstronomicalObject[] {
     return this.shuffle(this._objects()).slice(0, count);
   }
@@ -93,5 +112,12 @@ export class AstronomicalObjectService {
     return this.selectRandomObjects(questionCount).map((object) =>
       this.createQuestion(object, choicesCount),
     );
+  }
+
+  private normalize(value: string): string {
+    return value
+      .normalize('NFD')
+      .replace(/\p{Diacritic}/gu, '')
+      .toLowerCase();
   }
 }
