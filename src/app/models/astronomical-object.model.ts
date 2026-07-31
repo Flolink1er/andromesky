@@ -1,7 +1,11 @@
 export interface IAstronomicalObject {
-  target: string; //sert pour l'instant d'id car unique et est en même temps utilisé par aladin pour
+  target: string; //id utilisé par aladin
 
-  name: string;
+  name: string; //nom dans l'app
+
+  englishName: string; //nom anglais
+
+  searchTerms: string[]; //alias utiles dans les recherches via des APIs
 
   description: string;
 
@@ -20,15 +24,15 @@ export interface IAstronomicalObject {
 }
 
 export enum AstronomicalObjectType {
-  Galaxy = 'Galaxy',
-  Nebula = 'Nebula',
-  OpenCluster = 'OpenCluster',
-  GlobularCluster = 'GlobularCluster',
-  PlanetaryNebula = 'PlanetaryNebula',
-  SupernovaRemnant = 'SupernovaRemnant',
-  Star = 'Star',
-  Planet = 'Planet',
-  Asterism = 'Asterism',
+  Galaxy = 'Galaxie',
+  Nebula = 'Nebuleuse',
+  OpenCluster = 'Amas Ouvert',
+  GlobularCluster = 'Amas Globulaire',
+  PlanetaryNebula = 'Nébuleuse Planètaire',
+  SupernovaRemnant = 'Rémanent de Supernova',
+  Star = 'Étoile',
+  Planet = 'Planète',
+  Asterism = 'Astérisme',
 }
 
 export enum AstronomicalCatalog {

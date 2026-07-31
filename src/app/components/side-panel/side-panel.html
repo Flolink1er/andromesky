@@ -45,10 +45,25 @@
     }
   } @else {
     <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
-      <h2 class="text-xl font-semibold text-space-text">
+      <h2 class="text-xl font-semibold text-space-text text-center">
         {{ currentObject()!.name }}
       </h2>
-      <i>Objet {{ currentIndex() + 1 }}/{{ astronomicalObjectService.objects().length }}</i>
+      <h2 class="text-center">
+        <i>Objet {{ currentIndex() + 1 }}/{{ astronomicalObjectService.objects().length }}</i>
+      </h2>
+
+      @if (isLoadingImage()) {
+        <div>Chargement...</div>
+      } @else if (image(); as image) {
+        <img
+          [src]="image.imageUrl"
+          [alt]="image.title"
+          class="w-full rounded-lg mb-2"
+          [title]="image.title"
+        />
+      } @else {
+        <p>Aucune image NASA disponible.</p>
+      }
 
       <p class="text-space-muted mt-2">
         {{ currentObject()!.description }}
@@ -73,7 +88,7 @@
         }
         <p>
           <strong>Catalogue :</strong>
-          {{ currentObject().target }}
+          {{ currentObject().catalog }}
         </p>
       </div>
 

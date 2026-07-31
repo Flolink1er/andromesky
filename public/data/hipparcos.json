@@ -2,6 +2,8 @@
   {
     "target": "Betelgeuse",
     "name": "Betelgeuse",
+    "englishName": "Betelgeuse",
+    "searchTerms": ["Betelgeuse", "Alpha Orionis"],
     "description": "Supergéante rouge de la constellation d'Orion.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -13,6 +15,8 @@
   {
     "target": "Rigel",
     "name": "Rigel",
+    "englishName": "Rigel",
+    "searchTerms": ["Rigel", "Beta Orionis"],
     "description": "Supergéante bleue d'Orion.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -24,6 +28,8 @@
   {
     "target": "Bellatrix",
     "name": "Bellatrix",
+    "englishName": "Bellatrix",
+    "searchTerms": ["Bellatrix", "Gamma Orionis"],
     "description": "Étoile brillante de la constellation d'Orion.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -35,6 +41,8 @@
   {
     "target": "Saiph",
     "name": "Saiph",
+    "englishName": "Saiph",
+    "searchTerms": ["Saiph", "Kappa Orionis"],
     "description": "Supergéante bleue d'Orion.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -46,6 +54,8 @@
   {
     "target": "Mintaka",
     "name": "Mintaka",
+    "englishName": "Mintaka",
+    "searchTerms": ["Mintaka", "Delta Orionis"],
     "description": "Étoile occidentale de la ceinture d'Orion.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -57,6 +67,8 @@
   {
     "target": "Alnilam",
     "name": "Alnilam",
+    "englishName": "Alnilam",
+    "searchTerms": ["Alnilam", "Epsilon Orionis"],
     "description": "Étoile centrale de la ceinture d'Orion.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -68,6 +80,8 @@
   {
     "target": "Alnitak",
     "name": "Alnitak",
+    "englishName": "Alnitak",
+    "searchTerms": ["Alnitak", "Zeta Orionis"],
     "description": "Étoile orientale de la ceinture d'Orion.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -79,6 +93,8 @@
   {
     "target": "Meissa",
     "name": "Meissa",
+    "englishName": "Meissa",
+    "searchTerms": ["Meissa", "Lambda Orionis"],
     "description": "Étoile marquant la tête d'Orion.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -90,6 +106,8 @@
   {
     "target": "Alpheratz",
     "name": "Alpheratz",
+    "englishName": "Alpheratz",
+    "searchTerms": ["Alpheratz", "Alpha Andromedae"],
     "description": "Étoile située à la frontière d'Andromède et de Pégase.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -101,6 +119,8 @@
   {
     "target": "Mirach",
     "name": "Mirach",
+    "englishName": "Mirach",
+    "searchTerms": ["Mirach", "Beta Andromedae"],
     "description": "Géante rouge de la constellation d'Andromède.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -112,6 +132,8 @@
   {
     "target": "Almach",
     "name": "Almach",
+    "englishName": "Almach",
+    "searchTerms": ["Almach", "Gamma Andromedae"],
     "description": "Belle étoile double d'Andromède.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -123,6 +145,8 @@
   {
     "target": "Aldebaran",
     "name": "Aldebaran",
+    "englishName": "Aldebaran",
+    "searchTerms": ["Aldebaran", "Alpha Tauri"],
     "description": "Géante orange du Taureau.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -134,6 +158,8 @@
   {
     "target": "Elnath",
     "name": "Elnath",
+    "englishName": "Elnath",
+    "searchTerms": ["Elnath", "Beta Tauri"],
     "description": "Étoile brillante marquant la corne du Taureau.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -145,6 +171,8 @@
   {
     "target": "Vega",
     "name": "Vega",
+    "englishName": "Vega",
+    "searchTerms": ["Vega", "Alpha Lyrae"],
     "description": "Étoile la plus brillante de la Lyre.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -156,6 +184,8 @@
   {
     "target": "Sheliak",
     "name": "Sheliak",
+    "englishName": "Sheliak",
+    "searchTerms": ["Sheliak", "Beta Lyrae"],
     "description": "Étoile multiple de la Lyre.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -167,6 +197,8 @@
   {
     "target": "Sulafat",
     "name": "Sulafat",
+    "englishName": "Sulafat",
+    "searchTerms": ["Sulafat", "Gamma Lyrae"],
     "description": "Géante bleue de la Lyre.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -178,6 +210,8 @@
   {
     "target": "Dubhe",
     "name": "Dubhe",
+    "englishName": "Dubhe",
+    "searchTerms": ["Dubhe", "Alpha Ursae Majoris"],
     "description": "Étoile du Grand Chariot.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -189,6 +223,8 @@
   {
     "target": "Merak",
     "name": "Merak",
+    "englishName": "Merak",
+    "searchTerms": ["Merak", "Beta Ursae Majoris"],
     "description": "Étoile du Grand Chariot.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -200,6 +236,8 @@
   {
     "target": "Phecda",
     "name": "Phecda",
+    "englishName": "Phecda",
+    "searchTerms": ["Phecda", "Gamma Ursae Majoris"],
     "description": "Étoile du Grand Chariot.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -211,6 +249,8 @@
   {
     "target": "Megrez",
     "name": "Megrez",
+    "englishName": "Megrez",
+    "searchTerms": ["Megrez", "Delta Ursae Majoris"],
     "description": "Étoile reliant le manche du Grand Chariot.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -222,6 +262,8 @@
   {
     "target": "Alioth",
     "name": "Alioth",
+    "englishName": "Alioth",
+    "searchTerms": ["Alioth", "Epsilon Ursae Majoris"],
     "description": "Étoile la plus brillante du Grand Chariot.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -233,6 +275,8 @@
   {
     "target": "Mizar",
     "name": "Mizar",
+    "englishName": "Mizar",
+    "searchTerms": ["Mizar", "Zeta Ursae Majoris"],
     "description": "Étoile célèbre accompagnée d'Alcor.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -244,6 +288,8 @@
   {
     "target": "Alkaid",
     "name": "Alkaid",
+    "englishName": "Alkaid",
+    "searchTerms": ["Alkaid", "Eta Ursae Majoris"],
     "description": "Extrémité du manche du Grand Chariot.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -255,6 +301,8 @@
   {
     "target": "Cor Caroli",
     "name": "Cor Caroli",
+    "englishName": "Cor Caroli",
+    "searchTerms": ["Cor Caroli", "Alpha Canum Venaticorum"],
     "description": "Étoile principale des Chiens de Chasse.",
     "catalog": "Hipparcos",
     "type": "Star",
@@ -266,6 +314,8 @@
   {
     "target": "Chara",
     "name": "Chara",
+    "englishName": "Chara",
+    "searchTerms": ["Chara", "Beta Canum Venaticorum"],
     "description": "Deuxième étoile principale des Chiens de Chasse.",
     "catalog": "Hipparcos",
     "type": "Star",
