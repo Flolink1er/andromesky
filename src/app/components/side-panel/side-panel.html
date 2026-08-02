@@ -104,6 +104,25 @@
           </p>
         </div>
       }
+
+      @if (isLoadingWikiDesc()) {
+        <div>Chargement...</div>
+      } @else if (wikiDesc()) {
+      <div class="mt-6 border-t border-slate-700 pt-4">
+          <h4 class="font-semibold italic">
+            Description wikipedia
+          </h4>
+          <h3 class="font-semibold text-lg">
+            {{wikiDesc()?.title}}
+          </h3>
+
+          <p class="text-sm text-slate-300 mt-2">
+            {{wikiDesc()?.extract}}
+          </p>
+      </div>
+      } @else {
+        <p>Aucune description Wikipédia trouvée</p>
+      }
     </div>
 
     <div class="flex justify-around gap-2">

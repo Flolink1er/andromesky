@@ -1,17 +1,24 @@
-export interface Score {
-  points: number;
-}
+export interface IScore {
+  totalScore: number;
 
+  correctAnswers: number;
+
+  wrongAnswers: number;
+
+  currentStreak: number;
+
+  bestStreak: number;
+
+  quizzesPlayed: number;
+
+  averageResponseTime: number;
+}
 export enum ScoreEvent {
   QuizCorrect = 10,
-
   QuizFastCorrect = 15,
-
   QuizWrong = 0,
 
-  SPACE_GUESSR_CLOSE = 50,
-
-  SPACE_GUESSR_MEDIUM = 20,
-
-  SPACE_GUESSR_FAR = 5,
+  SpaceGuessrClose = 50,
+  SpaceGuessrMedium = 20,
+  SpaceGuessrFar = 5,
 }

@@ -140,7 +140,7 @@ export class NasaImageService {
     }
 
     if (title.includes('hubble')) {
-      score += 1000;
+      score += 100;
     }
 
     for (const term of object.searchTerms) {

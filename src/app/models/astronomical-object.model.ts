@@ -33,6 +33,7 @@ export enum AstronomicalObjectType {
   Star = 'Étoile',
   Planet = 'Planète',
   Asterism = 'Astérisme',
+  Constellation = 'Constellation',
 }
 
 export enum AstronomicalCatalog {
@@ -54,6 +55,7 @@ export interface IConstellation {
   name: string;
   abbreviation: string;
   description: string;
+  type: AstronomicalObjectType.Constellation;
 
   segments: IConstellationSegment[];
 }

@@ -1,4 +1,4 @@
-import { computed, Injectable, signal } from '@angular/core';
+import { Injectable, signal } from '@angular/core';
 import { ScoreEvent } from '../models/score.model';
 
 @Injectable({

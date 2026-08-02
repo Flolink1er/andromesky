@@ -27,7 +27,7 @@
   },
   {
     "target": "M45",
-    "name": "Les Pléiades",
+    "name": "Pléiades",
     "englishName": "Pleiades",
     "searchTerms": ["M45", "Messier 45", "Pleiades", "Seven Sisters", "Melotte 22"],
     "description": "Amas ouvert visible dans la constellation du Taureau.",
@@ -126,7 +126,14 @@
     "target": "M27",
     "name": "Nébuleuse Dumbbell",
     "englishName": "Dumbbell Nebula",
-    "searchTerms": ["M27", "Messier 27", "NGC 6853", "Dumbbell Nebula", "Apple Core Nebula"],
+    "searchTerms": [
+      "M27",
+      "Messier 27",
+      "NGC 6853",
+      "Dumbbell Nebula",
+      "Apple Core Nebula",
+      "Nébuleuse de l'Haltère"
+    ],
     "description": "Première nébuleuse planétaire découverte.",
     "type": "Nebula",
     "catalog": "Messier",

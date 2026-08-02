@@ -22,6 +22,8 @@ import { AppStateService } from '../../services/app-state.service';
 import { ConstellationService } from '../../services/constellation.service';
 import { NasaImageService } from '../../services/nasa-image.service';
 import { IAstronomicalImage } from '../../models/nasa-image.model';
+import { WikipediaService } from '../../services/wikipedia.service';
+import { IWikipediaSummary } from '../../models/wiki.model';
 
 @Component({
   selector: 'app-side-panel',
@@ -39,6 +41,7 @@ export class SidePanel {
   public readonly appStateService = inject(AppStateService);
   private readonly constellationService = inject(ConstellationService);
   private readonly nasaImage = inject(NasaImageService);
+  private readonly wikiService = inject(WikipediaService);
 
   public readonly action = output<string>();
   public readonly answer = output<IAstronomicalObject>();
@@ -46,6 +49,8 @@ export class SidePanel {
 
   public readonly image = signal<IAstronomicalImage | null>(null);
   public readonly isLoadingImage = signal(false);
+  public readonly wikiDesc = signal<IWikipediaSummary | null>(null);
+  public readonly isLoadingWikiDesc = signal(false);
 
   public readonly AstronomicalObjectType = AstronomicalObjectType;
 
@@ -55,14 +60,25 @@ export class SidePanel {
 
       this.image.set(null);
       this.isLoadingImage.set(true);
+      this.wikiDesc.set(null);
+      this.isLoadingWikiDesc.set(true);
 
-      const subscription = this.nasaImage.searchImage(object).subscribe({
+      const subscriptionImage = this.nasaImage.searchImage(object).subscribe({
         next: (image) => this.image.set(image),
         error: () => this.image.set(null),
         complete: () => this.isLoadingImage.set(false),
       });
 
-      onCleanup(() => subscription.unsubscribe());
+      const subscriptionWiki = this.wikiService.searchSummary(object).subscribe({
+        next: (summary) => this.wikiDesc.set(summary),
+        error: () => this.wikiDesc.set(null),
+        complete: () => this.isLoadingWikiDesc.set(false),
+      })
+
+      onCleanup(() => {
+        subscriptionImage.unsubscribe();
+        subscriptionWiki.unsubscribe();
+      });
     });
   }
 
