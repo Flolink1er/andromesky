@@ -9,6 +9,7 @@ import { QuizService } from './services/quiz.service';
 import { AppStateService } from './services/app-state.service';
 import { AppMode } from './models/app-mode.model';
 import { SearchBar } from './components/search-bar/search-bar';
+import { QuizMode, QuizState } from './models/quiz.model';
 
 @Component({
   selector: 'app-root',
@@ -31,15 +32,16 @@ export class App {
 
   constructor() {
     effect(() => {
-      if (!this.appStateService.isQuiz()) {
+      if (this.quizService.state() !== QuizState.Running) {
         return;
       }
 
-      this.quizService.startNewQuiz();
-    });
+      if (this.quizService.currentQuizMode() === QuizMode.LocateObject) {
+        this.skyMapService.clearHighlightedObject();
+        return;
+      }
 
-    effect(() => {
-      if (!this.quizService.isRunning()) {
+      if (this.quizService.currentQuizMode() !== QuizMode.GuessObject) {
         return;
       }
 
@@ -60,19 +62,18 @@ export class App {
   public switchMode(mode: AppMode) {
     switch (mode) {
       case AppMode.Quiz:
-        this.restartQuiz();
+        this.skyMapService.clearSelectionMarker();
+        this.appStateService.startQuiz();
+        this.quizService.reset();
         break;
 
       case AppMode.FreeExploration:
+        this.skyMapService.clearSelectionMarker();
         this.quizService.reset();
         this.appStateService.startFreeExploration();
         this.skyMapService.goToObject(this.currentObject());
         break;
     }
-  }
-
-  public restartQuiz(): void {
-    this.quizService.startNewQuiz();
   }
 
   public get currentIndex(): number {
@@ -102,7 +103,17 @@ export class App {
     this.skyMapService.goToObject(this.currentObject());
   }
 
-  public selectObject(ra: number, dec: number): void {
+  public onSkyClick(ra: number, dec: number): void {
+    if (
+      this.quizService.state() === QuizState.Running &&
+      this.quizService.currentQuizMode() === QuizMode.LocateObject
+    ) {
+      this.quizService.selectLocation(ra, dec);
+      this.skyMapService.showSelectionMarker(ra, dec);
+
+      return;
+    }
+
     const nearest = this.astronomicalObjectService.findNearestObject(ra, dec);
 
     if (!nearest) {
@@ -112,14 +123,6 @@ export class App {
     this.currentIndex = this.astronomicalObjectService.objects().indexOf(nearest);
 
     this.skyMapService.goToObject(nearest);
-  }
-
-  public answerQuestion(answer: IAstronomicalObject): void {
-    this.quizService.submitAnswer(answer);
-
-    setTimeout(() => {
-      this.quizService.nextQuestion();
-    }, 2500);
   }
 
   public onObjectSelected(object: IAstronomicalObject): void {

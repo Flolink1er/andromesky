@@ -12,13 +12,12 @@
       [currentObject]="currentObject()"
       [currentIndex]="currentIndex"
       (action)="handleAction($event)"
-      (answer)="answerQuestion($event)"
       (switchMode)="switchMode($event)"
     />
 
     <!-- Contenaire de la SkyMap -->
     <section class="flex-1 relative">
-      <app-sky-map (objectClicked)="selectObject($event.ra, $event.dec)" />
+      <app-sky-map (objectClicked)="onSkyClick($event.ra, $event.dec)" />
     </section>
   </main>
 </div>

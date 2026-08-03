@@ -1,0 +1,40 @@
+<h2 class="text-xl font-bold">
+  {{ quizService.currentQuestion().label }}
+</h2>
+
+@if (quizService.currentQuizMode() === QuizMode.GuessObject) {
+  @for (choice of quizService.currentQuestion().choices; track choice.target) {
+    <button
+      class="w-full mt-3 rounded-lg border p-3 text-left hover:cursor-pointer hover:brightness-120 disabled:cursor-not-allowed disabled:opacity-70"
+      (click)="answerQuestion(choice)"
+      [disabled]="quizService.selectedAnswer() !== null"
+      [ngClass]="{
+        'bg-emerald-500 border-emerald-700 text-white':
+          choice.target === quizService.currentQuestion().correctAnswer.target &&
+          quizService.selectedAnswer() !== null,
+
+        'bg-red-500 border-red-700 text-white':
+          choice.target === quizService.selectedAnswer()?.target &&
+          quizService.lastAnswerCorrect() === false,
+      }"
+    >
+      {{ choice.name }}
+    </button>
+  }
+
+  <progress
+    [value]="quizService.progress()"
+    max="100"
+    class="w-full [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-space-dark [&::-webkit-progress-value]:bg-space-glow [&::-moz-progress-bar]:bg-space-blue [&::-webkit-progress-value]:transition-all [&::-webkit-progress-value]:duration-500"
+  ></progress>
+
+  <p class="text-sm text-space-muted">Score : {{ scoreService.score() }}</p>
+} @else {
+  <p class="text-space-muted mt-4">
+    Cliquez sur la carte pour sélectionner la position de l'objet.
+  </p>
+
+  @if (quizService.selectedLocation()) {
+    <button class="button-green mt-4 w-full" (click)="confirmLocation()">Confirmer</button>
+  }
+}

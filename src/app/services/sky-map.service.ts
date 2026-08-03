@@ -1,4 +1,4 @@
-import { inject, Injectable } from '@angular/core';
+import { inject, Injectable, signal } from '@angular/core';
 import { IAstronomicalObject, IConstellation } from '../models/astronomical-object.model';
 import { AstronomicalObjectService } from './astronomical-object.service';
 import { ConstellationService } from './constellation.service';
@@ -16,6 +16,7 @@ export class SkyMapService {
   private aladin: any;
   private markerCatalog: any;
   private constellationOverlay: any;
+  private selectionCatalog: any;
 
   private readonly astronomicalObject = inject(AstronomicalObjectService);
   private readonly constellation = inject(ConstellationService);
@@ -47,11 +48,16 @@ export class SkyMapService {
       showProjectionControl: false,
     });
 
+    this.selectionCatalog = A.catalog({
+      name: 'Selection',
+      sourceSize: 20,
+    });
+    this.aladin.addCatalog(this.selectionCatalog);
+
     this.markerCatalog = A.catalog({
       name: 'Current Object',
       sourceSize: 20,
     });
-
     this.aladin.addCatalog(this.markerCatalog);
 
     this.constellationOverlay = A.graphicOverlay({
@@ -59,7 +65,6 @@ export class SkyMapService {
       lineWidth: 3,
       opacity: 0.8,
     });
-
     this.aladin.addOverlay(this.constellationOverlay);
   }
 
@@ -155,5 +160,20 @@ export class SkyMapService {
     }
 
     return 0.08;
+  }
+
+  public showSelectionMarker(ra: number, dec: number): void {
+    this.selectionCatalog.clear();
+
+    this.selectionCatalog.addSources([A.marker(ra, dec)]);
+  }
+
+  public clearSelectionMarker(): void {
+    this.selectionCatalog.clear();
+  }
+
+  public clearHighlightedObject(): void {
+    this.markerCatalog.clear();
+    this.constellationOverlay.removeAll();
   }
 }

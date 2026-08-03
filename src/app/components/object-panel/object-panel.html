@@ -1,0 +1,101 @@
+@if (currentObject()) {
+  <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
+    <h2 class="text-xl font-semibold text-space-text text-center">
+      {{ currentObject().name }}
+    </h2>
+
+    <h2 class="text-center">
+      <i>
+        Objet
+        {{ currentIndex() + 1 }}/{{ astronomicalObjectService.objects().length }}
+      </i>
+    </h2>
+
+    @if (isLoadingImage()) {
+      <div>Chargement...</div>
+    } @else if (image(); as image) {
+      <img
+        [src]="image.imageUrl"
+        [alt]="image.title"
+        [title]="image.title"
+        class="w-full rounded-lg mb-2"
+      />
+    } @else {
+      <p>Aucune image NASA disponible.</p>
+    }
+
+    <p class="text-space-muted mt-2">
+      {{ currentObject().description }}
+    </p>
+
+    <div class="mt-4 space-y-2">
+      <p>
+        <strong>Type :</strong>
+
+        {{ currentObject().type }}
+      </p>
+
+      @if (currentObject().constellationId) {
+        <p>
+          <strong>Constellation :</strong>
+
+          {{ currentObject().constellationId }}
+        </p>
+      }
+
+      @if (currentObject().magnitude) {
+        <p>
+          <strong>Magnitude :</strong>
+
+          {{ currentObject().magnitude }}
+        </p>
+      }
+
+      <p>
+        <strong>Catalogue :</strong>
+
+        {{ currentObject().catalog }}
+      </p>
+    </div>
+
+    @if (constellation(); as constellation) {
+      <div class="mt-6 border-t border-slate-700 pt-4">
+        <h3 class="font-semibold text-lg">
+          {{ constellation.name }}
+
+          ({{ constellation.abbreviation }})
+        </h3>
+
+        <p class="text-sm text-slate-300 mt-2">
+          {{ constellation.description }}
+        </p>
+      </div>
+    }
+
+    @if (isLoadingWiki()) {
+      <div>Chargement...</div>
+    } @else if (wikiSummary(); as summary) {
+      <div class="mt-6 border-t border-slate-700 pt-4">
+        <h4 class="font-semibold italic">Description Wikipédia</h4>
+
+        <h3 class="font-semibold text-lg">
+          {{ summary.title }}
+        </h3>
+
+        <p class="text-sm text-slate-300 mt-2">
+          {{ summary.extract }}
+        </p>
+      </div>
+    } @else {
+      <p>Aucune description Wikipédia trouvée</p>
+    }
+  </div>
+
+  <div class="flex justify-around gap-2 m-2">
+    <button class="button-green" (click)="toPrevious()">Précédent</button>
+
+    <button class="button-green" (click)="toNext()">Suivant</button>
+  </div>
+} @else {
+  <p class="text-space-muted mt-2">Aucun objet sélectionné</p>
+}

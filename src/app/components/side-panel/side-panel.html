@@ -2,132 +2,33 @@
   class="w-80 border-r border-white/10 bg-space-panel/60 backdrop-blur-md p-4 flex flex-col gap-4 overflow-y-auto max-h-lvh min-h-full"
 >
   @if (appStateService.isQuiz()) {
-    @if (quizService.isFinished()) {
-      <app-quiz-results
-        [score]="scoreService.score()"
-        [correctAnswers]="quizService.correctAnswers()"
-        [totalQuestions]="quizService.totalQuestions()"
-        [successRate]="quizService.successRate()"
-        [resultMessage]="quizService.resultMessage()"
-        (restartQuiz)="restartQuiz()"
-        (backToExploration)="backToExploration()"
-      />
-    } @else {
-      @if (quizService.isRunning()) {
-        <h2 class="text-xl font-bold">
-          {{ quizService.currentQuestion().label }}
-        </h2>
+    @switch (quizService.state()) {
+      @case (QuizStates.Settings) {
+        <app-quiz-settings />
+      }
 
-        @for (choice of quizService.currentQuestion().choices; track choice.target) {
-          <button
-            class="w-full mt-3 rounded-lg border p-3 text-left hover:cursor-pointer hover:brightness-120 disabled:cursor-not-allowed disabled:opacity-70"
-            (click)="answerQuestion(choice)"
-            [ngClass]="{
-              'bg-emerald-500 border-emerald-700 text-white':
-                choice.target === quizService.currentQuestion().correctAnswer.target &&
-                quizService.selectedAnswer() !== null,
-              'bg-red-500 border-red-700 text-white':
-                choice.target === quizService.selectedAnswer()?.target &&
-                quizService.lastAnswerCorrect() === false,
-            }"
-            [disabled]="quizService.selectedAnswer() !== null"
-          >
-            {{ choice.name }}
-          </button>
-        }
-        <progress
-          value="{{ quizService.progress() }}"
-          max="100"
-          class="w-full [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-space-dark [&::-webkit-progress-value]:bg-space-glow [&::-moz-progress-bar]:bg-space-blue [&::-webkit-progress-value]:transition-all [&::-webkit-progress-value]:duration-500"
-        ></progress>
-        <p class="text-sm text-space-muted">Score : {{ scoreService.score() }}</p>
+      @case (QuizStates.Running) {
+        <app-quiz-questions />
+      }
+
+      @case (QuizStates.Finished) {
+        <app-quiz-results
+          [score]="scoreService.game().score"
+          [correctAnswers]="scoreService.game().correctAnswers"
+          [totalQuestions]="quizService.totalQuestions()"
+          [successRate]="scoreService.game().successRate"
+          [resultMessage]="scoreService.resultMessage()"
+          (restartQuiz)="restartQuiz()"
+          (backToExploration)="backToExploration()"
+        />
       }
     }
   } @else {
-    <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
-      <h2 class="text-xl font-semibold text-space-text text-center">
-        {{ currentObject()!.name }}
-      </h2>
-      <h2 class="text-center">
-        <i>Objet {{ currentIndex() + 1 }}/{{ astronomicalObjectService.objects().length }}</i>
-      </h2>
-
-      @if (isLoadingImage()) {
-        <div>Chargement...</div>
-      } @else if (image(); as image) {
-        <img
-          [src]="image.imageUrl"
-          [alt]="image.title"
-          class="w-full rounded-lg mb-2"
-          [title]="image.title"
-        />
-      } @else {
-        <p>Aucune image NASA disponible.</p>
-      }
-
-      <p class="text-space-muted mt-2">
-        {{ currentObject()!.description }}
-      </p>
-
-      <div class="mt-4 space-y-2">
-        <p>
-          <strong>Type :</strong>
-          {{ currentObject().type }}
-        </p>
-        @if (currentObject().constellationId) {
-          <p>
-            <strong>Constellation :</strong>
-            {{ currentObject().constellationId }}
-          </p>
-        }
-        @if (currentObject().magnitude) {
-          <p>
-            <strong>Magnitude :</strong>
-            {{ currentObject().magnitude }}
-          </p>
-        }
-        <p>
-          <strong>Catalogue :</strong>
-          {{ currentObject().catalog }}
-        </p>
-      </div>
-
-      @if (constellation()) {
-        <div class="mt-6 border-t border-slate-700 pt-4">
-          <h3 class="font-semibold text-lg">
-            {{ constellation()!.name }}
-            ({{ constellation()!.abbreviation }})
-          </h3>
-
-          <p class="text-sm text-slate-300 mt-2">
-            {{ constellation()!.description }}
-          </p>
-        </div>
-      }
-
-      @if (isLoadingWikiDesc()) {
-        <div>Chargement...</div>
-      } @else if (wikiDesc()) {
-      <div class="mt-6 border-t border-slate-700 pt-4">
-          <h4 class="font-semibold italic">
-            Description wikipedia
-          </h4>
-          <h3 class="font-semibold text-lg">
-            {{wikiDesc()?.title}}
-          </h3>
-
-          <p class="text-sm text-slate-300 mt-2">
-            {{wikiDesc()?.extract}}
-          </p>
-      </div>
-      } @else {
-        <p>Aucune description Wikipédia trouvée</p>
-      }
-    </div>
-
-    <div class="flex justify-around gap-2">
-      <button class="button-green" (click)="toPreviousObject()">Précédent</button>
-      <button class="button-green" (click)="toNextObject()">Suivant</button>
-    </div>
+    <app-object-panel
+      [currentObject]="currentObject()"
+      [currentIndex]="currentIndex()"
+      (previous)="toPreviousObject()"
+      (next)="toNextObject()"
+    />
   }
 </aside>

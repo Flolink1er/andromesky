@@ -40,10 +40,13 @@ export class WikipediaService {
   private readonly cache = new Map<string, IWikipediaSummary | null>();
 
   public searchSummary(object: IAstronomicalObject): Observable<IWikipediaSummary | null> {
-    const cachedSummary = this.cache.get(object.target);
-
-    if (cachedSummary !== undefined) {
-      return of(cachedSummary);
+    if (object !== undefined) {
+      const cachedSummary = this.cache.get(object.target);
+      if (cachedSummary !== undefined) {
+        return of(cachedSummary);
+      }
+    } else {
+      return of(null);
     }
 
     const strategies = this.buildSearchStrategies(object);
@@ -181,7 +184,6 @@ export class WikipediaService {
     object: IAstronomicalObject,
   ): IWikipediaSearchResult | null {
     let bestResult: IWikipediaSearchResult | null = null;
-    console.log('-------------------', pages, '-------------------');
 
     for (const page of pages) {
       const score = this.calculateScore(page, object);
@@ -191,7 +193,6 @@ export class WikipediaService {
           page,
           score,
         };
-        console.log('=================', page.title, score, bestResult, '=================');
       }
     }
 
@@ -318,6 +319,8 @@ export class WikipediaService {
       [AstronomicalObjectType.Planet]: ['planet', 'planète'],
 
       [AstronomicalObjectType.Asterism]: ['asterism', 'astérisme'],
+
+      [AstronomicalObjectType.Constellation]: ['constellation', 'constellation'],
     };
 
     const terms = typeTerms[object.type] ?? [];

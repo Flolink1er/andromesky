@@ -1,18 +1,35 @@
+import { QuizMode, QuizDifficulty } from './quiz.model';
+
 export interface IScore {
-  totalScore: number;
+  score: number;
+}
+
+export interface IGameScore extends IScore {
+  nbQuestions: number;
+  successRate: number;
 
   correctAnswers: number;
-
   wrongAnswers: number;
 
   currentStreak: number;
-
   bestStreak: number;
 
-  quizzesPlayed: number;
-
-  averageResponseTime: number;
+  startedAt: Date;
+  finishedAt?: Date;
 }
+
+export interface IScoreHistory extends IScore {
+  date: Date;
+  mode: QuizMode;
+  difficulty: QuizDifficulty;
+}
+
+export interface IPlayerStatistics {
+  totalScore: number;
+  bestScore: number;
+  gamesPlayed: number;
+}
+
 export enum ScoreEvent {
   QuizCorrect = 10,
   QuizFastCorrect = 15,

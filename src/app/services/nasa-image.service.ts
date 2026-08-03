@@ -31,11 +31,13 @@ export class NasaImageService {
   private readonly cache = new Map<string, IAstronomicalImage | null>();
 
   public searchImage(object: IAstronomicalObject): Observable<IAstronomicalImage | null> {
-    const cached = this.cache.get(object.target);
-
-    if (cached !== undefined) {
-      console.log(`NASA cache : ${object.target}`);
-      return of(cached);
+    if (object !== undefined) {
+      const cached = this.cache.get(object.target);
+      if (cached !== undefined) {
+        return of(cached);
+      }
+    } else {
+      return of(null);
     }
 
     return concat(

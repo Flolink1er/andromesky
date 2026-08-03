@@ -1,7 +1,7 @@
 import { inject, Injectable, signal } from '@angular/core';
-import { IAstronomicalObject } from '../models/astronomical-object.model';
+import { AstronomicalCatalog, IAstronomicalObject } from '../models/astronomical-object.model';
 // import { ASTRONOMICAL_OBJECTS } from '../data/astronomical-objects';
-import { QuizQuestion } from '../models/quiz.model';
+import { QuizDifficulty, QuizMode, QuizQuestion } from '../models/quiz.model';
 import { CatalogLoaderService } from './catalog-loader.service';
 import { HttpClient } from '@angular/common/http';
 
@@ -78,39 +78,71 @@ export class AstronomicalObjectService {
       .slice(0, 8);
   }
 
-  private selectRandomObjects(count: number): IAstronomicalObject[] {
-    return this.shuffle(this._objects()).slice(0, count);
+  private selectRandomObjects(
+    count: number,
+    objects: IAstronomicalObject[],
+  ): IAstronomicalObject[] {
+    return this.shuffle(objects).slice(0, Math.min(count));
   }
 
   private shuffle<T>(array: T[]): T[] {
     return [...array].sort(() => Math.random() - 0.5);
   }
 
-  private createQuestion(object: IAstronomicalObject, choicesCount: number): QuizQuestion {
-    const wrongAnswers = this._objects().filter((candidate) => candidate.target !== object.target);
+  private getObjectsForDifficulty(difficulty: QuizDifficulty): IAstronomicalObject[] {
+    switch (difficulty) {
+      case QuizDifficulty.Easy:
+        return this._objects().filter((object) => object.catalog === AstronomicalCatalog.Messier);
+
+      case QuizDifficulty.Medium:
+        return this._objects().filter(
+          (object) =>
+            object.catalog === AstronomicalCatalog.Messier ||
+            object.catalog === AstronomicalCatalog.Hipparcos,
+        );
+
+      case QuizDifficulty.Hard:
+        return this._objects();
+    }
+  }
+
+  private createQuestion(
+    object: IAstronomicalObject,
+    choicesCount: number,
+    availableObjects: IAstronomicalObject[],
+    mode: QuizMode,
+  ): QuizQuestion {
+    const wrongAnswers = availableObjects.filter(({ target }) => target !== object.target);
 
     const choices = this.shuffle(wrongAnswers).slice(0, choicesCount - 1);
 
     choices.push(object);
 
     return {
-      label: 'Quel est cet objet ?',
+      label: mode === QuizMode.GuessObject ? 'Quel est cet objet ?' : `Localisez ${object.name}`,
       correctAnswer: object,
-      choices: this.shuffle(choices),
+      choices: mode === QuizMode.GuessObject ? this.shuffle(choices) : undefined,
     };
   }
 
-  public generateQuizQuestions(questionCount: number, choicesCount: number): QuizQuestion[] {
-    if (this._objects().length === 0) {
+  public generateQuizQuestions(
+    questionCount: number,
+    choicesCount: number,
+    difficulty: QuizDifficulty,
+    mode: QuizMode,
+  ): QuizQuestion[] {
+    const availableObjects = this.getObjectsForDifficulty(difficulty);
+
+    if (availableObjects.length === 0) {
       return [];
     }
 
-    if (this._objects().length < choicesCount) {
+    if (availableObjects.length < choicesCount) {
       throw new Error(`Not enough astronomical objects to generate ${choicesCount} choices.`);
     }
 
-    return this.selectRandomObjects(questionCount).map((object) =>
-      this.createQuestion(object, choicesCount),
+    return this.selectRandomObjects(questionCount, availableObjects).map((object) =>
+      this.createQuestion(object, choicesCount, availableObjects, mode),
     );
   }
 

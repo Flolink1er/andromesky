@@ -5,11 +5,25 @@ import {
 } from './astronomical-object.model';
 
 export enum QuizMode {
-  GuessObject,
+  GuessObject = 'guess-object',
 
-  FindObject,
+  LocateObject = 'locate-object',
 
-  SpaceGuessR,
+  SpaceGuessR = 'space-guessr',
+}
+
+export enum QuizState {
+  Settings,
+  Running,
+  Finished,
+}
+
+export interface IQuizSettings {
+  mode: QuizMode;
+
+  difficulty: QuizDifficulty;
+
+  questionCount: number;
 }
 
 export interface QuizQuestion {
@@ -17,13 +31,7 @@ export interface QuizQuestion {
 
   correctAnswer: IAstronomicalObject;
 
-  choices: IAstronomicalObject[];
-}
-
-export enum QuizMode {
-  Image = 'Image',
-
-  Locate = 'Locate',
+  choices?: IAstronomicalObject[];
 }
 
 export enum QuizDifficulty {
@@ -34,21 +42,17 @@ export enum QuizDifficulty {
 
 const QUIZ_CONFIGURATION = {
   [QuizDifficulty.Easy]: {
-    catalogs: [AstronomicalCatalog.Planet],
-    types: [AstronomicalObjectType.Constellation],
+    catalogs: [AstronomicalCatalog.Messier],
+    allowConstellations: true,
   },
 
   [QuizDifficulty.Medium]: {
-    catalogs: [AstronomicalCatalog.Planet, AstronomicalCatalog.Messier],
+    catalogs: [AstronomicalCatalog.Messier, AstronomicalCatalog.Hipparcos],
+    allowConstellations: true,
   },
 
   [QuizDifficulty.Hard]: {
-    catalogs: [
-      AstronomicalCatalog.Planet,
-      AstronomicalCatalog.Messier,
-      AstronomicalCatalog.Hipparcos,
-      AstronomicalCatalog.Caldwell,
-      AstronomicalCatalog.NGC,
-    ],
+    catalogs: Object.values(AstronomicalCatalog),
+    allowConstellations: true,
   },
 };
