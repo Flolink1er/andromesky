@@ -1,7 +1,5 @@
 export enum AppMode {
-  FreeExploration = 'FreeExploration',
-
-  GuidedExploration = 'GuidedExploration',
+  Exploration = 'Exploration',
 
   Quiz = 'Quiz',
 

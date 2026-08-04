@@ -16,12 +16,8 @@ export class Header {
     this.changeMode.emit(AppMode.Quiz);
   }
 
-  public toGuidedExploration() {
-    this.changeMode.emit(AppMode.GuidedExploration);
-  }
-
-  public toFreeExploration() {
-    this.changeMode.emit(AppMode.FreeExploration);
+  public toExploration() {
+    this.changeMode.emit(AppMode.Exploration);
   }
 
   public toSpaceGuessR() {

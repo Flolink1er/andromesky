@@ -55,23 +55,26 @@ export class App {
     });
   }
 
-  public changeMode(mode: AppMode) {
-    this.appStateService.setMode(mode);
-  }
+  public changeMode(mode: AppMode): void {
+    if (
+      this.appStateService.isQuiz() &&
+      this.quizService.state() === QuizState.Running &&
+      mode === AppMode.Exploration
+    ) {
+      this.quizService.reset();
+      this.skyMapService.clearSelectionMarker();
+    }
 
-  public switchMode(mode: AppMode) {
+    this.appStateService.setMode(mode);
+
     switch (mode) {
-      case AppMode.Quiz:
-        this.skyMapService.clearSelectionMarker();
-        this.appStateService.startQuiz();
-        this.quizService.reset();
+      case AppMode.Exploration:
+        this.skyMapService.goToObject(this.currentObject());
         break;
 
-      case AppMode.FreeExploration:
-        this.skyMapService.clearSelectionMarker();
+      case AppMode.Quiz:
         this.quizService.reset();
-        this.appStateService.startFreeExploration();
-        this.skyMapService.goToObject(this.currentObject());
+        this.skyMapService.clearSelectionMarker();
         break;
     }
   }
@@ -114,6 +117,10 @@ export class App {
       return;
     }
 
+    if (this.quizService.state() === QuizState.Running) {
+      return;
+    }
+
     const nearest = this.astronomicalObjectService.findNearestObject(ra, dec);
 
     if (!nearest) {
@@ -121,7 +128,6 @@ export class App {
     }
 
     this.currentIndex = this.astronomicalObjectService.objects().indexOf(nearest);
-
     this.skyMapService.goToObject(nearest);
   }
 

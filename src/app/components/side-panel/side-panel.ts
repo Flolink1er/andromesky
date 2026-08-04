@@ -77,6 +77,6 @@ export class SidePanel {
   }
 
   public backToExploration() {
-    this.switchMode.emit(AppMode.FreeExploration);
+    this.switchMode.emit(AppMode.Exploration);
   }
 }

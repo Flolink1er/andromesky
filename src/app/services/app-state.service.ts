@@ -7,8 +7,8 @@ import { SkyMapService } from './sky-map.service';
   providedIn: 'root',
 })
 export class AppStateService {
-  private readonly _mode = signal(AppMode.FreeExploration);
-  private readonly _previousMode = signal(AppMode.FreeExploration);
+  private readonly _mode = signal(AppMode.Exploration);
+  private readonly _previousMode = signal(AppMode.Exploration);
   private readonly skymapService = inject(SkyMapService);
 
   public readonly mode = this._mode.asReadonly();
@@ -16,9 +16,7 @@ export class AppStateService {
 
   public readonly isQuiz = computed(() => this._mode() === AppMode.Quiz);
 
-  public readonly isGuidedExploration = computed(() => this._mode() === AppMode.GuidedExploration);
-
-  public readonly isFreeExploration = computed(() => this._mode() === AppMode.FreeExploration);
+  public readonly isExploration = computed(() => this._mode() === AppMode.Exploration);
 
   public readonly isSpaceGuessR = computed(() => this._mode() === AppMode.SpaceGuessR);
 
@@ -27,19 +25,15 @@ export class AppStateService {
   }
 
   public reset(): void {
-    this._mode.set(AppMode.FreeExploration);
+    this._mode.set(AppMode.Exploration);
   }
 
   public startQuiz(): void {
     this.setMode(AppMode.Quiz);
   }
 
-  public startGuidedExploration(): void {
-    this.setMode(AppMode.GuidedExploration);
-  }
-
-  public startFreeExploration(): void {
-    this.setMode(AppMode.FreeExploration);
+  public startExploration(): void {
+    this.setMode(AppMode.Exploration);
   }
 
   public startSpaceGuessR(): void {
