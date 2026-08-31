@@ -29,11 +29,11 @@ export class ScoreService {
     return '🔭 Continue à explorer le ciel !';
   });
 
-  public addEvent(event: ScoreEvent): void {
+  public addEvent(event: ScoreEvent, scoreMultiplier = 1): void {
     this._game.update((game) => {
       const updated = {
         ...game,
-        score: game.score + event,
+        score: game.score + (event > 0 ? event * scoreMultiplier : 0),
       };
 
       switch (event) {

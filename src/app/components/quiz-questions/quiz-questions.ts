@@ -5,6 +5,7 @@ import { IAstronomicalObject } from '../../models/astronomical-object.model';
 
 import { QuizService } from '../../services/quiz.service';
 import { ScoreService } from '../../services/score.service';
+import { SkyMapService } from '../../services/sky-map.service';
 import { QuizMode } from '../../models/quiz.model';
 
 @Component({
@@ -18,6 +19,8 @@ export class QuizQuestions {
 
   protected readonly scoreService = inject(ScoreService);
 
+  private readonly skyMapService = inject(SkyMapService);
+
   public readonly answer = output<IAstronomicalObject>();
   public readonly QuizMode = QuizMode;
 
@@ -29,11 +32,39 @@ export class QuizQuestions {
     }, 2500);
   }
 
+  public useGuessHint(): void {
+    this.quizService.activateGuessHint();
+  }
+
+  public useLocationHint(): void {
+    const question = this.quizService.currentQuestion();
+
+    if (question && this.quizService.activateLocationHint()) {
+      this.skyMapService.showLocationHint(question.correctAnswer);
+    }
+  }
+
   public confirmLocation(): void {
-    this.quizService.submitLocation();
+    const selectedLocation = this.quizService.selectedLocation();
+
+    if (!this.quizService.submitLocation()) {
+      return;
+    }
+
+    const result = this.quizService.locationResult();
+    if (selectedLocation && result) {
+      this.skyMapService.showLocationFeedback(selectedLocation, result.correctAnswer);
+    }
 
     setTimeout(() => {
       this.quizService.nextQuestion();
-    }, 1000);
+      this.skyMapService.clearSelectionMarker();
+      this.skyMapService.clearLocationFeedback();
+      this.skyMapService.clearLocationHint();
+    }, 2500);
+  }
+
+  public formatAngularDistance(distanceDegrees: number): string {
+    return `${distanceDegrees < 1 ? distanceDegrees.toFixed(2) : distanceDegrees.toFixed(1)}°`;
   }
 }

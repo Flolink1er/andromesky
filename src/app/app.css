@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+  app-side-panel.quiz-answer-sheet {
+    top: auto !important;
+    bottom: 0;
+    height: auto !important;
+  }
+}

@@ -46,6 +46,7 @@ export class SidePanel {
 
   public readonly action = output<string>();
   public readonly switchMode = output<AppMode>();
+  public readonly close = output<void>();
 
   public readonly AstronomicalObjectType = AstronomicalObjectType;
   public readonly QuizStates = QuizState;
@@ -78,5 +79,9 @@ export class SidePanel {
 
   public backToExploration() {
     this.switchMode.emit(AppMode.Exploration);
+  }
+
+  public closePanel(): void {
+    this.close.emit();
   }
 }

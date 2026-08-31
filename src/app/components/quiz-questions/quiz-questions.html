@@ -1,31 +1,47 @@
-<h2 class="text-xl font-bold">
+<h2 class="break-words text-lg font-bold sm:text-xl">
   {{ quizService.currentQuestion().label }}
 </h2>
 
 @if (quizService.currentQuizMode() === QuizMode.GuessObject) {
-  @for (choice of quizService.currentQuestion().choices; track choice.target) {
+  @if (!quizService.hintUsed() && quizService.selectedAnswer() === null) {
     <button
-      class="w-full mt-3 rounded-lg border p-3 text-left hover:cursor-pointer hover:brightness-120 disabled:cursor-not-allowed disabled:opacity-70"
-      (click)="answerQuestion(choice)"
-      [disabled]="quizService.selectedAnswer() !== null"
-      [ngClass]="{
-        'bg-emerald-500 border-emerald-700 text-white':
-          choice.target === quizService.currentQuestion().correctAnswer.target &&
-          quizService.selectedAnswer() !== null,
-
-        'bg-red-500 border-red-700 text-white':
-          choice.target === quizService.selectedAnswer()?.target &&
-          quizService.lastAnswerCorrect() === false,
-      }"
+      type="button"
+      class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-violet-400/50 bg-violet-500/15 px-3 py-2 text-sm font-semibold text-violet-200 shadow-sm transition hover:cursor-pointer hover:bg-violet-500/25 hover:text-white"
+      title="Retire une mauvaise réponse. Les points gagnés pour cette question seront divisés par deux."
+      (click)="useGuessHint()"
     >
-      {{ choice.name }}
+      <span aria-hidden="true">💡</span>
+      Indice
     </button>
+  } @else if (quizService.hintUsed()) {
+    <p class="mt-4 text-sm text-violet-300">Indice utilisé.</p>
+  }
+
+  @for (choice of quizService.currentQuestion().choices; track choice.target) {
+    @if (choice.target !== quizService.eliminatedAnswerTarget()) {
+      <button
+        class="w-full mt-3 rounded-lg border p-3 text-left hover:cursor-pointer hover:brightness-120 disabled:cursor-not-allowed disabled:opacity-70"
+        (click)="answerQuestion(choice)"
+        [disabled]="quizService.selectedAnswer() !== null"
+        [ngClass]="{
+          'bg-emerald-500 border-emerald-700 text-white':
+            choice.target === quizService.currentQuestion().correctAnswer.target &&
+            quizService.selectedAnswer() !== null,
+
+          'bg-red-500 border-red-700 text-white':
+            choice.target === quizService.selectedAnswer()?.target &&
+            quizService.lastAnswerCorrect() === false,
+        }"
+      >
+        {{ choice.name }}
+      </button>
+    }
   }
 
   <progress
     [value]="quizService.progress()"
     max="100"
-    class="w-full [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-space-dark [&::-webkit-progress-value]:bg-space-glow [&::-moz-progress-bar]:bg-space-blue [&::-webkit-progress-value]:transition-all [&::-webkit-progress-value]:duration-500"
+    class="mt-8 block w-full [&::-webkit-progress-bar]:rounded-lg [&::-webkit-progress-value]:rounded-lg [&::-webkit-progress-bar]:bg-space-dark [&::-webkit-progress-value]:bg-space-glow [&::-moz-progress-bar]:bg-space-blue [&::-webkit-progress-value]:transition-all [&::-webkit-progress-value]:duration-500"
   ></progress>
 
   <p class="text-sm text-space-muted">Score : {{ scoreService.score() }}</p>
@@ -34,7 +50,29 @@
     Cliquez sur la carte pour sélectionner la position de l'objet.
   </p>
 
-  @if (quizService.selectedLocation()) {
+  @if (!quizService.hintUsed()) {
+    <button
+      type="button"
+      class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-violet-400/50 bg-violet-500/15 px-3 py-2 text-sm font-semibold text-violet-200 shadow-sm transition hover:cursor-pointer hover:bg-violet-500/25 hover:text-white"
+      title="Affiche une zone contenant l’objet. Les points gagnés pour cette question seront divisés par deux."
+      (click)="useLocationHint()"
+    >
+      <span aria-hidden="true">💡</span>
+      Indice
+    </button>
+  } @else if (quizService.hintUsed()) {
+    <p class="mt-4 text-sm text-violet-300">Indice utilisé.</p>
+  }
+
+  @if (quizService.locationResult(); as result) {
+    <div class="mt-4 rounded-lg border border-white/10 bg-white/5 p-3">
+      <p class="font-semibold" [class.text-emerald-300]="result.isCorrect" [class.text-red-300]="!result.isCorrect">
+        {{ result.isCorrect ? 'Bonne réponse !' : 'Pas tout à fait.' }}
+      </p>
+      <p class="mt-1 text-sm">Réponse : {{ result.correctAnswer.name }}</p>
+      <p class="text-sm text-space-muted">Écart : {{ formatAngularDistance(result.distanceDegrees) }}</p>
+    </div>
+  } @else if (quizService.selectedLocation()) {
     <button class="button-green mt-4 w-full" (click)="confirmLocation()">Confirmer</button>
   }
 }

@@ -41,6 +41,9 @@ export class SvgIconComponent implements OnInit {
 
     const svgElement = svgContainer.querySelector('svg');
     if (svgElement) {
+      svgElement.setAttribute('width', '100%');
+      svgElement.setAttribute('height', '100%');
+      svgElement.style.display = 'block';
       svgElement.classList.add('loaded-svg');
     }
   }

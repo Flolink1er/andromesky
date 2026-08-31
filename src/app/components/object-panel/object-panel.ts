@@ -16,6 +16,8 @@ import { AstronomicalObjectService } from '../../services/astronomical-object.se
   styleUrl: './object-panel.css',
 })
 export class ObjectPanel {
+  private static readonly WIKIPEDIA_EXCERPT_LENGTH = 520;
+
   public readonly currentObject = input.required<IAstronomicalObject>();
 
   public readonly currentIndex = input.required<number>();
@@ -40,6 +42,8 @@ export class ObjectPanel {
 
   public readonly isLoadingWiki = signal(false);
 
+  public readonly isWikiExpanded = signal(false);
+
   public readonly constellation = computed(() => {
     const object = this.currentObject();
 
@@ -56,6 +60,7 @@ export class ObjectPanel {
 
       this.image.set(null);
       this.wikiSummary.set(null);
+      this.isWikiExpanded.set(false);
 
       this.isLoadingImage.set(true);
       this.isLoadingWiki.set(true);
@@ -89,5 +94,24 @@ export class ObjectPanel {
 
   public toNext(): void {
     this.next.emit();
+  }
+
+  public isWikipediaExcerptLong(extract: string): boolean {
+    return extract.length > ObjectPanel.WIKIPEDIA_EXCERPT_LENGTH;
+  }
+
+  public getWikipediaExcerpt(extract: string): string {
+    if (this.isWikiExpanded() || !this.isWikipediaExcerptLong(extract)) {
+      return extract;
+    }
+
+    const lastSpace = extract.lastIndexOf(' ', ObjectPanel.WIKIPEDIA_EXCERPT_LENGTH);
+    const excerptEnd = lastSpace > 0 ? lastSpace : ObjectPanel.WIKIPEDIA_EXCERPT_LENGTH;
+
+    return `${extract.slice(0, excerptEnd)}…`;
+  }
+
+  public toggleWikipediaExcerpt(): void {
+    this.isWikiExpanded.update((isExpanded) => !isExpanded);
   }
 }

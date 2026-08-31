@@ -1,6 +1,21 @@
 <aside
-  class="w-80 border-r border-white/10 bg-space-panel/60 backdrop-blur-md p-4 flex flex-col gap-4 overflow-y-auto max-h-lvh min-h-full"
+  id="information-panel"
+  class="flex h-full min-h-0 w-full flex-col gap-4 overflow-y-auto overscroll-contain border-b border-white/10 bg-space-panel/95 p-3 backdrop-blur-md sm:p-4 md:max-h-none md:min-h-full md:border-r md:border-b-0 md:bg-space-panel/60"
 >
+  <div class="sticky top-0 z-10 -mx-3 -mt-3 flex items-center justify-between border-b border-white/10 bg-space-panel px-3 py-2 shadow-lg md:hidden">
+    <p class="text-sm font-semibold text-space-muted">
+      {{ appStateService.isQuiz() ? 'Quiz' : 'Informations' }}
+    </p>
+    <button
+      type="button"
+      class="rounded-lg px-3 py-2 text-lg hover:bg-white/10"
+      aria-label="Fermer le panneau d'informations"
+      (click)="closePanel()"
+    >
+      ×
+    </button>
+  </div>
+
   @if (appStateService.isQuiz()) {
     @switch (quizService.state()) {
       @case (QuizStates.Settings) {

@@ -11,6 +11,12 @@ import { AstronomicalObjectService } from './astronomical-object.service';
 import { ScoreService } from './score.service';
 import { ScoreEvent } from '../models/score.model';
 
+export interface ILocationResult {
+  correctAnswer: IAstronomicalObject;
+  distanceDegrees: number;
+  isCorrect: boolean;
+}
+
 @Injectable({
   providedIn: 'root',
 })
@@ -49,6 +55,15 @@ export class QuizService {
 
   public readonly selectedLocation = this._selectedLocation.asReadonly();
 
+  private readonly _locationResult = signal<ILocationResult | null>(null);
+  public readonly locationResult = this._locationResult.asReadonly();
+
+  private readonly _hintUsed = signal(false);
+  public readonly hintUsed = this._hintUsed.asReadonly();
+
+  private readonly _eliminatedAnswerTarget = signal<string | null>(null);
+  public readonly eliminatedAnswerTarget = this._eliminatedAnswerTarget.asReadonly();
+
   public readonly currentQuestion = computed(() => {
     const questions = this._questions();
 
@@ -75,7 +90,10 @@ export class QuizService {
 
   public startQuiz(questions: QuizQuestion[], mode: QuizMode, difficulty: QuizDifficulty): void {
     this._selectedAnswer.set(null);
+    this._selectedLocation.set(null);
     this._lastAnswerCorrect.set(null);
+    this._locationResult.set(null);
+    this.resetHint();
     this._questions.set(questions);
 
     this._currentQuestionIndex.set(0);
@@ -125,7 +143,10 @@ export class QuizService {
     }
 
     this._selectedAnswer.set(null);
+    this._selectedLocation.set(null);
     this._lastAnswerCorrect.set(null);
+    this._locationResult.set(null);
+    this.resetHint();
     this._currentQuestionIndex.set(next);
     this._questionStartedAt.set(Date.now());
   }
@@ -146,9 +167,9 @@ export class QuizService {
 
     if (isCorrect) {
       if (elapsed < 5000) {
-        this.scoreService.addEvent(ScoreEvent.QuizFastCorrect);
+        this.scoreService.addEvent(ScoreEvent.QuizFastCorrect, this.getScoreMultiplier());
       } else {
-        this.scoreService.addEvent(ScoreEvent.QuizCorrect);
+        this.scoreService.addEvent(ScoreEvent.QuizCorrect, this.getScoreMultiplier());
       }
     } else {
       this.scoreService.addEvent(ScoreEvent.QuizWrong);
@@ -160,7 +181,10 @@ export class QuizService {
     this._state.set(QuizState.Settings);
 
     this._selectedAnswer.set(null);
+    this._selectedLocation.set(null);
     this._lastAnswerCorrect.set(null);
+    this._locationResult.set(null);
+    this.resetHint();
 
     this._questions.set([]);
     this._currentQuestionIndex.set(0);
@@ -182,23 +206,82 @@ export class QuizService {
     }
 
     const nearest = this.objectService.findNearestObject(location.ra, location.dec);
-
-    if (!nearest) {
-      return false;
-    }
-
-    const isCorrect = nearest.target === question.correctAnswer.target;
+    const isCorrect = nearest?.target === question.correctAnswer.target;
+    const distanceDegrees = this.getAngularDistanceDegrees(location, question.correctAnswer);
 
     this._lastAnswerCorrect.set(isCorrect);
+    this._locationResult.set({ correctAnswer: question.correctAnswer, distanceDegrees, isCorrect });
 
     if (isCorrect) {
-      this.scoreService.addEvent(ScoreEvent.QuizCorrect);
+      this.scoreService.addEvent(ScoreEvent.QuizCorrect, this.getScoreMultiplier());
     } else {
       this.scoreService.addEvent(ScoreEvent.QuizWrong);
     }
 
     this._selectedLocation.set(null);
 
-    return isCorrect;
+    return true;
+  }
+
+  public activateGuessHint(): boolean {
+    const question = this.currentQuestion();
+
+    if (!this.canActivateHint() || !question?.choices) {
+      return false;
+    }
+
+    const wrongChoices = question.choices.filter((choice) => choice.target !== question.correctAnswer.target);
+    if (wrongChoices.length === 0) {
+      return false;
+    }
+
+    const choice = wrongChoices[Math.floor(Math.random() * wrongChoices.length)];
+    this._eliminatedAnswerTarget.set(choice.target);
+    this._hintUsed.set(true);
+
+    return true;
+  }
+
+  public activateLocationHint(): boolean {
+    if (!this.canActivateHint()) {
+      return false;
+    }
+
+    this._hintUsed.set(true);
+
+    return true;
+  }
+
+  private canActivateHint(): boolean {
+    return (
+      this.state() === QuizState.Running &&
+      !this.hintUsed() &&
+      this.selectedAnswer() === null &&
+      this.locationResult() === null
+    );
+  }
+
+  private resetHint(): void {
+    this._hintUsed.set(false);
+    this._eliminatedAnswerTarget.set(null);
+  }
+
+  private getScoreMultiplier(): number {
+    return this.hintUsed() ? 0.5 : 1;
+  }
+
+  private getAngularDistanceDegrees(
+    location: { ra: number; dec: number },
+    correctAnswer: IAstronomicalObject,
+  ): number {
+    const toRadians = (angle: number) => (angle * Math.PI) / 180;
+    const locationDec = toRadians(location.dec);
+    const answerDec = toRadians(correctAnswer.dec!);
+    const rightAscensionDifference = toRadians(location.ra - correctAnswer.ra!);
+    const cosine =
+      Math.sin(locationDec) * Math.sin(answerDec) +
+      Math.cos(locationDec) * Math.cos(answerDec) * Math.cos(rightAscensionDifference);
+
+    return (Math.acos(Math.min(1, Math.max(-1, cosine))) * 180) / Math.PI;
   }
 }

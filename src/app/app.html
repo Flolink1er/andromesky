@@ -1,4 +1,4 @@
-<div class="min-h-screen flex flex-col">
+<div class="flex h-dvh flex-col overflow-hidden">
   <app-header (changeMode)="changeMode($event)">
     @if (!appStateService.isQuiz()) {
       <app-search-bar (objectSelected)="onObjectSelected($event)" />
@@ -6,18 +6,99 @@
   </app-header>
 
   <!-- Contenaire principal -->
-  <main class="flex flex-1 overflow-hidden">
+  <main class="relative flex min-h-0 flex-1 overflow-hidden">
     <!-- Panel de sélection (gauche) -->
     <app-side-panel
+      class="absolute inset-x-0 top-0 z-20 block h-full w-full shadow-2xl transition-transform duration-300 ease-out md:static md:z-auto md:w-80 md:translate-y-0 md:shadow-none"
+      [class.quiz-answer-sheet]="isQuizAnswerSheet()"
+      [class.-translate-y-full]="!isPanelOpen() && !isQuizAnswerSheet()"
+      [class.translate-y-full]="!isPanelOpen() && isQuizAnswerSheet()"
+      [class.translate-y-0]="isPanelOpen()"
       [currentObject]="currentObject()"
       [currentIndex]="currentIndex"
       (action)="handleAction($event)"
       (switchMode)="changeMode($event)"
+      (close)="closePanel()"
     />
 
     <!-- Contenaire de la SkyMap -->
-    <section class="flex-1 relative">
-      <app-sky-map (objectClicked)="onSkyClick($event.ra, $event.dec)" />
+    <section class="relative min-h-0 flex-1">
+      <app-sky-map class="block h-full" (objectClicked)="onSkyClick($event.ra, $event.dec)" />
+
+      <button
+        type="button"
+        class="absolute left-4 top-4 z-10 inline-flex h-11 min-w-11 items-center justify-center rounded-lg border border-white/20 bg-space-panel/90 px-3 text-xl shadow-lg backdrop-blur transition hover:bg-space-blue md:hidden"
+        [attr.aria-expanded]="isPanelOpen()"
+        aria-controls="information-panel"
+        aria-label="Ouvrir le panneau d'informations"
+        (click)="togglePanel()"
+      >
+        ☰
+      </button>
+
+      @if (!appStateService.isQuiz() && currentObject(); as object) {
+        <p
+          class="absolute left-16 top-4 z-10 flex h-11 max-w-[calc(100%-5rem)] items-center truncate rounded-lg border border-white/10 bg-space-panel/90 px-3 text-sm font-semibold text-space-text shadow-lg backdrop-blur md:hidden"
+          [title]="object.name"
+        >
+          {{ object.name }}
+        </p>
+      }
+
+      @if (appStateService.isQuiz() && quizService.state() === QuizStates.Running) {
+        @if (
+          quizService.currentQuizMode() === QuizModes.LocateObject &&
+          quizService.currentQuestion();
+          as question
+        ) {
+          <p
+            class="absolute left-16 top-4 z-10 flex h-11 max-w-[calc(100%-5rem)] items-center truncate rounded-lg border border-white/10 bg-space-panel/90 px-3 text-sm font-semibold text-space-text shadow-lg backdrop-blur md:hidden"
+            [title]="question.correctAnswer.name"
+          >
+            À trouver : {{ question.correctAnswer.name }}
+          </p>
+        } @else {
+          <p
+            class="absolute left-16 top-4 z-10 flex h-11 max-w-[calc(100%-5rem)] items-center truncate rounded-lg border border-white/10 bg-space-panel/90 px-3 text-sm font-semibold text-space-text shadow-lg backdrop-blur md:hidden"
+          >
+            Question {{ quizService.currentQuestionIndex() + 1 }} / {{ quizService.totalQuestions() }}
+          </p>
+        }
+
+        @if (quizService.currentQuizMode() === QuizModes.LocateObject) {
+          <div class="absolute inset-x-4 bottom-4 z-10 rounded-xl border border-white/10 bg-space-panel/90 p-3 text-center shadow-lg backdrop-blur md:hidden">
+            @if (quizService.locationResult(); as result) {
+              <p class="font-semibold" [class.text-emerald-300]="result.isCorrect" [class.text-red-300]="!result.isCorrect">
+                {{ result.isCorrect ? 'Bonne réponse !' : 'Pas tout à fait.' }}
+              </p>
+              <p class="mt-1 text-sm text-space-text">Réponse : {{ result.correctAnswer.name }}</p>
+              <p class="text-sm text-space-muted">Écart : {{ formatAngularDistance(result.distanceDegrees) }}</p>
+            } @else {
+              @if (quizService.selectedLocation()) {
+                <button type="button" class="button-green w-full" (click)="confirmQuizLocation()">
+                  Confirmer cette position
+                </button>
+              } @else {
+                <p class="text-sm text-space-muted">Touchez la carte pour choisir la position de l’objet.</p>
+              }
+
+              @if (!quizService.hintUsed()) {
+                <button
+                  type="button"
+                  class="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-violet-400/50 bg-violet-500/15 px-3 py-2 text-sm font-semibold text-violet-200 shadow-sm transition hover:bg-violet-500/25 hover:text-white"
+                  title="Affiche une zone contenant l’objet. Les points gagnés pour cette question seront divisés par deux."
+                  (click)="useLocationHint()"
+                >
+                  <span aria-hidden="true">💡</span>
+                  Indice
+                </button>
+              } @else {
+                <p class="mt-2 text-xs text-violet-300">Indice utilisé.</p>
+              }
+            }
+          </div>
+        }
+      }
     </section>
   </main>
 </div>

@@ -1,4 +1,4 @@
-<div class="rounded-xl border border-white/10 bg-slate-900 p-6">
+<div class="rounded-xl border border-white/10 bg-slate-900 p-4 sm:p-6">
 
   <h2 class="mb-6 text-2xl font-bold">
     🎉 Quiz terminé !
@@ -25,13 +25,13 @@
 
   </div>
 
-  <div class="mt-8 flex gap-3 justify-around">
+  <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-around">
 
-    <button (click)="restartQuiz.emit()" class="button-green">
+    <button (click)="restartQuiz.emit()" class="button-green w-full sm:w-auto">
       Rejouer
     </button>
 
-    <button (click)="backToExploration.emit()" class="button-green">
+    <button (click)="backToExploration.emit()" class="button-green w-full sm:w-auto">
       Retour
     </button>
 

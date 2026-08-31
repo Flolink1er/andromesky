@@ -1,18 +1,21 @@
 <header
-  class="relative z-50 h-16 border-b border-white/10 bg-space-panel/70 backdrop-blur-md flex items-center justify-between px-6"
+  class="relative z-50 grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-2 gap-y-2 border-b border-white/10 bg-space-panel/70 px-3 py-2 backdrop-blur-md sm:flex sm:h-16 sm:flex-nowrap sm:justify-between sm:px-6 sm:py-0"
 >
-  <div class="flex gap-5 items-center">
-    <app-svg-icon icon="andromeSky-logo" class="h-full w-auto" />
-    <h1 class="text-space-text text-2xl font-bold">AndromeSky</h1>
+  <div class="flex h-11 min-w-0 items-center gap-2 sm:shrink-0 sm:gap-5">
+    <app-svg-icon icon="andromeSky-logo" class="h-9 w-9 shrink-0 sm:h-10 sm:w-10" />
+    <h1 class="truncate text-lg font-bold leading-none text-space-text sm:text-2xl">AndromeSky</h1>
   </div>
 
-  <div class="flex gap-5 items-center">
+  <div class="order-3 col-span-2 w-full sm:order-none sm:w-auto sm:flex-1 sm:px-4">
     <ng-content />
   </div>
 
-  <nav class="flex gap-4">
-    <button (click)="toExploration()" class="navigationLink-full">Exploration</button>
+  <nav class="flex shrink-0 justify-self-end gap-1 text-xs sm:gap-4 sm:text-base">
+    <button (click)="toExploration()" class="navigationLink-full px-2 py-2 sm:px-4">
+      <span class="sm:hidden">Explorer</span>
+      <span class="hidden sm:inline">Exploration</span>
+    </button>
 
-    <button (click)="toQuiz()" class="navigationLink-ghost">Quiz</button>
+    <button (click)="toQuiz()" class="navigationLink-ghost px-2 py-2 sm:px-4">Quiz</button>
   </nav>
 </header>

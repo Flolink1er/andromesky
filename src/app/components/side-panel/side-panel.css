@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+  :host(.quiz-answer-sheet) aside {
+    height: auto;
+    max-height: min(58dvh, 34rem);
+    border-radius: 1rem 1rem 0 0;
+    border-bottom: 0;
+  }
+}

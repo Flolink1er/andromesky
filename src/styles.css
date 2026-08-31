@@ -7,6 +7,8 @@
 body {
   margin: 0;
   min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
 
   background: linear-gradient(to bottom, #07111f, #0f172a);
 
@@ -15,14 +17,20 @@ body {
   font-family: Arial, sans-serif;
 }
 
+button,
+select,
+input {
+  font: inherit;
+}
+
 .button-green {
   @apply rounded p-2 bg-emerald-600 hover:bg-emerald-700 hover:cursor-pointer transition-all duration-250;
 }
 
 .navigationLink-full {
-  @apply px-4 py-2 rounded-xl bg-space-blue hover:bg-space-glow/80 hover:cursor-pointer transition-all duration-250;
+  @apply rounded-xl bg-space-blue hover:bg-space-glow/80 hover:cursor-pointer transition-all duration-250;
 }
 
 .navigationLink-ghost {
-  @apply px-4 py-2 rounded-xl bg-space-panel border border-white/10 hover:cursor-pointer hover:border-white/30 hover:bg-space-glow/20 transition-all duration-250;
+  @apply rounded-xl bg-space-panel border border-white/10 hover:cursor-pointer hover:border-white/30 hover:bg-space-glow/20 transition-all duration-250;
 }

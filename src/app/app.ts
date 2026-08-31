@@ -25,6 +25,15 @@ export class App {
   public readonly appStateService = inject(AppStateService);
 
   public _currentIndex = signal(0);
+  public readonly isPanelOpen = signal(false);
+  public readonly isQuizAnswerSheet = computed(
+    () =>
+      this.appStateService.isQuiz() &&
+      this.quizService.state() === QuizState.Running &&
+      this.quizService.currentQuizMode() === QuizMode.GuessObject,
+  );
+  protected readonly QuizStates = QuizState;
+  protected readonly QuizModes = QuizMode;
 
   public readonly currentObject = computed(() => {
     return this.astronomicalObjectService.objects()[this.currentIndex];
@@ -38,6 +47,8 @@ export class App {
 
       if (this.quizService.currentQuizMode() === QuizMode.LocateObject) {
         this.skyMapService.clearHighlightedObject();
+        this.skyMapService.clearLocationFeedback();
+        this.skyMapService.clearLocationHint();
         return;
       }
 
@@ -53,6 +64,12 @@ export class App {
 
       this.skyMapService.goToObject(question.correctAnswer);
     });
+
+    effect(() => {
+      if (this.appStateService.isQuiz() && this.quizService.state() === QuizState.Finished) {
+        this.isPanelOpen.set(true);
+      }
+    });
   }
 
   public changeMode(mode: AppMode): void {
@@ -63,9 +80,12 @@ export class App {
     ) {
       this.quizService.reset();
       this.skyMapService.clearSelectionMarker();
+      this.skyMapService.clearLocationFeedback();
+      this.skyMapService.clearLocationHint();
     }
 
     this.appStateService.setMode(mode);
+    this.isPanelOpen.set(mode === AppMode.Quiz);
 
     switch (mode) {
       case AppMode.Exploration:
@@ -75,6 +95,8 @@ export class App {
       case AppMode.Quiz:
         this.quizService.reset();
         this.skyMapService.clearSelectionMarker();
+        this.skyMapService.clearLocationFeedback();
+        this.skyMapService.clearLocationHint();
         break;
     }
   }
@@ -111,8 +133,13 @@ export class App {
       this.quizService.state() === QuizState.Running &&
       this.quizService.currentQuizMode() === QuizMode.LocateObject
     ) {
+      if (this.quizService.locationResult()) {
+        return;
+      }
+
       this.quizService.selectLocation(ra, dec);
       this.skyMapService.showSelectionMarker(ra, dec);
+      this.skyMapService.clearLocationFeedback();
 
       return;
     }
@@ -134,5 +161,45 @@ export class App {
   public onObjectSelected(object: IAstronomicalObject): void {
     this.currentIndex = this.astronomicalObjectService.objects().indexOf(object);
     this.skyMapService.goToObject(object);
+  }
+
+  public togglePanel(): void {
+    this.isPanelOpen.update((isOpen) => !isOpen);
+  }
+
+  public closePanel(): void {
+    this.isPanelOpen.set(false);
+  }
+
+  public confirmQuizLocation(): void {
+    const selectedLocation = this.quizService.selectedLocation();
+
+    if (!this.quizService.submitLocation()) {
+      return;
+    }
+
+    const result = this.quizService.locationResult();
+    if (selectedLocation && result) {
+      this.skyMapService.showLocationFeedback(selectedLocation, result.correctAnswer);
+    }
+
+    setTimeout(() => {
+      this.quizService.nextQuestion();
+      this.skyMapService.clearSelectionMarker();
+      this.skyMapService.clearLocationFeedback();
+      this.skyMapService.clearLocationHint();
+    }, 2500);
+  }
+
+  public useLocationHint(): void {
+    const question = this.quizService.currentQuestion();
+
+    if (question && this.quizService.activateLocationHint()) {
+      this.skyMapService.showLocationHint(question.correctAnswer);
+    }
+  }
+
+  public formatAngularDistance(distanceDegrees: number): string {
+    return `${distanceDegrees < 1 ? distanceDegrees.toFixed(2) : distanceDegrees.toFixed(1)}°`;
   }
 }
