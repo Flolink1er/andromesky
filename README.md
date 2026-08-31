@@ -1,114 +1,58 @@
 # AndromeSky
 
-Interactive astronomy SPA built with Angular and Aladin Lite.
+**AndromeSky** est une application web d'exploration du ciel conçue dans le cadre de mon travail de fin d'études (TFE) à l'IFAPME. Elle permet de découvrir des objets astronomiques sur une carte interactive, d'en consulter les informations et de tester ses connaissances au moyen de quiz.
 
-## Features
+## Démo en ligne
 
-- SkyMap
-- Guided exploration
-- Quiz
-- NASA integration
+L'application est accessible à l'adresse suivante :
 
+[https://flolink1er.github.io/andromesky/](https://flolink1er.github.io/andromesky/)
+
+## Fonctionnalités
+
+- Carte du ciel interactive, propulsée par Aladin Lite ;
+- Catalogue enrichi d'objets astronomiques, d'étoiles et de constellations ;
+- Recherche d'objets et affichage de leurs positions sur la carte ;
+- Panneau d'information avec contenus issus de Wikipédia et images de la NASA ;
+- Mode exploration guidée ;
+- Quiz pour deviner un objet ou le localiser sur la carte ;
+- Indices, score et retour visuel sur les réponses ;
+- Interface responsive, utilisable sur ordinateur comme sur mobile.
+
+## Technologies utilisées
+
+- [Angular](https://angular.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Aladin Lite](https://aladin.cds.unistra.fr/AladinLite/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- API Wikipédia et [NASA Image and Video Library](https://images.nasa.gov/)
+
+## Lancer le projet localement
+
+### Prérequis
+
+- Node.js 20 ou version ultérieure
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/Flolink1er/andromesky.git
+cd andromesky
+npm install
+npm start
 ```
-andromesky
-├─ .angular
-├─ .editorconfig
-├─ .postcssrc.json
-├─ angular.json
-├─ package-lock.json
-├─ package.json
-├─ public
-│  ├─ data
-│  │  ├─ constellations.json
-│  │  ├─ hipparcos.json
-│  │  └─ messier.json
-│  ├─ favicon.ico
-│  ├─ icons
-│  │  └─ andromeSky-logo.svg
-│  └─ Rapport
-│     ├─ Rapport TFE.docx
-│     └─ ~$pport TFE.docx
-├─ README.md
-├─ src
-│  ├─ app
-│  │  ├─ app.config.ts
-│  │  ├─ app.css
-│  │  ├─ app.html
-│  │  ├─ app.routes.ts
-│  │  ├─ app.spec.ts
-│  │  ├─ app.ts
-│  │  ├─ components
-│  │  │  ├─ header
-│  │  │  │  ├─ header.css
-│  │  │  │  ├─ header.html
-│  │  │  │  ├─ header.spec.ts
-│  │  │  │  └─ header.ts
-│  │  │  ├─ object-panel
-│  │  │  │  ├─ object-panel.css
-│  │  │  │  ├─ object-panel.html
-│  │  │  │  └─ object-panel.ts
-│  │  │  ├─ quiz-questions
-│  │  │  │  ├─ quiz-questions.css
-│  │  │  │  ├─ quiz-questions.html
-│  │  │  │  └─ quiz-questions.ts
-│  │  │  ├─ quiz-results
-│  │  │  │  ├─ quiz-results.css
-│  │  │  │  ├─ quiz-results.html
-│  │  │  │  └─ quiz-results.ts
-│  │  │  ├─ quiz-settings
-│  │  │  │  ├─ quiz-settings.css
-│  │  │  │  ├─ quiz-settings.html
-│  │  │  │  └─ quiz-settings.ts
-│  │  │  ├─ search-bar
-│  │  │  │  ├─ search-bar.css
-│  │  │  │  ├─ search-bar.html
-│  │  │  │  ├─ search-bar.spec.ts
-│  │  │  │  └─ search-bar.ts
-│  │  │  ├─ side-panel
-│  │  │  │  ├─ side-panel.css
-│  │  │  │  ├─ side-panel.html
-│  │  │  │  ├─ side-panel.spec.ts
-│  │  │  │  └─ side-panel.ts
-│  │  │  ├─ sky-map
-│  │  │  │  ├─ sky-map.css
-│  │  │  │  ├─ sky-map.html
-│  │  │  │  ├─ sky-map.spec.ts
-│  │  │  │  └─ sky-map.ts
-│  │  │  └─ svg-icon
-│  │  │     ├─ svg-icon.css
-│  │  │     ├─ svg-icon.html
-│  │  │     ├─ svg-icon.spec.ts
-│  │  │     └─ svg-icon.ts
-│  │  ├─ constants
-│  │  │  └─ wiki.constant.ts
-│  │  ├─ data
-│  │  │  └─ astronomical-objects.ts
-│  │  ├─ helpers
-│  │  │  └─ wiki.helper.ts
-│  │  ├─ models
-│  │  │  ├─ app-mode.model.ts
-│  │  │  ├─ astronomical-object.model.ts
-│  │  │  ├─ nasa-image.model.ts
-│  │  │  ├─ quiz.model.ts
-│  │  │  ├─ score.model.ts
-│  │  │  └─ wiki.model.ts
-│  │  └─ services
-│  │     ├─ app-state.service.ts
-│  │     ├─ astronomical-object.service.ts
-│  │     ├─ catalog-loader.service.ts
-│  │     ├─ constellation.service.ts
-│  │     ├─ json-loader.service.ts
-│  │     ├─ nasa-image.service.ts
-│  │     ├─ quiz.service.ts
-│  │     ├─ score.service.ts
-│  │     ├─ sky-map.service.ts
-│  │     └─ wikipedia.service.ts
-│  ├─ index.html
-│  ├─ main.ts
-│  └─ styles.css
-├─ tailwind.config.ts
-├─ tsconfig.app.json
-├─ tsconfig.json
-└─ tsconfig.spec.json
 
+L'application est alors disponible sur `http://localhost:4200/`.
+
+## Construire la version de production
+
+```bash
+npm run build
 ```
+
+Les fichiers générés sont placés dans le dossier `dist/`.
+
+## Sources de données
+
+Les catalogues locaux regroupent des objets Messier, des étoiles et les tracés de constellations. Les informations complémentaires affichées dans l'application sont récupérées à la demande auprès de Wikipédia et de la bibliothèque d'images de la NASA.
