@@ -31,6 +31,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/andromesky/",
               "budgets": [
                 {
                   "type": "initial",
