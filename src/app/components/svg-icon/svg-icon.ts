@@ -6,17 +6,14 @@ import { Component, ElementRef, inject, input, OnInit } from '@angular/core';
   selector: 'app-svg-icon',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './svg-icon.html'
+  templateUrl: './svg-icon.html',
 })
 export class SvgIconComponent implements OnInit {
-
   public readonly icon = input<string>();
   public readonly class = input<string>();
   private readonly http = inject(HttpClient);
 
-  constructor(
-    private el: ElementRef
-  ) {}
+  constructor(private el: ElementRef) {}
 
   ngOnInit(): void {
     this.loadSvg();
@@ -24,13 +21,13 @@ export class SvgIconComponent implements OnInit {
 
   loadSvg(): void {
     if (this.icon) {
-      this.http.get(`/icons/${this.icon()}.svg`, { responseType: 'text' }).subscribe(
-        svgContent => {
+      this.http.get(`icons/${this.icon()}.svg`, { responseType: 'text' }).subscribe(
+        (svgContent) => {
           this.insertSvgContent(svgContent);
         },
-        error => {
+        (error) => {
           console.error('Error loading SVG:', error);
-        }
+        },
       );
     }
   }
