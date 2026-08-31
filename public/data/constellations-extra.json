@@ -1,0 +1,2962 @@
+[
+  {
+    "id": "Apus",
+    "name": "Apus",
+    "abbreviation": "Aps",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 72370",
+        "toTarget": "HIP 81065"
+      },
+      {
+        "fromTarget": "HIP 80047",
+        "toTarget": "HIP 81852"
+      },
+      {
+        "fromTarget": "HIP 81852",
+        "toTarget": "HIP 81065"
+      }
+    ]
+  },
+  {
+    "id": "Aquarius",
+    "name": "Aquarius",
+    "abbreviation": "Aqr",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 102618",
+        "toTarget": "HIP 106278"
+      },
+      {
+        "fromTarget": "HIP 106278",
+        "toTarget": "HIP 109074"
+      },
+      {
+        "fromTarget": "HIP 109074",
+        "toTarget": "HIP 110395"
+      },
+      {
+        "fromTarget": "HIP 110395",
+        "toTarget": "HIP 110960"
+      },
+      {
+        "fromTarget": "HIP 110960",
+        "toTarget": "HIP 111497"
+      },
+      {
+        "fromTarget": "HIP 111497",
+        "toTarget": "HIP 110960"
+      },
+      {
+        "fromTarget": "HIP 110960",
+        "toTarget": "HIP 110672"
+      },
+      {
+        "fromTarget": "HIP 110672",
+        "toTarget": "HIP 109074"
+      },
+      {
+        "fromTarget": "HIP 109139",
+        "toTarget": "HIP 106278"
+      },
+      {
+        "fromTarget": "HIP 106278",
+        "toTarget": "HIP 109074"
+      },
+      {
+        "fromTarget": "HIP 109074",
+        "toTarget": "HIP 110003"
+      },
+      {
+        "fromTarget": "HIP 110003",
+        "toTarget": "HIP 112961"
+      },
+      {
+        "fromTarget": "HIP 112961",
+        "toTarget": "HIP 114724"
+      },
+      {
+        "fromTarget": "HIP 114724",
+        "toTarget": "HIP 115033"
+      },
+      {
+        "fromTarget": "HIP 115033",
+        "toTarget": "HIP 115438"
+      },
+      {
+        "fromTarget": "HIP 115438",
+        "toTarget": "HIP 115033"
+      },
+      {
+        "fromTarget": "HIP 115033",
+        "toTarget": "HIP 114341"
+      },
+      {
+        "fromTarget": "HIP 114341",
+        "toTarget": "HIP 115033"
+      },
+      {
+        "fromTarget": "HIP 115033",
+        "toTarget": "HIP 113136"
+      },
+      {
+        "fromTarget": "HIP 113136",
+        "toTarget": "HIP 112716"
+      },
+      {
+        "fromTarget": "HIP 112716",
+        "toTarget": "HIP 112961"
+      }
+    ]
+  },
+  {
+    "id": "Aquila",
+    "name": "Aquila",
+    "abbreviation": "Aql",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 98036",
+        "toTarget": "HIP 97649"
+      },
+      {
+        "fromTarget": "HIP 97649",
+        "toTarget": "HIP 97278"
+      },
+      {
+        "fromTarget": "HIP 97278",
+        "toTarget": "HIP 95501"
+      },
+      {
+        "fromTarget": "HIP 95501",
+        "toTarget": "HIP 93805"
+      },
+      {
+        "fromTarget": "HIP 93805",
+        "toTarget": "HIP 95501"
+      },
+      {
+        "fromTarget": "HIP 95501",
+        "toTarget": "HIP 93747"
+      },
+      {
+        "fromTarget": "HIP 93747",
+        "toTarget": "HIP 95501"
+      },
+      {
+        "fromTarget": "HIP 95501",
+        "toTarget": "HIP 97804"
+      },
+      {
+        "fromTarget": "HIP 97804",
+        "toTarget": "HIP 99473"
+      },
+      {
+        "fromTarget": "HIP 93244",
+        "toTarget": "HIP 93747"
+      },
+      {
+        "fromTarget": "HIP 93805",
+        "toTarget": "HIP 93429"
+      },
+      {
+        "fromTarget": "HIP 99473",
+        "toTarget": "HIP 96468"
+      },
+      {
+        "fromTarget": "HIP 96468",
+        "toTarget": "HIP 93805"
+      },
+      {
+        "fromTarget": "HIP 93805",
+        "toTarget": "HIP 93747"
+      }
+    ]
+  },
+  {
+    "id": "Ara",
+    "name": "Ara",
+    "abbreviation": "Ara",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 85267",
+        "toTarget": "HIP 85727"
+      },
+      {
+        "fromTarget": "HIP 85727",
+        "toTarget": "HIP 82363"
+      },
+      {
+        "fromTarget": "HIP 82363",
+        "toTarget": "HIP 83081"
+      },
+      {
+        "fromTarget": "HIP 83081",
+        "toTarget": "HIP 83153"
+      },
+      {
+        "fromTarget": "HIP 83153",
+        "toTarget": "HIP 85792"
+      },
+      {
+        "fromTarget": "HIP 85792",
+        "toTarget": "HIP 88714"
+      },
+      {
+        "fromTarget": "HIP 88714",
+        "toTarget": "HIP 85792"
+      },
+      {
+        "fromTarget": "HIP 85792",
+        "toTarget": "HIP 85258"
+      }
+    ]
+  },
+  {
+    "id": "Auriga",
+    "name": "Auriga",
+    "abbreviation": "Aur",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 25428",
+        "toTarget": "HIP 23015"
+      },
+      {
+        "fromTarget": "HIP 23015",
+        "toTarget": "HIP 23767"
+      },
+      {
+        "fromTarget": "HIP 23767",
+        "toTarget": "HIP 24608"
+      },
+      {
+        "fromTarget": "HIP 24608",
+        "toTarget": "HIP 28360"
+      },
+      {
+        "fromTarget": "HIP 28360",
+        "toTarget": "HIP 28380"
+      },
+      {
+        "fromTarget": "HIP 28380",
+        "toTarget": "HIP 25428"
+      },
+      {
+        "fromTarget": "HIP 23767",
+        "toTarget": "HIP 23453"
+      },
+      {
+        "fromTarget": "HIP 23453",
+        "toTarget": "HIP 23416"
+      },
+      {
+        "fromTarget": "HIP 23416",
+        "toTarget": "HIP 24608"
+      },
+      {
+        "fromTarget": "HIP 24608",
+        "toTarget": "HIP 28358"
+      },
+      {
+        "fromTarget": "HIP 28358",
+        "toTarget": "HIP 28360"
+      }
+    ]
+  },
+  {
+    "id": "Bootes",
+    "name": "Bootes",
+    "abbreviation": "Boo",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 69673",
+        "toTarget": "HIP 72105"
+      },
+      {
+        "fromTarget": "HIP 72105",
+        "toTarget": "HIP 74666"
+      },
+      {
+        "fromTarget": "HIP 74666",
+        "toTarget": "HIP 73555"
+      },
+      {
+        "fromTarget": "HIP 73555",
+        "toTarget": "HIP 71075"
+      },
+      {
+        "fromTarget": "HIP 71075",
+        "toTarget": "HIP 71053"
+      },
+      {
+        "fromTarget": "HIP 71053",
+        "toTarget": "HIP 69673"
+      },
+      {
+        "fromTarget": "HIP 69673",
+        "toTarget": "HIP 67927"
+      },
+      {
+        "fromTarget": "HIP 67927",
+        "toTarget": "HIP 67275"
+      },
+      {
+        "fromTarget": "HIP 69673",
+        "toTarget": "HIP 71795"
+      },
+      {
+        "fromTarget": "HIP 71075",
+        "toTarget": "HIP 69732"
+      },
+      {
+        "fromTarget": "HIP 69732",
+        "toTarget": "HIP 70497"
+      },
+      {
+        "fromTarget": "HIP 70497",
+        "toTarget": "HIP 69483"
+      },
+      {
+        "fromTarget": "HIP 69483",
+        "toTarget": "HIP 69732"
+      }
+    ]
+  },
+  {
+    "id": "Cancer",
+    "name": "Cancer",
+    "abbreviation": "Cnc",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 44066",
+        "toTarget": "HIP 42911"
+      },
+      {
+        "fromTarget": "HIP 42911",
+        "toTarget": "HIP 40526"
+      },
+      {
+        "fromTarget": "HIP 40526",
+        "toTarget": "HIP 42911"
+      },
+      {
+        "fromTarget": "HIP 42911",
+        "toTarget": "HIP 42806"
+      },
+      {
+        "fromTarget": "HIP 42806",
+        "toTarget": "HIP 43103"
+      }
+    ]
+  },
+  {
+    "id": "Canis Major",
+    "name": "Canis Major",
+    "abbreviation": "CMa",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 30324",
+        "toTarget": "HIP 32349"
+      },
+      {
+        "fromTarget": "HIP 32349",
+        "toTarget": "HIP 34444"
+      },
+      {
+        "fromTarget": "HIP 34444",
+        "toTarget": "HIP 33579"
+      },
+      {
+        "fromTarget": "HIP 33579",
+        "toTarget": "HIP 34444"
+      },
+      {
+        "fromTarget": "HIP 34444",
+        "toTarget": "HIP 35904"
+      },
+      {
+        "fromTarget": "HIP 30324",
+        "toTarget": "HIP 31592"
+      },
+      {
+        "fromTarget": "HIP 31592",
+        "toTarget": "HIP 33152"
+      },
+      {
+        "fromTarget": "HIP 33152",
+        "toTarget": "HIP 33579"
+      },
+      {
+        "fromTarget": "HIP 32349",
+        "toTarget": "HIP 33347"
+      },
+      {
+        "fromTarget": "HIP 33347",
+        "toTarget": "HIP 34045"
+      },
+      {
+        "fromTarget": "HIP 34045",
+        "toTarget": "HIP 33160"
+      },
+      {
+        "fromTarget": "HIP 33160",
+        "toTarget": "HIP 33347"
+      }
+    ]
+  },
+  {
+    "id": "Canis Minor",
+    "name": "Canis Minor",
+    "abbreviation": "CMi",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 37279",
+        "toTarget": "HIP 36188"
+      }
+    ]
+  },
+  {
+    "id": "Capricornus",
+    "name": "Capricornus",
+    "abbreviation": "Cap",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 100064",
+        "toTarget": "HIP 100345"
+      },
+      {
+        "fromTarget": "HIP 100345",
+        "toTarget": "HIP 102485"
+      },
+      {
+        "fromTarget": "HIP 102485",
+        "toTarget": "HIP 102978"
+      },
+      {
+        "fromTarget": "HIP 102978",
+        "toTarget": "HIP 105881"
+      },
+      {
+        "fromTarget": "HIP 105881",
+        "toTarget": "HIP 106723"
+      },
+      {
+        "fromTarget": "HIP 106723",
+        "toTarget": "HIP 107556"
+      },
+      {
+        "fromTarget": "HIP 107556",
+        "toTarget": "HIP 106985"
+      },
+      {
+        "fromTarget": "HIP 106985",
+        "toTarget": "HIP 104139"
+      },
+      {
+        "fromTarget": "HIP 104139",
+        "toTarget": "HIP 100064"
+      }
+    ]
+  },
+  {
+    "id": "Carina",
+    "name": "Carina",
+    "abbreviation": "Car",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 30438",
+        "toTarget": "HIP 45238"
+      },
+      {
+        "fromTarget": "HIP 45238",
+        "toTarget": "HIP 50099"
+      },
+      {
+        "fromTarget": "HIP 50099",
+        "toTarget": "HIP 52419"
+      },
+      {
+        "fromTarget": "HIP 52419",
+        "toTarget": "HIP 51576"
+      },
+      {
+        "fromTarget": "HIP 51576",
+        "toTarget": "HIP 50371"
+      },
+      {
+        "fromTarget": "HIP 50371",
+        "toTarget": "HIP 45556"
+      },
+      {
+        "fromTarget": "HIP 45556",
+        "toTarget": "HIP 42913"
+      },
+      {
+        "fromTarget": "HIP 51576",
+        "toTarget": "HIP 53253"
+      },
+      {
+        "fromTarget": "HIP 52419",
+        "toTarget": "HIP 54301"
+      },
+      {
+        "fromTarget": "HIP 54301",
+        "toTarget": "HIP 54751"
+      },
+      {
+        "fromTarget": "HIP 54751",
+        "toTarget": "HIP 54463"
+      },
+      {
+        "fromTarget": "HIP 54463",
+        "toTarget": "HIP 53253"
+      },
+      {
+        "fromTarget": "HIP 45556",
+        "toTarget": "HIP 41037"
+      },
+      {
+        "fromTarget": "HIP 41037",
+        "toTarget": "HIP 38827"
+      },
+      {
+        "fromTarget": "HIP 38827",
+        "toTarget": "HIP 39953"
+      }
+    ]
+  },
+  {
+    "id": "Centaurus",
+    "name": "Centaurus",
+    "abbreviation": "Cen",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 61932",
+        "toTarget": "HIP 66657"
+      },
+      {
+        "fromTarget": "HIP 66657",
+        "toTarget": "HIP 68702"
+      },
+      {
+        "fromTarget": "HIP 68702",
+        "toTarget": "HIP 71683"
+      },
+      {
+        "fromTarget": "HIP 71683",
+        "toTarget": "HIP 68702"
+      },
+      {
+        "fromTarget": "HIP 68702",
+        "toTarget": "HIP 66657"
+      },
+      {
+        "fromTarget": "HIP 66657",
+        "toTarget": "HIP 68002"
+      },
+      {
+        "fromTarget": "HIP 68002",
+        "toTarget": "HIP 61932"
+      },
+      {
+        "fromTarget": "HIP 61932",
+        "toTarget": "HIP 68002"
+      },
+      {
+        "fromTarget": "HIP 68002",
+        "toTarget": "HIP 68282"
+      },
+      {
+        "fromTarget": "HIP 68282",
+        "toTarget": "HIP 68245"
+      },
+      {
+        "fromTarget": "HIP 68245",
+        "toTarget": "HIP 71352"
+      },
+      {
+        "fromTarget": "HIP 71352",
+        "toTarget": "HIP 68245"
+      },
+      {
+        "fromTarget": "HIP 68245",
+        "toTarget": "HIP 68862"
+      },
+      {
+        "fromTarget": "HIP 68862",
+        "toTarget": "HIP 70090"
+      },
+      {
+        "fromTarget": "HIP 70090",
+        "toTarget": "HIP 68933"
+      },
+      {
+        "fromTarget": "HIP 68933",
+        "toTarget": "HIP 67464"
+      },
+      {
+        "fromTarget": "HIP 67464",
+        "toTarget": "HIP 68002"
+      },
+      {
+        "fromTarget": "HIP 55425",
+        "toTarget": "HIP 59196"
+      },
+      {
+        "fromTarget": "HIP 59196",
+        "toTarget": "HIP 60823"
+      },
+      {
+        "fromTarget": "HIP 60823",
+        "toTarget": "HIP 61932"
+      },
+      {
+        "fromTarget": "HIP 61932",
+        "toTarget": "HIP 60823"
+      },
+      {
+        "fromTarget": "HIP 60823",
+        "toTarget": "HIP 59449"
+      },
+      {
+        "fromTarget": "HIP 59449",
+        "toTarget": "HIP 56243"
+      },
+      {
+        "fromTarget": "HIP 67464",
+        "toTarget": "HIP 65936"
+      },
+      {
+        "fromTarget": "HIP 65936",
+        "toTarget": "HIP 65109"
+      },
+      {
+        "fromTarget": "HIP 65109",
+        "toTarget": "HIP 61789"
+      },
+      {
+        "fromTarget": "HIP 71352",
+        "toTarget": "HIP 73334"
+      }
+    ]
+  },
+  {
+    "id": "Cepheus",
+    "name": "Cepheus",
+    "abbreviation": "Cep",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 102422",
+        "toTarget": "HIP 105199"
+      },
+      {
+        "fromTarget": "HIP 105199",
+        "toTarget": "HIP 106032"
+      },
+      {
+        "fromTarget": "HIP 106032",
+        "toTarget": "HIP 112724"
+      },
+      {
+        "fromTarget": "HIP 112724",
+        "toTarget": "HIP 106032"
+      },
+      {
+        "fromTarget": "HIP 106032",
+        "toTarget": "HIP 116727"
+      },
+      {
+        "fromTarget": "HIP 116727",
+        "toTarget": "HIP 112724"
+      },
+      {
+        "fromTarget": "HIP 112724",
+        "toTarget": "HIP 110991"
+      },
+      {
+        "fromTarget": "HIP 110991",
+        "toTarget": "HIP 109492"
+      },
+      {
+        "fromTarget": "HIP 109492",
+        "toTarget": "HIP 109857"
+      },
+      {
+        "fromTarget": "HIP 109857",
+        "toTarget": "HIP 107259"
+      },
+      {
+        "fromTarget": "HIP 107259",
+        "toTarget": "HIP 105199"
+      },
+      {
+        "fromTarget": "HIP 101093",
+        "toTarget": "HIP 102422"
+      }
+    ]
+  },
+  {
+    "id": "Circinus",
+    "name": "Circinus",
+    "abbreviation": "Cir",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 74824",
+        "toTarget": "HIP 71908"
+      },
+      {
+        "fromTarget": "HIP 71908",
+        "toTarget": "HIP 75323"
+      }
+    ]
+  },
+  {
+    "id": "Columba",
+    "name": "Columba",
+    "abbreviation": "Col",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 26634",
+        "toTarget": "HIP 27628"
+      },
+      {
+        "fromTarget": "HIP 25859",
+        "toTarget": "HIP 26634"
+      },
+      {
+        "fromTarget": "HIP 28328",
+        "toTarget": "HIP 27628"
+      },
+      {
+        "fromTarget": "HIP 27628",
+        "toTarget": "HIP 28199"
+      },
+      {
+        "fromTarget": "HIP 28199",
+        "toTarget": "HIP 30277"
+      }
+    ]
+  },
+  {
+    "id": "Corona Borealis",
+    "name": "Corona Borealis",
+    "abbreviation": "CrB",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 76127",
+        "toTarget": "HIP 75695"
+      },
+      {
+        "fromTarget": "HIP 75695",
+        "toTarget": "HIP 76267"
+      },
+      {
+        "fromTarget": "HIP 76267",
+        "toTarget": "HIP 76952"
+      },
+      {
+        "fromTarget": "HIP 76952",
+        "toTarget": "HIP 77512"
+      },
+      {
+        "fromTarget": "HIP 77512",
+        "toTarget": "HIP 78159"
+      },
+      {
+        "fromTarget": "HIP 78159",
+        "toTarget": "HIP 78493"
+      }
+    ]
+  },
+  {
+    "id": "Corvus",
+    "name": "Corvus",
+    "abbreviation": "Crv",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 60965",
+        "toTarget": "HIP 59803"
+      },
+      {
+        "fromTarget": "HIP 59803",
+        "toTarget": "HIP 59316"
+      },
+      {
+        "fromTarget": "HIP 59316",
+        "toTarget": "HIP 61359"
+      },
+      {
+        "fromTarget": "HIP 61359",
+        "toTarget": "HIP 60965"
+      },
+      {
+        "fromTarget": "HIP 59316",
+        "toTarget": "HIP 59199"
+      }
+    ]
+  },
+  {
+    "id": "Crater",
+    "name": "Crater",
+    "abbreviation": "Crt",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 53740",
+        "toTarget": "HIP 54682"
+      },
+      {
+        "fromTarget": "HIP 54682",
+        "toTarget": "HIP 55705"
+      },
+      {
+        "fromTarget": "HIP 55705",
+        "toTarget": "HIP 57283"
+      },
+      {
+        "fromTarget": "HIP 57283",
+        "toTarget": "HIP 58188"
+      },
+      {
+        "fromTarget": "HIP 58188",
+        "toTarget": "HIP 57283"
+      },
+      {
+        "fromTarget": "HIP 57283",
+        "toTarget": "HIP 55705"
+      },
+      {
+        "fromTarget": "HIP 55705",
+        "toTarget": "HIP 55282"
+      },
+      {
+        "fromTarget": "HIP 55282",
+        "toTarget": "HIP 55687"
+      },
+      {
+        "fromTarget": "HIP 55687",
+        "toTarget": "HIP 56633"
+      },
+      {
+        "fromTarget": "HIP 56633",
+        "toTarget": "HIP 55687"
+      },
+      {
+        "fromTarget": "HIP 55687",
+        "toTarget": "HIP 55282"
+      },
+      {
+        "fromTarget": "HIP 55282",
+        "toTarget": "HIP 53740"
+      }
+    ]
+  },
+  {
+    "id": "Crux",
+    "name": "Crux",
+    "abbreviation": "Cru",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 60718",
+        "toTarget": "HIP 61084"
+      },
+      {
+        "fromTarget": "HIP 62434",
+        "toTarget": "HIP 59747"
+      },
+      {
+        "fromTarget": "HIP 62434",
+        "toTarget": "HIP 59747"
+      }
+    ]
+  },
+  {
+    "id": "Cygnus",
+    "name": "Cygnus",
+    "abbreviation": "Cyg",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 102098",
+        "toTarget": "HIP 100453"
+      },
+      {
+        "fromTarget": "HIP 100453",
+        "toTarget": "HIP 102488"
+      },
+      {
+        "fromTarget": "HIP 102488",
+        "toTarget": "HIP 100453"
+      },
+      {
+        "fromTarget": "HIP 100453",
+        "toTarget": "HIP 95947"
+      },
+      {
+        "fromTarget": "HIP 95947",
+        "toTarget": "HIP 100453"
+      },
+      {
+        "fromTarget": "HIP 100453",
+        "toTarget": "HIP 97165"
+      },
+      {
+        "fromTarget": "HIP 97165",
+        "toTarget": "HIP 95853"
+      },
+      {
+        "fromTarget": "HIP 95853",
+        "toTarget": "HIP 94779"
+      },
+      {
+        "fromTarget": "HIP 94779",
+        "toTarget": "HIP 95853"
+      },
+      {
+        "fromTarget": "HIP 95853",
+        "toTarget": "HIP 99848"
+      },
+      {
+        "fromTarget": "HIP 99848",
+        "toTarget": "HIP 102098"
+      },
+      {
+        "fromTarget": "HIP 102098",
+        "toTarget": "HIP 103413"
+      },
+      {
+        "fromTarget": "HIP 103413",
+        "toTarget": "HIP 104732"
+      },
+      {
+        "fromTarget": "HIP 104732",
+        "toTarget": "HIP 102488"
+      }
+    ]
+  },
+  {
+    "id": "Delphinus",
+    "name": "Delphinus",
+    "abbreviation": "Del",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 101421",
+        "toTarget": "HIP 101769"
+      },
+      {
+        "fromTarget": "HIP 101769",
+        "toTarget": "HIP 101958"
+      },
+      {
+        "fromTarget": "HIP 101958",
+        "toTarget": "HIP 102532"
+      },
+      {
+        "fromTarget": "HIP 102532",
+        "toTarget": "HIP 102281"
+      },
+      {
+        "fromTarget": "HIP 102281",
+        "toTarget": "HIP 101769"
+      }
+    ]
+  },
+  {
+    "id": "Dorado",
+    "name": "Dorado",
+    "abbreviation": "Dor",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 19893",
+        "toTarget": "HIP 21281"
+      },
+      {
+        "fromTarget": "HIP 21281",
+        "toTarget": "HIP 23693"
+      },
+      {
+        "fromTarget": "HIP 23693",
+        "toTarget": "HIP 26069"
+      },
+      {
+        "fromTarget": "HIP 26069",
+        "toTarget": "HIP 21281"
+      },
+      {
+        "fromTarget": "HIP 21281",
+        "toTarget": "HIP 26069"
+      },
+      {
+        "fromTarget": "HIP 26069",
+        "toTarget": "HIP 27100"
+      },
+      {
+        "fromTarget": "HIP 27100",
+        "toTarget": "HIP 27890"
+      },
+      {
+        "fromTarget": "HIP 27890",
+        "toTarget": "HIP 26069"
+      }
+    ]
+  },
+  {
+    "id": "Draco",
+    "name": "Draco",
+    "abbreviation": "Dra",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 56211",
+        "toTarget": "HIP 61281"
+      },
+      {
+        "fromTarget": "HIP 61281",
+        "toTarget": "HIP 68756"
+      },
+      {
+        "fromTarget": "HIP 68756",
+        "toTarget": "HIP 75458"
+      },
+      {
+        "fromTarget": "HIP 75458",
+        "toTarget": "HIP 78527"
+      },
+      {
+        "fromTarget": "HIP 78527",
+        "toTarget": "HIP 80331"
+      },
+      {
+        "fromTarget": "HIP 80331",
+        "toTarget": "HIP 83895"
+      },
+      {
+        "fromTarget": "HIP 83895",
+        "toTarget": "HIP 89908"
+      },
+      {
+        "fromTarget": "HIP 89908",
+        "toTarget": "HIP 89937"
+      },
+      {
+        "fromTarget": "HIP 89937",
+        "toTarget": "HIP 89908"
+      },
+      {
+        "fromTarget": "HIP 89908",
+        "toTarget": "HIP 94376"
+      },
+      {
+        "fromTarget": "HIP 94376",
+        "toTarget": "HIP 97433"
+      },
+      {
+        "fromTarget": "HIP 97433",
+        "toTarget": "HIP 94376"
+      },
+      {
+        "fromTarget": "HIP 94376",
+        "toTarget": "HIP 87585"
+      },
+      {
+        "fromTarget": "HIP 87585",
+        "toTarget": "HIP 85829"
+      },
+      {
+        "fromTarget": "HIP 85829",
+        "toTarget": "HIP 85670"
+      },
+      {
+        "fromTarget": "HIP 85670",
+        "toTarget": "HIP 87833"
+      },
+      {
+        "fromTarget": "HIP 87833",
+        "toTarget": "HIP 87585"
+      },
+      {
+        "fromTarget": "HIP 87585",
+        "toTarget": "HIP 94376"
+      }
+    ]
+  },
+  {
+    "id": "Eridanus",
+    "name": "Eridanus",
+    "abbreviation": "Eri",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 23875",
+        "toTarget": "HIP 22109"
+      },
+      {
+        "fromTarget": "HIP 22109",
+        "toTarget": "HIP 21444"
+      },
+      {
+        "fromTarget": "HIP 21444",
+        "toTarget": "HIP 19587"
+      },
+      {
+        "fromTarget": "HIP 19587",
+        "toTarget": "HIP 18543"
+      },
+      {
+        "fromTarget": "HIP 18543",
+        "toTarget": "HIP 17593"
+      },
+      {
+        "fromTarget": "HIP 17593",
+        "toTarget": "HIP 17378"
+      },
+      {
+        "fromTarget": "HIP 17378",
+        "toTarget": "HIP 16537"
+      },
+      {
+        "fromTarget": "HIP 16537",
+        "toTarget": "HIP 13701"
+      },
+      {
+        "fromTarget": "HIP 13701",
+        "toTarget": "HIP 12770"
+      },
+      {
+        "fromTarget": "HIP 12770",
+        "toTarget": "HIP 12770"
+      },
+      {
+        "fromTarget": "HIP 12770",
+        "toTarget": "HIP 12843"
+      },
+      {
+        "fromTarget": "HIP 12843",
+        "toTarget": "HIP 14146"
+      },
+      {
+        "fromTarget": "HIP 14146",
+        "toTarget": "HIP 15474"
+      },
+      {
+        "fromTarget": "HIP 15474",
+        "toTarget": "HIP 16611"
+      },
+      {
+        "fromTarget": "HIP 16611",
+        "toTarget": "HIP 17651"
+      },
+      {
+        "fromTarget": "HIP 17651",
+        "toTarget": "HIP 18216"
+      },
+      {
+        "fromTarget": "HIP 18216",
+        "toTarget": "HIP 18673"
+      },
+      {
+        "fromTarget": "HIP 18673",
+        "toTarget": "HIP 21248"
+      },
+      {
+        "fromTarget": "HIP 21248",
+        "toTarget": "HIP 21393"
+      },
+      {
+        "fromTarget": "HIP 21393",
+        "toTarget": "HIP 20535"
+      },
+      {
+        "fromTarget": "HIP 20535",
+        "toTarget": "HIP 20042"
+      },
+      {
+        "fromTarget": "HIP 20042",
+        "toTarget": "HIP 17874"
+      },
+      {
+        "fromTarget": "HIP 17874",
+        "toTarget": "HIP 17874"
+      },
+      {
+        "fromTarget": "HIP 17874",
+        "toTarget": "HIP 16870"
+      },
+      {
+        "fromTarget": "HIP 16870",
+        "toTarget": "HIP 15510"
+      },
+      {
+        "fromTarget": "HIP 15510",
+        "toTarget": "HIP 13847"
+      },
+      {
+        "fromTarget": "HIP 13847",
+        "toTarget": "HIP 12486"
+      },
+      {
+        "fromTarget": "HIP 12486",
+        "toTarget": "HIP 12413"
+      },
+      {
+        "fromTarget": "HIP 12413",
+        "toTarget": "HIP 11407"
+      },
+      {
+        "fromTarget": "HIP 11407",
+        "toTarget": "HIP 9007"
+      },
+      {
+        "fromTarget": "HIP 9007",
+        "toTarget": "HIP 7588"
+      }
+    ]
+  },
+  {
+    "id": "Gemini",
+    "name": "Gemini",
+    "abbreviation": "Gem",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 32362",
+        "toTarget": "HIP 35350"
+      },
+      {
+        "fromTarget": "HIP 35350",
+        "toTarget": "HIP 35550"
+      },
+      {
+        "fromTarget": "HIP 35550",
+        "toTarget": "HIP 34088"
+      },
+      {
+        "fromTarget": "HIP 34088",
+        "toTarget": "HIP 31681"
+      },
+      {
+        "fromTarget": "HIP 31681",
+        "toTarget": "HIP 34088"
+      },
+      {
+        "fromTarget": "HIP 34088",
+        "toTarget": "HIP 35550"
+      },
+      {
+        "fromTarget": "HIP 35550",
+        "toTarget": "HIP 36962"
+      },
+      {
+        "fromTarget": "HIP 36962",
+        "toTarget": "HIP 37740"
+      },
+      {
+        "fromTarget": "HIP 37740",
+        "toTarget": "HIP 36962"
+      },
+      {
+        "fromTarget": "HIP 36962",
+        "toTarget": "HIP 37826"
+      },
+      {
+        "fromTarget": "HIP 37826",
+        "toTarget": "HIP 36962"
+      },
+      {
+        "fromTarget": "HIP 36962",
+        "toTarget": "HIP 36046"
+      },
+      {
+        "fromTarget": "HIP 36046",
+        "toTarget": "HIP 34693"
+      },
+      {
+        "fromTarget": "HIP 34693",
+        "toTarget": "HIP 36850"
+      },
+      {
+        "fromTarget": "HIP 36850",
+        "toTarget": "HIP 34693"
+      },
+      {
+        "fromTarget": "HIP 34693",
+        "toTarget": "HIP 33018"
+      },
+      {
+        "fromTarget": "HIP 33018",
+        "toTarget": "HIP 34693"
+      },
+      {
+        "fromTarget": "HIP 34693",
+        "toTarget": "HIP 32246"
+      },
+      {
+        "fromTarget": "HIP 32246",
+        "toTarget": "HIP 30883"
+      },
+      {
+        "fromTarget": "HIP 30883",
+        "toTarget": "HIP 32246"
+      },
+      {
+        "fromTarget": "HIP 32246",
+        "toTarget": "HIP 30343"
+      },
+      {
+        "fromTarget": "HIP 30343",
+        "toTarget": "HIP 29655"
+      },
+      {
+        "fromTarget": "HIP 29655",
+        "toTarget": "HIP 28734"
+      }
+    ]
+  },
+  {
+    "id": "Grus",
+    "name": "Grus",
+    "abbreviation": "Gru",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 108085",
+        "toTarget": "HIP 109111"
+      },
+      {
+        "fromTarget": "HIP 109111",
+        "toTarget": "HIP 110997"
+      },
+      {
+        "fromTarget": "HIP 110997",
+        "toTarget": "HIP 109268"
+      },
+      {
+        "fromTarget": "HIP 109268",
+        "toTarget": "HIP 112122"
+      },
+      {
+        "fromTarget": "HIP 112122",
+        "toTarget": "HIP 110997"
+      },
+      {
+        "fromTarget": "HIP 110997",
+        "toTarget": "HIP 112122"
+      },
+      {
+        "fromTarget": "HIP 112122",
+        "toTarget": "HIP 112623"
+      },
+      {
+        "fromTarget": "HIP 112623",
+        "toTarget": "HIP 113638"
+      }
+    ]
+  },
+  {
+    "id": "Horologium",
+    "name": "Horologium",
+    "abbreviation": "Hor",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 19747",
+        "toTarget": "HIP 12653"
+      },
+      {
+        "fromTarget": "HIP 12653",
+        "toTarget": "HIP 12225"
+      },
+      {
+        "fromTarget": "HIP 12225",
+        "toTarget": "HIP 12484"
+      },
+      {
+        "fromTarget": "HIP 12484",
+        "toTarget": "HIP 14240"
+      },
+      {
+        "fromTarget": "HIP 14240",
+        "toTarget": "HIP 13884"
+      }
+    ]
+  },
+  {
+    "id": "Hydra",
+    "name": "Hydra",
+    "abbreviation": "Hya",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 43234",
+        "toTarget": "HIP 42799"
+      },
+      {
+        "fromTarget": "HIP 42799",
+        "toTarget": "HIP 42402"
+      },
+      {
+        "fromTarget": "HIP 42402",
+        "toTarget": "HIP 42313"
+      },
+      {
+        "fromTarget": "HIP 42313",
+        "toTarget": "HIP 43109"
+      },
+      {
+        "fromTarget": "HIP 43109",
+        "toTarget": "HIP 43813"
+      },
+      {
+        "fromTarget": "HIP 43813",
+        "toTarget": "HIP 45336"
+      },
+      {
+        "fromTarget": "HIP 45336",
+        "toTarget": "HIP 47431"
+      },
+      {
+        "fromTarget": "HIP 47431",
+        "toTarget": "HIP 46390"
+      },
+      {
+        "fromTarget": "HIP 46390",
+        "toTarget": "HIP 48356"
+      },
+      {
+        "fromTarget": "HIP 48356",
+        "toTarget": "HIP 49402"
+      },
+      {
+        "fromTarget": "HIP 49402",
+        "toTarget": "HIP 49841"
+      },
+      {
+        "fromTarget": "HIP 49841",
+        "toTarget": "HIP 51069"
+      },
+      {
+        "fromTarget": "HIP 51069",
+        "toTarget": "HIP 52943"
+      },
+      {
+        "fromTarget": "HIP 52943",
+        "toTarget": "HIP 53740"
+      },
+      {
+        "fromTarget": "HIP 54682",
+        "toTarget": "HIP 56343"
+      },
+      {
+        "fromTarget": "HIP 56343",
+        "toTarget": "HIP 57936"
+      },
+      {
+        "fromTarget": "HIP 57936",
+        "toTarget": "HIP 64962"
+      },
+      {
+        "fromTarget": "HIP 64962",
+        "toTarget": "HIP 68895"
+      },
+      {
+        "fromTarget": "HIP 68895",
+        "toTarget": "HIP 72571"
+      }
+    ]
+  },
+  {
+    "id": "Hydrus",
+    "name": "Hydrus",
+    "abbreviation": "Hyi",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 2021",
+        "toTarget": "HIP 17678"
+      },
+      {
+        "fromTarget": "HIP 17678",
+        "toTarget": "HIP 11001"
+      },
+      {
+        "fromTarget": "HIP 11001",
+        "toTarget": "HIP 9236"
+      },
+      {
+        "fromTarget": "HIP 9236",
+        "toTarget": "HIP 2021"
+      }
+    ]
+  },
+  {
+    "id": "Indus",
+    "name": "Indus",
+    "abbreviation": "Ind",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 103227",
+        "toTarget": "HIP 102333"
+      },
+      {
+        "fromTarget": "HIP 102333",
+        "toTarget": "HIP 101772"
+      },
+      {
+        "fromTarget": "HIP 101772",
+        "toTarget": "HIP 105319"
+      },
+      {
+        "fromTarget": "HIP 105319",
+        "toTarget": "HIP 108431"
+      },
+      {
+        "fromTarget": "HIP 108431",
+        "toTarget": "HIP 103227"
+      }
+    ]
+  },
+  {
+    "id": "Lacerta",
+    "name": "Lacerta",
+    "abbreviation": "Lac",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 111022",
+        "toTarget": "HIP 111169"
+      },
+      {
+        "fromTarget": "HIP 111169",
+        "toTarget": "HIP 110538"
+      },
+      {
+        "fromTarget": "HIP 110538",
+        "toTarget": "HIP 110609"
+      },
+      {
+        "fromTarget": "HIP 110609",
+        "toTarget": "HIP 111022"
+      },
+      {
+        "fromTarget": "HIP 111022",
+        "toTarget": "HIP 110351"
+      },
+      {
+        "fromTarget": "HIP 110351",
+        "toTarget": "HIP 111104"
+      },
+      {
+        "fromTarget": "HIP 111104",
+        "toTarget": "HIP 111944"
+      },
+      {
+        "fromTarget": "HIP 111944",
+        "toTarget": "HIP 111104"
+      },
+      {
+        "fromTarget": "HIP 111104",
+        "toTarget": "HIP 111944"
+      },
+      {
+        "fromTarget": "HIP 111944",
+        "toTarget": "HIP 111022"
+      },
+      {
+        "fromTarget": "HIP 111022",
+        "toTarget": "HIP 111944"
+      },
+      {
+        "fromTarget": "HIP 111944",
+        "toTarget": "HIP 111104"
+      },
+      {
+        "fromTarget": "HIP 111104",
+        "toTarget": "HIP 109754"
+      },
+      {
+        "fromTarget": "HIP 109754",
+        "toTarget": "HIP 109937"
+      }
+    ]
+  },
+  {
+    "id": "Leo",
+    "name": "Leo",
+    "abbreviation": "Leo",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 49669",
+        "toTarget": "HIP 49583"
+      },
+      {
+        "fromTarget": "HIP 49583",
+        "toTarget": "HIP 50583"
+      },
+      {
+        "fromTarget": "HIP 50583",
+        "toTarget": "HIP 50335"
+      },
+      {
+        "fromTarget": "HIP 50335",
+        "toTarget": "HIP 48455"
+      },
+      {
+        "fromTarget": "HIP 48455",
+        "toTarget": "HIP 47908"
+      },
+      {
+        "fromTarget": "HIP 50583",
+        "toTarget": "HIP 54872"
+      },
+      {
+        "fromTarget": "HIP 54872",
+        "toTarget": "HIP 57632"
+      },
+      {
+        "fromTarget": "HIP 57632",
+        "toTarget": "HIP 54879"
+      },
+      {
+        "fromTarget": "HIP 54879",
+        "toTarget": "HIP 54872"
+      },
+      {
+        "fromTarget": "HIP 54872",
+        "toTarget": "HIP 54879"
+      },
+      {
+        "fromTarget": "HIP 54879",
+        "toTarget": "HIP 49583"
+      },
+      {
+        "fromTarget": "HIP 48455",
+        "toTarget": "HIP 46146"
+      },
+      {
+        "fromTarget": "HIP 46146",
+        "toTarget": "HIP 46750"
+      },
+      {
+        "fromTarget": "HIP 46750",
+        "toTarget": "HIP 47908"
+      },
+      {
+        "fromTarget": "HIP 47908",
+        "toTarget": "HIP 49583"
+      },
+      {
+        "fromTarget": "HIP 54879",
+        "toTarget": "HIP 55642"
+      },
+      {
+        "fromTarget": "HIP 55642",
+        "toTarget": "HIP 55434"
+      }
+    ]
+  },
+  {
+    "id": "Leo Minor",
+    "name": "Leo Minor",
+    "abbreviation": "LMi",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 46952",
+        "toTarget": "HIP 49593"
+      },
+      {
+        "fromTarget": "HIP 49593",
+        "toTarget": "HIP 51233"
+      },
+      {
+        "fromTarget": "HIP 51233",
+        "toTarget": "HIP 53229"
+      },
+      {
+        "fromTarget": "HIP 53229",
+        "toTarget": "HIP 51056"
+      },
+      {
+        "fromTarget": "HIP 51056",
+        "toTarget": "HIP 49593"
+      }
+    ]
+  },
+  {
+    "id": "Lepus",
+    "name": "Lepus",
+    "abbreviation": "Lep",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 23685",
+        "toTarget": "HIP 24305"
+      },
+      {
+        "fromTarget": "HIP 24305",
+        "toTarget": "HIP 25985"
+      },
+      {
+        "fromTarget": "HIP 25985",
+        "toTarget": "HIP 25606"
+      },
+      {
+        "fromTarget": "HIP 25606",
+        "toTarget": "HIP 23685"
+      },
+      {
+        "fromTarget": "HIP 24845",
+        "toTarget": "HIP 24305"
+      },
+      {
+        "fromTarget": "HIP 24305",
+        "toTarget": "HIP 24327"
+      },
+      {
+        "fromTarget": "HIP 25606",
+        "toTarget": "HIP 27072"
+      },
+      {
+        "fromTarget": "HIP 27072",
+        "toTarget": "HIP 27654"
+      },
+      {
+        "fromTarget": "HIP 27654",
+        "toTarget": "HIP 28910"
+      },
+      {
+        "fromTarget": "HIP 28910",
+        "toTarget": "HIP 28103"
+      },
+      {
+        "fromTarget": "HIP 28103",
+        "toTarget": "HIP 27288"
+      },
+      {
+        "fromTarget": "HIP 27288",
+        "toTarget": "HIP 25985"
+      }
+    ]
+  },
+  {
+    "id": "Libra",
+    "name": "Libra",
+    "abbreviation": "Lib",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 72622",
+        "toTarget": "HIP 74785"
+      },
+      {
+        "fromTarget": "HIP 72622",
+        "toTarget": "HIP 73714"
+      },
+      {
+        "fromTarget": "HIP 74785",
+        "toTarget": "HIP 76333"
+      },
+      {
+        "fromTarget": "HIP 76333",
+        "toTarget": "HIP 72622"
+      },
+      {
+        "fromTarget": "HIP 72622",
+        "toTarget": "HIP 76333"
+      },
+      {
+        "fromTarget": "HIP 76333",
+        "toTarget": "HIP 76470"
+      },
+      {
+        "fromTarget": "HIP 76470",
+        "toTarget": "HIP 76600"
+      }
+    ]
+  },
+  {
+    "id": "Lupus",
+    "name": "Lupus",
+    "abbreviation": "Lup",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 71860",
+        "toTarget": "HIP 74395"
+      },
+      {
+        "fromTarget": "HIP 74395",
+        "toTarget": "HIP 75264"
+      },
+      {
+        "fromTarget": "HIP 75264",
+        "toTarget": "HIP 76297"
+      },
+      {
+        "fromTarget": "HIP 76297",
+        "toTarget": "HIP 75141"
+      },
+      {
+        "fromTarget": "HIP 75141",
+        "toTarget": "HIP 73273"
+      },
+      {
+        "fromTarget": "HIP 73273",
+        "toTarget": "HIP 75141"
+      },
+      {
+        "fromTarget": "HIP 75141",
+        "toTarget": "HIP 76297"
+      },
+      {
+        "fromTarget": "HIP 76297",
+        "toTarget": "HIP 78384"
+      },
+      {
+        "fromTarget": "HIP 78384",
+        "toTarget": "HIP 75177"
+      },
+      {
+        "fromTarget": "HIP 75177",
+        "toTarget": "HIP 77634"
+      },
+      {
+        "fromTarget": "HIP 77634",
+        "toTarget": "HIP 78384"
+      },
+      {
+        "fromTarget": "HIP 78384",
+        "toTarget": "HIP 74395"
+      }
+    ]
+  },
+  {
+    "id": "Lynx",
+    "name": "Lynx",
+    "abbreviation": "Lyn",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 45860",
+        "toTarget": "HIP 45688"
+      },
+      {
+        "fromTarget": "HIP 45688",
+        "toTarget": "HIP 44700"
+      },
+      {
+        "fromTarget": "HIP 44700",
+        "toTarget": "HIP 44248"
+      },
+      {
+        "fromTarget": "HIP 44248",
+        "toTarget": "HIP 41075"
+      },
+      {
+        "fromTarget": "HIP 41075",
+        "toTarget": "HIP 36145"
+      },
+      {
+        "fromTarget": "HIP 36145",
+        "toTarget": "HIP 33449"
+      },
+      {
+        "fromTarget": "HIP 33449",
+        "toTarget": "HIP 30060"
+      }
+    ]
+  },
+  {
+    "id": "Musca",
+    "name": "Musca",
+    "abbreviation": "Mus",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 57363",
+        "toTarget": "HIP 59929"
+      },
+      {
+        "fromTarget": "HIP 59929",
+        "toTarget": "HIP 61585"
+      },
+      {
+        "fromTarget": "HIP 61585",
+        "toTarget": "HIP 62322"
+      },
+      {
+        "fromTarget": "HIP 62322",
+        "toTarget": "HIP 63613"
+      },
+      {
+        "fromTarget": "HIP 63613",
+        "toTarget": "HIP 61199"
+      },
+      {
+        "fromTarget": "HIP 61199",
+        "toTarget": "HIP 61585"
+      }
+    ]
+  },
+  {
+    "id": "Octans",
+    "name": "Octans",
+    "abbreviation": "Oct",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 70638",
+        "toTarget": "HIP 107089"
+      },
+      {
+        "fromTarget": "HIP 107089",
+        "toTarget": "HIP 112405"
+      },
+      {
+        "fromTarget": "HIP 112405",
+        "toTarget": "HIP 70638"
+      }
+    ]
+  },
+  {
+    "id": "Ophiuchus",
+    "name": "Ophiuchus",
+    "abbreviation": "Oph",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 86032",
+        "toTarget": "HIP 83000"
+      },
+      {
+        "fromTarget": "HIP 83000",
+        "toTarget": "HIP 80883"
+      },
+      {
+        "fromTarget": "HIP 80883",
+        "toTarget": "HIP 79593"
+      },
+      {
+        "fromTarget": "HIP 79593",
+        "toTarget": "HIP 79882"
+      },
+      {
+        "fromTarget": "HIP 79882",
+        "toTarget": "HIP 80628"
+      },
+      {
+        "fromTarget": "HIP 80628",
+        "toTarget": "HIP 81377"
+      },
+      {
+        "fromTarget": "HIP 81377",
+        "toTarget": "HIP 80628"
+      },
+      {
+        "fromTarget": "HIP 80628",
+        "toTarget": "HIP 79882"
+      },
+      {
+        "fromTarget": "HIP 79882",
+        "toTarget": "HIP 79593"
+      },
+      {
+        "fromTarget": "HIP 79593",
+        "toTarget": "HIP 80883"
+      },
+      {
+        "fromTarget": "HIP 80883",
+        "toTarget": "HIP 83000"
+      },
+      {
+        "fromTarget": "HIP 83000",
+        "toTarget": "HIP 81377"
+      },
+      {
+        "fromTarget": "HIP 81377",
+        "toTarget": "HIP 84012"
+      },
+      {
+        "fromTarget": "HIP 84012",
+        "toTarget": "HIP 86742"
+      },
+      {
+        "fromTarget": "HIP 86742",
+        "toTarget": "HIP 87108"
+      },
+      {
+        "fromTarget": "HIP 87108",
+        "toTarget": "HIP 88048"
+      },
+      {
+        "fromTarget": "HIP 88048",
+        "toTarget": "HIP 87108"
+      },
+      {
+        "fromTarget": "HIP 87108",
+        "toTarget": "HIP 86742"
+      },
+      {
+        "fromTarget": "HIP 86742",
+        "toTarget": "HIP 86032"
+      },
+      {
+        "fromTarget": "HIP 84012",
+        "toTarget": "HIP 84970"
+      },
+      {
+        "fromTarget": "HIP 84970",
+        "toTarget": "HIP 85423"
+      },
+      {
+        "fromTarget": "HIP 81377",
+        "toTarget": "HIP 80894"
+      },
+      {
+        "fromTarget": "HIP 80894",
+        "toTarget": "HIP 80569"
+      },
+      {
+        "fromTarget": "HIP 80569",
+        "toTarget": "HIP 80343"
+      },
+      {
+        "fromTarget": "HIP 80343",
+        "toTarget": "HIP 80473"
+      }
+    ]
+  },
+  {
+    "id": "Pavo",
+    "name": "Pavo",
+    "abbreviation": "Pav",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 100751",
+        "toTarget": "HIP 99240"
+      },
+      {
+        "fromTarget": "HIP 99240",
+        "toTarget": "HIP 102395"
+      },
+      {
+        "fromTarget": "HIP 100751",
+        "toTarget": "HIP 105858"
+      },
+      {
+        "fromTarget": "HIP 105858",
+        "toTarget": "HIP 102395"
+      },
+      {
+        "fromTarget": "HIP 91792",
+        "toTarget": "HIP 99240"
+      },
+      {
+        "fromTarget": "HIP 99240",
+        "toTarget": "HIP 98495"
+      },
+      {
+        "fromTarget": "HIP 98495",
+        "toTarget": "HIP 99240"
+      },
+      {
+        "fromTarget": "HIP 99240",
+        "toTarget": "HIP 93015"
+      },
+      {
+        "fromTarget": "HIP 93015",
+        "toTarget": "HIP 88866"
+      },
+      {
+        "fromTarget": "HIP 88866",
+        "toTarget": "HIP 86929"
+      },
+      {
+        "fromTarget": "HIP 86929",
+        "toTarget": "HIP 88866"
+      },
+      {
+        "fromTarget": "HIP 88866",
+        "toTarget": "HIP 90098"
+      },
+      {
+        "fromTarget": "HIP 90098",
+        "toTarget": "HIP 92609"
+      },
+      {
+        "fromTarget": "HIP 92609",
+        "toTarget": "HIP 99240"
+      }
+    ]
+  },
+  {
+    "id": "Pegasus",
+    "name": "Pegasus",
+    "abbreviation": "Peg",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 109410",
+        "toTarget": "HIP 112158"
+      },
+      {
+        "fromTarget": "HIP 112158",
+        "toTarget": "HIP 113881"
+      },
+      {
+        "fromTarget": "HIP 113881",
+        "toTarget": "HIP 112748"
+      },
+      {
+        "fromTarget": "HIP 112748",
+        "toTarget": "HIP 112440"
+      },
+      {
+        "fromTarget": "HIP 112440",
+        "toTarget": "HIP 109176"
+      },
+      {
+        "fromTarget": "HIP 109176",
+        "toTarget": "HIP 107354"
+      },
+      {
+        "fromTarget": "HIP 677",
+        "toTarget": "HIP 113881"
+      },
+      {
+        "fromTarget": "HIP 113881",
+        "toTarget": "HIP 113963"
+      },
+      {
+        "fromTarget": "HIP 113963",
+        "toTarget": "HIP 1067"
+      },
+      {
+        "fromTarget": "HIP 1067",
+        "toTarget": "HIP 677"
+      },
+      {
+        "fromTarget": "HIP 107315",
+        "toTarget": "HIP 109427"
+      },
+      {
+        "fromTarget": "HIP 109427",
+        "toTarget": "HIP 112029"
+      },
+      {
+        "fromTarget": "HIP 112029",
+        "toTarget": "HIP 113963"
+      }
+    ]
+  },
+  {
+    "id": "Perseus",
+    "name": "Perseus",
+    "abbreviation": "Per",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 17448",
+        "toTarget": "HIP 18246"
+      },
+      {
+        "fromTarget": "HIP 18246",
+        "toTarget": "HIP 18614"
+      },
+      {
+        "fromTarget": "HIP 18614",
+        "toTarget": "HIP 18532"
+      },
+      {
+        "fromTarget": "HIP 18532",
+        "toTarget": "HIP 17358"
+      },
+      {
+        "fromTarget": "HIP 17358",
+        "toTarget": "HIP 15863"
+      },
+      {
+        "fromTarget": "HIP 15863",
+        "toTarget": "HIP 14328"
+      },
+      {
+        "fromTarget": "HIP 14328",
+        "toTarget": "HIP 13268"
+      },
+      {
+        "fromTarget": "HIP 13268",
+        "toTarget": "HIP 13531"
+      },
+      {
+        "fromTarget": "HIP 13531",
+        "toTarget": "HIP 14328"
+      },
+      {
+        "fromTarget": "HIP 14328",
+        "toTarget": "HIP 13531"
+      },
+      {
+        "fromTarget": "HIP 13531",
+        "toTarget": "HIP 14632"
+      },
+      {
+        "fromTarget": "HIP 14632",
+        "toTarget": "HIP 15863"
+      },
+      {
+        "fromTarget": "HIP 15863",
+        "toTarget": "HIP 14632"
+      },
+      {
+        "fromTarget": "HIP 14632",
+        "toTarget": "HIP 14668"
+      },
+      {
+        "fromTarget": "HIP 14668",
+        "toTarget": "HIP 14576"
+      },
+      {
+        "fromTarget": "HIP 14576",
+        "toTarget": "HIP 18532"
+      },
+      {
+        "fromTarget": "HIP 18532",
+        "toTarget": "HIP 14576"
+      },
+      {
+        "fromTarget": "HIP 14576",
+        "toTarget": "HIP 14354"
+      },
+      {
+        "fromTarget": "HIP 17358",
+        "toTarget": "HIP 19343"
+      },
+      {
+        "fromTarget": "HIP 19343",
+        "toTarget": "HIP 19812"
+      },
+      {
+        "fromTarget": "HIP 19812",
+        "toTarget": "HIP 20070"
+      },
+      {
+        "fromTarget": "HIP 20070",
+        "toTarget": "HIP 19167"
+      },
+      {
+        "fromTarget": "HIP 14632",
+        "toTarget": "HIP 12777"
+      },
+      {
+        "fromTarget": "HIP 12777",
+        "toTarget": "HIP 8068"
+      }
+    ]
+  },
+  {
+    "id": "Pictor",
+    "name": "Pictor",
+    "abbreviation": "Pic",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 32607",
+        "toTarget": "HIP 27530"
+      },
+      {
+        "fromTarget": "HIP 27530",
+        "toTarget": "HIP 27321"
+      }
+    ]
+  },
+  {
+    "id": "Pisces",
+    "name": "Pisces",
+    "abbreviation": "Psc",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 5742",
+        "toTarget": "HIP 6193"
+      },
+      {
+        "fromTarget": "HIP 6193",
+        "toTarget": "HIP 5586"
+      },
+      {
+        "fromTarget": "HIP 5586",
+        "toTarget": "HIP 5742"
+      },
+      {
+        "fromTarget": "HIP 5742",
+        "toTarget": "HIP 7097"
+      },
+      {
+        "fromTarget": "HIP 7097",
+        "toTarget": "HIP 8198"
+      },
+      {
+        "fromTarget": "HIP 8198",
+        "toTarget": "HIP 9487"
+      },
+      {
+        "fromTarget": "HIP 9487",
+        "toTarget": "HIP 7884"
+      },
+      {
+        "fromTarget": "HIP 7884",
+        "toTarget": "HIP 4906"
+      },
+      {
+        "fromTarget": "HIP 4906",
+        "toTarget": "HIP 3786"
+      },
+      {
+        "fromTarget": "HIP 3786",
+        "toTarget": "HIP 118268"
+      },
+      {
+        "fromTarget": "HIP 118268",
+        "toTarget": "HIP 116771"
+      },
+      {
+        "fromTarget": "HIP 116771",
+        "toTarget": "HIP 115830"
+      },
+      {
+        "fromTarget": "HIP 115830",
+        "toTarget": "HIP 114971"
+      },
+      {
+        "fromTarget": "HIP 114971",
+        "toTarget": "HIP 115738"
+      },
+      {
+        "fromTarget": "HIP 115738",
+        "toTarget": "HIP 116928"
+      },
+      {
+        "fromTarget": "HIP 116928",
+        "toTarget": "HIP 116771"
+      }
+    ]
+  },
+  {
+    "id": "Piscis Austrinus",
+    "name": "Piscis Austrinus",
+    "abbreviation": "PsA",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 113368",
+        "toTarget": "HIP 113246"
+      },
+      {
+        "fromTarget": "HIP 113246",
+        "toTarget": "HIP 112948"
+      },
+      {
+        "fromTarget": "HIP 112948",
+        "toTarget": "HIP 111188"
+      },
+      {
+        "fromTarget": "HIP 111188",
+        "toTarget": "HIP 109285"
+      },
+      {
+        "fromTarget": "HIP 109285",
+        "toTarget": "HIP 107380"
+      },
+      {
+        "fromTarget": "HIP 107380",
+        "toTarget": "HIP 107608"
+      },
+      {
+        "fromTarget": "HIP 107608",
+        "toTarget": "HIP 109285"
+      },
+      {
+        "fromTarget": "HIP 109285",
+        "toTarget": "HIP 111954"
+      },
+      {
+        "fromTarget": "HIP 111954",
+        "toTarget": "HIP 113368"
+      }
+    ]
+  },
+  {
+    "id": "Puppis",
+    "name": "Puppis",
+    "abbreviation": "Pup",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 39953",
+        "toTarget": "HIP 39429"
+      },
+      {
+        "fromTarget": "HIP 39429",
+        "toTarget": "HIP 39757"
+      },
+      {
+        "fromTarget": "HIP 39757",
+        "toTarget": "HIP 38170"
+      },
+      {
+        "fromTarget": "HIP 38170",
+        "toTarget": "HIP 37229"
+      },
+      {
+        "fromTarget": "HIP 37229",
+        "toTarget": "HIP 36917"
+      },
+      {
+        "fromTarget": "HIP 36917",
+        "toTarget": "HIP 35264"
+      },
+      {
+        "fromTarget": "HIP 35264",
+        "toTarget": "HIP 31685"
+      },
+      {
+        "fromTarget": "HIP 31685",
+        "toTarget": "HIP 30438"
+      },
+      {
+        "fromTarget": "HIP 36917",
+        "toTarget": "HIP 37677"
+      },
+      {
+        "fromTarget": "HIP 37677",
+        "toTarget": "HIP 38070"
+      },
+      {
+        "fromTarget": "HIP 38070",
+        "toTarget": "HIP 38170"
+      }
+    ]
+  },
+  {
+    "id": "Pyxis",
+    "name": "Pyxis",
+    "abbreviation": "Pyx",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 39429",
+        "toTarget": "HIP 42515"
+      },
+      {
+        "fromTarget": "HIP 42515",
+        "toTarget": "HIP 42828"
+      },
+      {
+        "fromTarget": "HIP 42828",
+        "toTarget": "HIP 43409"
+      }
+    ]
+  },
+  {
+    "id": "Reticulum",
+    "name": "Reticulum",
+    "abbreviation": "Ret",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 19780",
+        "toTarget": "HIP 17440"
+      },
+      {
+        "fromTarget": "HIP 17440",
+        "toTarget": "HIP 18597"
+      },
+      {
+        "fromTarget": "HIP 18597",
+        "toTarget": "HIP 19921"
+      },
+      {
+        "fromTarget": "HIP 19921",
+        "toTarget": "HIP 19780"
+      }
+    ]
+  },
+  {
+    "id": "Sagitta",
+    "name": "Sagitta",
+    "abbreviation": "Sge",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 98337",
+        "toTarget": "HIP 97365"
+      },
+      {
+        "fromTarget": "HIP 97365",
+        "toTarget": "HIP 96757"
+      },
+      {
+        "fromTarget": "HIP 96757",
+        "toTarget": "HIP 97365"
+      },
+      {
+        "fromTarget": "HIP 97365",
+        "toTarget": "HIP 96837"
+      }
+    ]
+  },
+  {
+    "id": "Scorpius",
+    "name": "Scorpius",
+    "abbreviation": "Sco",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 78820",
+        "toTarget": "HIP 78401"
+      },
+      {
+        "fromTarget": "HIP 78401",
+        "toTarget": "HIP 78265"
+      },
+      {
+        "fromTarget": "HIP 78265",
+        "toTarget": "HIP 78401"
+      },
+      {
+        "fromTarget": "HIP 78401",
+        "toTarget": "HIP 80112"
+      },
+      {
+        "fromTarget": "HIP 80112",
+        "toTarget": "HIP 80763"
+      },
+      {
+        "fromTarget": "HIP 80763",
+        "toTarget": "HIP 81266"
+      },
+      {
+        "fromTarget": "HIP 81266",
+        "toTarget": "HIP 82396"
+      },
+      {
+        "fromTarget": "HIP 82396",
+        "toTarget": "HIP 82514"
+      },
+      {
+        "fromTarget": "HIP 82514",
+        "toTarget": "HIP 82729"
+      },
+      {
+        "fromTarget": "HIP 82729",
+        "toTarget": "HIP 84143"
+      },
+      {
+        "fromTarget": "HIP 84143",
+        "toTarget": "HIP 86228"
+      },
+      {
+        "fromTarget": "HIP 86228",
+        "toTarget": "HIP 87073"
+      },
+      {
+        "fromTarget": "HIP 87073",
+        "toTarget": "HIP 86670"
+      },
+      {
+        "fromTarget": "HIP 86670",
+        "toTarget": "HIP 85696"
+      },
+      {
+        "fromTarget": "HIP 85696",
+        "toTarget": "HIP 85927"
+      },
+      {
+        "fromTarget": "HIP 85927",
+        "toTarget": "HIP 87261"
+      },
+      {
+        "fromTarget": "HIP 78820",
+        "toTarget": "HIP 79374"
+      },
+      {
+        "fromTarget": "HIP 78265",
+        "toTarget": "HIP 78104"
+      }
+    ]
+  },
+  {
+    "id": "Scutum",
+    "name": "Scutum",
+    "abbreviation": "Sct",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 92175",
+        "toTarget": "HIP 91117"
+      },
+      {
+        "fromTarget": "HIP 91117",
+        "toTarget": "HIP 90595"
+      },
+      {
+        "fromTarget": "HIP 90595",
+        "toTarget": "HIP 91726"
+      },
+      {
+        "fromTarget": "HIP 91726",
+        "toTarget": "HIP 92175"
+      }
+    ]
+  },
+  {
+    "id": "Serpens",
+    "name": "Serpens",
+    "abbreviation": "Ser",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 77233",
+        "toTarget": "HIP 78072"
+      },
+      {
+        "fromTarget": "HIP 78072",
+        "toTarget": "HIP 77450"
+      },
+      {
+        "fromTarget": "HIP 77450",
+        "toTarget": "HIP 76852"
+      },
+      {
+        "fromTarget": "HIP 76852",
+        "toTarget": "HIP 77233"
+      },
+      {
+        "fromTarget": "HIP 77233",
+        "toTarget": "HIP 76276"
+      },
+      {
+        "fromTarget": "HIP 76276",
+        "toTarget": "HIP 77070"
+      },
+      {
+        "fromTarget": "HIP 77070",
+        "toTarget": "HIP 77622"
+      },
+      {
+        "fromTarget": "HIP 77622",
+        "toTarget": "HIP 77516"
+      },
+      {
+        "fromTarget": "HIP 77516",
+        "toTarget": "HIP 79593"
+      },
+      {
+        "fromTarget": "HIP 84012",
+        "toTarget": "HIP 86263"
+      },
+      {
+        "fromTarget": "HIP 86263",
+        "toTarget": "HIP 88048"
+      },
+      {
+        "fromTarget": "HIP 88048",
+        "toTarget": "HIP 89962"
+      },
+      {
+        "fromTarget": "HIP 89962",
+        "toTarget": "HIP 92946"
+      }
+    ]
+  },
+  {
+    "id": "Telescopium",
+    "name": "Telescopium",
+    "abbreviation": "Tel",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 89112",
+        "toTarget": "HIP 90422"
+      },
+      {
+        "fromTarget": "HIP 90422",
+        "toTarget": "HIP 90568"
+      }
+    ]
+  },
+  {
+    "id": "Triangulum Australe",
+    "name": "Triangulum Australe",
+    "abbreviation": "TrA",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 82273",
+        "toTarget": "HIP 77952"
+      },
+      {
+        "fromTarget": "HIP 77952",
+        "toTarget": "HIP 76440"
+      },
+      {
+        "fromTarget": "HIP 76440",
+        "toTarget": "HIP 74946"
+      },
+      {
+        "fromTarget": "HIP 74946",
+        "toTarget": "HIP 82273"
+      }
+    ]
+  },
+  {
+    "id": "Tucana",
+    "name": "Tucana",
+    "abbreviation": "Tuc",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 2484",
+        "toTarget": "HIP 1599"
+      },
+      {
+        "fromTarget": "HIP 1599",
+        "toTarget": "HIP 118322"
+      },
+      {
+        "fromTarget": "HIP 118322",
+        "toTarget": "HIP 110838"
+      },
+      {
+        "fromTarget": "HIP 110838",
+        "toTarget": "HIP 110130"
+      },
+      {
+        "fromTarget": "HIP 110130",
+        "toTarget": "HIP 114996"
+      },
+      {
+        "fromTarget": "HIP 114996",
+        "toTarget": "HIP 2484"
+      }
+    ]
+  },
+  {
+    "id": "Ursa Minor",
+    "name": "Ursa Minor",
+    "abbreviation": "UMi",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 11767",
+        "toTarget": "HIP 85822"
+      },
+      {
+        "fromTarget": "HIP 85822",
+        "toTarget": "HIP 82080"
+      },
+      {
+        "fromTarget": "HIP 82080",
+        "toTarget": "HIP 77055"
+      },
+      {
+        "fromTarget": "HIP 77055",
+        "toTarget": "HIP 79822"
+      },
+      {
+        "fromTarget": "HIP 79822",
+        "toTarget": "HIP 75097"
+      },
+      {
+        "fromTarget": "HIP 75097",
+        "toTarget": "HIP 72607"
+      },
+      {
+        "fromTarget": "HIP 72607",
+        "toTarget": "HIP 77055"
+      }
+    ]
+  },
+  {
+    "id": "Vela",
+    "name": "Vela",
+    "abbreviation": "Vel",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 42913",
+        "toTarget": "HIP 39953"
+      },
+      {
+        "fromTarget": "HIP 39953",
+        "toTarget": "HIP 44816"
+      },
+      {
+        "fromTarget": "HIP 44816",
+        "toTarget": "HIP 46651"
+      },
+      {
+        "fromTarget": "HIP 46651",
+        "toTarget": "HIP 50191"
+      },
+      {
+        "fromTarget": "HIP 50191",
+        "toTarget": "HIP 52727"
+      },
+      {
+        "fromTarget": "HIP 52727",
+        "toTarget": "HIP 48774"
+      },
+      {
+        "fromTarget": "HIP 48774",
+        "toTarget": "HIP 45941"
+      },
+      {
+        "fromTarget": "HIP 45941",
+        "toTarget": "HIP 42913"
+      }
+    ]
+  },
+  {
+    "id": "Virgo",
+    "name": "Virgo",
+    "abbreviation": "Vir",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 60129",
+        "toTarget": "HIP 58948"
+      },
+      {
+        "fromTarget": "HIP 58948",
+        "toTarget": "HIP 57380"
+      },
+      {
+        "fromTarget": "HIP 57380",
+        "toTarget": "HIP 57757"
+      },
+      {
+        "fromTarget": "HIP 57757",
+        "toTarget": "HIP 60129"
+      },
+      {
+        "fromTarget": "HIP 60129",
+        "toTarget": "HIP 61941"
+      },
+      {
+        "fromTarget": "HIP 61941",
+        "toTarget": "HIP 63090"
+      },
+      {
+        "fromTarget": "HIP 63090",
+        "toTarget": "HIP 63608"
+      },
+      {
+        "fromTarget": "HIP 63608",
+        "toTarget": "HIP 63090"
+      },
+      {
+        "fromTarget": "HIP 63090",
+        "toTarget": "HIP 61941"
+      },
+      {
+        "fromTarget": "HIP 61941",
+        "toTarget": "HIP 64238"
+      },
+      {
+        "fromTarget": "HIP 64238",
+        "toTarget": "HIP 65474"
+      },
+      {
+        "fromTarget": "HIP 65474",
+        "toTarget": "HIP 64238"
+      },
+      {
+        "fromTarget": "HIP 64238",
+        "toTarget": "HIP 61941"
+      },
+      {
+        "fromTarget": "HIP 61941",
+        "toTarget": "HIP 66249"
+      },
+      {
+        "fromTarget": "HIP 66249",
+        "toTarget": "HIP 68520"
+      },
+      {
+        "fromTarget": "HIP 68520",
+        "toTarget": "HIP 72220"
+      },
+      {
+        "fromTarget": "HIP 72220",
+        "toTarget": "HIP 68520"
+      },
+      {
+        "fromTarget": "HIP 68520",
+        "toTarget": "HIP 66249"
+      },
+      {
+        "fromTarget": "HIP 66249",
+        "toTarget": "HIP 69701"
+      },
+      {
+        "fromTarget": "HIP 69701",
+        "toTarget": "HIP 71957"
+      }
+    ]
+  },
+  {
+    "id": "Volans",
+    "name": "Volans",
+    "abbreviation": "Vol",
+    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "segments": [
+      {
+        "fromTarget": "HIP 44382",
+        "toTarget": "HIP 41312"
+      },
+      {
+        "fromTarget": "HIP 41312",
+        "toTarget": "HIP 39794"
+      },
+      {
+        "fromTarget": "HIP 39794",
+        "toTarget": "HIP 35228"
+      },
+      {
+        "fromTarget": "HIP 35228",
+        "toTarget": "HIP 34481"
+      },
+      {
+        "fromTarget": "HIP 34481",
+        "toTarget": "HIP 39794"
+      },
+      {
+        "fromTarget": "HIP 39794",
+        "toTarget": "HIP 44382"
+      }
+    ]
+  }
+]

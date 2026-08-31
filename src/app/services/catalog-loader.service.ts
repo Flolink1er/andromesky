@@ -23,6 +23,16 @@ export class CatalogLoaderService {
       file: 'hipparcos',
       enabled: true,
     },
+    {
+      catalog: AstronomicalCatalog.BrightStar,
+      file: 'bright-stars',
+      enabled: true,
+    },
+    {
+      catalog: AstronomicalCatalog.Hipparcos,
+      file: 'hipparcos-lines',
+      enabled: true,
+    },
   ];
 
   loadCatalogs(): Observable<IAstronomicalObject[]> {

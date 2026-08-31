@@ -41,6 +41,7 @@ export enum AstronomicalCatalog {
   NGC = 'NGC',
   Caldwell = 'Caldwell',
   Hipparcos = 'Hipparcos',
+  BrightStar = 'Bright Star Catalogue',
   Planet = 'Planet',
 }
 

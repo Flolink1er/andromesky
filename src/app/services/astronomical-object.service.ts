@@ -72,7 +72,8 @@ export class AstronomicalObjectService {
           this.normalize(object.name).includes(normalized) ||
           this.normalize(object.target).includes(normalized) ||
           this.normalize(object.constellationId ?? '').includes(normalized) ||
-          this.normalize(object.type).includes(normalized)
+          this.normalize(object.type).includes(normalized) ||
+          object.searchTerms.some((term) => this.normalize(term).includes(normalized))
         );
       })
       .slice(0, 8);

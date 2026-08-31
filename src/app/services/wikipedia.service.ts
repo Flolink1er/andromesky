@@ -154,6 +154,15 @@ export class WikipediaService {
         });
 
         break;
+
+      case AstronomicalCatalog.BrightStar:
+        strategies.push({
+          name: 'catalog',
+          priority: 20,
+          term: object.target,
+        });
+
+        break;
     }
 
     object.searchTerms.forEach((term, index) => {

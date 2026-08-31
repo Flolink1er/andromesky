@@ -1,6 +1,7 @@
 import { inject, Injectable, signal } from '@angular/core';
 import { IConstellation } from '../models/astronomical-object.model';
 import { JsonLoaderService } from './json-loader.service';
+import { map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -16,7 +17,9 @@ export class ConstellationService {
   }
 
   private loadConstellations(): void {
-    this.jsonLoader.load<IConstellation[]>('constellations').subscribe({
+    this.jsonLoader.loadMany<IConstellation>(['constellations', 'constellations-extra']).pipe(
+      map((groups) => groups.flat()),
+    ).subscribe({
       next: (constellations) => this._constellations.set(constellations),
       error: (error) => console.error('Unable to load constellations.', error),
     });
