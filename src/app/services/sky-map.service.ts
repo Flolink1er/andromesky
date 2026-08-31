@@ -9,6 +9,7 @@ declare let A: any;
   providedIn: 'root',
 })
 export class SkyMapService {
+  private static readonly DRAG_THRESHOLD_PX = 8;
   private static readonly CONSTELLATION_LINE_COLOR = '#60A5FA';
   private static readonly CONSTELLATION_STAR_COLOR = '#FFFFFF';
   private static readonly CONSTELLATION_STAR_RADIUS = 0.08;
@@ -22,6 +23,8 @@ export class SkyMapService {
   private locationResultCatalog: any;
   private locationResultOverlay: any;
   private locationHintOverlay: any;
+  private pointerStart?: { pointerId: number; x: number; y: number };
+  private didDrag = false;
 
   private readonly astronomicalObject = inject(AstronomicalObjectService);
   private readonly constellation = inject(ConstellationService);
@@ -47,6 +50,39 @@ export class SkyMapService {
       },
       true,
     );
+
+    mapContainer?.addEventListener('pointerdown', (event) => {
+      if (event.button !== 0) {
+        return;
+      }
+
+      this.pointerStart = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
+      this.didDrag = false;
+    }, true);
+
+    mapContainer?.addEventListener('pointermove', (event) => {
+      if (!this.pointerStart || event.pointerId !== this.pointerStart.pointerId) {
+        return;
+      }
+
+      const distance = Math.hypot(event.clientX - this.pointerStart.x, event.clientY - this.pointerStart.y);
+      if (distance >= SkyMapService.DRAG_THRESHOLD_PX) {
+        this.didDrag = true;
+      }
+    }, true);
+
+    const releasePointer = (event: PointerEvent): void => {
+      if (!this.pointerStart || event.pointerId !== this.pointerStart.pointerId) {
+        return;
+      }
+
+      this.pointerStart = undefined;
+
+      // Aladin emits its click after pointerup. Reset after that click has had a chance to run.
+      window.setTimeout(() => (this.didDrag = false), 0);
+    };
+    mapContainer?.addEventListener('pointerup', releasePointer, true);
+    mapContainer?.addEventListener('pointercancel', releasePointer, true);
 
     this.aladin = A.aladin(container, {
       survey: 'P/DSS2/color',
@@ -159,6 +195,10 @@ export class SkyMapService {
     this.clickCallback = callback;
 
     this.aladin.on('click', (position: any) => {
+      if (this.didDrag) {
+        return;
+      }
+
       callback(position.ra, position.dec);
     });
   }
