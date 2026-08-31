@@ -42,10 +42,20 @@
     "abbreviation": "Her",
     "description": "Grande constellation boréale contenant le célèbre amas globulaire M13.",
     "segments": [
+      { "fromTarget": "HR 6092", "toTarget": "Eta Herculis" },
       { "fromTarget": "Pi Herculis", "toTarget": "Eta Herculis" },
       { "fromTarget": "Eta Herculis", "toTarget": "Zeta Herculis" },
       { "fromTarget": "Zeta Herculis", "toTarget": "Epsilon Herculis" },
-      { "fromTarget": "Epsilon Herculis", "toTarget": "Pi Herculis" }
+      { "fromTarget": "Epsilon Herculis", "toTarget": "Pi Herculis" },
+      { "fromTarget": "Zeta Herculis", "toTarget": "HR 6148" },
+      { "fromTarget": "HR 6148", "toTarget": "HR 6095" },
+      { "fromTarget": "HR 6148", "toTarget": "HR 6406" },
+      { "fromTarget": "HR 6406", "toTarget": "HR 6410" },
+      { "fromTarget": "Epsilon Herculis", "toTarget": "HR 6695" },
+      { "fromTarget": "HR 6695", "toTarget": "HR 6588" },
+      { "fromTarget": "HR 6695", "toTarget": "HR 6623" },
+      { "fromTarget": "HR 6623", "toTarget": "HR 6703" },
+      { "fromTarget": "HR 6703", "toTarget": "HR 6779" }
     ]
   },
   {
