@@ -1,42 +1,222 @@
 [
   {
-    "target": "M42",
-    "name": "Nébuleuse d'Orion",
-    "englishName": "Orion Nebula",
-    "searchTerms": ["M42", "Messier 42", "NGC 1976", "Orion Nebula", "Great Orion Nebula"],
-    "description": "Nébuleuse diffuse située dans la constellation d'Orion.",
+    "target": "M1",
+    "name": "Nébuleuse du Crabe",
+    "englishName": "Crab Nebula",
+    "searchTerms": [
+      "M1",
+      "Messier 1",
+      "NGC 1952",
+      "Crab Nebula"
+    ],
+    "description": "Vestige d'une supernova observée en 1054.",
     "type": "Nebula",
     "catalog": "Messier",
-    "constellationId": "Orion",
-    "magnitude": 4,
-    "ra": 83.822,
-    "dec": -5.391
+    "constellationId": "Taurus",
+    "magnitude": 8.4,
+    "ra": 83.633,
+    "dec": 22.0145
   },
   {
-    "target": "M31",
-    "name": "Galaxie d'Andromède",
-    "englishName": "Andromeda Galaxy",
-    "searchTerms": ["M31", "Messier 31", "NGC 224", "Andromeda Galaxy", "Great Andromeda Galaxy"],
-    "description": "Galaxie spirale la plus proche de la Voie Lactée.",
-    "type": "Galaxy",
+    "target": "M2",
+    "name": "Objet Messier M2",
+    "englishName": "Messier 2",
+    "searchTerms": [
+      "M2",
+      "Messier 2",
+      "NGC 7089",
+      "M2 NGC 7089"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Aquarius.",
+    "type": "GlobularCluster",
     "catalog": "Messier",
-    "constellationId": "Andromeda",
-    "magnitude": 3.44,
-    "ra": 10.6847,
-    "dec": 41.269
+    "constellationId": "Aquarius",
+    "magnitude": 6.5,
+    "ra": 323.375,
+    "dec": 0.8167
   },
   {
-    "target": "M45",
-    "name": "Pléiades",
-    "englishName": "Pleiades",
-    "searchTerms": ["M45", "Messier 45", "Pleiades", "Seven Sisters", "Melotte 22"],
-    "description": "Amas ouvert visible dans la constellation du Taureau.",
+    "target": "M3",
+    "name": "Objet Messier M3",
+    "englishName": "Messier 3",
+    "searchTerms": [
+      "M3",
+      "Messier 3",
+      "NGC 5272",
+      "M3 NGC 5272"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Canes Venatici.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Canes Venatici",
+    "magnitude": 6.4,
+    "ra": 205.55,
+    "dec": 28.3833
+  },
+  {
+    "target": "M4",
+    "name": "Objet Messier M4",
+    "englishName": "Messier 4",
+    "searchTerms": [
+      "M4",
+      "Messier 4",
+      "NGC 6121",
+      "M4 NGC 6121"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Scorpius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Scorpius",
+    "magnitude": 5.9,
+    "ra": 245.9,
+    "dec": -26.5333
+  },
+  {
+    "target": "M5",
+    "name": "Objet Messier M5",
+    "englishName": "Messier 5",
+    "searchTerms": [
+      "M5",
+      "Messier 5",
+      "NGC 5904",
+      "M5 NGC 5904"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Serpens.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Serpens",
+    "magnitude": 5.8,
+    "ra": 229.65,
+    "dec": 2.0833
+  },
+  {
+    "target": "M6",
+    "name": "Amas du Papillon",
+    "englishName": "Butterfly Cluster",
+    "searchTerms": [
+      "M6",
+      "Messier 6",
+      "NGC 6405",
+      "M6 NGC 6405",
+      "Butterfly Cluster"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Scorpius.",
     "type": "OpenCluster",
     "catalog": "Messier",
-    "constellationId": "Taurus",
-    "magnitude": 1.6,
-    "ra": 56.75,
-    "dec": 24.1167
+    "constellationId": "Scorpius",
+    "magnitude": 4.2,
+    "ra": 265.025,
+    "dec": -32.2167
+  },
+  {
+    "target": "M7",
+    "name": "Amas de Ptolémée",
+    "englishName": "Ptolemy's Cluster",
+    "searchTerms": [
+      "M7",
+      "Messier 7",
+      "NGC 6475",
+      "M7 NGC 6475",
+      "Ptolemy's Cluster"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Scorpius.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Scorpius",
+    "magnitude": 3.3,
+    "ra": 268.475,
+    "dec": -34.8167
+  },
+  {
+    "target": "M8",
+    "name": "Nébuleuse de la Lagune",
+    "englishName": "Lagoon Nebula",
+    "searchTerms": [
+      "M8",
+      "Messier 8",
+      "NGC 6523",
+      "Lagoon Nebula"
+    ],
+    "description": "Grande nébuleuse diffuse visible dans le Sagittaire.",
+    "type": "Nebula",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 6,
+    "ra": 270.925,
+    "dec": -24.38
+  },
+  {
+    "target": "M9",
+    "name": "Objet Messier M9",
+    "englishName": "Messier 9",
+    "searchTerms": [
+      "M9",
+      "Messier 9",
+      "NGC 6333",
+      "M9 NGC 6333"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Ophiuchus.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Ophiuchus",
+    "magnitude": 7.9,
+    "ra": 259.8,
+    "dec": -18.5167
+  },
+  {
+    "target": "M10",
+    "name": "Objet Messier M10",
+    "englishName": "Messier 10",
+    "searchTerms": [
+      "M10",
+      "Messier 10",
+      "NGC 6254",
+      "M10 NGC 6254"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Ophiuchus.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Ophiuchus",
+    "magnitude": 6.6,
+    "ra": 254.275,
+    "dec": -4.1
+  },
+  {
+    "target": "M11",
+    "name": "Amas du Canard sauvage",
+    "englishName": "Wild Duck Cluster",
+    "searchTerms": [
+      "M11",
+      "Messier 11",
+      "NGC 6705",
+      "M11 NGC 6705",
+      "Wild Duck Cluster"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Scutum.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Scutum",
+    "magnitude": 5.8,
+    "ra": 282.775,
+    "dec": -6.2667
+  },
+  {
+    "target": "M12",
+    "name": "Objet Messier M12",
+    "englishName": "Messier 12",
+    "searchTerms": [
+      "M12",
+      "Messier 12",
+      "NGC 6218",
+      "M12 NGC 6218"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Ophiuchus.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Ophiuchus",
+    "magnitude": 6.6,
+    "ra": 251.8,
+    "dec": -1.95
   },
   {
     "target": "M13",
@@ -58,69 +238,245 @@
     "dec": 36.461
   },
   {
-    "target": "M57",
-    "name": "Nébuleuse de l'Anneau",
-    "englishName": "Ring Nebula",
-    "searchTerms": ["M57", "Messier 57", "NGC 6720", "Ring Nebula"],
-    "description": "Nébuleuse planétaire célèbre située dans la Lyre.",
-    "type": "Nebula",
+    "target": "M14",
+    "name": "Objet Messier M14",
+    "englishName": "Messier 14",
+    "searchTerms": [
+      "M14",
+      "Messier 14",
+      "NGC 6402",
+      "M14 NGC 6402"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Ophiuchus.",
+    "type": "GlobularCluster",
     "catalog": "Messier",
-    "constellationId": "Lyra",
-    "magnitude": 8.8,
-    "ra": 283.396,
-    "dec": 33.03
+    "constellationId": "Ophiuchus",
+    "magnitude": 7.6,
+    "ra": 264.4,
+    "dec": -3.25
   },
   {
-    "target": "M8",
-    "name": "Nébuleuse de la Lagune",
-    "englishName": "Lagoon Nebula",
-    "searchTerms": ["M8", "Messier 8", "NGC 6523", "Lagoon Nebula"],
-    "description": "Grande nébuleuse diffuse visible dans le Sagittaire.",
+    "target": "M15",
+    "name": "Objet Messier M15",
+    "englishName": "Messier 15",
+    "searchTerms": [
+      "M15",
+      "Messier 15",
+      "NGC 7078",
+      "M15 NGC 7078"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Pegasus.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Pegasus",
+    "magnitude": 6.4,
+    "ra": 322.5,
+    "dec": 12.1667
+  },
+  {
+    "target": "M16",
+    "name": "Nébuleuse de l'Aigle",
+    "englishName": "Eagle Nebula",
+    "searchTerms": [
+      "M16",
+      "Messier 16",
+      "NGC 6611",
+      "M16 NGC 6611",
+      "Eagle Nebula",
+      "Star Queen Nebula"
+    ],
+    "description": "Nébuleuse diffuse du catalogue Messier située dans la constellation Serpens.",
+    "type": "Nebula",
+    "catalog": "Messier",
+    "constellationId": "Serpens",
+    "magnitude": 6.4,
+    "ra": 274.7,
+    "dec": -13.7833
+  },
+  {
+    "target": "M17",
+    "name": "Nébuleuse Oméga",
+    "englishName": "Omega Nebula",
+    "searchTerms": [
+      "M17",
+      "Messier 17",
+      "NGC 6618",
+      "M17 NGC 6618",
+      "Omega Nebula",
+      "Swan Nebula"
+    ],
+    "description": "Nébuleuse diffuse du catalogue Messier située dans la constellation Sagittarius.",
     "type": "Nebula",
     "catalog": "Messier",
     "constellationId": "Sagittarius",
-    "magnitude": 6.0,
-    "ra": 270.925,
-    "dec": -24.38
+    "magnitude": 7.5,
+    "ra": 275.2,
+    "dec": -16.1833
   },
   {
-    "target": "M51",
-    "name": "Galaxie du Tourbillon",
-    "englishName": "Whirlpool Galaxy",
-    "searchTerms": ["M51", "Messier 51", "NGC 5194", "Whirlpool Galaxy"],
-    "description": "Galaxie spirale en interaction avec une galaxie compagne.",
-    "type": "Galaxy",
+    "target": "M18",
+    "name": "Objet Messier M18",
+    "englishName": "Messier 18",
+    "searchTerms": [
+      "M18",
+      "Messier 18",
+      "NGC 6613",
+      "M18 NGC 6613"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "OpenCluster",
     "catalog": "Messier",
-    "constellationId": "Canes Venatici",
-    "magnitude": 8.4,
-    "ra": 202.484,
-    "dec": 47.23
-  },
-  {
-    "target": "M81",
-    "name": "Galaxie de Bode",
-    "englishName": "Bode's Galaxy",
-    "searchTerms": ["M81", "Messier 81", "NGC 3031", "Bode's Galaxy"],
-    "description": "Grande galaxie spirale visible dans la Grande Ourse.",
-    "type": "Galaxy",
-    "catalog": "Messier",
-    "constellationId": "Ursa Major",
+    "constellationId": "Sagittarius",
     "magnitude": 6.9,
-    "ra": 148.888,
-    "dec": 69.065
+    "ra": 274.975,
+    "dec": -17.1333
   },
   {
-    "target": "M1",
-    "name": "Nébuleuse du Crabe",
-    "englishName": "Crab Nebula",
-    "searchTerms": ["M1", "Messier 1", "NGC 1952", "Crab Nebula"],
-    "description": "Vestige d'une supernova observée en 1054.",
+    "target": "M19",
+    "name": "Objet Messier M19",
+    "englishName": "Messier 19",
+    "searchTerms": [
+      "M19",
+      "Messier 19",
+      "NGC 6273",
+      "M19 NGC 6273"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Ophiuchus.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Ophiuchus",
+    "magnitude": 7.2,
+    "ra": 255.65,
+    "dec": -26.2667
+  },
+  {
+    "target": "M20",
+    "name": "Nébuleuse Trifide",
+    "englishName": "Trifid Nebula",
+    "searchTerms": [
+      "M20",
+      "Messier 20",
+      "NGC 6514",
+      "M20 NGC 6514",
+      "Trifid Nebula"
+    ],
+    "description": "Nébuleuse diffuse du catalogue Messier située dans la constellation Sagittarius.",
     "type": "Nebula",
     "catalog": "Messier",
-    "constellationId": "Taurus",
-    "magnitude": 8.4,
-    "ra": 83.633,
-    "dec": 22.0145
+    "constellationId": "Sagittarius",
+    "magnitude": 9,
+    "ra": 270.65,
+    "dec": -23.0333
+  },
+  {
+    "target": "M21",
+    "name": "Objet Messier M21",
+    "englishName": "Messier 21",
+    "searchTerms": [
+      "M21",
+      "Messier 21",
+      "NGC 6531",
+      "M21 NGC 6531"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 5.9,
+    "ra": 271.15,
+    "dec": -22.5
+  },
+  {
+    "target": "M22",
+    "name": "Grand amas du Sagittaire",
+    "englishName": "Great Sagittarius Cluster",
+    "searchTerms": [
+      "M22",
+      "Messier 22",
+      "NGC 6656",
+      "M22 NGC 6656",
+      "Great Sagittarius Cluster"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 5.1,
+    "ra": 279.1,
+    "dec": -23.9
+  },
+  {
+    "target": "M23",
+    "name": "Objet Messier M23",
+    "englishName": "Messier 23",
+    "searchTerms": [
+      "M23",
+      "Messier 23",
+      "NGC 6494",
+      "M23 NGC 6494"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 5.5,
+    "ra": 269.2,
+    "dec": -19.0167
+  },
+  {
+    "target": "M24",
+    "name": "Nuage stellaire du Sagittaire",
+    "englishName": "Sagittarius Star Cloud",
+    "searchTerms": [
+      "M24",
+      "Messier 24",
+      "NGC 6603",
+      "M24 NGC 6603",
+      "Sagittarius Star Cloud"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 4.6,
+    "ra": 274.225,
+    "dec": -18.4833
+  },
+  {
+    "target": "M25",
+    "name": "Objet Messier M25",
+    "englishName": "Messier 25",
+    "searchTerms": [
+      "M25",
+      "Messier 25",
+      "NGC IC4725",
+      "M25 NGC IC4725"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 4.6,
+    "ra": 277.9,
+    "dec": -19.25
+  },
+  {
+    "target": "M26",
+    "name": "Objet Messier M26",
+    "englishName": "Messier 26",
+    "searchTerms": [
+      "M26",
+      "Messier 26",
+      "NGC 6694",
+      "M26 NGC 6694"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Scutum.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Scutum",
+    "magnitude": 8,
+    "ra": 281.3,
+    "dec": -9.4
   },
   {
     "target": "M27",
@@ -141,5 +497,1522 @@
     "magnitude": 7.5,
     "ra": 299.901,
     "dec": 22.721
+  },
+  {
+    "target": "M28",
+    "name": "Objet Messier M28",
+    "englishName": "Messier 28",
+    "searchTerms": [
+      "M28",
+      "Messier 28",
+      "NGC 6626",
+      "M28 NGC 6626"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 6.9,
+    "ra": 276.125,
+    "dec": -24.8667
+  },
+  {
+    "target": "M29",
+    "name": "Objet Messier M29",
+    "englishName": "Messier 29",
+    "searchTerms": [
+      "M29",
+      "Messier 29",
+      "NGC 6913",
+      "M29 NGC 6913"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Cygnus.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Cygnus",
+    "magnitude": 6.6,
+    "ra": 305.975,
+    "dec": 38.5333
+  },
+  {
+    "target": "M30",
+    "name": "Objet Messier M30",
+    "englishName": "Messier 30",
+    "searchTerms": [
+      "M30",
+      "Messier 30",
+      "NGC 7099",
+      "M30 NGC 7099"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Capricornus.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Capricornus",
+    "magnitude": 7.5,
+    "ra": 325.1,
+    "dec": -23.1833
+  },
+  {
+    "target": "M31",
+    "name": "Galaxie d'Andromède",
+    "englishName": "Andromeda Galaxy",
+    "searchTerms": [
+      "M31",
+      "Messier 31",
+      "NGC 224",
+      "Andromeda Galaxy",
+      "Great Andromeda Galaxy"
+    ],
+    "description": "Galaxie spirale la plus proche de la Voie Lactée.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Andromeda",
+    "magnitude": 3.44,
+    "ra": 10.6847,
+    "dec": 41.269
+  },
+  {
+    "target": "M32",
+    "name": "Objet Messier M32",
+    "englishName": "Messier 32",
+    "searchTerms": [
+      "M32",
+      "Messier 32",
+      "NGC 221",
+      "M32 NGC 221"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Andromeda.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Andromeda",
+    "magnitude": 8.7,
+    "ra": 10.675,
+    "dec": 40.8667
+  },
+  {
+    "target": "M33",
+    "name": "Objet Messier M33",
+    "englishName": "Messier 33",
+    "searchTerms": [
+      "M33",
+      "Messier 33",
+      "NGC 598",
+      "M33 NGC 598"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Triangulum.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Triangulum",
+    "magnitude": 6.3,
+    "ra": 23.475,
+    "dec": 30.65
+  },
+  {
+    "target": "M34",
+    "name": "Objet Messier M34",
+    "englishName": "Messier 34",
+    "searchTerms": [
+      "M34",
+      "Messier 34",
+      "NGC 1039",
+      "M34 NGC 1039"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Perseus.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Perseus",
+    "magnitude": 5.5,
+    "ra": 40.5,
+    "dec": 42.7833
+  },
+  {
+    "target": "M35",
+    "name": "Objet Messier M35",
+    "englishName": "Messier 35",
+    "searchTerms": [
+      "M35",
+      "Messier 35",
+      "NGC 2168",
+      "M35 NGC 2168"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Gemini.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Gemini",
+    "magnitude": 5.3,
+    "ra": 92.225,
+    "dec": 24.3333
+  },
+  {
+    "target": "M36",
+    "name": "Objet Messier M36",
+    "englishName": "Messier 36",
+    "searchTerms": [
+      "M36",
+      "Messier 36",
+      "NGC 1960",
+      "M36 NGC 1960"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Auriga.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Auriga",
+    "magnitude": 6,
+    "ra": 84.025,
+    "dec": 34.1333
+  },
+  {
+    "target": "M37",
+    "name": "Objet Messier M37",
+    "englishName": "Messier 37",
+    "searchTerms": [
+      "M37",
+      "Messier 37",
+      "NGC 2099",
+      "M37 NGC 2099"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Auriga.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Auriga",
+    "magnitude": 5.6,
+    "ra": 88.1,
+    "dec": 32.55
+  },
+  {
+    "target": "M38",
+    "name": "Objet Messier M38",
+    "englishName": "Messier 38",
+    "searchTerms": [
+      "M38",
+      "Messier 38",
+      "NGC 1912",
+      "M38 NGC 1912"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Auriga.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Auriga",
+    "magnitude": 6.4,
+    "ra": 82.175,
+    "dec": 35.8333
+  },
+  {
+    "target": "M39",
+    "name": "Objet Messier M39",
+    "englishName": "Messier 39",
+    "searchTerms": [
+      "M39",
+      "Messier 39",
+      "NGC 7092",
+      "M39 NGC 7092"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Cygnus.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Cygnus",
+    "magnitude": 4.6,
+    "ra": 323.05,
+    "dec": 48.4333
+  },
+  {
+    "target": "M40",
+    "name": "Étoile double de Winnecke",
+    "englishName": "Winnecke 4",
+    "searchTerms": [
+      "M40",
+      "Messier 40",
+      "Winnecke 4",
+      "WNC 4"
+    ],
+    "description": "Étoile double du catalogue Messier située dans la constellation Ursa Major.",
+    "type": "Star",
+    "catalog": "Messier",
+    "constellationId": "Ursa Major",
+    "magnitude": 9.1,
+    "ra": 185.6,
+    "dec": 58.0833
+  },
+  {
+    "target": "M41",
+    "name": "Objet Messier M41",
+    "englishName": "Messier 41",
+    "searchTerms": [
+      "M41",
+      "Messier 41",
+      "NGC 2287",
+      "M41 NGC 2287"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Canis Major.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Canis Major",
+    "magnitude": 4.6,
+    "ra": 101.75,
+    "dec": -20.7333
+  },
+  {
+    "target": "M42",
+    "name": "Nébuleuse d'Orion",
+    "englishName": "Orion Nebula",
+    "searchTerms": [
+      "M42",
+      "Messier 42",
+      "NGC 1976",
+      "Orion Nebula",
+      "Great Orion Nebula"
+    ],
+    "description": "Nébuleuse diffuse située dans la constellation d'Orion.",
+    "type": "Nebula",
+    "catalog": "Messier",
+    "constellationId": "Orion",
+    "magnitude": 4,
+    "ra": 83.822,
+    "dec": -5.391
+  },
+  {
+    "target": "M43",
+    "name": "Objet Messier M43",
+    "englishName": "Messier 43",
+    "searchTerms": [
+      "M43",
+      "Messier 43",
+      "NGC 1982",
+      "M43 NGC 1982"
+    ],
+    "description": "Nébuleuse diffuse du catalogue Messier située dans la constellation Orion.",
+    "type": "Nebula",
+    "catalog": "Messier",
+    "constellationId": "Orion",
+    "magnitude": 6.9,
+    "ra": 83.9,
+    "dec": -5.2667
+  },
+  {
+    "target": "M44",
+    "name": "Amas de la Crèche",
+    "englishName": "Beehive Cluster",
+    "searchTerms": [
+      "M44",
+      "Messier 44",
+      "NGC 2632",
+      "M44 NGC 2632",
+      "Beehive Cluster",
+      "Praesepe"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Cancer.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Cancer",
+    "magnitude": 3.1,
+    "ra": 130.025,
+    "dec": 19.9833
+  },
+  {
+    "target": "M45",
+    "name": "Pléiades",
+    "englishName": "Pleiades",
+    "searchTerms": [
+      "M45",
+      "Messier 45",
+      "Pleiades",
+      "Seven Sisters",
+      "Melotte 22"
+    ],
+    "description": "Amas ouvert visible dans la constellation du Taureau.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Taurus",
+    "magnitude": 1.6,
+    "ra": 56.75,
+    "dec": 24.1167
+  },
+  {
+    "target": "M46",
+    "name": "Objet Messier M46",
+    "englishName": "Messier 46",
+    "searchTerms": [
+      "M46",
+      "Messier 46",
+      "NGC 2437",
+      "M46 NGC 2437"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Puppis.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Puppis",
+    "magnitude": 6.1,
+    "ra": 115.45,
+    "dec": -14.8167
+  },
+  {
+    "target": "M47",
+    "name": "Objet Messier M47",
+    "englishName": "Messier 47",
+    "searchTerms": [
+      "M47",
+      "Messier 47",
+      "NGC 2422",
+      "M47 NGC 2422"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Puppis.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Puppis",
+    "magnitude": 4.5,
+    "ra": 114.15,
+    "dec": -14.5
+  },
+  {
+    "target": "M48",
+    "name": "Objet Messier M48",
+    "englishName": "Messier 48",
+    "searchTerms": [
+      "M48",
+      "Messier 48",
+      "NGC 2548",
+      "M48 NGC 2548"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Hydra.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Hydra",
+    "magnitude": 5.8,
+    "ra": 123.45,
+    "dec": -5.8
+  },
+  {
+    "target": "M49",
+    "name": "Objet Messier M49",
+    "englishName": "Messier 49",
+    "searchTerms": [
+      "M49",
+      "Messier 49",
+      "NGC 4472",
+      "M49 NGC 4472"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 8.4,
+    "ra": 187.45,
+    "dec": 8
+  },
+  {
+    "target": "M50",
+    "name": "Amas du Cœur",
+    "englishName": "Heart-Shaped Cluster",
+    "searchTerms": [
+      "M50",
+      "Messier 50",
+      "NGC 2323",
+      "M50 NGC 2323",
+      "Heart-Shaped Cluster"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Monoceros.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Monoceros",
+    "magnitude": 5.9,
+    "ra": 105.8,
+    "dec": -8.3333
+  },
+  {
+    "target": "M51",
+    "name": "Galaxie du Tourbillon",
+    "englishName": "Whirlpool Galaxy",
+    "searchTerms": [
+      "M51",
+      "Messier 51",
+      "NGC 5194",
+      "Whirlpool Galaxy"
+    ],
+    "description": "Galaxie spirale en interaction avec une galaxie compagne.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Canes Venatici",
+    "magnitude": 8.4,
+    "ra": 202.484,
+    "dec": 47.23
+  },
+  {
+    "target": "M52",
+    "name": "Objet Messier M52",
+    "englishName": "Messier 52",
+    "searchTerms": [
+      "M52",
+      "Messier 52",
+      "NGC 7654",
+      "M52 NGC 7654"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Cassiopeia.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Cassiopeia",
+    "magnitude": 6.9,
+    "ra": 351.05,
+    "dec": 61.5833
+  },
+  {
+    "target": "M53",
+    "name": "Objet Messier M53",
+    "englishName": "Messier 53",
+    "searchTerms": [
+      "M53",
+      "Messier 53",
+      "NGC 5024",
+      "M53 NGC 5024"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Coma Berenices.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Coma Berenices",
+    "magnitude": 7.7,
+    "ra": 198.225,
+    "dec": 18.1667
+  },
+  {
+    "target": "M54",
+    "name": "Objet Messier M54",
+    "englishName": "Messier 54",
+    "searchTerms": [
+      "M54",
+      "Messier 54",
+      "NGC 6715",
+      "M54 NGC 6715"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 7.7,
+    "ra": 283.775,
+    "dec": -30.4833
+  },
+  {
+    "target": "M55",
+    "name": "Objet Messier M55",
+    "englishName": "Messier 55",
+    "searchTerms": [
+      "M55",
+      "Messier 55",
+      "NGC 6809",
+      "M55 NGC 6809"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 7,
+    "ra": 295,
+    "dec": -30.9667
+  },
+  {
+    "target": "M56",
+    "name": "Objet Messier M56",
+    "englishName": "Messier 56",
+    "searchTerms": [
+      "M56",
+      "Messier 56",
+      "NGC 6779",
+      "M56 NGC 6779"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Lyra.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Lyra",
+    "magnitude": 8.3,
+    "ra": 289.15,
+    "dec": 30.1833
+  },
+  {
+    "target": "M57",
+    "name": "Nébuleuse de l'Anneau",
+    "englishName": "Ring Nebula",
+    "searchTerms": [
+      "M57",
+      "Messier 57",
+      "NGC 6720",
+      "Ring Nebula"
+    ],
+    "description": "Nébuleuse planétaire célèbre située dans la Lyre.",
+    "type": "Nebula",
+    "catalog": "Messier",
+    "constellationId": "Lyra",
+    "magnitude": 8.8,
+    "ra": 283.396,
+    "dec": 33.03
+  },
+  {
+    "target": "M58",
+    "name": "Objet Messier M58",
+    "englishName": "Messier 58",
+    "searchTerms": [
+      "M58",
+      "Messier 58",
+      "NGC 4579",
+      "M58 NGC 4579"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 9.8,
+    "ra": 189.425,
+    "dec": 11.8167
+  },
+  {
+    "target": "M59",
+    "name": "Objet Messier M59",
+    "englishName": "Messier 59",
+    "searchTerms": [
+      "M59",
+      "Messier 59",
+      "NGC 4621",
+      "M59 NGC 4621"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 9.8,
+    "ra": 190.5,
+    "dec": 11.65
+  },
+  {
+    "target": "M60",
+    "name": "Objet Messier M60",
+    "englishName": "Messier 60",
+    "searchTerms": [
+      "M60",
+      "Messier 60",
+      "NGC 4649",
+      "M60 NGC 4649"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 8.8,
+    "ra": 190.925,
+    "dec": 11.55
+  },
+  {
+    "target": "M61",
+    "name": "Objet Messier M61",
+    "englishName": "Messier 61",
+    "searchTerms": [
+      "M61",
+      "Messier 61",
+      "NGC 4303",
+      "M61 NGC 4303"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 9.7,
+    "ra": 185.475,
+    "dec": 4.4667
+  },
+  {
+    "target": "M62",
+    "name": "Objet Messier M62",
+    "englishName": "Messier 62",
+    "searchTerms": [
+      "M62",
+      "Messier 62",
+      "NGC 6266",
+      "M62 NGC 6266"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Ophiuchus.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Ophiuchus",
+    "magnitude": 6.6,
+    "ra": 255.3,
+    "dec": -30.1167
+  },
+  {
+    "target": "M63",
+    "name": "Galaxie du Tournesol",
+    "englishName": "Sunflower Galaxy",
+    "searchTerms": [
+      "M63",
+      "Messier 63",
+      "NGC 5055",
+      "M63 NGC 5055",
+      "Sunflower Galaxy"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Canes Venatici.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Canes Venatici",
+    "magnitude": 8.6,
+    "ra": 198.95,
+    "dec": 42.0333
+  },
+  {
+    "target": "M64",
+    "name": "Galaxie de l'Œil noir",
+    "englishName": "Black Eye Galaxy",
+    "searchTerms": [
+      "M64",
+      "Messier 64",
+      "NGC 4826",
+      "M64 NGC 4826",
+      "Black Eye Galaxy",
+      "Sleeping Beauty Galaxy"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Coma Berenices.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Coma Berenices",
+    "magnitude": 8.5,
+    "ra": 194.175,
+    "dec": 21.6833
+  },
+  {
+    "target": "M65",
+    "name": "Objet Messier M65",
+    "englishName": "Messier 65",
+    "searchTerms": [
+      "M65",
+      "Messier 65",
+      "NGC 3623",
+      "M65 NGC 3623"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Leo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Leo",
+    "magnitude": 9.3,
+    "ra": 169.725,
+    "dec": 13.0833
+  },
+  {
+    "target": "M66",
+    "name": "Objet Messier M66",
+    "englishName": "Messier 66",
+    "searchTerms": [
+      "M66",
+      "Messier 66",
+      "NGC 3627",
+      "M66 NGC 3627"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Leo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Leo",
+    "magnitude": 9,
+    "ra": 170.05,
+    "dec": 12.9833
+  },
+  {
+    "target": "M67",
+    "name": "Objet Messier M67",
+    "englishName": "Messier 67",
+    "searchTerms": [
+      "M67",
+      "Messier 67",
+      "NGC 2682",
+      "M67 NGC 2682"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Cancer.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Cancer",
+    "magnitude": 6.9,
+    "ra": 132.6,
+    "dec": 11.8167
+  },
+  {
+    "target": "M68",
+    "name": "Objet Messier M68",
+    "englishName": "Messier 68",
+    "searchTerms": [
+      "M68",
+      "Messier 68",
+      "NGC 4590",
+      "M68 NGC 4590"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Hydra.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Hydra",
+    "magnitude": 8.2,
+    "ra": 189.875,
+    "dec": -26.75
+  },
+  {
+    "target": "M69",
+    "name": "Objet Messier M69",
+    "englishName": "Messier 69",
+    "searchTerms": [
+      "M69",
+      "Messier 69",
+      "NGC 6637",
+      "M69 NGC 6637"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 7.7,
+    "ra": 277.85,
+    "dec": -32.35
+  },
+  {
+    "target": "M70",
+    "name": "Objet Messier M70",
+    "englishName": "Messier 70",
+    "searchTerms": [
+      "M70",
+      "Messier 70",
+      "NGC 6681",
+      "M70 NGC 6681"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 8.1,
+    "ra": 280.8,
+    "dec": -32.3
+  },
+  {
+    "target": "M71",
+    "name": "Objet Messier M71",
+    "englishName": "Messier 71",
+    "searchTerms": [
+      "M71",
+      "Messier 71",
+      "NGC 6838",
+      "M71 NGC 6838"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Sagitta.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagitta",
+    "magnitude": 8.3,
+    "ra": 298.45,
+    "dec": 18.7833
+  },
+  {
+    "target": "M72",
+    "name": "Objet Messier M72",
+    "englishName": "Messier 72",
+    "searchTerms": [
+      "M72",
+      "Messier 72",
+      "NGC 6981",
+      "M72 NGC 6981"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Aquarius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Aquarius",
+    "magnitude": 9.4,
+    "ra": 313.375,
+    "dec": -12.5333
+  },
+  {
+    "target": "M73",
+    "name": "Objet Messier M73",
+    "englishName": "Messier 73",
+    "searchTerms": [
+      "M73",
+      "Messier 73",
+      "NGC 6994",
+      "M73 NGC 6994"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Aquarius.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Aquarius",
+    "magnitude": 9,
+    "ra": 314.725,
+    "dec": -12.6333
+  },
+  {
+    "target": "M74",
+    "name": "Galaxie Fantôme",
+    "englishName": "Phantom Galaxy",
+    "searchTerms": [
+      "M74",
+      "Messier 74",
+      "NGC 628",
+      "M74 NGC 628",
+      "Phantom Galaxy"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Pisces.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Pisces",
+    "magnitude": 9.2,
+    "ra": 24.175,
+    "dec": 15.7833
+  },
+  {
+    "target": "M75",
+    "name": "Objet Messier M75",
+    "englishName": "Messier 75",
+    "searchTerms": [
+      "M75",
+      "Messier 75",
+      "NGC 6864",
+      "M75 NGC 6864"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Sagittarius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Sagittarius",
+    "magnitude": 8.6,
+    "ra": 301.525,
+    "dec": -21.9167
+  },
+  {
+    "target": "M76",
+    "name": "Petite nébuleuse Dumbbell",
+    "englishName": "Little Dumbbell Nebula",
+    "searchTerms": [
+      "M76",
+      "Messier 76",
+      "NGC 650",
+      "M76 NGC 650",
+      "Little Dumbbell Nebula"
+    ],
+    "description": "Nébuleuse planétaire du catalogue Messier située dans la constellation Perseus.",
+    "type": "PlanetaryNebula",
+    "catalog": "Messier",
+    "constellationId": "Perseus",
+    "magnitude": 12.2,
+    "ra": 25.6,
+    "dec": 51.5667
+  },
+  {
+    "target": "M77",
+    "name": "Galaxie du Calmar",
+    "englishName": "Squid Galaxy",
+    "searchTerms": [
+      "M77",
+      "Messier 77",
+      "NGC 1068",
+      "M77 NGC 1068",
+      "Squid Galaxy",
+      "Cetus A"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Cetus.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Cetus",
+    "magnitude": 8.9,
+    "ra": 40.675,
+    "dec": 0.0167
+  },
+  {
+    "target": "M78",
+    "name": "Nébuleuse de Casper",
+    "englishName": "Casper the Friendly Ghost Nebula",
+    "searchTerms": [
+      "M78",
+      "Messier 78",
+      "NGC 2068",
+      "M78 NGC 2068",
+      "Casper the Friendly Ghost Nebula"
+    ],
+    "description": "Nébuleuse diffuse du catalogue Messier située dans la constellation Orion.",
+    "type": "Nebula",
+    "catalog": "Messier",
+    "constellationId": "Orion",
+    "magnitude": 10.5,
+    "ra": 86.675,
+    "dec": 0.05
+  },
+  {
+    "target": "M79",
+    "name": "Objet Messier M79",
+    "englishName": "Messier 79",
+    "searchTerms": [
+      "M79",
+      "Messier 79",
+      "NGC 1904",
+      "M79 NGC 1904"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Lepus.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Lepus",
+    "magnitude": 8.4,
+    "ra": 81.125,
+    "dec": -24.55
+  },
+  {
+    "target": "M80",
+    "name": "Objet Messier M80",
+    "englishName": "Messier 80",
+    "searchTerms": [
+      "M80",
+      "Messier 80",
+      "NGC 6093",
+      "M80 NGC 6093"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Scorpius.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Scorpius",
+    "magnitude": 7.2,
+    "ra": 244.25,
+    "dec": -22.9833
+  },
+  {
+    "target": "M81",
+    "name": "Galaxie de Bode",
+    "englishName": "Bode's Galaxy",
+    "searchTerms": [
+      "M81",
+      "Messier 81",
+      "NGC 3031",
+      "Bode's Galaxy"
+    ],
+    "description": "Grande galaxie spirale visible dans la Grande Ourse.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Ursa Major",
+    "magnitude": 6.9,
+    "ra": 148.888,
+    "dec": 69.065
+  },
+  {
+    "target": "M82",
+    "name": "Galaxie du Cigare",
+    "englishName": "Cigar Galaxy",
+    "searchTerms": [
+      "M82",
+      "Messier 82",
+      "NGC 3034",
+      "M82 NGC 3034",
+      "Cigar Galaxy"
+    ],
+    "description": "Galaxie irrégulière du catalogue Messier située dans la constellation Ursa Major.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Ursa Major",
+    "magnitude": 8.4,
+    "ra": 148.95,
+    "dec": 69.6833
+  },
+  {
+    "target": "M83",
+    "name": "Galaxie du Moulinet austral",
+    "englishName": "Southern Pinwheel Galaxy",
+    "searchTerms": [
+      "M83",
+      "Messier 83",
+      "NGC 5236",
+      "M83 NGC 5236",
+      "Southern Pinwheel Galaxy"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Hydra.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Hydra",
+    "magnitude": 8.2,
+    "ra": 204.25,
+    "dec": -29.8667
+  },
+  {
+    "target": "M84",
+    "name": "Objet Messier M84",
+    "englishName": "Messier 84",
+    "searchTerms": [
+      "M84",
+      "Messier 84",
+      "NGC 4374",
+      "M84 NGC 4374"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 9.3,
+    "ra": 186.275,
+    "dec": 12.8833
+  },
+  {
+    "target": "M85",
+    "name": "Objet Messier M85",
+    "englishName": "Messier 85",
+    "searchTerms": [
+      "M85",
+      "Messier 85",
+      "NGC 4382",
+      "M85 NGC 4382"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Coma Berenices.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Coma Berenices",
+    "magnitude": 9.3,
+    "ra": 186.35,
+    "dec": 18.1833
+  },
+  {
+    "target": "M86",
+    "name": "Objet Messier M86",
+    "englishName": "Messier 86",
+    "searchTerms": [
+      "M86",
+      "Messier 86",
+      "NGC 4406",
+      "M86 NGC 4406"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 9.2,
+    "ra": 186.55,
+    "dec": 12.95
+  },
+  {
+    "target": "M87",
+    "name": "Virgo A",
+    "englishName": "Virgo A",
+    "searchTerms": [
+      "M87",
+      "Messier 87",
+      "NGC 4486",
+      "M87 NGC 4486",
+      "Virgo A"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 8.6,
+    "ra": 187.7,
+    "dec": 12.4
+  },
+  {
+    "target": "M88",
+    "name": "Objet Messier M88",
+    "englishName": "Messier 88",
+    "searchTerms": [
+      "M88",
+      "Messier 88",
+      "NGC 4501",
+      "M88 NGC 4501"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Coma Berenices.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Coma Berenices",
+    "magnitude": 9.5,
+    "ra": 188,
+    "dec": 14.4167
+  },
+  {
+    "target": "M89",
+    "name": "Objet Messier M89",
+    "englishName": "Messier 89",
+    "searchTerms": [
+      "M89",
+      "Messier 89",
+      "NGC 4552",
+      "M89 NGC 4552"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 9.8,
+    "ra": 188.925,
+    "dec": 12.55
+  },
+  {
+    "target": "M90",
+    "name": "Objet Messier M90",
+    "englishName": "Messier 90",
+    "searchTerms": [
+      "M90",
+      "Messier 90",
+      "NGC 4569",
+      "M90 NGC 4569"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 9.5,
+    "ra": 189.2,
+    "dec": 13.1667
+  },
+  {
+    "target": "M91",
+    "name": "Objet Messier M91",
+    "englishName": "Messier 91",
+    "searchTerms": [
+      "M91",
+      "Messier 91",
+      "NGC 4548",
+      "M91 NGC 4548"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Coma Berenices.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Coma Berenices",
+    "magnitude": 10.2,
+    "ra": 188.85,
+    "dec": 14.5
+  },
+  {
+    "target": "M92",
+    "name": "Objet Messier M92",
+    "englishName": "Messier 92",
+    "searchTerms": [
+      "M92",
+      "Messier 92",
+      "NGC 6341",
+      "M92 NGC 6341"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Hercules.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Hercules",
+    "magnitude": 6.5,
+    "ra": 259.275,
+    "dec": 43.1333
+  },
+  {
+    "target": "M93",
+    "name": "Objet Messier M93",
+    "englishName": "Messier 93",
+    "searchTerms": [
+      "M93",
+      "Messier 93",
+      "NGC 2447",
+      "M93 NGC 2447"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Puppis.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Puppis",
+    "magnitude": 6.2,
+    "ra": 116.15,
+    "dec": -23.8667
+  },
+  {
+    "target": "M94",
+    "name": "Galaxie de l'Œil de chat",
+    "englishName": "Cat's Eye Galaxy",
+    "searchTerms": [
+      "M94",
+      "Messier 94",
+      "NGC 4736",
+      "M94 NGC 4736",
+      "Cat's Eye Galaxy"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Canes Venatici.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Canes Venatici",
+    "magnitude": 8.2,
+    "ra": 192.725,
+    "dec": 41.1167
+  },
+  {
+    "target": "M95",
+    "name": "Objet Messier M95",
+    "englishName": "Messier 95",
+    "searchTerms": [
+      "M95",
+      "Messier 95",
+      "NGC 3351",
+      "M95 NGC 3351"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Leo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Leo",
+    "magnitude": 9.7,
+    "ra": 161,
+    "dec": 11.7
+  },
+  {
+    "target": "M96",
+    "name": "Objet Messier M96",
+    "englishName": "Messier 96",
+    "searchTerms": [
+      "M96",
+      "Messier 96",
+      "NGC 3368",
+      "M96 NGC 3368"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Leo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Leo",
+    "magnitude": 9.1,
+    "ra": 161.7,
+    "dec": 11.8167
+  },
+  {
+    "target": "M97",
+    "name": "Nébuleuse du Hibou",
+    "englishName": "Owl Nebula",
+    "searchTerms": [
+      "M97",
+      "Messier 97",
+      "NGC 3587",
+      "M97 NGC 3587",
+      "Owl Nebula"
+    ],
+    "description": "Nébuleuse planétaire du catalogue Messier située dans la constellation Ursa Major.",
+    "type": "PlanetaryNebula",
+    "catalog": "Messier",
+    "constellationId": "Ursa Major",
+    "magnitude": 12,
+    "ra": 168.7,
+    "dec": 55.0167
+  },
+  {
+    "target": "M98",
+    "name": "Objet Messier M98",
+    "englishName": "Messier 98",
+    "searchTerms": [
+      "M98",
+      "Messier 98",
+      "NGC 4192",
+      "M98 NGC 4192"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Coma Berenices.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Coma Berenices",
+    "magnitude": 10.1,
+    "ra": 183.45,
+    "dec": 14.9
+  },
+  {
+    "target": "M99",
+    "name": "Objet Messier M99",
+    "englishName": "Messier 99",
+    "searchTerms": [
+      "M99",
+      "Messier 99",
+      "NGC 4254",
+      "M99 NGC 4254"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Coma Berenices.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Coma Berenices",
+    "magnitude": 9.8,
+    "ra": 184.7,
+    "dec": 14.4167
+  },
+  {
+    "target": "M100",
+    "name": "Objet Messier M100",
+    "englishName": "Messier 100",
+    "searchTerms": [
+      "M100",
+      "Messier 100",
+      "NGC 4321",
+      "M100 NGC 4321"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Coma Berenices.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Coma Berenices",
+    "magnitude": 9.4,
+    "ra": 185.725,
+    "dec": 15.8167
+  },
+  {
+    "target": "M101",
+    "name": "Galaxie du Moulinet",
+    "englishName": "Pinwheel Galaxy",
+    "searchTerms": [
+      "M101",
+      "Messier 101",
+      "NGC 5457",
+      "M101 NGC 5457",
+      "Pinwheel Galaxy"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Ursa Major.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Ursa Major",
+    "magnitude": 7.7,
+    "ra": 210.8,
+    "dec": 54.35
+  },
+  {
+    "target": "M102",
+    "name": "Galaxie du Fuseau",
+    "englishName": "Spindle Galaxy",
+    "searchTerms": [
+      "M102",
+      "Messier 102",
+      "NGC 5866",
+      "Spindle Galaxy",
+      "NGC 5866 Spindle Galaxy"
+    ],
+    "description": "Galaxie lenticulaire vue presque par la tranche dans la constellation du Dragon.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Draco",
+    "magnitude": 9.9,
+    "ra": 226.622,
+    "dec": 55.764
+  },
+  {
+    "target": "M103",
+    "name": "Objet Messier M103",
+    "englishName": "Messier 103",
+    "searchTerms": [
+      "M103",
+      "Messier 103",
+      "NGC 581",
+      "M103 NGC 581"
+    ],
+    "description": "Amas ouvert du catalogue Messier située dans la constellation Cassiopeia.",
+    "type": "OpenCluster",
+    "catalog": "Messier",
+    "constellationId": "Cassiopeia",
+    "magnitude": 7.4,
+    "ra": 23.3,
+    "dec": 60.7
+  },
+  {
+    "target": "M104",
+    "name": "Galaxie du Sombrero",
+    "englishName": "Sombrero Galaxy",
+    "searchTerms": [
+      "M104",
+      "Messier 104",
+      "NGC 4594",
+      "M104 NGC 4594",
+      "Sombrero Galaxy"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Virgo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Virgo",
+    "magnitude": 8.3,
+    "ra": 190,
+    "dec": -11.6167
+  },
+  {
+    "target": "M105",
+    "name": "Objet Messier M105",
+    "englishName": "Messier 105",
+    "searchTerms": [
+      "M105",
+      "Messier 105",
+      "NGC 3379",
+      "M105 NGC 3379"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Leo.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Leo",
+    "magnitude": 9.2,
+    "ra": 161.95,
+    "dec": 12.5833
+  },
+  {
+    "target": "M106",
+    "name": "Objet Messier M106",
+    "englishName": "Messier 106",
+    "searchTerms": [
+      "M106",
+      "Messier 106",
+      "NGC 4258",
+      "M106 NGC 4258"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Canes Venatici.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Canes Venatici",
+    "magnitude": 8.3,
+    "ra": 184.75,
+    "dec": 47.3
+  },
+  {
+    "target": "M107",
+    "name": "Objet Messier M107",
+    "englishName": "Messier 107",
+    "searchTerms": [
+      "M107",
+      "Messier 107",
+      "NGC 6171",
+      "M107 NGC 6171"
+    ],
+    "description": "Amas globulaire du catalogue Messier située dans la constellation Ophiuchus.",
+    "type": "GlobularCluster",
+    "catalog": "Messier",
+    "constellationId": "Ophiuchus",
+    "magnitude": 8.1,
+    "ra": 248.125,
+    "dec": -13.05
+  },
+  {
+    "target": "M108",
+    "name": "Galaxie de la Planche de surf",
+    "englishName": "Surfboard Galaxy",
+    "searchTerms": [
+      "M108",
+      "Messier 108",
+      "NGC 3556",
+      "M108 NGC 3556",
+      "Surfboard Galaxy"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Ursa Major.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Ursa Major",
+    "magnitude": 10.1,
+    "ra": 167.875,
+    "dec": 55.6667
+  },
+  {
+    "target": "M109",
+    "name": "Objet Messier M109",
+    "englishName": "Messier 109",
+    "searchTerms": [
+      "M109",
+      "Messier 109",
+      "NGC 3992",
+      "M109 NGC 3992"
+    ],
+    "description": "Galaxie spirale du catalogue Messier située dans la constellation Ursa Major.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Ursa Major",
+    "magnitude": 9.8,
+    "ra": 179.4,
+    "dec": 53.3833
+  },
+  {
+    "target": "M110",
+    "name": "Objet Messier M110",
+    "englishName": "Messier 110",
+    "searchTerms": [
+      "M110",
+      "Messier 110",
+      "NGC 205",
+      "M110 NGC 205"
+    ],
+    "description": "Galaxie elliptique du catalogue Messier située dans la constellation Andromeda.",
+    "type": "Galaxy",
+    "catalog": "Messier",
+    "constellationId": "Andromeda",
+    "magnitude": 9.4,
+    "ra": 10.1,
+    "dec": 41.6833
   }
 ]

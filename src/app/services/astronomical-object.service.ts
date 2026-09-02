@@ -93,18 +93,21 @@ export class AstronomicalObjectService {
   private getObjectsForDifficulty(difficulty: QuizDifficulty): IAstronomicalObject[] {
     switch (difficulty) {
       case QuizDifficulty.Easy:
-        return this._objects().filter((object) => object.catalog === AstronomicalCatalog.Messier);
-
-      case QuizDifficulty.Medium:
         return this._objects().filter(
           (object) =>
-            object.catalog === AstronomicalCatalog.Messier ||
-            object.catalog === AstronomicalCatalog.Hipparcos,
+            object.catalog === AstronomicalCatalog.Messier && this.hasDistinctiveName(object),
         );
+
+      case QuizDifficulty.Medium:
+        return this._objects().filter((object) => this.hasDistinctiveName(object));
 
       case QuizDifficulty.Hard:
         return this._objects();
     }
+  }
+
+  private hasDistinctiveName(object: IAstronomicalObject): boolean {
+    return !/^(objet messier m\d+|étoile (hip|hr) \d+)$/iu.test(object.name.trim());
   }
 
   private createQuestion(
