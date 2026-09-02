@@ -3,7 +3,7 @@ import { normalize } from '../helpers/wiki.helper';
 /**
  * Score minimal à atteindre pour considérer une page comme pertinente.
  */
-export const MINIMUM_ACCEPTED_SCORE = 450;
+export const MINIMUM_ACCEPTED_SCORE = 700;
 
 /**
  * Bonus attribués lors du calcul du score.

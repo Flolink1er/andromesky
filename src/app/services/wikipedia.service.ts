@@ -195,6 +195,10 @@ export class WikipediaService {
     let bestResult: IWikipediaSearchResult | null = null;
 
     for (const page of pages) {
+      if (!this.hasStrongIdentityMatch(page, object) || this.isGenericCatalogArticle(page, object)) {
+        continue;
+      }
+
       const score = this.calculateScore(page, object);
 
       if (!bestResult || score > bestResult.score) {
@@ -298,6 +302,90 @@ export class WikipediaService {
     }
 
     return score;
+  }
+
+  /**
+   * Une catégorie « galaxie » ou « astronomie » prouve uniquement que la page
+   * parle d'astronomie, pas qu'elle décrit l'objet actuellement sélectionné.
+   * On exige donc qu'un nom ou un identifiant propre à l'objet apparaisse dans
+   * le titre de la page avant de l'afficher.
+   */
+  private hasStrongIdentityMatch(page: IWikipediaPage, object: IAstronomicalObject): boolean {
+    const title = normalize(page.title);
+
+    return this.getIdentityTerms(object).some((term) => this.titleMatchesIdentity(title, term));
+  }
+
+  /**
+   * Rejette les pages générales de catalogue, par exemple « Catalogue Messier »
+   * pour M2. Elles sont souvent bien classées par l'API mais ne décrivent pas
+   * l'objet individuel demandé.
+   */
+  private isGenericCatalogArticle(page: IWikipediaPage, object: IAstronomicalObject): boolean {
+    const title = normalize(page.title);
+
+    const genericTitlesByCatalog: Partial<Record<AstronomicalCatalog, string[]>> = {
+      [AstronomicalCatalog.Messier]: [
+        'catalogue messier',
+        'catalogue de messier',
+        'messier catalogue',
+      ],
+      [AstronomicalCatalog.Hipparcos]: [
+        'catalogue hipparcos',
+        'hipparcos catalogue',
+      ],
+      [AstronomicalCatalog.BrightStar]: [
+        'bright star catalogue',
+        'catalogue bright star',
+      ],
+    };
+
+    return (genericTitlesByCatalog[object.catalog] ?? []).some((genericTitle) =>
+      equalsNormalized(title, genericTitle),
+    );
+  }
+
+  private getIdentityTerms(object: IAstronomicalObject): string[] {
+    // La cible du catalogue reste toujours une identité valable, même pour un
+    // objet dont le libellé affiché est générique (par exemple HIP 123).
+    const terms = [
+      object.target,
+      ...[object.name, object.englishName, ...object.searchTerms]
+      .map((term) => term.trim())
+      .filter((term) => term.length > 0)
+      .filter((term) => !this.isGenericObjectLabel(term)),
+    ];
+
+    if (object.catalog === AstronomicalCatalog.Messier) {
+      const number = object.target.replace(/^M/i, '');
+      terms.push(`M${number}`, `Messier ${number}`, `Messier M${number}`);
+    }
+
+    return [...new Set(terms.map((term) => normalize(term)))];
+  }
+
+  private isGenericObjectLabel(term: string): boolean {
+    const normalizedTerm = normalize(term);
+
+    return (
+      /^objet messier m?\d+$/.test(normalizedTerm) ||
+      /^messier object m?\d+$/.test(normalizedTerm) ||
+      /^etoile hip \d+$/.test(normalizedTerm) ||
+      /^hip \d+$/.test(normalizedTerm)
+    );
+  }
+
+  private titleMatchesIdentity(title: string, identity: string): boolean {
+    if (equalsNormalized(title, identity)) {
+      return true;
+    }
+
+    // Les petits identifiants (M2, M31, HIP 123) doivent correspondre à un mot
+    // entier : une simple recherche par sous-chaîne créerait des faux positifs.
+    const escapedIdentity = identity.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const identityPattern = new RegExp(`(^|[^a-z0-9])${escapedIdentity}(?=$|[^a-z0-9])`, 'u');
+
+    return identityPattern.test(title);
   }
 
   private mapSummary(page: IWikipediaPage): IWikipediaSummary {
