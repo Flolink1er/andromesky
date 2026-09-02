@@ -39,7 +39,7 @@ import { QuizSettings } from '../quiz-settings/quiz-settings';
 })
 export class SidePanel {
   private readonly hostElement = inject(ElementRef<HTMLElement>);
-  public readonly currentObject = input.required<IAstronomicalObject>();
+  public readonly currentObject = input.required<IAstronomicalObject | undefined>();
   public readonly currentIndex = input.required<number>();
 
   public readonly astronomicalObjectService = inject(AstronomicalObjectService);

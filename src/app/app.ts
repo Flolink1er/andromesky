@@ -24,7 +24,7 @@ export class App {
   public readonly quizService = inject(QuizService);
   public readonly appStateService = inject(AppStateService);
 
-  public _currentIndex = signal(0);
+  public _currentIndex = signal(-1);
   public readonly isPanelOpen = signal(false);
   public readonly isQuizAnswerSheet = computed(
     () =>
@@ -89,7 +89,9 @@ export class App {
 
     switch (mode) {
       case AppMode.Exploration:
-        this.skyMapService.goToObject(this.currentObject());
+        if (this.currentObject()) {
+          this.skyMapService.goToObject(this.currentObject());
+        }
         break;
 
       case AppMode.Quiz:

@@ -18,7 +18,7 @@ import { AstronomicalObjectService } from '../../services/astronomical-object.se
 export class ObjectPanel {
   private static readonly WIKIPEDIA_EXCERPT_LENGTH = 520;
 
-  public readonly currentObject = input.required<IAstronomicalObject>();
+  public readonly currentObject = input.required<IAstronomicalObject | undefined>();
 
   public readonly currentIndex = input.required<number>();
 
@@ -47,7 +47,7 @@ export class ObjectPanel {
   public readonly constellation = computed(() => {
     const object = this.currentObject();
 
-    if (!object.constellationId) {
+    if (!object?.constellationId) {
       return null;
     }
 
@@ -61,6 +61,12 @@ export class ObjectPanel {
       this.image.set(null);
       this.wikiSummary.set(null);
       this.isWikiExpanded.set(false);
+
+      if (!object) {
+        this.isLoadingImage.set(false);
+        this.isLoadingWiki.set(false);
+        return;
+      }
 
       this.isLoadingImage.set(true);
       this.isLoadingWiki.set(true);

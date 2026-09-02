@@ -1,7 +1,7 @@
-@if (currentObject()) {
+@if (currentObject(); as object) {
   <div class="rounded-2xl border border-cyan-100/10 bg-gradient-to-br from-white/[0.075] to-white/[0.025] p-4 shadow-[0_14px_30px_rgba(2,6,23,0.18)]">
     <h2 class="text-xl font-semibold text-space-text text-center">
-      {{ currentObject().name }}
+      {{ object.name }}
     </h2>
 
     <h2 class="text-center">
@@ -25,36 +25,36 @@
     }
 
     <p class="text-space-muted mt-2">
-      {{ currentObject().description }}
+      {{ object.description }}
     </p>
 
     <div class="mt-4 space-y-2">
       <p>
         <strong>Type :</strong>
 
-        {{ currentObject().type }}
+        {{ object.type }}
       </p>
 
-      @if (currentObject().constellationId) {
+      @if (object.constellationId) {
         <p>
           <strong>Constellation :</strong>
 
-          {{ currentObject().constellationId }}
+          {{ object.constellationId }}
         </p>
       }
 
-      @if (currentObject().magnitude) {
+      @if (object.magnitude) {
         <p>
           <strong>Magnitude :</strong>
 
-          {{ currentObject().magnitude }}
+          {{ object.magnitude }}
         </p>
       }
 
       <p>
         <strong>Catalogue :</strong>
 
-        {{ currentObject().catalog }}
+        {{ object.catalog }}
       </p>
     </div>
 
