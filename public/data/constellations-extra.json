@@ -363,10 +363,10 @@
     "segments": [
       {
         "fromTarget": "HIP 30324",
-        "toTarget": "HIP 32349"
+        "toTarget": "HR 2491"
       },
       {
-        "fromTarget": "HIP 32349",
+        "fromTarget": "HR 2491",
         "toTarget": "HIP 34444"
       },
       {
@@ -394,7 +394,7 @@
         "toTarget": "HIP 33579"
       },
       {
-        "fromTarget": "HIP 32349",
+        "fromTarget": "HR 2491",
         "toTarget": "HIP 33347"
       },
       {
