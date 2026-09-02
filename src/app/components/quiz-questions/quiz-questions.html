@@ -1,4 +1,4 @@
-<h2 class="break-words text-lg font-bold sm:text-xl">
+<h2 class="wrap-break-words text-lg font-bold sm:text-xl">
   {{ quizService.currentQuestion().label }}
 </h2>
 
@@ -74,11 +74,17 @@
 
   @if (quizService.locationResult(); as result) {
     <div class="answer-feedback mt-4 rounded-lg border border-white/10 bg-white/5 p-3">
-      <p class="font-semibold" [class.text-emerald-300]="result.isCorrect" [class.text-red-300]="!result.isCorrect">
+      <p
+        class="font-semibold"
+        [class.text-emerald-300]="result.isCorrect"
+        [class.text-red-300]="!result.isCorrect"
+      >
         {{ result.isCorrect ? 'Bonne réponse !' : 'Pas tout à fait.' }}
       </p>
       <p class="mt-1 text-sm">Réponse : {{ result.correctAnswer.name }}</p>
-      <p class="text-sm text-space-muted">Écart : {{ formatAngularDistance(result.distanceDegrees) }}</p>
+      <p class="text-sm text-space-muted">
+        Écart : {{ formatAngularDistance(result.distanceDegrees) }}
+      </p>
     </div>
   } @else if (quizService.selectedLocation()) {
     <button class="button-green mt-4 w-full" (click)="confirmLocation()">Confirmer</button>
