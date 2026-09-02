@@ -19,9 +19,14 @@ export interface IGameScore extends IScore {
 }
 
 export interface IScoreHistory extends IScore {
-  date: Date;
+  id: string;
+  date: string;
   mode: QuizMode;
   difficulty: QuizDifficulty;
+  successRate: number;
+  correctAnswers: number;
+  totalQuestions: number;
+  bestStreak: number;
 }
 
 export interface IPlayerStatistics {

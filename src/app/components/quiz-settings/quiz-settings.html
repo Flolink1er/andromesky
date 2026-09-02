@@ -1,8 +1,49 @@
-<h2 class="text-2xl font-bold text-center">Configuration du quiz</h2>
+<div class="flex items-center justify-between gap-3">
+  <h2 class="text-2xl font-bold">{{ historyOpen() ? 'Historique des quiz' : 'Configuration du quiz' }}</h2>
 
-<div class="space-y-4">
-  <div>
-    <label class="font-semibold block mb-2"> Mode </label>
+  <button
+    type="button"
+    class="rounded-lg border border-white/10 px-3 py-2 text-sm font-semibold text-space-muted transition hover:bg-white/10 hover:text-white"
+    (click)="toggleHistory()"
+  >
+    {{ historyOpen() ? 'Configurer' : 'Historique' }}
+  </button>
+</div>
+
+@if (historyOpen()) {
+  @if (scoreService.history().length === 0) {
+    <div class="rounded-xl border border-dashed border-white/15 bg-white/5 p-5 text-center text-sm text-space-muted">
+      Aucun quiz terminé pour le moment.
+    </div>
+  } @else {
+    <div class="space-y-3">
+      @for (entry of scoreService.history(); track entry.id) {
+        <article class="rounded-xl border border-white/10 bg-white/5 p-3">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <p class="font-semibold text-space-text">{{ formatMode(entry.mode) }} · {{ formatDifficulty(entry.difficulty) }}</p>
+              <p class="mt-1 text-xs text-space-muted">{{ entry.date | date: 'dd/MM/yyyy à HH:mm' }}</p>
+            </div>
+            <p class="shrink-0 text-lg font-bold text-amber-300">{{ entry.score }} pts</p>
+          </div>
+
+          <div class="mt-3 grid grid-cols-2 gap-2 text-sm text-space-muted">
+            <p>Réussite : <span class="font-semibold text-space-text">{{ entry.successRate }} %</span></p>
+            <p>Réponses : <span class="font-semibold text-space-text">{{ entry.correctAnswers }} / {{ entry.totalQuestions }}</span></p>
+            <p class="col-span-2">Meilleure série : <span class="font-semibold text-space-text">{{ entry.bestStreak }}</span></p>
+          </div>
+        </article>
+      }
+    </div>
+
+    <button type="button" class="mt-2 w-full rounded-lg border border-red-400/30 px-3 py-2 text-sm font-semibold text-red-200 transition hover:bg-red-500/10" (click)="clearHistory()">
+      Effacer l'historique
+    </button>
+  }
+} @else {
+  <div class="space-y-4">
+    <div>
+      <label class="font-semibold block mb-2"> Mode </label>
 
     <select
       [formControl]="modeControl"
@@ -12,10 +53,10 @@
 
       <option [ngValue]="QuizMode.LocateObject">Localiser l'objet</option>
     </select>
-  </div>
+    </div>
 
-  <div>
-    <label class="font-semibold block mb-2"> Difficulté </label>
+    <div>
+      <label class="font-semibold block mb-2"> Difficulté </label>
 
     <select
       [formControl]="difficultyControl"
@@ -27,10 +68,10 @@
 
       <option [ngValue]="QuizDifficulty.Hard">Difficile</option>
     </select>
-  </div>
+    </div>
 
-  <div>
-    <label class="font-semibold block mb-2"> Nombre de questions </label>
+    <div>
+      <label class="font-semibold block mb-2"> Nombre de questions </label>
 
     <select
       [formControl]="questionCountControl"
@@ -41,7 +82,33 @@
       <option [ngValue]="15">15</option>
       <option [ngValue]="20">20</option>
     </select>
+    </div>
   </div>
-</div>
 
-<button class="button-green mt-6 w-full" (click)="startQuiz()">Commencer</button>
+  <section class="mt-6 rounded-xl border border-cyan-400/20 bg-cyan-400/5 p-4 text-sm" aria-labelledby="quiz-rules-title">
+    <h3 id="quiz-rules-title" class="font-semibold text-cyan-100">Comment jouer ?</h3>
+
+    @if (modeControl.value === QuizMode.GuessObject) {
+      <p class="mt-2 text-space-muted">
+        Observez l’objet affiché sur la carte, puis choisissez son nom parmi les quatre propositions.
+      </p>
+      <ul class="mt-3 list-disc space-y-1 pl-5 text-space-muted">
+        <li>Bonne réponse : <strong class="text-space-text">10 points</strong>.</li>
+        <li>Bonne réponse en moins de 5 secondes : <strong class="text-space-text">15 points</strong>.</li>
+        <li>Mauvaise réponse : <strong class="text-space-text">0 point</strong>.</li>
+        <li>L’indice retire une mauvaise proposition et divise les points gagnés par deux.</li>
+      </ul>
+    } @else {
+      <p class="mt-2 text-space-muted">
+        Repérez l’objet demandé sur la carte, touchez ou cliquez à sa position, puis confirmez votre choix.
+      </p>
+      <ul class="mt-3 list-disc space-y-1 pl-5 text-space-muted">
+        <li>Une bonne localisation rapporte <strong class="text-space-text">10 points</strong> ; une erreur rapporte 0 point.</li>
+        <li>Après la validation, la bonne position et la distance avec votre sélection sont affichées.</li>
+        <li>L’indice entoure une zone contenant l’objet et divise les points gagnés par deux.</li>
+      </ul>
+    }
+  </section>
+
+  <button class="button-green mt-6 w-full" (click)="startQuiz()">Commencer</button>
+}

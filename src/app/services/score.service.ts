@@ -1,14 +1,19 @@
 import { computed, Injectable, signal } from '@angular/core';
-import { IGameScore, ScoreEvent } from '../models/score.model';
+import { IGameScore, IScoreHistory, ScoreEvent } from '../models/score.model';
 import { QuizMode, QuizDifficulty } from '../models/quiz.model';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ScoreService {
+  private static readonly HISTORY_STORAGE_KEY = 'andromesky-score-history';
+  private static readonly MAX_HISTORY_ENTRIES = 50;
+
   private readonly _game = signal<IGameScore>(this.createGameScore(10));
+  private readonly _history = signal<IScoreHistory[]>(this.loadScore());
 
   public readonly game = this._game.asReadonly();
+  public readonly history = this._history.asReadonly();
 
   public readonly score = computed(() => this._game().score);
   public readonly resultMessage = computed(() => {
@@ -56,11 +61,54 @@ export class ScoreService {
     });
   }
 
-  //TODO: persistence du classement
-  private saveScore() {}
+  private saveScore(mode: QuizMode, difficulty: QuizDifficulty): void {
+    const game = this.game();
+    const entry: IScoreHistory = {
+      id: this.createHistoryId(),
+      date: game.finishedAt?.toISOString() ?? new Date().toISOString(),
+      mode,
+      difficulty,
+      score: game.score,
+      successRate: game.successRate,
+      correctAnswers: game.correctAnswers,
+      totalQuestions: game.nbQuestions,
+      bestStreak: game.bestStreak,
+    };
 
-  //TODO: chargement du classement
-  private loadScore() {}
+    const history = [entry, ...this.history()].slice(0, ScoreService.MAX_HISTORY_ENTRIES);
+    this._history.set(history);
+
+    try {
+      localStorage.setItem(ScoreService.HISTORY_STORAGE_KEY, JSON.stringify(history));
+    } catch (error) {
+      console.warn("Impossible d'enregistrer l'historique des scores.", error);
+    }
+  }
+
+  private loadScore(): IScoreHistory[] {
+    try {
+      const storedHistory = localStorage.getItem(ScoreService.HISTORY_STORAGE_KEY);
+      if (!storedHistory) {
+        return [];
+      }
+
+      const history = JSON.parse(storedHistory) as IScoreHistory[];
+      return Array.isArray(history) ? history.filter((entry) => this.isValidHistoryEntry(entry)) : [];
+    } catch (error) {
+      console.warn("Impossible de charger l'historique des scores.", error);
+      return [];
+    }
+  }
+
+  public clearHistory(): void {
+    this._history.set([]);
+
+    try {
+      localStorage.removeItem(ScoreService.HISTORY_STORAGE_KEY);
+    } catch (error) {
+      console.warn("Impossible de supprimer l'historique des scores.", error);
+    }
+  }
 
   public createGameScore(nbQuestions: number): IGameScore {
     return {
@@ -86,11 +134,11 @@ export class ScoreService {
   public finishGame(mode: QuizMode, difficulty: QuizDifficulty): void {
     this._game.update((game) => ({
       ...game,
-      successRate: Math.round((this._game().correctAnswers / this._game().nbQuestions) * 100),
+      successRate: Math.round((game.correctAnswers / game.nbQuestions) * 100),
       finishedAt: new Date(),
     }));
 
-    this.saveScore();
+    this.saveScore(mode, difficulty);
   }
 
   public addCorrectAnswer() {
@@ -99,5 +147,22 @@ export class ScoreService {
 
   public reset(): void {
     this._game.set(this.createGameScore(10));
+  }
+
+  private isValidHistoryEntry(entry: IScoreHistory): boolean {
+    return (
+      typeof entry?.id === 'string' &&
+      typeof entry.date === 'string' &&
+      typeof entry.score === 'number' &&
+      typeof entry.successRate === 'number' &&
+      typeof entry.correctAnswers === 'number' &&
+      typeof entry.totalQuestions === 'number'
+    );
+  }
+
+  private createHistoryId(): string {
+    return typeof crypto?.randomUUID === 'function'
+      ? crypto.randomUUID()
+      : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
   }
 }
