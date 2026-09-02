@@ -62,7 +62,7 @@ export class App {
         return;
       }
 
-      this.skyMapService.goToObject(question.correctAnswer);
+      this.skyMapService.goToObject(question.correctAnswer, this.isMobileViewport());
     });
 
     effect(() => {
@@ -201,5 +201,9 @@ export class App {
 
   public formatAngularDistance(distanceDegrees: number): string {
     return `${distanceDegrees < 1 ? distanceDegrees.toFixed(2) : distanceDegrees.toFixed(1)}°`;
+  }
+
+  private isMobileViewport(): boolean {
+    return typeof window !== 'undefined' && window.matchMedia('(max-width: 767px)').matches;
   }
 }

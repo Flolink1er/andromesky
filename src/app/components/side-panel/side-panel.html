@@ -1,8 +1,8 @@
 <aside
   id="information-panel"
-  class="panel-interactive-edge relative flex h-full min-h-0 w-full flex-col gap-4 overflow-y-auto overscroll-contain border-b border-cyan-100/10 bg-space-panel/95 p-3 shadow-[12px_0_34px_rgba(2,6,23,0.2)] backdrop-blur-xl sm:p-4 md:max-h-none md:min-h-full md:border-r md:border-b-0 md:bg-space-panel/72"
+  class="panel-interactive-edge relative flex h-full min-h-0 w-full flex-col overflow-hidden border-b border-cyan-100/10 bg-space-panel/95 p-3 shadow-[12px_0_34px_rgba(2,6,23,0.2)] backdrop-blur-xl sm:p-4 md:max-h-none md:min-h-full md:border-r md:border-b-0 md:bg-space-panel/72"
 >
-  <div class="sticky top-0 z-10 -mx-3 -mt-3 flex items-center justify-between border-b border-white/10 bg-space-panel/95 px-3 py-2 shadow-lg backdrop-blur-xl md:hidden">
+  <div class="z-10 -mx-3 -mt-3 flex shrink-0 items-center justify-between border-b border-white/10 bg-space-panel/95 px-3 py-2 shadow-lg backdrop-blur-xl sm:-mx-4 sm:-mt-4 sm:px-4 md:hidden">
     <p class="text-sm font-semibold text-space-muted">
       {{ appStateService.isQuiz() ? 'Quiz' : 'Informations' }}
     </p>
@@ -16,35 +16,37 @@
     </button>
   </div>
 
-  @if (appStateService.isQuiz()) {
-    @switch (quizService.state()) {
-      @case (QuizStates.Settings) {
-        <app-quiz-settings />
-      }
+  <div class="min-h-0 flex-1 overflow-y-auto overscroll-contain pt-3 md:pt-0">
+    @if (appStateService.isQuiz()) {
+      @switch (quizService.state()) {
+        @case (QuizStates.Settings) {
+          <app-quiz-settings />
+        }
 
-      @case (QuizStates.Running) {
-        <app-quiz-questions />
-      }
+        @case (QuizStates.Running) {
+          <app-quiz-questions />
+        }
 
-      @case (QuizStates.Finished) {
-        <app-quiz-results
-          [score]="scoreService.game().score"
-          [correctAnswers]="scoreService.game().correctAnswers"
-          [totalQuestions]="quizService.totalQuestions()"
-          [successRate]="scoreService.game().successRate"
-          [fastAnswers]="scoreService.game().fastAnswers"
-          [resultMessage]="scoreService.resultMessage()"
-          (restartQuiz)="restartQuiz()"
-          (backToExploration)="backToExploration()"
-        />
+        @case (QuizStates.Finished) {
+          <app-quiz-results
+            [score]="scoreService.game().score"
+            [correctAnswers]="scoreService.game().correctAnswers"
+            [totalQuestions]="quizService.totalQuestions()"
+            [successRate]="scoreService.game().successRate"
+            [fastAnswers]="scoreService.game().fastAnswers"
+            [resultMessage]="scoreService.resultMessage()"
+            (restartQuiz)="restartQuiz()"
+            (backToExploration)="backToExploration()"
+          />
+        }
       }
+    } @else {
+      <app-object-panel
+        [currentObject]="currentObject()"
+        [currentIndex]="currentIndex()"
+        (previous)="toPreviousObject()"
+        (next)="toNextObject()"
+      />
     }
-  } @else {
-    <app-object-panel
-      [currentObject]="currentObject()"
-      [currentIndex]="currentIndex()"
-      (previous)="toPreviousObject()"
-      (next)="toNextObject()"
-    />
-  }
+  </div>
 </aside>

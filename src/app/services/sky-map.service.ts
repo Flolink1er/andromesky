@@ -172,13 +172,18 @@ export class SkyMapService {
     this.aladin.addOverlay(this.locationHintOverlay);
   }
 
-  public goToObject(object: IAstronomicalObject) {
+  public goToObject(object: IAstronomicalObject, keepAboveBottomSheet = false) {
     if (!this.aladin) {
       return;
     }
     this.markerCatalog.clear();
 
-    this.aladin.gotoRaDec(object.ra!, object.dec!);
+    const [, fovHeight] = this.aladin.getFov();
+    const centreDec = keepAboveBottomSheet
+      ? Math.max(-85, Math.min(85, object.dec! - fovHeight * 0.2))
+      : object.dec!;
+
+    this.aladin.gotoRaDec(object.ra!, centreDec);
 
     this.highlightObject(object);
     if (object.constellationId) {
