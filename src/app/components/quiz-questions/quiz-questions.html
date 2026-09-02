@@ -3,19 +3,22 @@
 </h2>
 
 @if (quizService.currentQuizMode() === QuizMode.GuessObject) {
-  @if (!quizService.hintUsed() && quizService.selectedAnswer() === null) {
-    <button
-      type="button"
-      class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-violet-400/50 bg-violet-500/15 px-3 py-2 text-sm font-semibold text-violet-200 shadow-sm transition hover:cursor-pointer hover:bg-violet-500/25 hover:text-white"
-      title="Retire une mauvaise réponse. Les points gagnés pour cette question seront divisés par deux."
-      (click)="useGuessHint()"
-    >
-      <span aria-hidden="true">💡</span>
-      Indice
-    </button>
-  } @else if (quizService.hintUsed()) {
-    <p class="mt-4 text-sm text-violet-300">Indice utilisé.</p>
-  }
+  <button
+    type="button"
+    class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-violet-400/50 bg-violet-500/15 px-3 py-2 text-sm font-semibold text-violet-200 shadow-sm transition hover:cursor-pointer hover:bg-violet-500/25 hover:text-white disabled:cursor-not-allowed disabled:border-violet-400/20 disabled:bg-violet-500/5 disabled:text-violet-300/50 disabled:opacity-70"
+    [disabled]="quizService.hintUsed() || quizService.selectedAnswer() !== null"
+    [title]="
+      quizService.hintUsed()
+        ? 'Indice déjà utilisé pour cette question.'
+        : quizService.selectedAnswer() !== null
+          ? 'La réponse a déjà été donnée.'
+          : 'Retire une mauvaise réponse. Les points gagnés pour cette question seront divisés par deux.'
+    "
+    (click)="useGuessHint()"
+  >
+    <span aria-hidden="true">💡</span>
+    Indice
+  </button>
 
   @for (choice of quizService.currentQuestion().choices; track choice.target) {
     @if (choice.target !== quizService.eliminatedAnswerTarget()) {
@@ -23,6 +26,11 @@
         class="w-full mt-3 rounded-lg border p-3 text-left hover:cursor-pointer hover:brightness-120 disabled:cursor-not-allowed disabled:opacity-70"
         (click)="answerQuestion(choice)"
         [disabled]="quizService.selectedAnswer() !== null"
+        [class.answer-feedback]="
+          quizService.selectedAnswer() !== null &&
+          (choice.target === quizService.currentQuestion().correctAnswer.target ||
+            choice.target === quizService.selectedAnswer()?.target)
+        "
         [ngClass]="{
           'bg-emerald-500 border-emerald-700 text-white':
             choice.target === quizService.currentQuestion().correctAnswer.target &&
@@ -65,7 +73,7 @@
   }
 
   @if (quizService.locationResult(); as result) {
-    <div class="mt-4 rounded-lg border border-white/10 bg-white/5 p-3">
+    <div class="answer-feedback mt-4 rounded-lg border border-white/10 bg-white/5 p-3">
       <p class="font-semibold" [class.text-emerald-300]="result.isCorrect" [class.text-red-300]="!result.isCorrect">
         {{ result.isCorrect ? 'Bonne réponse !' : 'Pas tout à fait.' }}
       </p>
