@@ -28,7 +28,7 @@ export function getIntroduction(extract?: string): string {
 }
 
 /**
- * Détermine si une page est une page d'homonymie.
+ * Détermine si une page est une page de liste d'homonymes.
  */
 export function isDisambiguation(page: IWikipediaPage): boolean {
   const introduction = getIntroduction(page.extract);

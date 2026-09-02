@@ -91,7 +91,7 @@ export const ASTRONOMY_CATEGORIES = new Set([
 export const FORBIDDEN_CATEGORIES = new Set([
   normalize('fiction'),
   normalize('personnage'),
-  normalize('harry potter'),
+  normalize('harry potter'), //bellatrix..
   normalize('film'),
   normalize('série télévisée'),
   normalize('roman'),
@@ -150,7 +150,7 @@ export const FORBIDDEN_WORDS = new Set([
 ]);
 
 /**
- * Expressions caractéristiques des pages d'homonymie.
+ * Expressions caractéristiques des pages d'homonymie qui listent simplement toutes les pages portant le même nom.
  */
 export const DISAMBIGUATION_PATTERNS = new Set([
   normalize('peut désigner'),
