@@ -775,13 +775,18 @@
   },
   {
     "target": "HIP 15863",
-    "name": "Étoile HIP 15863",
-    "englishName": "HIP 15863",
+    "name": "Alpha Perseus",
+    "englishName": "Alpha Perseus",
     "searchTerms": [
       "HIP 15863",
       "HIP15863",
       "Hipparcos 15863",
-      "Star HIP 15863"
+      "Star HIP 15863",
+      "HR 1017",
+      "HR1017",
+      "33Alp Per",
+      "Alpha Perseus",
+      "Bright Star Catalogue 1017"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Perseus.",
     "type": "Étoile",
@@ -793,13 +798,18 @@
   },
   {
     "target": "HIP 16537",
-    "name": "Étoile HIP 16537",
-    "englishName": "HIP 16537",
+    "name": "Epsilon Eridanus",
+    "englishName": "Epsilon Eridanus",
     "searchTerms": [
       "HIP 16537",
       "HIP16537",
       "Hipparcos 16537",
-      "Star HIP 16537"
+      "Star HIP 16537",
+      "HR 1084",
+      "HR1084",
+      "18Eps Eri",
+      "Epsilon Eridanus",
+      "Bright Star Catalogue 1084"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Eridanus.",
     "type": "Étoile",
@@ -847,13 +857,18 @@
   },
   {
     "target": "HIP 17358",
-    "name": "Étoile HIP 17358",
-    "englishName": "HIP 17358",
+    "name": "Delta Perseus",
+    "englishName": "Delta Perseus",
     "searchTerms": [
       "HIP 17358",
       "HIP17358",
       "Hipparcos 17358",
-      "Star HIP 17358"
+      "Star HIP 17358",
+      "HR 1122",
+      "HR1122",
+      "39Del Per",
+      "Delta Perseus",
+      "Bright Star Catalogue 1122"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Perseus.",
     "type": "Étoile",
@@ -865,13 +880,18 @@
   },
   {
     "target": "HIP 17378",
-    "name": "Étoile HIP 17378",
-    "englishName": "HIP 17378",
+    "name": "Delta Eridanus",
+    "englishName": "Delta Eridanus",
     "searchTerms": [
       "HIP 17378",
       "HIP17378",
       "Hipparcos 17378",
-      "Star HIP 17378"
+      "Star HIP 17378",
+      "HR 1136",
+      "HR1136",
+      "23Del Eri",
+      "Delta Eridanus",
+      "Bright Star Catalogue 1136"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Eridanus.",
     "type": "Étoile",
@@ -883,13 +903,18 @@
   },
   {
     "target": "HIP 17440",
-    "name": "Étoile HIP 17440",
-    "englishName": "HIP 17440",
+    "name": "Beta Reticulum",
+    "englishName": "Beta Reticulum",
     "searchTerms": [
       "HIP 17440",
       "HIP17440",
       "Hipparcos 17440",
-      "Star HIP 17440"
+      "Star HIP 17440",
+      "HR 1175",
+      "HR1175",
+      "Bet Ret",
+      "Beta Reticulum",
+      "Bright Star Catalogue 1175"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Reticulum.",
     "type": "Étoile",
@@ -901,13 +926,18 @@
   },
   {
     "target": "HIP 17448",
-    "name": "Étoile HIP 17448",
-    "englishName": "HIP 17448",
+    "name": "Omicron Perseus",
+    "englishName": "Omicron Perseus",
     "searchTerms": [
       "HIP 17448",
       "HIP17448",
       "Hipparcos 17448",
-      "Star HIP 17448"
+      "Star HIP 17448",
+      "HR 1131",
+      "HR1131",
+      "38Omi Per",
+      "Omicron Perseus",
+      "Bright Star Catalogue 1131"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Perseus.",
     "type": "Étoile",
@@ -955,13 +985,18 @@
   },
   {
     "target": "HIP 17678",
-    "name": "Étoile HIP 17678",
-    "englishName": "HIP 17678",
+    "name": "Gamma Hydrus",
+    "englishName": "Gamma Hydrus",
     "searchTerms": [
       "HIP 17678",
       "HIP17678",
       "Hipparcos 17678",
-      "Star HIP 17678"
+      "Star HIP 17678",
+      "HR 1208",
+      "HR1208",
+      "Gam Hyi",
+      "Gamma Hydrus",
+      "Bright Star Catalogue 1208"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydrus.",
     "type": "Étoile",
@@ -1009,13 +1044,18 @@
   },
   {
     "target": "HIP 18246",
-    "name": "Étoile HIP 18246",
-    "englishName": "HIP 18246",
+    "name": "Zeta Perseus",
+    "englishName": "Zeta Perseus",
     "searchTerms": [
       "HIP 18246",
       "HIP18246",
       "Hipparcos 18246",
-      "Star HIP 18246"
+      "Star HIP 18246",
+      "HR 1203",
+      "HR1203",
+      "44Zet Per",
+      "Zeta Perseus",
+      "Bright Star Catalogue 1203"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Perseus.",
     "type": "Étoile",
@@ -1027,13 +1067,18 @@
   },
   {
     "target": "HIP 18532",
-    "name": "Étoile HIP 18532",
-    "englishName": "HIP 18532",
+    "name": "Epsilon Perseus",
+    "englishName": "Epsilon Perseus",
     "searchTerms": [
       "HIP 18532",
       "HIP18532",
       "Hipparcos 18532",
-      "Star HIP 18532"
+      "Star HIP 18532",
+      "HR 1220",
+      "HR1220",
+      "45Eps Per",
+      "Epsilon Perseus",
+      "Bright Star Catalogue 1220"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Perseus.",
     "type": "Étoile",
@@ -1045,13 +1090,18 @@
   },
   {
     "target": "HIP 18543",
-    "name": "Étoile HIP 18543",
-    "englishName": "HIP 18543",
+    "name": "Gamma Eridanus",
+    "englishName": "Gamma Eridanus",
     "searchTerms": [
       "HIP 18543",
       "HIP18543",
       "Hipparcos 18543",
-      "Star HIP 18543"
+      "Star HIP 18543",
+      "HR 1231",
+      "HR1231",
+      "34Gam Eri",
+      "Gamma Eridanus",
+      "Bright Star Catalogue 1231"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Eridanus.",
     "type": "Étoile",
@@ -1171,13 +1221,18 @@
   },
   {
     "target": "HIP 19747",
-    "name": "Étoile HIP 19747",
-    "englishName": "HIP 19747",
+    "name": "Alpha Horologium",
+    "englishName": "Alpha Horologium",
     "searchTerms": [
       "HIP 19747",
       "HIP19747",
       "Hipparcos 19747",
-      "Star HIP 19747"
+      "Star HIP 19747",
+      "HR 1326",
+      "HR1326",
+      "Alp Hor",
+      "Alpha Horologium",
+      "Bright Star Catalogue 1326"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Horologium.",
     "type": "Étoile",
@@ -1189,13 +1244,18 @@
   },
   {
     "target": "HIP 19780",
-    "name": "Étoile HIP 19780",
-    "englishName": "HIP 19780",
+    "name": "Alpha Reticulum",
+    "englishName": "Alpha Reticulum",
     "searchTerms": [
       "HIP 19780",
       "HIP19780",
       "Hipparcos 19780",
-      "Star HIP 19780"
+      "Star HIP 19780",
+      "HR 1336",
+      "HR1336",
+      "Alp Ret",
+      "Alpha Reticulum",
+      "Bright Star Catalogue 1336"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Reticulum.",
     "type": "Étoile",
@@ -1333,13 +1393,18 @@
   },
   {
     "target": "HIP 21281",
-    "name": "Étoile HIP 21281",
-    "englishName": "HIP 21281",
+    "name": "Alpha Dorado",
+    "englishName": "Alpha Dorado",
     "searchTerms": [
       "HIP 21281",
       "HIP21281",
       "Hipparcos 21281",
-      "Star HIP 21281"
+      "Star HIP 21281",
+      "HR 1465",
+      "HR1465",
+      "Alp Dor",
+      "Alpha Dorado",
+      "Bright Star Catalogue 1465"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Dorado.",
     "type": "Étoile",
@@ -1405,13 +1470,18 @@
   },
   {
     "target": "HIP 23015",
-    "name": "Étoile HIP 23015",
-    "englishName": "HIP 23015",
+    "name": "Iota Auriga",
+    "englishName": "Iota Auriga",
     "searchTerms": [
       "HIP 23015",
       "HIP23015",
       "Hipparcos 23015",
-      "Star HIP 23015"
+      "Star HIP 23015",
+      "HR 1577",
+      "HR1577",
+      "3Iot Aur",
+      "Iota Auriga",
+      "Bright Star Catalogue 1577"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Auriga.",
     "type": "Étoile",
@@ -1423,13 +1493,18 @@
   },
   {
     "target": "HIP 23416",
-    "name": "Étoile HIP 23416",
-    "englishName": "HIP 23416",
+    "name": "Epsilon Auriga",
+    "englishName": "Epsilon Auriga",
     "searchTerms": [
       "HIP 23416",
       "HIP23416",
       "Hipparcos 23416",
-      "Star HIP 23416"
+      "Star HIP 23416",
+      "HR 1605",
+      "HR1605",
+      "7Eps Aur",
+      "Epsilon Auriga",
+      "Bright Star Catalogue 1605"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Auriga.",
     "type": "Étoile",
@@ -1441,13 +1516,18 @@
   },
   {
     "target": "HIP 23453",
-    "name": "Étoile HIP 23453",
-    "englishName": "HIP 23453",
+    "name": "Zeta Auriga",
+    "englishName": "Zeta Auriga",
     "searchTerms": [
       "HIP 23453",
       "HIP23453",
       "Hipparcos 23453",
-      "Star HIP 23453"
+      "Star HIP 23453",
+      "HR 1612",
+      "HR1612",
+      "8Zet Aur",
+      "Zeta Auriga",
+      "Bright Star Catalogue 1612"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Auriga.",
     "type": "Étoile",
@@ -1459,13 +1539,18 @@
   },
   {
     "target": "HIP 23685",
-    "name": "Étoile HIP 23685",
-    "englishName": "HIP 23685",
+    "name": "Epsilon Lepus",
+    "englishName": "Epsilon Lepus",
     "searchTerms": [
       "HIP 23685",
       "HIP23685",
       "Hipparcos 23685",
-      "Star HIP 23685"
+      "Star HIP 23685",
+      "HR 1654",
+      "HR1654",
+      "2Eps Lep",
+      "Epsilon Lepus",
+      "Bright Star Catalogue 1654"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lepus.",
     "type": "Étoile",
@@ -1495,13 +1580,18 @@
   },
   {
     "target": "HIP 23767",
-    "name": "Étoile HIP 23767",
-    "englishName": "HIP 23767",
+    "name": "Eta Auriga",
+    "englishName": "Eta Auriga",
     "searchTerms": [
       "HIP 23767",
       "HIP23767",
       "Hipparcos 23767",
-      "Star HIP 23767"
+      "Star HIP 23767",
+      "HR 1641",
+      "HR1641",
+      "10Eta Aur",
+      "Eta Auriga",
+      "Bright Star Catalogue 1641"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Auriga.",
     "type": "Étoile",
@@ -1513,13 +1603,18 @@
   },
   {
     "target": "HIP 23875",
-    "name": "Étoile HIP 23875",
-    "englishName": "HIP 23875",
+    "name": "Beta Eridanus",
+    "englishName": "Beta Eridanus",
     "searchTerms": [
       "HIP 23875",
       "HIP23875",
       "Hipparcos 23875",
-      "Star HIP 23875"
+      "Star HIP 23875",
+      "HR 1666",
+      "HR1666",
+      "67Bet Eri",
+      "Beta Eridanus",
+      "Bright Star Catalogue 1666"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Eridanus.",
     "type": "Étoile",
@@ -1531,13 +1626,18 @@
   },
   {
     "target": "HIP 24305",
-    "name": "Étoile HIP 24305",
-    "englishName": "HIP 24305",
+    "name": "Mu Lepus",
+    "englishName": "Mu Lepus",
     "searchTerms": [
       "HIP 24305",
       "HIP24305",
       "Hipparcos 24305",
-      "Star HIP 24305"
+      "Star HIP 24305",
+      "HR 1702",
+      "HR1702",
+      "5Mu  Lep",
+      "Mu Lepus",
+      "Bright Star Catalogue 1702"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lepus.",
     "type": "Étoile",
@@ -1567,13 +1667,18 @@
   },
   {
     "target": "HIP 24608",
-    "name": "Étoile HIP 24608",
-    "englishName": "HIP 24608",
+    "name": "Alpha Auriga",
+    "englishName": "Alpha Auriga",
     "searchTerms": [
       "HIP 24608",
       "HIP24608",
       "Hipparcos 24608",
-      "Star HIP 24608"
+      "Star HIP 24608",
+      "HR 1708",
+      "HR1708",
+      "13Alp Aur",
+      "Alpha Auriga",
+      "Bright Star Catalogue 1708"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Auriga.",
     "type": "Étoile",
@@ -1603,13 +1708,18 @@
   },
   {
     "target": "HIP 25428",
-    "name": "Étoile HIP 25428",
-    "englishName": "HIP 25428",
+    "name": "Beta Taurus",
+    "englishName": "Beta Taurus",
     "searchTerms": [
       "HIP 25428",
       "HIP25428",
       "Hipparcos 25428",
-      "Star HIP 25428"
+      "Star HIP 25428",
+      "HR 1791",
+      "HR1791",
+      "112Bet Tau",
+      "Beta Taurus",
+      "Bright Star Catalogue 1791"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Auriga.",
     "type": "Étoile",
@@ -1621,13 +1731,18 @@
   },
   {
     "target": "HIP 25606",
-    "name": "Étoile HIP 25606",
-    "englishName": "HIP 25606",
+    "name": "Beta Lepus",
+    "englishName": "Beta Lepus",
     "searchTerms": [
       "HIP 25606",
       "HIP25606",
       "Hipparcos 25606",
-      "Star HIP 25606"
+      "Star HIP 25606",
+      "HR 1829",
+      "HR1829",
+      "9Bet Lep",
+      "Beta Lepus",
+      "Bright Star Catalogue 1829"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lepus.",
     "type": "Étoile",
@@ -1639,13 +1754,18 @@
   },
   {
     "target": "HIP 25859",
-    "name": "Étoile HIP 25859",
-    "englishName": "HIP 25859",
+    "name": "Epsilon Columba",
+    "englishName": "Epsilon Columba",
     "searchTerms": [
       "HIP 25859",
       "HIP25859",
       "Hipparcos 25859",
-      "Star HIP 25859"
+      "Star HIP 25859",
+      "HR 1862",
+      "HR1862",
+      "Eps Col",
+      "Epsilon Columba",
+      "Bright Star Catalogue 1862"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Columba.",
     "type": "Étoile",
@@ -1657,13 +1777,18 @@
   },
   {
     "target": "HIP 25985",
-    "name": "Étoile HIP 25985",
-    "englishName": "HIP 25985",
+    "name": "Alpha Lepus",
+    "englishName": "Alpha Lepus",
     "searchTerms": [
       "HIP 25985",
       "HIP25985",
       "Hipparcos 25985",
-      "Star HIP 25985"
+      "Star HIP 25985",
+      "HR 1865",
+      "HR1865",
+      "11Alp Lep",
+      "Alpha Lepus",
+      "Bright Star Catalogue 1865"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lepus.",
     "type": "Étoile",
@@ -1675,13 +1800,18 @@
   },
   {
     "target": "HIP 26069",
-    "name": "Étoile HIP 26069",
-    "englishName": "HIP 26069",
+    "name": "Beta Dorado",
+    "englishName": "Beta Dorado",
     "searchTerms": [
       "HIP 26069",
       "HIP26069",
       "Hipparcos 26069",
-      "Star HIP 26069"
+      "Star HIP 26069",
+      "HR 1922",
+      "HR1922",
+      "Bet Dor",
+      "Beta Dorado",
+      "Bright Star Catalogue 1922"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Dorado.",
     "type": "Étoile",
@@ -1693,13 +1823,18 @@
   },
   {
     "target": "HIP 26634",
-    "name": "Étoile HIP 26634",
-    "englishName": "HIP 26634",
+    "name": "Alpha Columba",
+    "englishName": "Alpha Columba",
     "searchTerms": [
       "HIP 26634",
       "HIP26634",
       "Hipparcos 26634",
-      "Star HIP 26634"
+      "Star HIP 26634",
+      "HR 1956",
+      "HR1956",
+      "Alp Col",
+      "Alpha Columba",
+      "Bright Star Catalogue 1956"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Columba.",
     "type": "Étoile",
@@ -1711,13 +1846,18 @@
   },
   {
     "target": "HIP 27072",
-    "name": "Étoile HIP 27072",
-    "englishName": "HIP 27072",
+    "name": "Gamma Lepus",
+    "englishName": "Gamma Lepus",
     "searchTerms": [
       "HIP 27072",
       "HIP27072",
       "Hipparcos 27072",
-      "Star HIP 27072"
+      "Star HIP 27072",
+      "HR 1983",
+      "HR1983",
+      "13Gam Lep",
+      "Gamma Lepus",
+      "Bright Star Catalogue 1983"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lepus.",
     "type": "Étoile",
@@ -1747,13 +1887,18 @@
   },
   {
     "target": "HIP 27288",
-    "name": "Étoile HIP 27288",
-    "englishName": "HIP 27288",
+    "name": "Zeta Lepus",
+    "englishName": "Zeta Lepus",
     "searchTerms": [
       "HIP 27288",
       "HIP27288",
       "Hipparcos 27288",
-      "Star HIP 27288"
+      "Star HIP 27288",
+      "HR 1998",
+      "HR1998",
+      "14Zet Lep",
+      "Zeta Lepus",
+      "Bright Star Catalogue 1998"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lepus.",
     "type": "Étoile",
@@ -1765,13 +1910,18 @@
   },
   {
     "target": "HIP 27321",
-    "name": "Étoile HIP 27321",
-    "englishName": "HIP 27321",
+    "name": "Beta Pictor",
+    "englishName": "Beta Pictor",
     "searchTerms": [
       "HIP 27321",
       "HIP27321",
       "Hipparcos 27321",
-      "Star HIP 27321"
+      "Star HIP 27321",
+      "HR 2020",
+      "HR2020",
+      "Bet Pic",
+      "Beta Pictor",
+      "Bright Star Catalogue 2020"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pictor.",
     "type": "Étoile",
@@ -1801,13 +1951,18 @@
   },
   {
     "target": "HIP 27628",
-    "name": "Étoile HIP 27628",
-    "englishName": "HIP 27628",
+    "name": "Beta Columba",
+    "englishName": "Beta Columba",
     "searchTerms": [
       "HIP 27628",
       "HIP27628",
       "Hipparcos 27628",
-      "Star HIP 27628"
+      "Star HIP 27628",
+      "HR 2040",
+      "HR2040",
+      "Bet Col",
+      "Beta Columba",
+      "Bright Star Catalogue 2040"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Columba.",
     "type": "Étoile",
@@ -1819,13 +1974,18 @@
   },
   {
     "target": "HIP 27654",
-    "name": "Étoile HIP 27654",
-    "englishName": "HIP 27654",
+    "name": "Delta Lepus",
+    "englishName": "Delta Lepus",
     "searchTerms": [
       "HIP 27654",
       "HIP27654",
       "Hipparcos 27654",
-      "Star HIP 27654"
+      "Star HIP 27654",
+      "HR 2035",
+      "HR2035",
+      "15Del Lep",
+      "Delta Lepus",
+      "Bright Star Catalogue 2035"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lepus.",
     "type": "Étoile",
@@ -1855,13 +2015,18 @@
   },
   {
     "target": "HIP 28103",
-    "name": "Étoile HIP 28103",
-    "englishName": "HIP 28103",
+    "name": "Eta Lepus",
+    "englishName": "Eta Lepus",
     "searchTerms": [
       "HIP 28103",
       "HIP28103",
       "Hipparcos 28103",
-      "Star HIP 28103"
+      "Star HIP 28103",
+      "HR 2085",
+      "HR2085",
+      "16Eta Lep",
+      "Eta Lepus",
+      "Bright Star Catalogue 2085"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lepus.",
     "type": "Étoile",
@@ -1909,13 +2074,18 @@
   },
   {
     "target": "HIP 28358",
-    "name": "Étoile HIP 28358",
-    "englishName": "HIP 28358",
+    "name": "Delta Auriga",
+    "englishName": "Delta Auriga",
     "searchTerms": [
       "HIP 28358",
       "HIP28358",
       "Hipparcos 28358",
-      "Star HIP 28358"
+      "Star HIP 28358",
+      "HR 2077",
+      "HR2077",
+      "33Del Aur",
+      "Delta Auriga",
+      "Bright Star Catalogue 2077"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Auriga.",
     "type": "Étoile",
@@ -1927,13 +2097,18 @@
   },
   {
     "target": "HIP 28360",
-    "name": "Étoile HIP 28360",
-    "englishName": "HIP 28360",
+    "name": "Beta Auriga",
+    "englishName": "Beta Auriga",
     "searchTerms": [
       "HIP 28360",
       "HIP28360",
       "Hipparcos 28360",
-      "Star HIP 28360"
+      "Star HIP 28360",
+      "HR 2088",
+      "HR2088",
+      "34Bet Aur",
+      "Beta Auriga",
+      "Bright Star Catalogue 2088"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Auriga.",
     "type": "Étoile",
@@ -1945,13 +2120,18 @@
   },
   {
     "target": "HIP 28380",
-    "name": "Étoile HIP 28380",
-    "englishName": "HIP 28380",
+    "name": "Theta Auriga",
+    "englishName": "Theta Auriga",
     "searchTerms": [
       "HIP 28380",
       "HIP28380",
       "Hipparcos 28380",
-      "Star HIP 28380"
+      "Star HIP 28380",
+      "HR 2095",
+      "HR2095",
+      "37The Aur",
+      "Theta Auriga",
+      "Bright Star Catalogue 2095"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Auriga.",
     "type": "Étoile",
@@ -1999,13 +2179,18 @@
   },
   {
     "target": "HIP 29655",
-    "name": "Étoile HIP 29655",
-    "englishName": "HIP 29655",
+    "name": "Eta Gemini",
+    "englishName": "Eta Gemini",
     "searchTerms": [
       "HIP 29655",
       "HIP29655",
       "Hipparcos 29655",
-      "Star HIP 29655"
+      "Star HIP 29655",
+      "HR 2216",
+      "HR2216",
+      "7Eta Gem",
+      "Eta Gemini",
+      "Bright Star Catalogue 2216"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2035,13 +2220,18 @@
   },
   {
     "target": "HIP 30277",
-    "name": "Étoile HIP 30277",
-    "englishName": "HIP 30277",
+    "name": "Delta Columba",
+    "englishName": "Delta Columba",
     "searchTerms": [
       "HIP 30277",
       "HIP30277",
       "Hipparcos 30277",
-      "Star HIP 30277"
+      "Star HIP 30277",
+      "HR 2296",
+      "HR2296",
+      "Del Col",
+      "Delta Columba",
+      "Bright Star Catalogue 2296"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Columba.",
     "type": "Étoile",
@@ -2053,13 +2243,18 @@
   },
   {
     "target": "HIP 30324",
-    "name": "Étoile HIP 30324",
-    "englishName": "HIP 30324",
+    "name": "Beta Canis Major",
+    "englishName": "Beta Canis Major",
     "searchTerms": [
       "HIP 30324",
       "HIP30324",
       "Hipparcos 30324",
-      "Star HIP 30324"
+      "Star HIP 30324",
+      "HR 2294",
+      "HR2294",
+      "2Bet CMa",
+      "Beta Canis Major",
+      "Bright Star Catalogue 2294"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Canis Major.",
     "type": "Étoile",
@@ -2071,13 +2266,18 @@
   },
   {
     "target": "HIP 30343",
-    "name": "Étoile HIP 30343",
-    "englishName": "HIP 30343",
+    "name": "Mu Gemini",
+    "englishName": "Mu Gemini",
     "searchTerms": [
       "HIP 30343",
       "HIP30343",
       "Hipparcos 30343",
-      "Star HIP 30343"
+      "Star HIP 30343",
+      "HR 2286",
+      "HR2286",
+      "13Mu  Gem",
+      "Mu Gemini",
+      "Bright Star Catalogue 2286"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2089,13 +2289,18 @@
   },
   {
     "target": "HIP 30438",
-    "name": "Étoile HIP 30438",
-    "englishName": "HIP 30438",
+    "name": "Alpha Carina",
+    "englishName": "Alpha Carina",
     "searchTerms": [
       "HIP 30438",
       "HIP30438",
       "Hipparcos 30438",
-      "Star HIP 30438"
+      "Star HIP 30438",
+      "HR 2326",
+      "HR2326",
+      "Alp Car",
+      "Alpha Carina",
+      "Bright Star Catalogue 2326"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Carina.",
     "type": "Étoile",
@@ -2143,13 +2348,18 @@
   },
   {
     "target": "HIP 31681",
-    "name": "Étoile HIP 31681",
-    "englishName": "HIP 31681",
+    "name": "Gamma Gemini",
+    "englishName": "Gamma Gemini",
     "searchTerms": [
       "HIP 31681",
       "HIP31681",
       "Hipparcos 31681",
-      "Star HIP 31681"
+      "Star HIP 31681",
+      "HR 2421",
+      "HR2421",
+      "24Gam Gem",
+      "Gamma Gemini",
+      "Bright Star Catalogue 2421"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2161,13 +2371,18 @@
   },
   {
     "target": "HIP 31685",
-    "name": "Étoile HIP 31685",
-    "englishName": "HIP 31685",
+    "name": "Nu Puppis",
+    "englishName": "Nu Puppis",
     "searchTerms": [
       "HIP 31685",
       "HIP31685",
       "Hipparcos 31685",
-      "Star HIP 31685"
+      "Star HIP 31685",
+      "HR 2451",
+      "HR2451",
+      "Nu  Pup",
+      "Nu Puppis",
+      "Bright Star Catalogue 2451"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Puppis.",
     "type": "Étoile",
@@ -2179,13 +2394,18 @@
   },
   {
     "target": "HIP 32246",
-    "name": "Étoile HIP 32246",
-    "englishName": "HIP 32246",
+    "name": "Epsilon Gemini",
+    "englishName": "Epsilon Gemini",
     "searchTerms": [
       "HIP 32246",
       "HIP32246",
       "Hipparcos 32246",
-      "Star HIP 32246"
+      "Star HIP 32246",
+      "HR 2473",
+      "HR2473",
+      "27Eps Gem",
+      "Epsilon Gemini",
+      "Bright Star Catalogue 2473"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2197,13 +2417,18 @@
   },
   {
     "target": "HIP 32349",
-    "name": "Étoile HIP 32349",
-    "englishName": "HIP 32349",
+    "name": "Alpha Canis Major",
+    "englishName": "Alpha Canis Major",
     "searchTerms": [
       "HIP 32349",
       "HIP32349",
       "Hipparcos 32349",
-      "Star HIP 32349"
+      "Star HIP 32349",
+      "HR 2491",
+      "HR2491",
+      "9Alp CMa",
+      "Alpha Canis Major",
+      "Bright Star Catalogue 2491"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Canis Major.",
     "type": "Étoile",
@@ -2215,13 +2440,18 @@
   },
   {
     "target": "HIP 32362",
-    "name": "Étoile HIP 32362",
-    "englishName": "HIP 32362",
+    "name": "Xi Gemini",
+    "englishName": "Xi Gemini",
     "searchTerms": [
       "HIP 32362",
       "HIP32362",
       "Hipparcos 32362",
-      "Star HIP 32362"
+      "Star HIP 32362",
+      "HR 2484",
+      "HR2484",
+      "31Xi  Gem",
+      "Xi Gemini",
+      "Bright Star Catalogue 2484"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2233,13 +2463,18 @@
   },
   {
     "target": "HIP 32607",
-    "name": "Étoile HIP 32607",
-    "englishName": "HIP 32607",
+    "name": "Alpha Pictor",
+    "englishName": "Alpha Pictor",
     "searchTerms": [
       "HIP 32607",
       "HIP32607",
       "Hipparcos 32607",
-      "Star HIP 32607"
+      "Star HIP 32607",
+      "HR 2550",
+      "HR2550",
+      "Alp Pic",
+      "Alpha Pictor",
+      "Bright Star Catalogue 2550"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pictor.",
     "type": "Étoile",
@@ -2251,13 +2486,18 @@
   },
   {
     "target": "HIP 33018",
-    "name": "Étoile HIP 33018",
-    "englishName": "HIP 33018",
+    "name": "Theta Gemini",
+    "englishName": "Theta Gemini",
     "searchTerms": [
       "HIP 33018",
       "HIP33018",
       "Hipparcos 33018",
-      "Star HIP 33018"
+      "Star HIP 33018",
+      "HR 2540",
+      "HR2540",
+      "34The Gem",
+      "Theta Gemini",
+      "Bright Star Catalogue 2540"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2341,13 +2581,18 @@
   },
   {
     "target": "HIP 33579",
-    "name": "Étoile HIP 33579",
-    "englishName": "HIP 33579",
+    "name": "Epsilon Canis Major",
+    "englishName": "Epsilon Canis Major",
     "searchTerms": [
       "HIP 33579",
       "HIP33579",
       "Hipparcos 33579",
-      "Star HIP 33579"
+      "Star HIP 33579",
+      "HR 2618",
+      "HR2618",
+      "21Eps CMa",
+      "Epsilon Canis Major",
+      "Bright Star Catalogue 2618"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Canis Major.",
     "type": "Étoile",
@@ -2377,13 +2622,18 @@
   },
   {
     "target": "HIP 34088",
-    "name": "Étoile HIP 34088",
-    "englishName": "HIP 34088",
+    "name": "Zeta Gemini",
+    "englishName": "Zeta Gemini",
     "searchTerms": [
       "HIP 34088",
       "HIP34088",
       "Hipparcos 34088",
-      "Star HIP 34088"
+      "Star HIP 34088",
+      "HR 2650",
+      "HR2650",
+      "43Zet Gem",
+      "Zeta Gemini",
+      "Bright Star Catalogue 2650"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2395,13 +2645,18 @@
   },
   {
     "target": "HIP 34444",
-    "name": "Étoile HIP 34444",
-    "englishName": "HIP 34444",
+    "name": "Delta Canis Major",
+    "englishName": "Delta Canis Major",
     "searchTerms": [
       "HIP 34444",
       "HIP34444",
       "Hipparcos 34444",
-      "Star HIP 34444"
+      "Star HIP 34444",
+      "HR 2693",
+      "HR2693",
+      "25Del CMa",
+      "Delta Canis Major",
+      "Bright Star Catalogue 2693"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Canis Major.",
     "type": "Étoile",
@@ -2467,13 +2722,18 @@
   },
   {
     "target": "HIP 35264",
-    "name": "Étoile HIP 35264",
-    "englishName": "HIP 35264",
+    "name": "Pi Puppis",
+    "englishName": "Pi Puppis",
     "searchTerms": [
       "HIP 35264",
       "HIP35264",
       "Hipparcos 35264",
-      "Star HIP 35264"
+      "Star HIP 35264",
+      "HR 2773",
+      "HR2773",
+      "Pi  Pup",
+      "Pi Puppis",
+      "Bright Star Catalogue 2773"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Puppis.",
     "type": "Étoile",
@@ -2485,13 +2745,18 @@
   },
   {
     "target": "HIP 35350",
-    "name": "Étoile HIP 35350",
-    "englishName": "HIP 35350",
+    "name": "Lambda Gemini",
+    "englishName": "Lambda Gemini",
     "searchTerms": [
       "HIP 35350",
       "HIP35350",
       "Hipparcos 35350",
-      "Star HIP 35350"
+      "Star HIP 35350",
+      "HR 2763",
+      "HR2763",
+      "54Lam Gem",
+      "Lambda Gemini",
+      "Bright Star Catalogue 2763"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2503,13 +2768,18 @@
   },
   {
     "target": "HIP 35550",
-    "name": "Étoile HIP 35550",
-    "englishName": "HIP 35550",
+    "name": "Delta Gemini",
+    "englishName": "Delta Gemini",
     "searchTerms": [
       "HIP 35550",
       "HIP35550",
       "Hipparcos 35550",
-      "Star HIP 35550"
+      "Star HIP 35550",
+      "HR 2777",
+      "HR2777",
+      "55Del Gem",
+      "Delta Gemini",
+      "Bright Star Catalogue 2777"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2521,13 +2791,18 @@
   },
   {
     "target": "HIP 35904",
-    "name": "Étoile HIP 35904",
-    "englishName": "HIP 35904",
+    "name": "Eta Canis Major",
+    "englishName": "Eta Canis Major",
     "searchTerms": [
       "HIP 35904",
       "HIP35904",
       "Hipparcos 35904",
-      "Star HIP 35904"
+      "Star HIP 35904",
+      "HR 2827",
+      "HR2827",
+      "31Eta CMa",
+      "Eta Canis Major",
+      "Bright Star Catalogue 2827"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Canis Major.",
     "type": "Étoile",
@@ -2539,13 +2814,18 @@
   },
   {
     "target": "HIP 36046",
-    "name": "Étoile HIP 36046",
-    "englishName": "HIP 36046",
+    "name": "Iota Gemini",
+    "englishName": "Iota Gemini",
     "searchTerms": [
       "HIP 36046",
       "HIP36046",
       "Hipparcos 36046",
-      "Star HIP 36046"
+      "Star HIP 36046",
+      "HR 2821",
+      "HR2821",
+      "60Iot Gem",
+      "Iota Gemini",
+      "Bright Star Catalogue 2821"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2575,13 +2855,18 @@
   },
   {
     "target": "HIP 36188",
-    "name": "Étoile HIP 36188",
-    "englishName": "HIP 36188",
+    "name": "Beta Canis Minor",
+    "englishName": "Beta Canis Minor",
     "searchTerms": [
       "HIP 36188",
       "HIP36188",
       "Hipparcos 36188",
-      "Star HIP 36188"
+      "Star HIP 36188",
+      "HR 2845",
+      "HR2845",
+      "3Bet CMi",
+      "Beta Canis Minor",
+      "Bright Star Catalogue 2845"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Canis Minor.",
     "type": "Étoile",
@@ -2593,13 +2878,18 @@
   },
   {
     "target": "HIP 36850",
-    "name": "Étoile HIP 36850",
-    "englishName": "HIP 36850",
+    "name": "Alpha Gemini",
+    "englishName": "Alpha Gemini",
     "searchTerms": [
       "HIP 36850",
       "HIP36850",
       "Hipparcos 36850",
-      "Star HIP 36850"
+      "Star HIP 36850",
+      "HR 2890",
+      "HR2890",
+      "66Alp Gem",
+      "Alpha Gemini",
+      "Bright Star Catalogue 2890"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2665,13 +2955,18 @@
   },
   {
     "target": "HIP 37279",
-    "name": "Étoile HIP 37279",
-    "englishName": "HIP 37279",
+    "name": "Alpha Canis Minor",
+    "englishName": "Alpha Canis Minor",
     "searchTerms": [
       "HIP 37279",
       "HIP37279",
       "Hipparcos 37279",
-      "Star HIP 37279"
+      "Star HIP 37279",
+      "HR 2943",
+      "HR2943",
+      "10Alp CMi",
+      "Alpha Canis Minor",
+      "Bright Star Catalogue 2943"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Canis Minor.",
     "type": "Étoile",
@@ -2701,13 +2996,18 @@
   },
   {
     "target": "HIP 37740",
-    "name": "Étoile HIP 37740",
-    "englishName": "HIP 37740",
+    "name": "Kappa Gemini",
+    "englishName": "Kappa Gemini",
     "searchTerms": [
       "HIP 37740",
       "HIP37740",
       "Hipparcos 37740",
-      "Star HIP 37740"
+      "Star HIP 37740",
+      "HR 2985",
+      "HR2985",
+      "77Kap Gem",
+      "Kappa Gemini",
+      "Bright Star Catalogue 2985"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2719,13 +3019,18 @@
   },
   {
     "target": "HIP 37826",
-    "name": "Étoile HIP 37826",
-    "englishName": "HIP 37826",
+    "name": "Beta Gemini",
+    "englishName": "Beta Gemini",
     "searchTerms": [
       "HIP 37826",
       "HIP37826",
       "Hipparcos 37826",
-      "Star HIP 37826"
+      "Star HIP 37826",
+      "HR 2990",
+      "HR2990",
+      "78Bet Gem",
+      "Beta Gemini",
+      "Bright Star Catalogue 2990"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Gemini.",
     "type": "Étoile",
@@ -2755,13 +3060,18 @@
   },
   {
     "target": "HIP 38170",
-    "name": "Étoile HIP 38170",
-    "englishName": "HIP 38170",
+    "name": "Xi Puppis",
+    "englishName": "Xi Puppis",
     "searchTerms": [
       "HIP 38170",
       "HIP38170",
       "Hipparcos 38170",
-      "Star HIP 38170"
+      "Star HIP 38170",
+      "HR 3045",
+      "HR3045",
+      "7Xi  Pup",
+      "Xi Puppis",
+      "Bright Star Catalogue 3045"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Puppis.",
     "type": "Étoile",
@@ -2773,13 +3083,18 @@
   },
   {
     "target": "HIP 38827",
-    "name": "Étoile HIP 38827",
-    "englishName": "HIP 38827",
+    "name": "Chi Carina",
+    "englishName": "Chi Carina",
     "searchTerms": [
       "HIP 38827",
       "HIP38827",
       "Hipparcos 38827",
-      "Star HIP 38827"
+      "Star HIP 38827",
+      "HR 3117",
+      "HR3117",
+      "Chi Car",
+      "Chi Carina",
+      "Bright Star Catalogue 3117"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Carina.",
     "type": "Étoile",
@@ -2791,13 +3106,18 @@
   },
   {
     "target": "HIP 39429",
-    "name": "Étoile HIP 39429",
-    "englishName": "HIP 39429",
+    "name": "Zeta Puppis",
+    "englishName": "Zeta Puppis",
     "searchTerms": [
       "HIP 39429",
       "HIP39429",
       "Hipparcos 39429",
-      "Star HIP 39429"
+      "Star HIP 39429",
+      "HR 3165",
+      "HR3165",
+      "Zet Pup",
+      "Zeta Puppis",
+      "Bright Star Catalogue 3165"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Puppis.",
     "type": "Étoile",
@@ -2809,13 +3129,18 @@
   },
   {
     "target": "HIP 39757",
-    "name": "Étoile HIP 39757",
-    "englishName": "HIP 39757",
+    "name": "Rho Puppis",
+    "englishName": "Rho Puppis",
     "searchTerms": [
       "HIP 39757",
       "HIP39757",
       "Hipparcos 39757",
-      "Star HIP 39757"
+      "Star HIP 39757",
+      "HR 3185",
+      "HR3185",
+      "15Rho Pup",
+      "Rho Puppis",
+      "Bright Star Catalogue 3185"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Puppis.",
     "type": "Étoile",
@@ -2863,13 +3188,18 @@
   },
   {
     "target": "HIP 40526",
-    "name": "Étoile HIP 40526",
-    "englishName": "HIP 40526",
+    "name": "Beta Cancer",
+    "englishName": "Beta Cancer",
     "searchTerms": [
       "HIP 40526",
       "HIP40526",
       "Hipparcos 40526",
-      "Star HIP 40526"
+      "Star HIP 40526",
+      "HR 3249",
+      "HR3249",
+      "17Bet Cnc",
+      "Beta Cancer",
+      "Bright Star Catalogue 3249"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cancer.",
     "type": "Étoile",
@@ -2881,13 +3211,18 @@
   },
   {
     "target": "HIP 41037",
-    "name": "Étoile HIP 41037",
-    "englishName": "HIP 41037",
+    "name": "Epsilon Carina",
+    "englishName": "Epsilon Carina",
     "searchTerms": [
       "HIP 41037",
       "HIP41037",
       "Hipparcos 41037",
-      "Star HIP 41037"
+      "Star HIP 41037",
+      "HR 3307",
+      "HR3307",
+      "Eps Car",
+      "Epsilon Carina",
+      "Bright Star Catalogue 3307"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Carina.",
     "type": "Étoile",
@@ -2917,13 +3252,18 @@
   },
   {
     "target": "HIP 41312",
-    "name": "Étoile HIP 41312",
-    "englishName": "HIP 41312",
+    "name": "Beta Volans",
+    "englishName": "Beta Volans",
     "searchTerms": [
       "HIP 41312",
       "HIP41312",
       "Hipparcos 41312",
-      "Star HIP 41312"
+      "Star HIP 41312",
+      "HR 3347",
+      "HR3347",
+      "Bet Vol",
+      "Beta Volans",
+      "Bright Star Catalogue 3347"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Volans.",
     "type": "Étoile",
@@ -3025,13 +3365,18 @@
   },
   {
     "target": "HIP 42828",
-    "name": "Étoile HIP 42828",
-    "englishName": "HIP 42828",
+    "name": "Alpha Pyxis",
+    "englishName": "Alpha Pyxis",
     "searchTerms": [
       "HIP 42828",
       "HIP42828",
       "Hipparcos 42828",
-      "Star HIP 42828"
+      "Star HIP 42828",
+      "HR 3468",
+      "HR3468",
+      "Alp Pyx",
+      "Alpha Pyxis",
+      "Bright Star Catalogue 3468"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pyxis.",
     "type": "Étoile",
@@ -3061,13 +3406,18 @@
   },
   {
     "target": "HIP 42913",
-    "name": "Étoile HIP 42913",
-    "englishName": "HIP 42913",
+    "name": "Delta Vela",
+    "englishName": "Delta Vela",
     "searchTerms": [
       "HIP 42913",
       "HIP42913",
       "Hipparcos 42913",
-      "Star HIP 42913"
+      "Star HIP 42913",
+      "HR 3485",
+      "HR3485",
+      "Del Vel",
+      "Delta Vela",
+      "Bright Star Catalogue 3485"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Carina.",
     "type": "Étoile",
@@ -3097,13 +3447,18 @@
   },
   {
     "target": "HIP 43109",
-    "name": "Étoile HIP 43109",
-    "englishName": "HIP 43109",
+    "name": "Epsilon Hydra",
+    "englishName": "Epsilon Hydra",
     "searchTerms": [
       "HIP 43109",
       "HIP43109",
       "Hipparcos 43109",
-      "Star HIP 43109"
+      "Star HIP 43109",
+      "HR 3482",
+      "HR3482",
+      "11Eps Hya",
+      "Epsilon Hydra",
+      "Bright Star Catalogue 3482"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -3151,13 +3506,18 @@
   },
   {
     "target": "HIP 43813",
-    "name": "Étoile HIP 43813",
-    "englishName": "HIP 43813",
+    "name": "Zeta Hydra",
+    "englishName": "Zeta Hydra",
     "searchTerms": [
       "HIP 43813",
       "HIP43813",
       "Hipparcos 43813",
-      "Star HIP 43813"
+      "Star HIP 43813",
+      "HR 3547",
+      "HR3547",
+      "16Zet Hya",
+      "Zeta Hydra",
+      "Bright Star Catalogue 3547"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -3217,7 +3577,7 @@
     "type": "Étoile",
     "catalog": "Hipparcos",
     "constellationId": "Volans",
-    "magnitude": 4.0,
+    "magnitude": 4,
     "ra": 135.61166181,
     "dec": -66.39584369
   },
@@ -3241,13 +3601,18 @@
   },
   {
     "target": "HIP 44816",
-    "name": "Étoile HIP 44816",
-    "englishName": "HIP 44816",
+    "name": "Lambda Vela",
+    "englishName": "Lambda Vela",
     "searchTerms": [
       "HIP 44816",
       "HIP44816",
       "Hipparcos 44816",
-      "Star HIP 44816"
+      "Star HIP 44816",
+      "HR 3634",
+      "HR3634",
+      "Lam Vel",
+      "Lambda Vela",
+      "Bright Star Catalogue 3634"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Vela.",
     "type": "Étoile",
@@ -3259,13 +3624,18 @@
   },
   {
     "target": "HIP 45238",
-    "name": "Étoile HIP 45238",
-    "englishName": "HIP 45238",
+    "name": "Beta Carina",
+    "englishName": "Beta Carina",
     "searchTerms": [
       "HIP 45238",
       "HIP45238",
       "Hipparcos 45238",
-      "Star HIP 45238"
+      "Star HIP 45238",
+      "HR 3685",
+      "HR3685",
+      "Bet Car",
+      "Beta Carina",
+      "Bright Star Catalogue 3685"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Carina.",
     "type": "Étoile",
@@ -3277,13 +3647,18 @@
   },
   {
     "target": "HIP 45336",
-    "name": "Étoile HIP 45336",
-    "englishName": "HIP 45336",
+    "name": "Theta Hydra",
+    "englishName": "Theta Hydra",
     "searchTerms": [
       "HIP 45336",
       "HIP45336",
       "Hipparcos 45336",
-      "Star HIP 45336"
+      "Star HIP 45336",
+      "HR 3665",
+      "HR3665",
+      "22The Hya",
+      "Theta Hydra",
+      "Bright Star Catalogue 3665"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -3295,13 +3670,18 @@
   },
   {
     "target": "HIP 45556",
-    "name": "Étoile HIP 45556",
-    "englishName": "HIP 45556",
+    "name": "Iota Carina",
+    "englishName": "Iota Carina",
     "searchTerms": [
       "HIP 45556",
       "HIP45556",
       "Hipparcos 45556",
-      "Star HIP 45556"
+      "Star HIP 45556",
+      "HR 3699",
+      "HR3699",
+      "Iot Car",
+      "Iota Carina",
+      "Bright Star Catalogue 3699"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Carina.",
     "type": "Étoile",
@@ -3331,13 +3711,18 @@
   },
   {
     "target": "HIP 45860",
-    "name": "Étoile HIP 45860",
-    "englishName": "HIP 45860",
+    "name": "Alpha Lynx",
+    "englishName": "Alpha Lynx",
     "searchTerms": [
       "HIP 45860",
       "HIP45860",
       "Hipparcos 45860",
-      "Star HIP 45860"
+      "Star HIP 45860",
+      "HR 3705",
+      "HR3705",
+      "40Alp Lyn",
+      "Alpha Lynx",
+      "Bright Star Catalogue 3705"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lynx.",
     "type": "Étoile",
@@ -3349,13 +3734,18 @@
   },
   {
     "target": "HIP 45941",
-    "name": "Étoile HIP 45941",
-    "englishName": "HIP 45941",
+    "name": "Kappa Vela",
+    "englishName": "Kappa Vela",
     "searchTerms": [
       "HIP 45941",
       "HIP45941",
       "Hipparcos 45941",
-      "Star HIP 45941"
+      "Star HIP 45941",
+      "HR 3734",
+      "HR3734",
+      "Kap Vel",
+      "Kappa Vela",
+      "Bright Star Catalogue 3734"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Vela.",
     "type": "Étoile",
@@ -3385,13 +3775,18 @@
   },
   {
     "target": "HIP 46390",
-    "name": "Étoile HIP 46390",
-    "englishName": "HIP 46390",
+    "name": "Alpha Hydra",
+    "englishName": "Alpha Hydra",
     "searchTerms": [
       "HIP 46390",
       "HIP46390",
       "Hipparcos 46390",
-      "Star HIP 46390"
+      "Star HIP 46390",
+      "HR 3748",
+      "HR3748",
+      "30Alp Hya",
+      "Alpha Hydra",
+      "Bright Star Catalogue 3748"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -3403,13 +3798,18 @@
   },
   {
     "target": "HIP 46651",
-    "name": "Étoile HIP 46651",
-    "englishName": "HIP 46651",
+    "name": "Psi Vela",
+    "englishName": "Psi Vela",
     "searchTerms": [
       "HIP 46651",
       "HIP46651",
       "Hipparcos 46651",
-      "Star HIP 46651"
+      "Star HIP 46651",
+      "HR 3786",
+      "HR3786",
+      "Psi Vel",
+      "Psi Vela",
+      "Bright Star Catalogue 3786"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Vela.",
     "type": "Étoile",
@@ -3475,13 +3875,18 @@
   },
   {
     "target": "HIP 47908",
-    "name": "Étoile HIP 47908",
-    "englishName": "HIP 47908",
+    "name": "Epsilon Leo",
+    "englishName": "Epsilon Leo",
     "searchTerms": [
       "HIP 47908",
       "HIP47908",
       "Hipparcos 47908",
-      "Star HIP 47908"
+      "Star HIP 47908",
+      "HR 3873",
+      "HR3873",
+      "17Eps Leo",
+      "Epsilon Leo",
+      "Bright Star Catalogue 3873"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Leo.",
     "type": "Étoile",
@@ -3511,13 +3916,18 @@
   },
   {
     "target": "HIP 48455",
-    "name": "Étoile HIP 48455",
-    "englishName": "HIP 48455",
+    "name": "Mu Leo",
+    "englishName": "Mu Leo",
     "searchTerms": [
       "HIP 48455",
       "HIP48455",
       "Hipparcos 48455",
-      "Star HIP 48455"
+      "Star HIP 48455",
+      "HR 3905",
+      "HR3905",
+      "24Mu  Leo",
+      "Mu Leo",
+      "Bright Star Catalogue 3905"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Leo.",
     "type": "Étoile",
@@ -3529,13 +3939,18 @@
   },
   {
     "target": "HIP 48774",
-    "name": "Étoile HIP 48774",
-    "englishName": "HIP 48774",
+    "name": "Phi Vela",
+    "englishName": "Phi Vela",
     "searchTerms": [
       "HIP 48774",
       "HIP48774",
       "Hipparcos 48774",
-      "Star HIP 48774"
+      "Star HIP 48774",
+      "HR 3940",
+      "HR3940",
+      "Phi Vel",
+      "Phi Vela",
+      "Bright Star Catalogue 3940"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Vela.",
     "type": "Étoile",
@@ -3565,13 +3980,18 @@
   },
   {
     "target": "HIP 49583",
-    "name": "Étoile HIP 49583",
-    "englishName": "HIP 49583",
+    "name": "Eta Leo",
+    "englishName": "Eta Leo",
     "searchTerms": [
       "HIP 49583",
       "HIP49583",
       "Hipparcos 49583",
-      "Star HIP 49583"
+      "Star HIP 49583",
+      "HR 3975",
+      "HR3975",
+      "30Eta Leo",
+      "Eta Leo",
+      "Bright Star Catalogue 3975"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Leo.",
     "type": "Étoile",
@@ -3601,13 +4021,18 @@
   },
   {
     "target": "HIP 49669",
-    "name": "Étoile HIP 49669",
-    "englishName": "HIP 49669",
+    "name": "Alpha Leo",
+    "englishName": "Alpha Leo",
     "searchTerms": [
       "HIP 49669",
       "HIP49669",
       "Hipparcos 49669",
-      "Star HIP 49669"
+      "Star HIP 49669",
+      "HR 3982",
+      "HR3982",
+      "32Alp Leo",
+      "Alpha Leo",
+      "Bright Star Catalogue 3982"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Leo.",
     "type": "Étoile",
@@ -3619,13 +4044,18 @@
   },
   {
     "target": "HIP 49841",
-    "name": "Étoile HIP 49841",
-    "englishName": "HIP 49841",
+    "name": "Lambda Hydra",
+    "englishName": "Lambda Hydra",
     "searchTerms": [
       "HIP 49841",
       "HIP49841",
       "Hipparcos 49841",
-      "Star HIP 49841"
+      "Star HIP 49841",
+      "HR 3994",
+      "HR3994",
+      "41Lam Hya",
+      "Lambda Hydra",
+      "Bright Star Catalogue 3994"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -3637,13 +4067,18 @@
   },
   {
     "target": "HIP 50099",
-    "name": "Étoile HIP 50099",
-    "englishName": "HIP 50099",
+    "name": "Omega Carina",
+    "englishName": "Omega Carina",
     "searchTerms": [
       "HIP 50099",
       "HIP50099",
       "Hipparcos 50099",
-      "Star HIP 50099"
+      "Star HIP 50099",
+      "HR 4037",
+      "HR4037",
+      "Ome Car",
+      "Omega Carina",
+      "Bright Star Catalogue 4037"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Carina.",
     "type": "Étoile",
@@ -3673,13 +4108,18 @@
   },
   {
     "target": "HIP 50335",
-    "name": "Étoile HIP 50335",
-    "englishName": "HIP 50335",
+    "name": "Zeta Leo",
+    "englishName": "Zeta Leo",
     "searchTerms": [
       "HIP 50335",
       "HIP50335",
       "Hipparcos 50335",
-      "Star HIP 50335"
+      "Star HIP 50335",
+      "HR 4031",
+      "HR4031",
+      "36Zet Leo",
+      "Zeta Leo",
+      "Bright Star Catalogue 4031"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Leo.",
     "type": "Étoile",
@@ -3745,13 +4185,18 @@
   },
   {
     "target": "HIP 51069",
-    "name": "Étoile HIP 51069",
-    "englishName": "HIP 51069",
+    "name": "Mu Hydra",
+    "englishName": "Mu Hydra",
     "searchTerms": [
       "HIP 51069",
       "HIP51069",
       "Hipparcos 51069",
-      "Star HIP 51069"
+      "Star HIP 51069",
+      "HR 4094",
+      "HR4094",
+      "42Mu  Hya",
+      "Mu Hydra",
+      "Bright Star Catalogue 4094"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -3799,13 +4244,18 @@
   },
   {
     "target": "HIP 52419",
-    "name": "Étoile HIP 52419",
-    "englishName": "HIP 52419",
+    "name": "Theta Carina",
+    "englishName": "Theta Carina",
     "searchTerms": [
       "HIP 52419",
       "HIP52419",
       "Hipparcos 52419",
-      "Star HIP 52419"
+      "Star HIP 52419",
+      "HR 4199",
+      "HR4199",
+      "The Car",
+      "Theta Carina",
+      "Bright Star Catalogue 4199"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Carina.",
     "type": "Étoile",
@@ -3817,13 +4267,18 @@
   },
   {
     "target": "HIP 52727",
-    "name": "Étoile HIP 52727",
-    "englishName": "HIP 52727",
+    "name": "Mu Vela",
+    "englishName": "Mu Vela",
     "searchTerms": [
       "HIP 52727",
       "HIP52727",
       "Hipparcos 52727",
-      "Star HIP 52727"
+      "Star HIP 52727",
+      "HR 4216",
+      "HR4216",
+      "Mu  Vel",
+      "Mu Vela",
+      "Bright Star Catalogue 4216"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Vela.",
     "type": "Étoile",
@@ -3835,13 +4290,18 @@
   },
   {
     "target": "HIP 52943",
-    "name": "Étoile HIP 52943",
-    "englishName": "HIP 52943",
+    "name": "Nu Hydra",
+    "englishName": "Nu Hydra",
     "searchTerms": [
       "HIP 52943",
       "HIP52943",
       "Hipparcos 52943",
-      "Star HIP 52943"
+      "Star HIP 52943",
+      "HR 4232",
+      "HR4232",
+      "Nu  Hya",
+      "Nu Hydra",
+      "Bright Star Catalogue 4232"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -3979,13 +4439,18 @@
   },
   {
     "target": "HIP 54872",
-    "name": "Étoile HIP 54872",
-    "englishName": "HIP 54872",
+    "name": "Delta Leo",
+    "englishName": "Delta Leo",
     "searchTerms": [
       "HIP 54872",
       "HIP54872",
       "Hipparcos 54872",
-      "Star HIP 54872"
+      "Star HIP 54872",
+      "HR 4357",
+      "HR4357",
+      "68Del Leo",
+      "Delta Leo",
+      "Bright Star Catalogue 4357"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Leo.",
     "type": "Étoile",
@@ -3997,13 +4462,18 @@
   },
   {
     "target": "HIP 54879",
-    "name": "Étoile HIP 54879",
-    "englishName": "HIP 54879",
+    "name": "Theta Leo",
+    "englishName": "Theta Leo",
     "searchTerms": [
       "HIP 54879",
       "HIP54879",
       "Hipparcos 54879",
-      "Star HIP 54879"
+      "Star HIP 54879",
+      "HR 4359",
+      "HR4359",
+      "70The Leo",
+      "Theta Leo",
+      "Bright Star Catalogue 4359"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Leo.",
     "type": "Étoile",
@@ -4015,13 +4485,18 @@
   },
   {
     "target": "HIP 55282",
-    "name": "Étoile HIP 55282",
-    "englishName": "HIP 55282",
+    "name": "Delta Crater",
+    "englishName": "Delta Crater",
     "searchTerms": [
       "HIP 55282",
       "HIP55282",
       "Hipparcos 55282",
-      "Star HIP 55282"
+      "Star HIP 55282",
+      "HR 4382",
+      "HR4382",
+      "12Del Crt",
+      "Delta Crater",
+      "Bright Star Catalogue 4382"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Crater.",
     "type": "Étoile",
@@ -4081,7 +4556,7 @@
     "type": "Étoile",
     "catalog": "Hipparcos",
     "constellationId": "Leo",
-    "magnitude": 4.0,
+    "magnitude": 4,
     "ra": 170.98070334,
     "dec": 10.52969772
   },
@@ -4123,13 +4598,18 @@
   },
   {
     "target": "HIP 56211",
-    "name": "Étoile HIP 56211",
-    "englishName": "HIP 56211",
+    "name": "Lambda Draco",
+    "englishName": "Lambda Draco",
     "searchTerms": [
       "HIP 56211",
       "HIP56211",
       "Hipparcos 56211",
-      "Star HIP 56211"
+      "Star HIP 56211",
+      "HR 4434",
+      "HR4434",
+      "1Lam Dra",
+      "Lambda Draco",
+      "Bright Star Catalogue 4434"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -4159,13 +4639,18 @@
   },
   {
     "target": "HIP 56343",
-    "name": "Étoile HIP 56343",
-    "englishName": "HIP 56343",
+    "name": "Xi Hydra",
+    "englishName": "Xi Hydra",
     "searchTerms": [
       "HIP 56343",
       "HIP56343",
       "Hipparcos 56343",
-      "Star HIP 56343"
+      "Star HIP 56343",
+      "HR 4450",
+      "HR4450",
+      "Xi  Hya",
+      "Xi Hydra",
+      "Bright Star Catalogue 4450"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -4213,13 +4698,18 @@
   },
   {
     "target": "HIP 57363",
-    "name": "Étoile HIP 57363",
-    "englishName": "HIP 57363",
+    "name": "Lambda Musca",
+    "englishName": "Lambda Musca",
     "searchTerms": [
       "HIP 57363",
       "HIP57363",
       "Hipparcos 57363",
-      "Star HIP 57363"
+      "Star HIP 57363",
+      "HR 4520",
+      "HR4520",
+      "Lam Mus",
+      "Lambda Musca",
+      "Bright Star Catalogue 4520"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Musca.",
     "type": "Étoile",
@@ -4249,13 +4739,18 @@
   },
   {
     "target": "HIP 57632",
-    "name": "Étoile HIP 57632",
-    "englishName": "HIP 57632",
+    "name": "Beta Leo",
+    "englishName": "Beta Leo",
     "searchTerms": [
       "HIP 57632",
       "HIP57632",
       "Hipparcos 57632",
-      "Star HIP 57632"
+      "Star HIP 57632",
+      "HR 4534",
+      "HR4534",
+      "94Bet Leo",
+      "Beta Leo",
+      "Bright Star Catalogue 4534"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Leo.",
     "type": "Étoile",
@@ -4267,13 +4762,18 @@
   },
   {
     "target": "HIP 57757",
-    "name": "Étoile HIP 57757",
-    "englishName": "HIP 57757",
+    "name": "Beta Virgo",
+    "englishName": "Beta Virgo",
     "searchTerms": [
       "HIP 57757",
       "HIP57757",
       "Hipparcos 57757",
-      "Star HIP 57757"
+      "Star HIP 57757",
+      "HR 4540",
+      "HR4540",
+      "5Bet Vir",
+      "Beta Virgo",
+      "Bright Star Catalogue 4540"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Virgo.",
     "type": "Étoile",
@@ -4339,13 +4839,18 @@
   },
   {
     "target": "HIP 59196",
-    "name": "Étoile HIP 59196",
-    "englishName": "HIP 59196",
+    "name": "Delta Centaurus",
+    "englishName": "Delta Centaurus",
     "searchTerms": [
       "HIP 59196",
       "HIP59196",
       "Hipparcos 59196",
-      "Star HIP 59196"
+      "Star HIP 59196",
+      "HR 4621",
+      "HR4621",
+      "Del Cen",
+      "Delta Centaurus",
+      "Bright Star Catalogue 4621"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -4375,13 +4880,18 @@
   },
   {
     "target": "HIP 59316",
-    "name": "Étoile HIP 59316",
-    "englishName": "HIP 59316",
+    "name": "Epsilon Corvus",
+    "englishName": "Epsilon Corvus",
     "searchTerms": [
       "HIP 59316",
       "HIP59316",
       "Hipparcos 59316",
-      "Star HIP 59316"
+      "Star HIP 59316",
+      "HR 4630",
+      "HR4630",
+      "2Eps Crv",
+      "Epsilon Corvus",
+      "Bright Star Catalogue 4630"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Corvus.",
     "type": "Étoile",
@@ -4411,13 +4921,18 @@
   },
   {
     "target": "HIP 59747",
-    "name": "Étoile HIP 59747",
-    "englishName": "HIP 59747",
+    "name": "Delta Crux",
+    "englishName": "Delta Crux",
     "searchTerms": [
       "HIP 59747",
       "HIP59747",
       "Hipparcos 59747",
-      "Star HIP 59747"
+      "Star HIP 59747",
+      "HR 4656",
+      "HR4656",
+      "Del Cru",
+      "Delta Crux",
+      "Bright Star Catalogue 4656"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Crux.",
     "type": "Étoile",
@@ -4429,13 +4944,18 @@
   },
   {
     "target": "HIP 59803",
-    "name": "Étoile HIP 59803",
-    "englishName": "HIP 59803",
+    "name": "Gamma Corvus",
+    "englishName": "Gamma Corvus",
     "searchTerms": [
       "HIP 59803",
       "HIP59803",
       "Hipparcos 59803",
-      "Star HIP 59803"
+      "Star HIP 59803",
+      "HR 4662",
+      "HR4662",
+      "4Gam Crv",
+      "Gamma Corvus",
+      "Bright Star Catalogue 4662"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Corvus.",
     "type": "Étoile",
@@ -4465,13 +4985,18 @@
   },
   {
     "target": "HIP 60129",
-    "name": "Étoile HIP 60129",
-    "englishName": "HIP 60129",
+    "name": "Eta Virgo",
+    "englishName": "Eta Virgo",
     "searchTerms": [
       "HIP 60129",
       "HIP60129",
       "Hipparcos 60129",
-      "Star HIP 60129"
+      "Star HIP 60129",
+      "HR 4689",
+      "HR4689",
+      "15Eta Vir",
+      "Eta Virgo",
+      "Bright Star Catalogue 4689"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Virgo.",
     "type": "Étoile",
@@ -4519,13 +5044,18 @@
   },
   {
     "target": "HIP 60965",
-    "name": "Étoile HIP 60965",
-    "englishName": "HIP 60965",
+    "name": "Delta Corvus",
+    "englishName": "Delta Corvus",
     "searchTerms": [
       "HIP 60965",
       "HIP60965",
       "Hipparcos 60965",
-      "Star HIP 60965"
+      "Star HIP 60965",
+      "HR 4757",
+      "HR4757",
+      "7Del Crv",
+      "Delta Corvus",
+      "Bright Star Catalogue 4757"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Corvus.",
     "type": "Étoile",
@@ -4537,13 +5067,18 @@
   },
   {
     "target": "HIP 61084",
-    "name": "Étoile HIP 61084",
-    "englishName": "HIP 61084",
+    "name": "Gamma Crux",
+    "englishName": "Gamma Crux",
     "searchTerms": [
       "HIP 61084",
       "HIP61084",
       "Hipparcos 61084",
-      "Star HIP 61084"
+      "Star HIP 61084",
+      "HR 4763",
+      "HR4763",
+      "Gam Cru",
+      "Gamma Crux",
+      "Bright Star Catalogue 4763"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Crux.",
     "type": "Étoile",
@@ -4555,13 +5090,18 @@
   },
   {
     "target": "HIP 61199",
-    "name": "Étoile HIP 61199",
-    "englishName": "HIP 61199",
+    "name": "Gamma Musca",
+    "englishName": "Gamma Musca",
     "searchTerms": [
       "HIP 61199",
       "HIP61199",
       "Hipparcos 61199",
-      "Star HIP 61199"
+      "Star HIP 61199",
+      "HR 4773",
+      "HR4773",
+      "Gam Mus",
+      "Gamma Musca",
+      "Bright Star Catalogue 4773"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Musca.",
     "type": "Étoile",
@@ -4573,13 +5113,18 @@
   },
   {
     "target": "HIP 61281",
-    "name": "Étoile HIP 61281",
-    "englishName": "HIP 61281",
+    "name": "Kappa Draco",
+    "englishName": "Kappa Draco",
     "searchTerms": [
       "HIP 61281",
       "HIP61281",
       "Hipparcos 61281",
-      "Star HIP 61281"
+      "Star HIP 61281",
+      "HR 4787",
+      "HR4787",
+      "5Kap Dra",
+      "Kappa Draco",
+      "Bright Star Catalogue 4787"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -4591,13 +5136,18 @@
   },
   {
     "target": "HIP 61359",
-    "name": "Étoile HIP 61359",
-    "englishName": "HIP 61359",
+    "name": "Beta Corvus",
+    "englishName": "Beta Corvus",
     "searchTerms": [
       "HIP 61359",
       "HIP61359",
       "Hipparcos 61359",
-      "Star HIP 61359"
+      "Star HIP 61359",
+      "HR 4786",
+      "HR4786",
+      "9Bet Crv",
+      "Beta Corvus",
+      "Bright Star Catalogue 4786"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Corvus.",
     "type": "Étoile",
@@ -4609,13 +5159,18 @@
   },
   {
     "target": "HIP 61585",
-    "name": "Étoile HIP 61585",
-    "englishName": "HIP 61585",
+    "name": "Alpha Musca",
+    "englishName": "Alpha Musca",
     "searchTerms": [
       "HIP 61585",
       "HIP61585",
       "Hipparcos 61585",
-      "Star HIP 61585"
+      "Star HIP 61585",
+      "HR 4798",
+      "HR4798",
+      "Alp Mus",
+      "Alpha Musca",
+      "Bright Star Catalogue 4798"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Musca.",
     "type": "Étoile",
@@ -4645,13 +5200,18 @@
   },
   {
     "target": "HIP 61932",
-    "name": "Étoile HIP 61932",
-    "englishName": "HIP 61932",
+    "name": "Gamma Centaurus",
+    "englishName": "Gamma Centaurus",
     "searchTerms": [
       "HIP 61932",
       "HIP61932",
       "Hipparcos 61932",
-      "Star HIP 61932"
+      "Star HIP 61932",
+      "HR 4819",
+      "HR4819",
+      "Gam Cen",
+      "Gamma Centaurus",
+      "Bright Star Catalogue 4819"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -4663,13 +5223,18 @@
   },
   {
     "target": "HIP 61941",
-    "name": "Étoile HIP 61941",
-    "englishName": "HIP 61941",
+    "name": "Gamma Virgo",
+    "englishName": "Gamma Virgo",
     "searchTerms": [
       "HIP 61941",
       "HIP61941",
       "Hipparcos 61941",
-      "Star HIP 61941"
+      "Star HIP 61941",
+      "HR 4825",
+      "HR4825",
+      "29Gam Vir",
+      "Gamma Virgo",
+      "Bright Star Catalogue 4825"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Virgo.",
     "type": "Étoile",
@@ -4681,13 +5246,18 @@
   },
   {
     "target": "HIP 62322",
-    "name": "Étoile HIP 62322",
-    "englishName": "HIP 62322",
+    "name": "Beta Musca",
+    "englishName": "Beta Musca",
     "searchTerms": [
       "HIP 62322",
       "HIP62322",
       "Hipparcos 62322",
-      "Star HIP 62322"
+      "Star HIP 62322",
+      "HR 4844",
+      "HR4844",
+      "Bet Mus",
+      "Beta Musca",
+      "Bright Star Catalogue 4844"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Musca.",
     "type": "Étoile",
@@ -4699,13 +5269,18 @@
   },
   {
     "target": "HIP 62434",
-    "name": "Étoile HIP 62434",
-    "englishName": "HIP 62434",
+    "name": "Beta Crux",
+    "englishName": "Beta Crux",
     "searchTerms": [
       "HIP 62434",
       "HIP62434",
       "Hipparcos 62434",
-      "Star HIP 62434"
+      "Star HIP 62434",
+      "HR 4853",
+      "HR4853",
+      "Bet Cru",
+      "Beta Crux",
+      "Bright Star Catalogue 4853"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Crux.",
     "type": "Étoile",
@@ -4717,13 +5292,18 @@
   },
   {
     "target": "HIP 63090",
-    "name": "Étoile HIP 63090",
-    "englishName": "HIP 63090",
+    "name": "Delta Virgo",
+    "englishName": "Delta Virgo",
     "searchTerms": [
       "HIP 63090",
       "HIP63090",
       "Hipparcos 63090",
-      "Star HIP 63090"
+      "Star HIP 63090",
+      "HR 4910",
+      "HR4910",
+      "43Del Vir",
+      "Delta Virgo",
+      "Bright Star Catalogue 4910"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Virgo.",
     "type": "Étoile",
@@ -4735,13 +5315,18 @@
   },
   {
     "target": "HIP 63608",
-    "name": "Étoile HIP 63608",
-    "englishName": "HIP 63608",
+    "name": "Epsilon Virgo",
+    "englishName": "Epsilon Virgo",
     "searchTerms": [
       "HIP 63608",
       "HIP63608",
       "Hipparcos 63608",
-      "Star HIP 63608"
+      "Star HIP 63608",
+      "HR 4932",
+      "HR4932",
+      "47Eps Vir",
+      "Epsilon Virgo",
+      "Bright Star Catalogue 4932"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Virgo.",
     "type": "Étoile",
@@ -4753,13 +5338,18 @@
   },
   {
     "target": "HIP 63613",
-    "name": "Étoile HIP 63613",
-    "englishName": "HIP 63613",
+    "name": "Delta Musca",
+    "englishName": "Delta Musca",
     "searchTerms": [
       "HIP 63613",
       "HIP63613",
       "Hipparcos 63613",
-      "Star HIP 63613"
+      "Star HIP 63613",
+      "HR 4923",
+      "HR4923",
+      "Del Mus",
+      "Delta Musca",
+      "Bright Star Catalogue 4923"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Musca.",
     "type": "Étoile",
@@ -4789,13 +5379,18 @@
   },
   {
     "target": "HIP 64962",
-    "name": "Étoile HIP 64962",
-    "englishName": "HIP 64962",
+    "name": "Gamma Hydra",
+    "englishName": "Gamma Hydra",
     "searchTerms": [
       "HIP 64962",
       "HIP64962",
       "Hipparcos 64962",
-      "Star HIP 64962"
+      "Star HIP 64962",
+      "HR 5020",
+      "HR5020",
+      "46Gam Hya",
+      "Gamma Hydra",
+      "Bright Star Catalogue 5020"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -4807,13 +5402,18 @@
   },
   {
     "target": "HIP 65109",
-    "name": "Étoile HIP 65109",
-    "englishName": "HIP 65109",
+    "name": "Iota Centaurus",
+    "englishName": "Iota Centaurus",
     "searchTerms": [
       "HIP 65109",
       "HIP65109",
       "Hipparcos 65109",
-      "Star HIP 65109"
+      "Star HIP 65109",
+      "HR 5028",
+      "HR5028",
+      "Iot Cen",
+      "Iota Centaurus",
+      "Bright Star Catalogue 5028"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -4825,13 +5425,18 @@
   },
   {
     "target": "HIP 65474",
-    "name": "Étoile HIP 65474",
-    "englishName": "HIP 65474",
+    "name": "Alpha Virgo",
+    "englishName": "Alpha Virgo",
     "searchTerms": [
       "HIP 65474",
       "HIP65474",
       "Hipparcos 65474",
-      "Star HIP 65474"
+      "Star HIP 65474",
+      "HR 5056",
+      "HR5056",
+      "67Alp Vir",
+      "Alpha Virgo",
+      "Bright Star Catalogue 5056"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Virgo.",
     "type": "Étoile",
@@ -4861,13 +5466,18 @@
   },
   {
     "target": "HIP 66249",
-    "name": "Étoile HIP 66249",
-    "englishName": "HIP 66249",
+    "name": "Zeta Virgo",
+    "englishName": "Zeta Virgo",
     "searchTerms": [
       "HIP 66249",
       "HIP66249",
       "Hipparcos 66249",
-      "Star HIP 66249"
+      "Star HIP 66249",
+      "HR 5107",
+      "HR5107",
+      "79Zet Vir",
+      "Zeta Virgo",
+      "Bright Star Catalogue 5107"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Virgo.",
     "type": "Étoile",
@@ -4879,13 +5489,18 @@
   },
   {
     "target": "HIP 66657",
-    "name": "Étoile HIP 66657",
-    "englishName": "HIP 66657",
+    "name": "Epsilon Centaurus",
+    "englishName": "Epsilon Centaurus",
     "searchTerms": [
       "HIP 66657",
       "HIP66657",
       "Hipparcos 66657",
-      "Star HIP 66657"
+      "Star HIP 66657",
+      "HR 5132",
+      "HR5132",
+      "Eps Cen",
+      "Epsilon Centaurus",
+      "Bright Star Catalogue 5132"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -4915,13 +5530,18 @@
   },
   {
     "target": "HIP 67464",
-    "name": "Étoile HIP 67464",
-    "englishName": "HIP 67464",
+    "name": "Nu Centaurus",
+    "englishName": "Nu Centaurus",
     "searchTerms": [
       "HIP 67464",
       "HIP67464",
       "Hipparcos 67464",
-      "Star HIP 67464"
+      "Star HIP 67464",
+      "HR 5190",
+      "HR5190",
+      "Nu  Cen",
+      "Nu Centaurus",
+      "Bright Star Catalogue 5190"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -4933,13 +5553,18 @@
   },
   {
     "target": "HIP 67927",
-    "name": "Étoile HIP 67927",
-    "englishName": "HIP 67927",
+    "name": "Eta Bootes",
+    "englishName": "Eta Bootes",
     "searchTerms": [
       "HIP 67927",
       "HIP67927",
       "Hipparcos 67927",
-      "Star HIP 67927"
+      "Star HIP 67927",
+      "HR 5235",
+      "HR5235",
+      "8Eta Boo",
+      "Eta Bootes",
+      "Bright Star Catalogue 5235"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Bootes.",
     "type": "Étoile",
@@ -4951,13 +5576,18 @@
   },
   {
     "target": "HIP 68002",
-    "name": "Étoile HIP 68002",
-    "englishName": "HIP 68002",
+    "name": "Zeta Centaurus",
+    "englishName": "Zeta Centaurus",
     "searchTerms": [
       "HIP 68002",
       "HIP68002",
       "Hipparcos 68002",
-      "Star HIP 68002"
+      "Star HIP 68002",
+      "HR 5231",
+      "HR5231",
+      "Zet Cen",
+      "Zeta Centaurus",
+      "Bright Star Catalogue 5231"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -4969,13 +5599,18 @@
   },
   {
     "target": "HIP 68245",
-    "name": "Étoile HIP 68245",
-    "englishName": "HIP 68245",
+    "name": "Phi Centaurus",
+    "englishName": "Phi Centaurus",
     "searchTerms": [
       "HIP 68245",
       "HIP68245",
       "Hipparcos 68245",
-      "Star HIP 68245"
+      "Star HIP 68245",
+      "HR 5248",
+      "HR5248",
+      "Phi Cen",
+      "Phi Centaurus",
+      "Bright Star Catalogue 5248"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -5023,13 +5658,18 @@
   },
   {
     "target": "HIP 68702",
-    "name": "Étoile HIP 68702",
-    "englishName": "HIP 68702",
+    "name": "Beta Centaurus",
+    "englishName": "Beta Centaurus",
     "searchTerms": [
       "HIP 68702",
       "HIP68702",
       "Hipparcos 68702",
-      "Star HIP 68702"
+      "Star HIP 68702",
+      "HR 5267",
+      "HR5267",
+      "Bet Cen",
+      "Beta Centaurus",
+      "Bright Star Catalogue 5267"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -5041,13 +5681,18 @@
   },
   {
     "target": "HIP 68756",
-    "name": "Étoile HIP 68756",
-    "englishName": "HIP 68756",
+    "name": "Alpha Draco",
+    "englishName": "Alpha Draco",
     "searchTerms": [
       "HIP 68756",
       "HIP68756",
       "Hipparcos 68756",
-      "Star HIP 68756"
+      "Star HIP 68756",
+      "HR 5291",
+      "HR5291",
+      "11Alp Dra",
+      "Alpha Draco",
+      "Bright Star Catalogue 5291"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -5077,13 +5722,18 @@
   },
   {
     "target": "HIP 68895",
-    "name": "Étoile HIP 68895",
-    "englishName": "HIP 68895",
+    "name": "Pi Hydra",
+    "englishName": "Pi Hydra",
     "searchTerms": [
       "HIP 68895",
       "HIP68895",
       "Hipparcos 68895",
-      "Star HIP 68895"
+      "Star HIP 68895",
+      "HR 5287",
+      "HR5287",
+      "49Pi  Hya",
+      "Pi Hydra",
+      "Bright Star Catalogue 5287"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Hydra.",
     "type": "Étoile",
@@ -5095,13 +5745,18 @@
   },
   {
     "target": "HIP 68933",
-    "name": "Étoile HIP 68933",
-    "englishName": "HIP 68933",
+    "name": "Theta Centaurus",
+    "englishName": "Theta Centaurus",
     "searchTerms": [
       "HIP 68933",
       "HIP68933",
       "Hipparcos 68933",
-      "Star HIP 68933"
+      "Star HIP 68933",
+      "HR 5288",
+      "HR5288",
+      "5The Cen",
+      "Theta Centaurus",
+      "Bright Star Catalogue 5288"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -5131,13 +5786,18 @@
   },
   {
     "target": "HIP 69673",
-    "name": "Étoile HIP 69673",
-    "englishName": "HIP 69673",
+    "name": "Alpha Bootes",
+    "englishName": "Alpha Bootes",
     "searchTerms": [
       "HIP 69673",
       "HIP69673",
       "Hipparcos 69673",
-      "Star HIP 69673"
+      "Star HIP 69673",
+      "HR 5340",
+      "HR5340",
+      "16Alp Boo",
+      "Alpha Bootes",
+      "Bright Star Catalogue 5340"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Bootes.",
     "type": "Étoile",
@@ -5239,13 +5899,18 @@
   },
   {
     "target": "HIP 71053",
-    "name": "Étoile HIP 71053",
-    "englishName": "HIP 71053",
+    "name": "Rho Bootes",
+    "englishName": "Rho Bootes",
     "searchTerms": [
       "HIP 71053",
       "HIP71053",
       "Hipparcos 71053",
-      "Star HIP 71053"
+      "Star HIP 71053",
+      "HR 5429",
+      "HR5429",
+      "25Rho Boo",
+      "Rho Bootes",
+      "Bright Star Catalogue 5429"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Bootes.",
     "type": "Étoile",
@@ -5257,13 +5922,18 @@
   },
   {
     "target": "HIP 71075",
-    "name": "Étoile HIP 71075",
-    "englishName": "HIP 71075",
+    "name": "Gamma Bootes",
+    "englishName": "Gamma Bootes",
     "searchTerms": [
       "HIP 71075",
       "HIP71075",
       "Hipparcos 71075",
-      "Star HIP 71075"
+      "Star HIP 71075",
+      "HR 5435",
+      "HR5435",
+      "27Gam Boo",
+      "Gamma Bootes",
+      "Bright Star Catalogue 5435"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Bootes.",
     "type": "Étoile",
@@ -5275,13 +5945,18 @@
   },
   {
     "target": "HIP 71352",
-    "name": "Étoile HIP 71352",
-    "englishName": "HIP 71352",
+    "name": "Eta Centaurus",
+    "englishName": "Eta Centaurus",
     "searchTerms": [
       "HIP 71352",
       "HIP71352",
       "Hipparcos 71352",
-      "Star HIP 71352"
+      "Star HIP 71352",
+      "HR 5440",
+      "HR5440",
+      "Eta Cen",
+      "Eta Centaurus",
+      "Bright Star Catalogue 5440"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -5329,13 +6004,18 @@
   },
   {
     "target": "HIP 71860",
-    "name": "Étoile HIP 71860",
-    "englishName": "HIP 71860",
+    "name": "Alpha Lupus",
+    "englishName": "Alpha Lupus",
     "searchTerms": [
       "HIP 71860",
       "HIP71860",
       "Hipparcos 71860",
-      "Star HIP 71860"
+      "Star HIP 71860",
+      "HR 5469",
+      "HR5469",
+      "Alp Lup",
+      "Alpha Lupus",
+      "Bright Star Catalogue 5469"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lupus.",
     "type": "Étoile",
@@ -5347,13 +6027,18 @@
   },
   {
     "target": "HIP 71908",
-    "name": "Étoile HIP 71908",
-    "englishName": "HIP 71908",
+    "name": "Alpha Circinus",
+    "englishName": "Alpha Circinus",
     "searchTerms": [
       "HIP 71908",
       "HIP71908",
       "Hipparcos 71908",
-      "Star HIP 71908"
+      "Star HIP 71908",
+      "HR 5463",
+      "HR5463",
+      "Alp Cir",
+      "Alpha Circinus",
+      "Bright Star Catalogue 5463"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Circinus.",
     "type": "Étoile",
@@ -5365,13 +6050,18 @@
   },
   {
     "target": "HIP 71957",
-    "name": "Étoile HIP 71957",
-    "englishName": "HIP 71957",
+    "name": "Mu Virgo",
+    "englishName": "Mu Virgo",
     "searchTerms": [
       "HIP 71957",
       "HIP71957",
       "Hipparcos 71957",
-      "Star HIP 71957"
+      "Star HIP 71957",
+      "HR 5487",
+      "HR5487",
+      "107Mu  Vir",
+      "Mu Virgo",
+      "Bright Star Catalogue 5487"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Virgo.",
     "type": "Étoile",
@@ -5383,13 +6073,18 @@
   },
   {
     "target": "HIP 72105",
-    "name": "Étoile HIP 72105",
-    "englishName": "HIP 72105",
+    "name": "Epsilon Bootes",
+    "englishName": "Epsilon Bootes",
     "searchTerms": [
       "HIP 72105",
       "HIP72105",
       "Hipparcos 72105",
-      "Star HIP 72105"
+      "Star HIP 72105",
+      "HR 5506",
+      "HR5506",
+      "36Eps Boo",
+      "Epsilon Bootes",
+      "Bright Star Catalogue 5506"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Bootes.",
     "type": "Étoile",
@@ -5419,13 +6114,18 @@
   },
   {
     "target": "HIP 72370",
-    "name": "Étoile HIP 72370",
-    "englishName": "HIP 72370",
+    "name": "Alpha Apus",
+    "englishName": "Alpha Apus",
     "searchTerms": [
       "HIP 72370",
       "HIP72370",
       "Hipparcos 72370",
-      "Star HIP 72370"
+      "Star HIP 72370",
+      "HR 5470",
+      "HR5470",
+      "Alp Aps",
+      "Alpha Apus",
+      "Bright Star Catalogue 5470"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Apus.",
     "type": "Étoile",
@@ -5455,13 +6155,18 @@
   },
   {
     "target": "HIP 72607",
-    "name": "Étoile HIP 72607",
-    "englishName": "HIP 72607",
+    "name": "Beta Ursa Minor",
+    "englishName": "Beta Ursa Minor",
     "searchTerms": [
       "HIP 72607",
       "HIP72607",
       "Hipparcos 72607",
-      "Star HIP 72607"
+      "Star HIP 72607",
+      "HR 5563",
+      "HR5563",
+      "7Bet UMi",
+      "Beta Ursa Minor",
+      "Bright Star Catalogue 5563"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ursa Minor.",
     "type": "Étoile",
@@ -5491,13 +6196,18 @@
   },
   {
     "target": "HIP 73273",
-    "name": "Étoile HIP 73273",
-    "englishName": "HIP 73273",
+    "name": "Beta Lupus",
+    "englishName": "Beta Lupus",
     "searchTerms": [
       "HIP 73273",
       "HIP73273",
       "Hipparcos 73273",
-      "Star HIP 73273"
+      "Star HIP 73273",
+      "HR 5571",
+      "HR5571",
+      "Bet Lup",
+      "Beta Lupus",
+      "Bright Star Catalogue 5571"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lupus.",
     "type": "Étoile",
@@ -5509,13 +6219,18 @@
   },
   {
     "target": "HIP 73334",
-    "name": "Étoile HIP 73334",
-    "englishName": "HIP 73334",
+    "name": "Kappa Centaurus",
+    "englishName": "Kappa Centaurus",
     "searchTerms": [
       "HIP 73334",
       "HIP73334",
       "Hipparcos 73334",
-      "Star HIP 73334"
+      "Star HIP 73334",
+      "HR 5576",
+      "HR5576",
+      "Kap Cen",
+      "Kappa Centaurus",
+      "Bright Star Catalogue 5576"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Centaurus.",
     "type": "Étoile",
@@ -5527,13 +6242,18 @@
   },
   {
     "target": "HIP 73555",
-    "name": "Étoile HIP 73555",
-    "englishName": "HIP 73555",
+    "name": "Beta Bootes",
+    "englishName": "Beta Bootes",
     "searchTerms": [
       "HIP 73555",
       "HIP73555",
       "Hipparcos 73555",
-      "Star HIP 73555"
+      "Star HIP 73555",
+      "HR 5602",
+      "HR5602",
+      "42Bet Boo",
+      "Beta Bootes",
+      "Bright Star Catalogue 5602"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Bootes.",
     "type": "Étoile",
@@ -5545,13 +6265,18 @@
   },
   {
     "target": "HIP 73714",
-    "name": "Étoile HIP 73714",
-    "englishName": "HIP 73714",
+    "name": "Sigma Libra",
+    "englishName": "Sigma Libra",
     "searchTerms": [
       "HIP 73714",
       "HIP73714",
       "Hipparcos 73714",
-      "Star HIP 73714"
+      "Star HIP 73714",
+      "HR 5603",
+      "HR5603",
+      "20Sig Lib",
+      "Sigma Libra",
+      "Bright Star Catalogue 5603"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Libra.",
     "type": "Étoile",
@@ -5563,13 +6288,18 @@
   },
   {
     "target": "HIP 74395",
-    "name": "Étoile HIP 74395",
-    "englishName": "HIP 74395",
+    "name": "Zeta Lupus",
+    "englishName": "Zeta Lupus",
     "searchTerms": [
       "HIP 74395",
       "HIP74395",
       "Hipparcos 74395",
-      "Star HIP 74395"
+      "Star HIP 74395",
+      "HR 5649",
+      "HR5649",
+      "Zet Lup",
+      "Zeta Lupus",
+      "Bright Star Catalogue 5649"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lupus.",
     "type": "Étoile",
@@ -5581,13 +6311,18 @@
   },
   {
     "target": "HIP 74666",
-    "name": "Étoile HIP 74666",
-    "englishName": "HIP 74666",
+    "name": "Delta Bootes",
+    "englishName": "Delta Bootes",
     "searchTerms": [
       "HIP 74666",
       "HIP74666",
       "Hipparcos 74666",
-      "Star HIP 74666"
+      "Star HIP 74666",
+      "HR 5681",
+      "HR5681",
+      "49Del Boo",
+      "Delta Bootes",
+      "Bright Star Catalogue 5681"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Bootes.",
     "type": "Étoile",
@@ -5599,13 +6334,18 @@
   },
   {
     "target": "HIP 74785",
-    "name": "Étoile HIP 74785",
-    "englishName": "HIP 74785",
+    "name": "Beta Libra",
+    "englishName": "Beta Libra",
     "searchTerms": [
       "HIP 74785",
       "HIP74785",
       "Hipparcos 74785",
-      "Star HIP 74785"
+      "Star HIP 74785",
+      "HR 5685",
+      "HR5685",
+      "27Bet Lib",
+      "Beta Libra",
+      "Bright Star Catalogue 5685"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Libra.",
     "type": "Étoile",
@@ -5635,13 +6375,18 @@
   },
   {
     "target": "HIP 74946",
-    "name": "Étoile HIP 74946",
-    "englishName": "HIP 74946",
+    "name": "Gamma Triangulum Australe",
+    "englishName": "Gamma Triangulum Australe",
     "searchTerms": [
       "HIP 74946",
       "HIP74946",
       "Hipparcos 74946",
-      "Star HIP 74946"
+      "Star HIP 74946",
+      "HR 5671",
+      "HR5671",
+      "Gam TrA",
+      "Gamma Triangulum Australe",
+      "Bright Star Catalogue 5671"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Triangulum Australe.",
     "type": "Étoile",
@@ -5653,31 +6398,41 @@
   },
   {
     "target": "HIP 75097",
-    "name": "Étoile HIP 75097",
-    "englishName": "HIP 75097",
+    "name": "Gamma Ursa Minor",
+    "englishName": "Gamma Ursa Minor",
     "searchTerms": [
       "HIP 75097",
       "HIP75097",
       "Hipparcos 75097",
-      "Star HIP 75097"
+      "Star HIP 75097",
+      "HR 5735",
+      "HR5735",
+      "13Gam UMi",
+      "Gamma Ursa Minor",
+      "Bright Star Catalogue 5735"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ursa Minor.",
     "type": "Étoile",
     "catalog": "Hipparcos",
     "constellationId": "Ursa Minor",
-    "magnitude": 3.0,
+    "magnitude": 3,
     "ra": 230.1822884,
     "dec": 71.83397308
   },
   {
     "target": "HIP 75141",
-    "name": "Étoile HIP 75141",
-    "englishName": "HIP 75141",
+    "name": "Delta Lupus",
+    "englishName": "Delta Lupus",
     "searchTerms": [
       "HIP 75141",
       "HIP75141",
       "Hipparcos 75141",
-      "Star HIP 75141"
+      "Star HIP 75141",
+      "HR 5695",
+      "HR5695",
+      "Del Lup",
+      "Delta Lupus",
+      "Bright Star Catalogue 5695"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lupus.",
     "type": "Étoile",
@@ -5707,13 +6462,18 @@
   },
   {
     "target": "HIP 75264",
-    "name": "Étoile HIP 75264",
-    "englishName": "HIP 75264",
+    "name": "Epsilon Lupus",
+    "englishName": "Epsilon Lupus",
     "searchTerms": [
       "HIP 75264",
       "HIP75264",
       "Hipparcos 75264",
-      "Star HIP 75264"
+      "Star HIP 75264",
+      "HR 5708",
+      "HR5708",
+      "Eps Lup",
+      "Epsilon Lupus",
+      "Bright Star Catalogue 5708"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lupus.",
     "type": "Étoile",
@@ -5743,13 +6503,18 @@
   },
   {
     "target": "HIP 75458",
-    "name": "Étoile HIP 75458",
-    "englishName": "HIP 75458",
+    "name": "Iota Draco",
+    "englishName": "Iota Draco",
     "searchTerms": [
       "HIP 75458",
       "HIP75458",
       "Hipparcos 75458",
-      "Star HIP 75458"
+      "Star HIP 75458",
+      "HR 5744",
+      "HR5744",
+      "12Iot Dra",
+      "Iota Draco",
+      "Bright Star Catalogue 5744"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -5761,13 +6526,18 @@
   },
   {
     "target": "HIP 75695",
-    "name": "Étoile HIP 75695",
-    "englishName": "HIP 75695",
+    "name": "Beta Corona Borealis",
+    "englishName": "Beta Corona Borealis",
     "searchTerms": [
       "HIP 75695",
       "HIP75695",
       "Hipparcos 75695",
-      "Star HIP 75695"
+      "Star HIP 75695",
+      "HR 5747",
+      "HR5747",
+      "3Bet CrB",
+      "Beta Corona Borealis",
+      "Bright Star Catalogue 5747"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Corona Borealis.",
     "type": "Étoile",
@@ -5797,13 +6567,18 @@
   },
   {
     "target": "HIP 76267",
-    "name": "Étoile HIP 76267",
-    "englishName": "HIP 76267",
+    "name": "Alpha Corona Borealis",
+    "englishName": "Alpha Corona Borealis",
     "searchTerms": [
       "HIP 76267",
       "HIP76267",
       "Hipparcos 76267",
-      "Star HIP 76267"
+      "Star HIP 76267",
+      "HR 5793",
+      "HR5793",
+      "5Alp CrB",
+      "Alpha Corona Borealis",
+      "Bright Star Catalogue 5793"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Corona Borealis.",
     "type": "Étoile",
@@ -5815,13 +6590,18 @@
   },
   {
     "target": "HIP 76276",
-    "name": "Étoile HIP 76276",
-    "englishName": "HIP 76276",
+    "name": "Delta Serpens",
+    "englishName": "Delta Serpens",
     "searchTerms": [
       "HIP 76276",
       "HIP76276",
       "Hipparcos 76276",
-      "Star HIP 76276"
+      "Star HIP 76276",
+      "HR 5789",
+      "HR5789",
+      "13Del Ser",
+      "Delta Serpens",
+      "Bright Star Catalogue 5789"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Serpens.",
     "type": "Étoile",
@@ -5833,13 +6613,18 @@
   },
   {
     "target": "HIP 76297",
-    "name": "Étoile HIP 76297",
-    "englishName": "HIP 76297",
+    "name": "Gamma Lupus",
+    "englishName": "Gamma Lupus",
     "searchTerms": [
       "HIP 76297",
       "HIP76297",
       "Hipparcos 76297",
-      "Star HIP 76297"
+      "Star HIP 76297",
+      "HR 5776",
+      "HR5776",
+      "Gam Lup",
+      "Gamma Lupus",
+      "Bright Star Catalogue 5776"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lupus.",
     "type": "Étoile",
@@ -5887,13 +6672,18 @@
   },
   {
     "target": "HIP 76470",
-    "name": "Étoile HIP 76470",
-    "englishName": "HIP 76470",
+    "name": "Upsilon Libra",
+    "englishName": "Upsilon Libra",
     "searchTerms": [
       "HIP 76470",
       "HIP76470",
       "Hipparcos 76470",
-      "Star HIP 76470"
+      "Star HIP 76470",
+      "HR 5794",
+      "HR5794",
+      "39Ups Lib",
+      "Upsilon Libra",
+      "Bright Star Catalogue 5794"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Libra.",
     "type": "Étoile",
@@ -5905,13 +6695,18 @@
   },
   {
     "target": "HIP 76600",
-    "name": "Étoile HIP 76600",
-    "englishName": "HIP 76600",
+    "name": "Tau Libra",
+    "englishName": "Tau Libra",
     "searchTerms": [
       "HIP 76600",
       "HIP76600",
       "Hipparcos 76600",
-      "Star HIP 76600"
+      "Star HIP 76600",
+      "HR 5812",
+      "HR5812",
+      "40Tau Lib",
+      "Tau Libra",
+      "Bright Star Catalogue 5812"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Libra.",
     "type": "Étoile",
@@ -5941,13 +6736,18 @@
   },
   {
     "target": "HIP 76952",
-    "name": "Étoile HIP 76952",
-    "englishName": "HIP 76952",
+    "name": "Gamma Corona Borealis",
+    "englishName": "Gamma Corona Borealis",
     "searchTerms": [
       "HIP 76952",
       "HIP76952",
       "Hipparcos 76952",
-      "Star HIP 76952"
+      "Star HIP 76952",
+      "HR 5849",
+      "HR5849",
+      "8Gam CrB",
+      "Gamma Corona Borealis",
+      "Bright Star Catalogue 5849"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Corona Borealis.",
     "type": "Étoile",
@@ -5977,13 +6777,18 @@
   },
   {
     "target": "HIP 77070",
-    "name": "Étoile HIP 77070",
-    "englishName": "HIP 77070",
+    "name": "Alpha Serpens",
+    "englishName": "Alpha Serpens",
     "searchTerms": [
       "HIP 77070",
       "HIP77070",
       "Hipparcos 77070",
-      "Star HIP 77070"
+      "Star HIP 77070",
+      "HR 5854",
+      "HR5854",
+      "24Alp Ser",
+      "Alpha Serpens",
+      "Bright Star Catalogue 5854"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Serpens.",
     "type": "Étoile",
@@ -5995,13 +6800,18 @@
   },
   {
     "target": "HIP 77233",
-    "name": "Étoile HIP 77233",
-    "englishName": "HIP 77233",
+    "name": "Beta Serpens",
+    "englishName": "Beta Serpens",
     "searchTerms": [
       "HIP 77233",
       "HIP77233",
       "Hipparcos 77233",
-      "Star HIP 77233"
+      "Star HIP 77233",
+      "HR 5867",
+      "HR5867",
+      "28Bet Ser",
+      "Beta Serpens",
+      "Bright Star Catalogue 5867"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Serpens.",
     "type": "Étoile",
@@ -6049,13 +6859,18 @@
   },
   {
     "target": "HIP 77516",
-    "name": "Étoile HIP 77516",
-    "englishName": "HIP 77516",
+    "name": "Mu Serpens",
+    "englishName": "Mu Serpens",
     "searchTerms": [
       "HIP 77516",
       "HIP77516",
       "Hipparcos 77516",
-      "Star HIP 77516"
+      "Star HIP 77516",
+      "HR 5881",
+      "HR5881",
+      "32Mu  Ser",
+      "Mu Serpens",
+      "Bright Star Catalogue 5881"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Serpens.",
     "type": "Étoile",
@@ -6067,13 +6882,18 @@
   },
   {
     "target": "HIP 77622",
-    "name": "Étoile HIP 77622",
-    "englishName": "HIP 77622",
+    "name": "Epsilon Serpens",
+    "englishName": "Epsilon Serpens",
     "searchTerms": [
       "HIP 77622",
       "HIP77622",
       "Hipparcos 77622",
-      "Star HIP 77622"
+      "Star HIP 77622",
+      "HR 5892",
+      "HR5892",
+      "37Eps Ser",
+      "Epsilon Serpens",
+      "Bright Star Catalogue 5892"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Serpens.",
     "type": "Étoile",
@@ -6103,13 +6923,18 @@
   },
   {
     "target": "HIP 77952",
-    "name": "Étoile HIP 77952",
-    "englishName": "HIP 77952",
+    "name": "Beta Triangulum Australe",
+    "englishName": "Beta Triangulum Australe",
     "searchTerms": [
       "HIP 77952",
       "HIP77952",
       "Hipparcos 77952",
-      "Star HIP 77952"
+      "Star HIP 77952",
+      "HR 5897",
+      "HR5897",
+      "Bet TrA",
+      "Beta Triangulum Australe",
+      "Bright Star Catalogue 5897"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Triangulum Australe.",
     "type": "Étoile",
@@ -6121,13 +6946,18 @@
   },
   {
     "target": "HIP 78072",
-    "name": "Étoile HIP 78072",
-    "englishName": "HIP 78072",
+    "name": "Gamma Serpens",
+    "englishName": "Gamma Serpens",
     "searchTerms": [
       "HIP 78072",
       "HIP78072",
       "Hipparcos 78072",
-      "Star HIP 78072"
+      "Star HIP 78072",
+      "HR 5933",
+      "HR5933",
+      "41Gam Ser",
+      "Gamma Serpens",
+      "Bright Star Catalogue 5933"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Serpens.",
     "type": "Étoile",
@@ -6139,13 +6969,18 @@
   },
   {
     "target": "HIP 78104",
-    "name": "Étoile HIP 78104",
-    "englishName": "HIP 78104",
+    "name": "Rho Scorpius",
+    "englishName": "Rho Scorpius",
     "searchTerms": [
       "HIP 78104",
       "HIP78104",
       "Hipparcos 78104",
-      "Star HIP 78104"
+      "Star HIP 78104",
+      "HR 5928",
+      "HR5928",
+      "5Rho Sco",
+      "Rho Scorpius",
+      "Bright Star Catalogue 5928"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -6175,13 +7010,18 @@
   },
   {
     "target": "HIP 78265",
-    "name": "Étoile HIP 78265",
-    "englishName": "HIP 78265",
+    "name": "Pi Scorpius",
+    "englishName": "Pi Scorpius",
     "searchTerms": [
       "HIP 78265",
       "HIP78265",
       "Hipparcos 78265",
-      "Star HIP 78265"
+      "Star HIP 78265",
+      "HR 5944",
+      "HR5944",
+      "6Pi  Sco",
+      "Pi Scorpius",
+      "Bright Star Catalogue 5944"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -6193,13 +7033,18 @@
   },
   {
     "target": "HIP 78384",
-    "name": "Étoile HIP 78384",
-    "englishName": "HIP 78384",
+    "name": "Eta Lupus",
+    "englishName": "Eta Lupus",
     "searchTerms": [
       "HIP 78384",
       "HIP78384",
       "Hipparcos 78384",
-      "Star HIP 78384"
+      "Star HIP 78384",
+      "HR 5948",
+      "HR5948",
+      "Eta Lup",
+      "Eta Lupus",
+      "Bright Star Catalogue 5948"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lupus.",
     "type": "Étoile",
@@ -6211,13 +7056,18 @@
   },
   {
     "target": "HIP 78401",
-    "name": "Étoile HIP 78401",
-    "englishName": "HIP 78401",
+    "name": "Delta Scorpius",
+    "englishName": "Delta Scorpius",
     "searchTerms": [
       "HIP 78401",
       "HIP78401",
       "Hipparcos 78401",
-      "Star HIP 78401"
+      "Star HIP 78401",
+      "HR 5953",
+      "HR5953",
+      "7Del Sco",
+      "Delta Scorpius",
+      "Bright Star Catalogue 5953"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -6295,19 +7145,24 @@
     "type": "Étoile",
     "catalog": "Hipparcos",
     "constellationId": "Scorpius",
-    "magnitude": 4.0,
+    "magnitude": 4,
     "ra": 242.99891879,
     "dec": -19.46064684
   },
   {
     "target": "HIP 79593",
-    "name": "Étoile HIP 79593",
-    "englishName": "HIP 79593",
+    "name": "Delta Ophiuchus",
+    "englishName": "Delta Ophiuchus",
     "searchTerms": [
       "HIP 79593",
       "HIP79593",
       "Hipparcos 79593",
-      "Star HIP 79593"
+      "Star HIP 79593",
+      "HR 6056",
+      "HR6056",
+      "1Del Oph",
+      "Delta Ophiuchus",
+      "Bright Star Catalogue 6056"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -6337,13 +7192,18 @@
   },
   {
     "target": "HIP 79882",
-    "name": "Étoile HIP 79882",
-    "englishName": "HIP 79882",
+    "name": "Epsilon Ophiuchus",
+    "englishName": "Epsilon Ophiuchus",
     "searchTerms": [
       "HIP 79882",
       "HIP79882",
       "Hipparcos 79882",
-      "Star HIP 79882"
+      "Star HIP 79882",
+      "HR 6075",
+      "HR6075",
+      "2Eps Oph",
+      "Epsilon Ophiuchus",
+      "Bright Star Catalogue 6075"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -6373,13 +7233,18 @@
   },
   {
     "target": "HIP 80112",
-    "name": "Étoile HIP 80112",
-    "englishName": "HIP 80112",
+    "name": "Sigma Scorpius",
+    "englishName": "Sigma Scorpius",
     "searchTerms": [
       "HIP 80112",
       "HIP80112",
       "Hipparcos 80112",
-      "Star HIP 80112"
+      "Star HIP 80112",
+      "HR 6084",
+      "HR6084",
+      "20Sig Sco",
+      "Sigma Scorpius",
+      "Bright Star Catalogue 6084"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -6391,13 +7256,18 @@
   },
   {
     "target": "HIP 80331",
-    "name": "Étoile HIP 80331",
-    "englishName": "HIP 80331",
+    "name": "Eta Draco",
+    "englishName": "Eta Draco",
     "searchTerms": [
       "HIP 80331",
       "HIP80331",
       "Hipparcos 80331",
-      "Star HIP 80331"
+      "Star HIP 80331",
+      "HR 6132",
+      "HR6132",
+      "14Eta Dra",
+      "Eta Draco",
+      "Bright Star Catalogue 6132"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -6481,13 +7351,18 @@
   },
   {
     "target": "HIP 80763",
-    "name": "Étoile HIP 80763",
-    "englishName": "HIP 80763",
+    "name": "Alpha Scorpius",
+    "englishName": "Alpha Scorpius",
     "searchTerms": [
       "HIP 80763",
       "HIP80763",
       "Hipparcos 80763",
-      "Star HIP 80763"
+      "Star HIP 80763",
+      "HR 6134",
+      "HR6134",
+      "21Alp Sco",
+      "Alpha Scorpius",
+      "Bright Star Catalogue 6134"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -6499,13 +7374,18 @@
   },
   {
     "target": "HIP 80883",
-    "name": "Étoile HIP 80883",
-    "englishName": "HIP 80883",
+    "name": "Lambda Ophiuchus",
+    "englishName": "Lambda Ophiuchus",
     "searchTerms": [
       "HIP 80883",
       "HIP80883",
       "Hipparcos 80883",
-      "Star HIP 80883"
+      "Star HIP 80883",
+      "HR 6149",
+      "HR6149",
+      "10Lam Oph",
+      "Lambda Ophiuchus",
+      "Bright Star Catalogue 6149"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -6535,13 +7415,18 @@
   },
   {
     "target": "HIP 81065",
-    "name": "Étoile HIP 81065",
-    "englishName": "HIP 81065",
+    "name": "Gamma Apus",
+    "englishName": "Gamma Apus",
     "searchTerms": [
       "HIP 81065",
       "HIP81065",
       "Hipparcos 81065",
-      "Star HIP 81065"
+      "Star HIP 81065",
+      "HR 6102",
+      "HR6102",
+      "Gam Aps",
+      "Gamma Apus",
+      "Bright Star Catalogue 6102"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Apus.",
     "type": "Étoile",
@@ -6553,13 +7438,18 @@
   },
   {
     "target": "HIP 81266",
-    "name": "Étoile HIP 81266",
-    "englishName": "HIP 81266",
+    "name": "Tau Scorpius",
+    "englishName": "Tau Scorpius",
     "searchTerms": [
       "HIP 81266",
       "HIP81266",
       "Hipparcos 81266",
-      "Star HIP 81266"
+      "Star HIP 81266",
+      "HR 6165",
+      "HR6165",
+      "23Tau Sco",
+      "Tau Scorpius",
+      "Bright Star Catalogue 6165"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -6571,13 +7461,18 @@
   },
   {
     "target": "HIP 81377",
-    "name": "Étoile HIP 81377",
-    "englishName": "HIP 81377",
+    "name": "Zeta Ophiuchus",
+    "englishName": "Zeta Ophiuchus",
     "searchTerms": [
       "HIP 81377",
       "HIP81377",
       "Hipparcos 81377",
-      "Star HIP 81377"
+      "Star HIP 81377",
+      "HR 6175",
+      "HR6175",
+      "13Zet Oph",
+      "Zeta Ophiuchus",
+      "Bright Star Catalogue 6175"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -6625,13 +7520,18 @@
   },
   {
     "target": "HIP 82273",
-    "name": "Étoile HIP 82273",
-    "englishName": "HIP 82273",
+    "name": "Alpha Triangulum Australe",
+    "englishName": "Alpha Triangulum Australe",
     "searchTerms": [
       "HIP 82273",
       "HIP82273",
       "Hipparcos 82273",
-      "Star HIP 82273"
+      "Star HIP 82273",
+      "HR 6217",
+      "HR6217",
+      "Alp TrA",
+      "Alpha Triangulum Australe",
+      "Bright Star Catalogue 6217"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Triangulum Australe.",
     "type": "Étoile",
@@ -6643,13 +7543,17 @@
   },
   {
     "target": "HIP 82363",
-    "name": "Étoile HIP 82363",
-    "englishName": "HIP 82363",
+    "name": "Eta Ara",
+    "englishName": "Eta Ara",
     "searchTerms": [
       "HIP 82363",
       "HIP82363",
       "Hipparcos 82363",
-      "Star HIP 82363"
+      "Star HIP 82363",
+      "HR 6229",
+      "HR6229",
+      "Eta Ara",
+      "Bright Star Catalogue 6229"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ara.",
     "type": "Étoile",
@@ -6661,13 +7565,18 @@
   },
   {
     "target": "HIP 82396",
-    "name": "Étoile HIP 82396",
-    "englishName": "HIP 82396",
+    "name": "Epsilon Scorpius",
+    "englishName": "Epsilon Scorpius",
     "searchTerms": [
       "HIP 82396",
       "HIP82396",
       "Hipparcos 82396",
-      "Star HIP 82396"
+      "Star HIP 82396",
+      "HR 6241",
+      "HR6241",
+      "26Eps Sco",
+      "Epsilon Scorpius",
+      "Bright Star Catalogue 6241"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -6691,7 +7600,7 @@
     "type": "Étoile",
     "catalog": "Hipparcos",
     "constellationId": "Scorpius",
-    "magnitude": 3.0,
+    "magnitude": 3,
     "ra": 252.96766195,
     "dec": -38.04732717
   },
@@ -6715,13 +7624,18 @@
   },
   {
     "target": "HIP 83000",
-    "name": "Étoile HIP 83000",
-    "englishName": "HIP 83000",
+    "name": "Kappa Ophiuchus",
+    "englishName": "Kappa Ophiuchus",
     "searchTerms": [
       "HIP 83000",
       "HIP83000",
       "Hipparcos 83000",
-      "Star HIP 83000"
+      "Star HIP 83000",
+      "HR 6299",
+      "HR6299",
+      "27Kap Oph",
+      "Kappa Ophiuchus",
+      "Bright Star Catalogue 6299"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -6733,13 +7647,18 @@
   },
   {
     "target": "HIP 83081",
-    "name": "Étoile HIP 83081",
-    "englishName": "HIP 83081",
+    "name": "Zeta Ara",
+    "englishName": "Zeta Ara",
     "searchTerms": [
       "HIP 83081",
       "HIP83081",
       "Hipparcos 83081",
-      "Star HIP 83081"
+      "Star HIP 83081",
+      "HR 6285",
+      "HR6285",
+      "Zet Ara",
+      "Zeta Ara",
+      "Bright Star Catalogue 6285"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ara.",
     "type": "Étoile",
@@ -6769,13 +7688,18 @@
   },
   {
     "target": "HIP 83895",
-    "name": "Étoile HIP 83895",
-    "englishName": "HIP 83895",
+    "name": "Zeta Draco",
+    "englishName": "Zeta Draco",
     "searchTerms": [
       "HIP 83895",
       "HIP83895",
       "Hipparcos 83895",
-      "Star HIP 83895"
+      "Star HIP 83895",
+      "HR 6396",
+      "HR6396",
+      "22Zet Dra",
+      "Zeta Draco",
+      "Bright Star Catalogue 6396"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -6787,13 +7711,18 @@
   },
   {
     "target": "HIP 84012",
-    "name": "Étoile HIP 84012",
-    "englishName": "HIP 84012",
+    "name": "Eta Ophiuchus",
+    "englishName": "Eta Ophiuchus",
     "searchTerms": [
       "HIP 84012",
       "HIP84012",
       "Hipparcos 84012",
-      "Star HIP 84012"
+      "Star HIP 84012",
+      "HR 6378",
+      "HR6378",
+      "35Eta Oph",
+      "Eta Ophiuchus",
+      "Bright Star Catalogue 6378"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -6805,13 +7734,18 @@
   },
   {
     "target": "HIP 84143",
-    "name": "Étoile HIP 84143",
-    "englishName": "HIP 84143",
+    "name": "Eta Scorpius",
+    "englishName": "Eta Scorpius",
     "searchTerms": [
       "HIP 84143",
       "HIP84143",
       "Hipparcos 84143",
-      "Star HIP 84143"
+      "Star HIP 84143",
+      "HR 6380",
+      "HR6380",
+      "Eta Sco",
+      "Eta Scorpius",
+      "Bright Star Catalogue 6380"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -6823,13 +7757,18 @@
   },
   {
     "target": "HIP 84970",
-    "name": "Étoile HIP 84970",
-    "englishName": "HIP 84970",
+    "name": "Theta Ophiuchus",
+    "englishName": "Theta Ophiuchus",
     "searchTerms": [
       "HIP 84970",
       "HIP84970",
       "Hipparcos 84970",
-      "Star HIP 84970"
+      "Star HIP 84970",
+      "HR 6453",
+      "HR6453",
+      "42The Oph",
+      "Theta Ophiuchus",
+      "Bright Star Catalogue 6453"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -6841,13 +7780,18 @@
   },
   {
     "target": "HIP 85258",
-    "name": "Étoile HIP 85258",
-    "englishName": "HIP 85258",
+    "name": "Beta Ara",
+    "englishName": "Beta Ara",
     "searchTerms": [
       "HIP 85258",
       "HIP85258",
       "Hipparcos 85258",
-      "Star HIP 85258"
+      "Star HIP 85258",
+      "HR 6461",
+      "HR6461",
+      "Bet Ara",
+      "Beta Ara",
+      "Bright Star Catalogue 6461"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ara.",
     "type": "Étoile",
@@ -6859,13 +7803,18 @@
   },
   {
     "target": "HIP 85267",
-    "name": "Étoile HIP 85267",
-    "englishName": "HIP 85267",
+    "name": "Gamma Ara",
+    "englishName": "Gamma Ara",
     "searchTerms": [
       "HIP 85267",
       "HIP85267",
       "Hipparcos 85267",
-      "Star HIP 85267"
+      "Star HIP 85267",
+      "HR 6462",
+      "HR6462",
+      "Gam Ara",
+      "Gamma Ara",
+      "Bright Star Catalogue 6462"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ara.",
     "type": "Étoile",
@@ -6895,13 +7844,18 @@
   },
   {
     "target": "HIP 85670",
-    "name": "Étoile HIP 85670",
-    "englishName": "HIP 85670",
+    "name": "Beta Draco",
+    "englishName": "Beta Draco",
     "searchTerms": [
       "HIP 85670",
       "HIP85670",
       "Hipparcos 85670",
-      "Star HIP 85670"
+      "Star HIP 85670",
+      "HR 6536",
+      "HR6536",
+      "23Bet Dra",
+      "Beta Draco",
+      "Bright Star Catalogue 6536"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -6913,13 +7867,18 @@
   },
   {
     "target": "HIP 85696",
-    "name": "Étoile HIP 85696",
-    "englishName": "HIP 85696",
+    "name": "Upsilon Scorpius",
+    "englishName": "Upsilon Scorpius",
     "searchTerms": [
       "HIP 85696",
       "HIP85696",
       "Hipparcos 85696",
-      "Star HIP 85696"
+      "Star HIP 85696",
+      "HR 6508",
+      "HR6508",
+      "34Ups Sco",
+      "Upsilon Scorpius",
+      "Bright Star Catalogue 6508"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -6931,13 +7890,18 @@
   },
   {
     "target": "HIP 85727",
-    "name": "Étoile HIP 85727",
-    "englishName": "HIP 85727",
+    "name": "Delta Ara",
+    "englishName": "Delta Ara",
     "searchTerms": [
       "HIP 85727",
       "HIP85727",
       "Hipparcos 85727",
-      "Star HIP 85727"
+      "Star HIP 85727",
+      "HR 6500",
+      "HR6500",
+      "Del Ara",
+      "Delta Ara",
+      "Bright Star Catalogue 6500"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ara.",
     "type": "Étoile",
@@ -6949,13 +7913,18 @@
   },
   {
     "target": "HIP 85792",
-    "name": "Étoile HIP 85792",
-    "englishName": "HIP 85792",
+    "name": "Alpha Ara",
+    "englishName": "Alpha Ara",
     "searchTerms": [
       "HIP 85792",
       "HIP85792",
       "Hipparcos 85792",
-      "Star HIP 85792"
+      "Star HIP 85792",
+      "HR 6510",
+      "HR6510",
+      "Alp Ara",
+      "Alpha Ara",
+      "Bright Star Catalogue 6510"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ara.",
     "type": "Étoile",
@@ -7003,13 +7972,18 @@
   },
   {
     "target": "HIP 85927",
-    "name": "Étoile HIP 85927",
-    "englishName": "HIP 85927",
+    "name": "Lambda Scorpius",
+    "englishName": "Lambda Scorpius",
     "searchTerms": [
       "HIP 85927",
       "HIP85927",
       "Hipparcos 85927",
-      "Star HIP 85927"
+      "Star HIP 85927",
+      "HR 6527",
+      "HR6527",
+      "35Lam Sco",
+      "Lambda Scorpius",
+      "Bright Star Catalogue 6527"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -7021,13 +7995,18 @@
   },
   {
     "target": "HIP 86032",
-    "name": "Étoile HIP 86032",
-    "englishName": "HIP 86032",
+    "name": "Alpha Ophiuchus",
+    "englishName": "Alpha Ophiuchus",
     "searchTerms": [
       "HIP 86032",
       "HIP86032",
       "Hipparcos 86032",
-      "Star HIP 86032"
+      "Star HIP 86032",
+      "HR 6556",
+      "HR6556",
+      "55Alp Oph",
+      "Alpha Ophiuchus",
+      "Bright Star Catalogue 6556"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -7039,13 +8018,18 @@
   },
   {
     "target": "HIP 86228",
-    "name": "Étoile HIP 86228",
-    "englishName": "HIP 86228",
+    "name": "Theta Scorpius",
+    "englishName": "Theta Scorpius",
     "searchTerms": [
       "HIP 86228",
       "HIP86228",
       "Hipparcos 86228",
-      "Star HIP 86228"
+      "Star HIP 86228",
+      "HR 6553",
+      "HR6553",
+      "The Sco",
+      "Theta Scorpius",
+      "Bright Star Catalogue 6553"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -7057,13 +8041,18 @@
   },
   {
     "target": "HIP 86263",
-    "name": "Étoile HIP 86263",
-    "englishName": "HIP 86263",
+    "name": "Xi Serpens",
+    "englishName": "Xi Serpens",
     "searchTerms": [
       "HIP 86263",
       "HIP86263",
       "Hipparcos 86263",
-      "Star HIP 86263"
+      "Star HIP 86263",
+      "HR 6561",
+      "HR6561",
+      "55Xi  Ser",
+      "Xi Serpens",
+      "Bright Star Catalogue 6561"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Serpens.",
     "type": "Étoile",
@@ -7075,13 +8064,18 @@
   },
   {
     "target": "HIP 86670",
-    "name": "Étoile HIP 86670",
-    "englishName": "HIP 86670",
+    "name": "Kappa Scorpius",
+    "englishName": "Kappa Scorpius",
     "searchTerms": [
       "HIP 86670",
       "HIP86670",
       "Hipparcos 86670",
-      "Star HIP 86670"
+      "Star HIP 86670",
+      "HR 6580",
+      "HR6580",
+      "Kap Sco",
+      "Kappa Scorpius",
+      "Bright Star Catalogue 6580"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scorpius.",
     "type": "Étoile",
@@ -7093,13 +8087,18 @@
   },
   {
     "target": "HIP 86742",
-    "name": "Étoile HIP 86742",
-    "englishName": "HIP 86742",
+    "name": "Beta Ophiuchus",
+    "englishName": "Beta Ophiuchus",
     "searchTerms": [
       "HIP 86742",
       "HIP86742",
       "Hipparcos 86742",
-      "Star HIP 86742"
+      "Star HIP 86742",
+      "HR 6603",
+      "HR6603",
+      "60Bet Oph",
+      "Beta Ophiuchus",
+      "Bright Star Catalogue 6603"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -7111,13 +8110,18 @@
   },
   {
     "target": "HIP 86929",
-    "name": "Étoile HIP 86929",
-    "englishName": "HIP 86929",
+    "name": "Eta Pavo",
+    "englishName": "Eta Pavo",
     "searchTerms": [
       "HIP 86929",
       "HIP86929",
       "Hipparcos 86929",
-      "Star HIP 86929"
+      "Star HIP 86929",
+      "HR 6582",
+      "HR6582",
+      "Eta Pav",
+      "Eta Pavo",
+      "Bright Star Catalogue 6582"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pavo.",
     "type": "Étoile",
@@ -7147,13 +8151,18 @@
   },
   {
     "target": "HIP 87108",
-    "name": "Étoile HIP 87108",
-    "englishName": "HIP 87108",
+    "name": "Gamma Ophiuchus",
+    "englishName": "Gamma Ophiuchus",
     "searchTerms": [
       "HIP 87108",
       "HIP87108",
       "Hipparcos 87108",
-      "Star HIP 87108"
+      "Star HIP 87108",
+      "HR 6629",
+      "HR6629",
+      "62Gam Oph",
+      "Gamma Ophiuchus",
+      "Bright Star Catalogue 6629"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -7183,13 +8192,18 @@
   },
   {
     "target": "HIP 87585",
-    "name": "Étoile HIP 87585",
-    "englishName": "HIP 87585",
+    "name": "Xi Draco",
+    "englishName": "Xi Draco",
     "searchTerms": [
       "HIP 87585",
       "HIP87585",
       "Hipparcos 87585",
-      "Star HIP 87585"
+      "Star HIP 87585",
+      "HR 6688",
+      "HR6688",
+      "32Xi  Dra",
+      "Xi Draco",
+      "Bright Star Catalogue 6688"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -7201,13 +8215,18 @@
   },
   {
     "target": "HIP 87833",
-    "name": "Étoile HIP 87833",
-    "englishName": "HIP 87833",
+    "name": "Gamma Draco",
+    "englishName": "Gamma Draco",
     "searchTerms": [
       "HIP 87833",
       "HIP87833",
       "Hipparcos 87833",
-      "Star HIP 87833"
+      "Star HIP 87833",
+      "HR 6705",
+      "HR6705",
+      "33Gam Dra",
+      "Gamma Draco",
+      "Bright Star Catalogue 6705"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -7219,13 +8238,18 @@
   },
   {
     "target": "HIP 88048",
-    "name": "Étoile HIP 88048",
-    "englishName": "HIP 88048",
+    "name": "Nu Ophiuchus",
+    "englishName": "Nu Ophiuchus",
     "searchTerms": [
       "HIP 88048",
       "HIP88048",
       "Hipparcos 88048",
-      "Star HIP 88048"
+      "Star HIP 88048",
+      "HR 6698",
+      "HR6698",
+      "64Nu  Oph",
+      "Nu Ophiuchus",
+      "Bright Star Catalogue 6698"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ophiuchus.",
     "type": "Étoile",
@@ -7237,13 +8261,18 @@
   },
   {
     "target": "HIP 88714",
-    "name": "Étoile HIP 88714",
-    "englishName": "HIP 88714",
+    "name": "Theta Ara",
+    "englishName": "Theta Ara",
     "searchTerms": [
       "HIP 88714",
       "HIP88714",
       "Hipparcos 88714",
-      "Star HIP 88714"
+      "Star HIP 88714",
+      "HR 6743",
+      "HR6743",
+      "The Ara",
+      "Theta Ara",
+      "Bright Star Catalogue 6743"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Ara.",
     "type": "Étoile",
@@ -7309,13 +8338,18 @@
   },
   {
     "target": "HIP 89937",
-    "name": "Étoile HIP 89937",
-    "englishName": "HIP 89937",
+    "name": "Chi Draco",
+    "englishName": "Chi Draco",
     "searchTerms": [
       "HIP 89937",
       "HIP89937",
       "Hipparcos 89937",
-      "Star HIP 89937"
+      "Star HIP 89937",
+      "HR 6927",
+      "HR6927",
+      "44Chi Dra",
+      "Chi Draco",
+      "Bright Star Catalogue 6927"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -7327,13 +8361,18 @@
   },
   {
     "target": "HIP 89962",
-    "name": "Étoile HIP 89962",
-    "englishName": "HIP 89962",
+    "name": "Eta Serpens",
+    "englishName": "Eta Serpens",
     "searchTerms": [
       "HIP 89962",
       "HIP89962",
       "Hipparcos 89962",
-      "Star HIP 89962"
+      "Star HIP 89962",
+      "HR 6869",
+      "HR6869",
+      "58Eta Ser",
+      "Eta Serpens",
+      "Bright Star Catalogue 6869"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Serpens.",
     "type": "Étoile",
@@ -7363,13 +8402,18 @@
   },
   {
     "target": "HIP 90422",
-    "name": "Étoile HIP 90422",
-    "englishName": "HIP 90422",
+    "name": "Alpha Telescopium",
+    "englishName": "Alpha Telescopium",
     "searchTerms": [
       "HIP 90422",
       "HIP90422",
       "Hipparcos 90422",
-      "Star HIP 90422"
+      "Star HIP 90422",
+      "HR 6897",
+      "HR6897",
+      "Alp Tel",
+      "Alpha Telescopium",
+      "Bright Star Catalogue 6897"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Telescopium.",
     "type": "Étoile",
@@ -7417,13 +8461,18 @@
   },
   {
     "target": "HIP 91117",
-    "name": "Étoile HIP 91117",
-    "englishName": "HIP 91117",
+    "name": "Alpha Scutum",
+    "englishName": "Alpha Scutum",
     "searchTerms": [
       "HIP 91117",
       "HIP91117",
       "Hipparcos 91117",
-      "Star HIP 91117"
+      "Star HIP 91117",
+      "HR 6973",
+      "HR6973",
+      "Alp Sct",
+      "Alpha Scutum",
+      "Bright Star Catalogue 6973"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Scutum.",
     "type": "Étoile",
@@ -7579,13 +8628,18 @@
   },
   {
     "target": "HIP 93747",
-    "name": "Étoile HIP 93747",
-    "englishName": "HIP 93747",
+    "name": "Zeta Aquila",
+    "englishName": "Zeta Aquila",
     "searchTerms": [
       "HIP 93747",
       "HIP93747",
       "Hipparcos 93747",
-      "Star HIP 93747"
+      "Star HIP 93747",
+      "HR 7235",
+      "HR7235",
+      "17Zet Aql",
+      "Zeta Aquila",
+      "Bright Star Catalogue 7235"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquila.",
     "type": "Étoile",
@@ -7597,13 +8651,18 @@
   },
   {
     "target": "HIP 93805",
-    "name": "Étoile HIP 93805",
-    "englishName": "HIP 93805",
+    "name": "Lambda Aquila",
+    "englishName": "Lambda Aquila",
     "searchTerms": [
       "HIP 93805",
       "HIP93805",
       "Hipparcos 93805",
-      "Star HIP 93805"
+      "Star HIP 93805",
+      "HR 7236",
+      "HR7236",
+      "16Lam Aql",
+      "Lambda Aquila",
+      "Bright Star Catalogue 7236"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquila.",
     "type": "Étoile",
@@ -7615,13 +8674,18 @@
   },
   {
     "target": "HIP 94376",
-    "name": "Étoile HIP 94376",
-    "englishName": "HIP 94376",
+    "name": "Delta Draco",
+    "englishName": "Delta Draco",
     "searchTerms": [
       "HIP 94376",
       "HIP94376",
       "Hipparcos 94376",
-      "Star HIP 94376"
+      "Star HIP 94376",
+      "HR 7310",
+      "HR7310",
+      "57Del Dra",
+      "Delta Draco",
+      "Bright Star Catalogue 7310"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -7633,13 +8697,18 @@
   },
   {
     "target": "HIP 94779",
-    "name": "Étoile HIP 94779",
-    "englishName": "HIP 94779",
+    "name": "Kappa Cygnus",
+    "englishName": "Kappa Cygnus",
     "searchTerms": [
       "HIP 94779",
       "HIP94779",
       "Hipparcos 94779",
-      "Star HIP 94779"
+      "Star HIP 94779",
+      "HR 7328",
+      "HR7328",
+      "1Kap Cyg",
+      "Kappa Cygnus",
+      "Bright Star Catalogue 7328"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cygnus.",
     "type": "Étoile",
@@ -7651,13 +8720,18 @@
   },
   {
     "target": "HIP 95501",
-    "name": "Étoile HIP 95501",
-    "englishName": "HIP 95501",
+    "name": "Delta Aquila",
+    "englishName": "Delta Aquila",
     "searchTerms": [
       "HIP 95501",
       "HIP95501",
       "Hipparcos 95501",
-      "Star HIP 95501"
+      "Star HIP 95501",
+      "HR 7377",
+      "HR7377",
+      "30Del Aql",
+      "Delta Aquila",
+      "Bright Star Catalogue 7377"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquila.",
     "type": "Étoile",
@@ -7759,13 +8833,18 @@
   },
   {
     "target": "HIP 97165",
-    "name": "Étoile HIP 97165",
-    "englishName": "HIP 97165",
+    "name": "Delta Cygnus",
+    "englishName": "Delta Cygnus",
     "searchTerms": [
       "HIP 97165",
       "HIP97165",
       "Hipparcos 97165",
-      "Star HIP 97165"
+      "Star HIP 97165",
+      "HR 7528",
+      "HR7528",
+      "18Del Cyg",
+      "Delta Cygnus",
+      "Bright Star Catalogue 7528"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cygnus.",
     "type": "Étoile",
@@ -7777,13 +8856,18 @@
   },
   {
     "target": "HIP 97278",
-    "name": "Étoile HIP 97278",
-    "englishName": "HIP 97278",
+    "name": "Gamma Aquila",
+    "englishName": "Gamma Aquila",
     "searchTerms": [
       "HIP 97278",
       "HIP97278",
       "Hipparcos 97278",
-      "Star HIP 97278"
+      "Star HIP 97278",
+      "HR 7525",
+      "HR7525",
+      "50Gam Aql",
+      "Gamma Aquila",
+      "Bright Star Catalogue 7525"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquila.",
     "type": "Étoile",
@@ -7795,13 +8879,18 @@
   },
   {
     "target": "HIP 97365",
-    "name": "Étoile HIP 97365",
-    "englishName": "HIP 97365",
+    "name": "Delta Sagitta",
+    "englishName": "Delta Sagitta",
     "searchTerms": [
       "HIP 97365",
       "HIP97365",
       "Hipparcos 97365",
-      "Star HIP 97365"
+      "Star HIP 97365",
+      "HR 7536",
+      "HR7536",
+      "7Del Sge",
+      "Delta Sagitta",
+      "Bright Star Catalogue 7536"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Sagitta.",
     "type": "Étoile",
@@ -7813,13 +8902,18 @@
   },
   {
     "target": "HIP 97433",
-    "name": "Étoile HIP 97433",
-    "englishName": "HIP 97433",
+    "name": "Epsilon Draco",
+    "englishName": "Epsilon Draco",
     "searchTerms": [
       "HIP 97433",
       "HIP97433",
       "Hipparcos 97433",
-      "Star HIP 97433"
+      "Star HIP 97433",
+      "HR 7582",
+      "HR7582",
+      "63Eps Dra",
+      "Epsilon Draco",
+      "Bright Star Catalogue 7582"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Draco.",
     "type": "Étoile",
@@ -7831,13 +8925,18 @@
   },
   {
     "target": "HIP 97649",
-    "name": "Étoile HIP 97649",
-    "englishName": "HIP 97649",
+    "name": "Alpha Aquila",
+    "englishName": "Alpha Aquila",
     "searchTerms": [
       "HIP 97649",
       "HIP97649",
       "Hipparcos 97649",
-      "Star HIP 97649"
+      "Star HIP 97649",
+      "HR 7557",
+      "HR7557",
+      "53Alp Aql",
+      "Alpha Aquila",
+      "Bright Star Catalogue 7557"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquila.",
     "type": "Étoile",
@@ -7867,13 +8966,18 @@
   },
   {
     "target": "HIP 98036",
-    "name": "Étoile HIP 98036",
-    "englishName": "HIP 98036",
+    "name": "Beta Aquila",
+    "englishName": "Beta Aquila",
     "searchTerms": [
       "HIP 98036",
       "HIP98036",
       "Hipparcos 98036",
-      "Star HIP 98036"
+      "Star HIP 98036",
+      "HR 7602",
+      "HR7602",
+      "60Bet Aql",
+      "Beta Aquila",
+      "Bright Star Catalogue 7602"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquila.",
     "type": "Étoile",
@@ -7885,13 +8989,18 @@
   },
   {
     "target": "HIP 98337",
-    "name": "Étoile HIP 98337",
-    "englishName": "HIP 98337",
+    "name": "Gamma Sagitta",
+    "englishName": "Gamma Sagitta",
     "searchTerms": [
       "HIP 98337",
       "HIP98337",
       "Hipparcos 98337",
-      "Star HIP 98337"
+      "Star HIP 98337",
+      "HR 7635",
+      "HR7635",
+      "12Gam Sge",
+      "Gamma Sagitta",
+      "Bright Star Catalogue 7635"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Sagitta.",
     "type": "Étoile",
@@ -7921,13 +9030,18 @@
   },
   {
     "target": "HIP 99240",
-    "name": "Étoile HIP 99240",
-    "englishName": "HIP 99240",
+    "name": "Delta Pavo",
+    "englishName": "Delta Pavo",
     "searchTerms": [
       "HIP 99240",
       "HIP99240",
       "Hipparcos 99240",
-      "Star HIP 99240"
+      "Star HIP 99240",
+      "HR 7665",
+      "HR7665",
+      "Del Pav",
+      "Delta Pavo",
+      "Bright Star Catalogue 7665"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pavo.",
     "type": "Étoile",
@@ -7939,13 +9053,18 @@
   },
   {
     "target": "HIP 99473",
-    "name": "Étoile HIP 99473",
-    "englishName": "HIP 99473",
+    "name": "Theta Aquila",
+    "englishName": "Theta Aquila",
     "searchTerms": [
       "HIP 99473",
       "HIP99473",
       "Hipparcos 99473",
-      "Star HIP 99473"
+      "Star HIP 99473",
+      "HR 7710",
+      "HR7710",
+      "65The Aql",
+      "Theta Aquila",
+      "Bright Star Catalogue 7710"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquila.",
     "type": "Étoile",
@@ -7993,13 +9112,18 @@
   },
   {
     "target": "HIP 100345",
-    "name": "Étoile HIP 100345",
-    "englishName": "HIP 100345",
+    "name": "Beta Capricornus",
+    "englishName": "Beta Capricornus",
     "searchTerms": [
       "HIP 100345",
       "HIP100345",
       "Hipparcos 100345",
-      "Star HIP 100345"
+      "Star HIP 100345",
+      "HR 7776",
+      "HR7776",
+      "9Bet Cap",
+      "Beta Capricornus",
+      "Bright Star Catalogue 7776"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Capricornus.",
     "type": "Étoile",
@@ -8011,13 +9135,18 @@
   },
   {
     "target": "HIP 100453",
-    "name": "Étoile HIP 100453",
-    "englishName": "HIP 100453",
+    "name": "Gamma Cygnus",
+    "englishName": "Gamma Cygnus",
     "searchTerms": [
       "HIP 100453",
       "HIP100453",
       "Hipparcos 100453",
-      "Star HIP 100453"
+      "Star HIP 100453",
+      "HR 7796",
+      "HR7796",
+      "37Gam Cyg",
+      "Gamma Cygnus",
+      "Bright Star Catalogue 7796"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cygnus.",
     "type": "Étoile",
@@ -8029,13 +9158,18 @@
   },
   {
     "target": "HIP 100751",
-    "name": "Étoile HIP 100751",
-    "englishName": "HIP 100751",
+    "name": "Alpha Pavo",
+    "englishName": "Alpha Pavo",
     "searchTerms": [
       "HIP 100751",
       "HIP100751",
       "Hipparcos 100751",
-      "Star HIP 100751"
+      "Star HIP 100751",
+      "HR 7790",
+      "HR7790",
+      "Alp Pav",
+      "Alpha Pavo",
+      "Bright Star Catalogue 7790"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pavo.",
     "type": "Étoile",
@@ -8083,13 +9217,18 @@
   },
   {
     "target": "HIP 101769",
-    "name": "Étoile HIP 101769",
-    "englishName": "HIP 101769",
+    "name": "Beta Delphinus",
+    "englishName": "Beta Delphinus",
     "searchTerms": [
       "HIP 101769",
       "HIP101769",
       "Hipparcos 101769",
-      "Star HIP 101769"
+      "Star HIP 101769",
+      "HR 7882",
+      "HR7882",
+      "6Bet Del",
+      "Beta Delphinus",
+      "Bright Star Catalogue 7882"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Delphinus.",
     "type": "Étoile",
@@ -8101,13 +9240,18 @@
   },
   {
     "target": "HIP 101772",
-    "name": "Étoile HIP 101772",
-    "englishName": "HIP 101772",
+    "name": "Alpha Indus",
+    "englishName": "Alpha Indus",
     "searchTerms": [
       "HIP 101772",
       "HIP101772",
       "Hipparcos 101772",
-      "Star HIP 101772"
+      "Star HIP 101772",
+      "HR 7869",
+      "HR7869",
+      "Alp Ind",
+      "Alpha Indus",
+      "Bright Star Catalogue 7869"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Indus.",
     "type": "Étoile",
@@ -8119,13 +9263,18 @@
   },
   {
     "target": "HIP 101958",
-    "name": "Étoile HIP 101958",
-    "englishName": "HIP 101958",
+    "name": "Alpha Delphinus",
+    "englishName": "Alpha Delphinus",
     "searchTerms": [
       "HIP 101958",
       "HIP101958",
       "Hipparcos 101958",
-      "Star HIP 101958"
+      "Star HIP 101958",
+      "HR 7906",
+      "HR7906",
+      "9Alp Del",
+      "Alpha Delphinus",
+      "Bright Star Catalogue 7906"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Delphinus.",
     "type": "Étoile",
@@ -8137,13 +9286,18 @@
   },
   {
     "target": "HIP 102098",
-    "name": "Étoile HIP 102098",
-    "englishName": "HIP 102098",
+    "name": "Alpha Cygnus",
+    "englishName": "Alpha Cygnus",
     "searchTerms": [
       "HIP 102098",
       "HIP102098",
       "Hipparcos 102098",
-      "Star HIP 102098"
+      "Star HIP 102098",
+      "HR 7924",
+      "HR7924",
+      "50Alp Cyg",
+      "Alpha Cygnus",
+      "Bright Star Catalogue 7924"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cygnus.",
     "type": "Étoile",
@@ -8191,13 +9345,18 @@
   },
   {
     "target": "HIP 102395",
-    "name": "Étoile HIP 102395",
-    "englishName": "HIP 102395",
+    "name": "Beta Pavo",
+    "englishName": "Beta Pavo",
     "searchTerms": [
       "HIP 102395",
       "HIP102395",
       "Hipparcos 102395",
-      "Star HIP 102395"
+      "Star HIP 102395",
+      "HR 7913",
+      "HR7913",
+      "Bet Pav",
+      "Beta Pavo",
+      "Bright Star Catalogue 7913"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pavo.",
     "type": "Étoile",
@@ -8209,13 +9368,18 @@
   },
   {
     "target": "HIP 102422",
-    "name": "Étoile HIP 102422",
-    "englishName": "HIP 102422",
+    "name": "Eta Cepheus",
+    "englishName": "Eta Cepheus",
     "searchTerms": [
       "HIP 102422",
       "HIP102422",
       "Hipparcos 102422",
-      "Star HIP 102422"
+      "Star HIP 102422",
+      "HR 7957",
+      "HR7957",
+      "3Eta Cep",
+      "Eta Cepheus",
+      "Bright Star Catalogue 7957"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cepheus.",
     "type": "Étoile",
@@ -8245,13 +9409,18 @@
   },
   {
     "target": "HIP 102488",
-    "name": "Étoile HIP 102488",
-    "englishName": "HIP 102488",
+    "name": "Epsilon Cygnus",
+    "englishName": "Epsilon Cygnus",
     "searchTerms": [
       "HIP 102488",
       "HIP102488",
       "Hipparcos 102488",
-      "Star HIP 102488"
+      "Star HIP 102488",
+      "HR 7949",
+      "HR7949",
+      "53Eps Cyg",
+      "Epsilon Cygnus",
+      "Bright Star Catalogue 7949"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cygnus.",
     "type": "Étoile",
@@ -8281,13 +9450,18 @@
   },
   {
     "target": "HIP 102618",
-    "name": "Étoile HIP 102618",
-    "englishName": "HIP 102618",
+    "name": "Epsilon Aquarius",
+    "englishName": "Epsilon Aquarius",
     "searchTerms": [
       "HIP 102618",
       "HIP102618",
       "Hipparcos 102618",
-      "Star HIP 102618"
+      "Star HIP 102618",
+      "HR 7950",
+      "HR7950",
+      "2Eps Aqr",
+      "Epsilon Aquarius",
+      "Bright Star Catalogue 7950"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquarius.",
     "type": "Étoile",
@@ -8317,13 +9491,18 @@
   },
   {
     "target": "HIP 103227",
-    "name": "Étoile HIP 103227",
-    "englishName": "HIP 103227",
+    "name": "Beta Indus",
+    "englishName": "Beta Indus",
     "searchTerms": [
       "HIP 103227",
       "HIP103227",
       "Hipparcos 103227",
-      "Star HIP 103227"
+      "Star HIP 103227",
+      "HR 7986",
+      "HR7986",
+      "Bet Ind",
+      "Beta Indus",
+      "Bright Star Catalogue 7986"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Indus.",
     "type": "Étoile",
@@ -8371,13 +9550,18 @@
   },
   {
     "target": "HIP 104732",
-    "name": "Étoile HIP 104732",
-    "englishName": "HIP 104732",
+    "name": "Zeta Cygnus",
+    "englishName": "Zeta Cygnus",
     "searchTerms": [
       "HIP 104732",
       "HIP104732",
       "Hipparcos 104732",
-      "Star HIP 104732"
+      "Star HIP 104732",
+      "HR 8115",
+      "HR8115",
+      "64Zet Cyg",
+      "Zeta Cygnus",
+      "Bright Star Catalogue 8115"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cygnus.",
     "type": "Étoile",
@@ -8389,13 +9573,18 @@
   },
   {
     "target": "HIP 105199",
-    "name": "Étoile HIP 105199",
-    "englishName": "HIP 105199",
+    "name": "Alpha Cepheus",
+    "englishName": "Alpha Cepheus",
     "searchTerms": [
       "HIP 105199",
       "HIP105199",
       "Hipparcos 105199",
-      "Star HIP 105199"
+      "Star HIP 105199",
+      "HR 8162",
+      "HR8162",
+      "5Alp Cep",
+      "Alpha Cepheus",
+      "Bright Star Catalogue 8162"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cepheus.",
     "type": "Étoile",
@@ -8443,13 +9632,18 @@
   },
   {
     "target": "HIP 105881",
-    "name": "Étoile HIP 105881",
-    "englishName": "HIP 105881",
+    "name": "Zeta Capricornus",
+    "englishName": "Zeta Capricornus",
     "searchTerms": [
       "HIP 105881",
       "HIP105881",
       "Hipparcos 105881",
-      "Star HIP 105881"
+      "Star HIP 105881",
+      "HR 8204",
+      "HR8204",
+      "34Zet Cap",
+      "Zeta Capricornus",
+      "Bright Star Catalogue 8204"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Capricornus.",
     "type": "Étoile",
@@ -8461,13 +9655,18 @@
   },
   {
     "target": "HIP 106032",
-    "name": "Étoile HIP 106032",
-    "englishName": "HIP 106032",
+    "name": "Beta Cepheus",
+    "englishName": "Beta Cepheus",
     "searchTerms": [
       "HIP 106032",
       "HIP106032",
       "Hipparcos 106032",
-      "Star HIP 106032"
+      "Star HIP 106032",
+      "HR 8238",
+      "HR8238",
+      "8Bet Cep",
+      "Beta Cepheus",
+      "Bright Star Catalogue 8238"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cepheus.",
     "type": "Étoile",
@@ -8479,13 +9678,18 @@
   },
   {
     "target": "HIP 106278",
-    "name": "Étoile HIP 106278",
-    "englishName": "HIP 106278",
+    "name": "Beta Aquarius",
+    "englishName": "Beta Aquarius",
     "searchTerms": [
       "HIP 106278",
       "HIP106278",
       "Hipparcos 106278",
-      "Star HIP 106278"
+      "Star HIP 106278",
+      "HR 8232",
+      "HR8232",
+      "22Bet Aqr",
+      "Beta Aquarius",
+      "Bright Star Catalogue 8232"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquarius.",
     "type": "Étoile",
@@ -8515,13 +9719,18 @@
   },
   {
     "target": "HIP 106985",
-    "name": "Étoile HIP 106985",
-    "englishName": "HIP 106985",
+    "name": "Gamma Capricornus",
+    "englishName": "Gamma Capricornus",
     "searchTerms": [
       "HIP 106985",
       "HIP106985",
       "Hipparcos 106985",
-      "Star HIP 106985"
+      "Star HIP 106985",
+      "HR 8278",
+      "HR8278",
+      "40Gam Cap",
+      "Gamma Capricornus",
+      "Bright Star Catalogue 8278"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Capricornus.",
     "type": "Étoile",
@@ -8533,13 +9742,18 @@
   },
   {
     "target": "HIP 107089",
-    "name": "Étoile HIP 107089",
-    "englishName": "HIP 107089",
+    "name": "Nu Octans",
+    "englishName": "Nu Octans",
     "searchTerms": [
       "HIP 107089",
       "HIP107089",
       "Hipparcos 107089",
-      "Star HIP 107089"
+      "Star HIP 107089",
+      "HR 8254",
+      "HR8254",
+      "Nu  Oct",
+      "Nu Octans",
+      "Bright Star Catalogue 8254"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Octans.",
     "type": "Étoile",
@@ -8569,13 +9783,18 @@
   },
   {
     "target": "HIP 107315",
-    "name": "Étoile HIP 107315",
-    "englishName": "HIP 107315",
+    "name": "Epsilon Pegasus",
+    "englishName": "Epsilon Pegasus",
     "searchTerms": [
       "HIP 107315",
       "HIP107315",
       "Hipparcos 107315",
-      "Star HIP 107315"
+      "Star HIP 107315",
+      "HR 8308",
+      "HR8308",
+      "8Eps Peg",
+      "Epsilon Pegasus",
+      "Bright Star Catalogue 8308"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pegasus.",
     "type": "Étoile",
@@ -8623,13 +9842,18 @@
   },
   {
     "target": "HIP 107556",
-    "name": "Étoile HIP 107556",
-    "englishName": "HIP 107556",
+    "name": "Delta Capricornus",
+    "englishName": "Delta Capricornus",
     "searchTerms": [
       "HIP 107556",
       "HIP107556",
       "Hipparcos 107556",
-      "Star HIP 107556"
+      "Star HIP 107556",
+      "HR 8322",
+      "HR8322",
+      "49Del Cap",
+      "Delta Capricornus",
+      "Bright Star Catalogue 8322"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Capricornus.",
     "type": "Étoile",
@@ -8659,19 +9883,24 @@
   },
   {
     "target": "HIP 108085",
-    "name": "Étoile HIP 108085",
-    "englishName": "HIP 108085",
+    "name": "Gamma Grus",
+    "englishName": "Gamma Grus",
     "searchTerms": [
       "HIP 108085",
       "HIP108085",
       "Hipparcos 108085",
-      "Star HIP 108085"
+      "Star HIP 108085",
+      "HR 8353",
+      "HR8353",
+      "Gam Gru",
+      "Gamma Grus",
+      "Bright Star Catalogue 8353"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Grus.",
     "type": "Étoile",
     "catalog": "Hipparcos",
     "constellationId": "Grus",
-    "magnitude": 3.0,
+    "magnitude": 3,
     "ra": 328.48189202,
     "dec": -37.3648229
   },
@@ -8695,13 +9924,18 @@
   },
   {
     "target": "HIP 109074",
-    "name": "Étoile HIP 109074",
-    "englishName": "HIP 109074",
+    "name": "Alpha Aquarius",
+    "englishName": "Alpha Aquarius",
     "searchTerms": [
       "HIP 109074",
       "HIP109074",
       "Hipparcos 109074",
-      "Star HIP 109074"
+      "Star HIP 109074",
+      "HR 8414",
+      "HR8414",
+      "34Alp Aqr",
+      "Alpha Aquarius",
+      "Bright Star Catalogue 8414"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquarius.",
     "type": "Étoile",
@@ -8749,13 +9983,18 @@
   },
   {
     "target": "HIP 109176",
-    "name": "Étoile HIP 109176",
-    "englishName": "HIP 109176",
+    "name": "Iota Pegasus",
+    "englishName": "Iota Pegasus",
     "searchTerms": [
       "HIP 109176",
       "HIP109176",
       "Hipparcos 109176",
-      "Star HIP 109176"
+      "Star HIP 109176",
+      "HR 8430",
+      "HR8430",
+      "24Iot Peg",
+      "Iota Pegasus",
+      "Bright Star Catalogue 8430"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pegasus.",
     "type": "Étoile",
@@ -8767,13 +10006,18 @@
   },
   {
     "target": "HIP 109268",
-    "name": "Étoile HIP 109268",
-    "englishName": "HIP 109268",
+    "name": "Alpha Grus",
+    "englishName": "Alpha Grus",
     "searchTerms": [
       "HIP 109268",
       "HIP109268",
       "Hipparcos 109268",
-      "Star HIP 109268"
+      "Star HIP 109268",
+      "HR 8425",
+      "HR8425",
+      "Alp Gru",
+      "Alpha Grus",
+      "Bright Star Catalogue 8425"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Grus.",
     "type": "Étoile",
@@ -8821,13 +10065,18 @@
   },
   {
     "target": "HIP 109427",
-    "name": "Étoile HIP 109427",
-    "englishName": "HIP 109427",
+    "name": "Theta Pegasus",
+    "englishName": "Theta Pegasus",
     "searchTerms": [
       "HIP 109427",
       "HIP109427",
       "Hipparcos 109427",
-      "Star HIP 109427"
+      "Star HIP 109427",
+      "HR 8450",
+      "HR8450",
+      "26The Peg",
+      "Theta Pegasus",
+      "Bright Star Catalogue 8450"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pegasus.",
     "type": "Étoile",
@@ -8839,13 +10088,18 @@
   },
   {
     "target": "HIP 109492",
-    "name": "Étoile HIP 109492",
-    "englishName": "HIP 109492",
+    "name": "Zeta Cepheus",
+    "englishName": "Zeta Cepheus",
     "searchTerms": [
       "HIP 109492",
       "HIP109492",
       "Hipparcos 109492",
-      "Star HIP 109492"
+      "Star HIP 109492",
+      "HR 8465",
+      "HR8465",
+      "21Zet Cep",
+      "Zeta Cepheus",
+      "Bright Star Catalogue 8465"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cepheus.",
     "type": "Étoile",
@@ -8929,13 +10183,18 @@
   },
   {
     "target": "HIP 110130",
-    "name": "Étoile HIP 110130",
-    "englishName": "HIP 110130",
+    "name": "Alpha Tucana",
+    "englishName": "Alpha Tucana",
     "searchTerms": [
       "HIP 110130",
       "HIP110130",
       "Hipparcos 110130",
-      "Star HIP 110130"
+      "Star HIP 110130",
+      "HR 8502",
+      "HR8502",
+      "Alp Tuc",
+      "Alpha Tucana",
+      "Bright Star Catalogue 8502"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Tucana.",
     "type": "Étoile",
@@ -8965,13 +10224,18 @@
   },
   {
     "target": "HIP 110395",
-    "name": "Étoile HIP 110395",
-    "englishName": "HIP 110395",
+    "name": "Gamma Aquarius",
+    "englishName": "Gamma Aquarius",
     "searchTerms": [
       "HIP 110395",
       "HIP110395",
       "Hipparcos 110395",
-      "Star HIP 110395"
+      "Star HIP 110395",
+      "HR 8518",
+      "HR8518",
+      "48Gam Aqr",
+      "Gamma Aquarius",
+      "Bright Star Catalogue 8518"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquarius.",
     "type": "Étoile",
@@ -9073,13 +10337,18 @@
   },
   {
     "target": "HIP 110991",
-    "name": "Étoile HIP 110991",
-    "englishName": "HIP 110991",
+    "name": "Delta Cepheus",
+    "englishName": "Delta Cepheus",
     "searchTerms": [
       "HIP 110991",
       "HIP110991",
       "Hipparcos 110991",
-      "Star HIP 110991"
+      "Star HIP 110991",
+      "HR 8571",
+      "HR8571",
+      "27Del Cep",
+      "Delta Cepheus",
+      "Bright Star Catalogue 8571"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cepheus.",
     "type": "Étoile",
@@ -9145,13 +10414,18 @@
   },
   {
     "target": "HIP 111169",
-    "name": "Étoile HIP 111169",
-    "englishName": "HIP 111169",
+    "name": "Alpha Lacerta",
+    "englishName": "Alpha Lacerta",
     "searchTerms": [
       "HIP 111169",
       "HIP111169",
       "Hipparcos 111169",
-      "Star HIP 111169"
+      "Star HIP 111169",
+      "HR 8585",
+      "HR8585",
+      "7Alp Lac",
+      "Alpha Lacerta",
+      "Bright Star Catalogue 8585"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Lacerta.",
     "type": "Étoile",
@@ -9235,13 +10509,18 @@
   },
   {
     "target": "HIP 112029",
-    "name": "Étoile HIP 112029",
-    "englishName": "HIP 112029",
+    "name": "Zeta Pegasus",
+    "englishName": "Zeta Pegasus",
     "searchTerms": [
       "HIP 112029",
       "HIP112029",
       "Hipparcos 112029",
-      "Star HIP 112029"
+      "Star HIP 112029",
+      "HR 8634",
+      "HR8634",
+      "42Zet Peg",
+      "Zeta Pegasus",
+      "Bright Star Catalogue 8634"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pegasus.",
     "type": "Étoile",
@@ -9253,13 +10532,18 @@
   },
   {
     "target": "HIP 112122",
-    "name": "Étoile HIP 112122",
-    "englishName": "HIP 112122",
+    "name": "Beta Grus",
+    "englishName": "Beta Grus",
     "searchTerms": [
       "HIP 112122",
       "HIP112122",
       "Hipparcos 112122",
-      "Star HIP 112122"
+      "Star HIP 112122",
+      "HR 8636",
+      "HR8636",
+      "Bet Gru",
+      "Beta Grus",
+      "Bright Star Catalogue 8636"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Grus.",
     "type": "Étoile",
@@ -9271,13 +10555,18 @@
   },
   {
     "target": "HIP 112158",
-    "name": "Étoile HIP 112158",
-    "englishName": "HIP 112158",
+    "name": "Eta Pegasus",
+    "englishName": "Eta Pegasus",
     "searchTerms": [
       "HIP 112158",
       "HIP112158",
       "Hipparcos 112158",
-      "Star HIP 112158"
+      "Star HIP 112158",
+      "HR 8650",
+      "HR8650",
+      "44Eta Peg",
+      "Eta Pegasus",
+      "Bright Star Catalogue 8650"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pegasus.",
     "type": "Étoile",
@@ -9325,13 +10614,18 @@
   },
   {
     "target": "HIP 112623",
-    "name": "Étoile HIP 112623",
-    "englishName": "HIP 112623",
+    "name": "Epsilon Grus",
+    "englishName": "Epsilon Grus",
     "searchTerms": [
       "HIP 112623",
       "HIP112623",
       "Hipparcos 112623",
-      "Star HIP 112623"
+      "Star HIP 112623",
+      "HR 8675",
+      "HR8675",
+      "Eps Gru",
+      "Epsilon Grus",
+      "Bright Star Catalogue 8675"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Grus.",
     "type": "Étoile",
@@ -9361,13 +10655,18 @@
   },
   {
     "target": "HIP 112724",
-    "name": "Étoile HIP 112724",
-    "englishName": "HIP 112724",
+    "name": "Iota Cepheus",
+    "englishName": "Iota Cepheus",
     "searchTerms": [
       "HIP 112724",
       "HIP112724",
       "Hipparcos 112724",
-      "Star HIP 112724"
+      "Star HIP 112724",
+      "HR 8694",
+      "HR8694",
+      "32Iot Cep",
+      "Iota Cepheus",
+      "Bright Star Catalogue 8694"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cepheus.",
     "type": "Étoile",
@@ -9379,13 +10678,18 @@
   },
   {
     "target": "HIP 112748",
-    "name": "Étoile HIP 112748",
-    "englishName": "HIP 112748",
+    "name": "Mu Pegasus",
+    "englishName": "Mu Pegasus",
     "searchTerms": [
       "HIP 112748",
       "HIP112748",
       "Hipparcos 112748",
-      "Star HIP 112748"
+      "Star HIP 112748",
+      "HR 8684",
+      "HR8684",
+      "48Mu  Peg",
+      "Mu Pegasus",
+      "Bright Star Catalogue 8684"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pegasus.",
     "type": "Étoile",
@@ -9415,13 +10719,18 @@
   },
   {
     "target": "HIP 112961",
-    "name": "Étoile HIP 112961",
-    "englishName": "HIP 112961",
+    "name": "Lambda Aquarius",
+    "englishName": "Lambda Aquarius",
     "searchTerms": [
       "HIP 112961",
       "HIP112961",
       "Hipparcos 112961",
-      "Star HIP 112961"
+      "Star HIP 112961",
+      "HR 8698",
+      "HR8698",
+      "73Lam Aqr",
+      "Lambda Aquarius",
+      "Bright Star Catalogue 8698"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquarius.",
     "type": "Étoile",
@@ -9433,13 +10742,18 @@
   },
   {
     "target": "HIP 113136",
-    "name": "Étoile HIP 113136",
-    "englishName": "HIP 113136",
+    "name": "Delta Aquarius",
+    "englishName": "Delta Aquarius",
     "searchTerms": [
       "HIP 113136",
       "HIP113136",
       "Hipparcos 113136",
-      "Star HIP 113136"
+      "Star HIP 113136",
+      "HR 8709",
+      "HR8709",
+      "76Del Aqr",
+      "Delta Aquarius",
+      "Bright Star Catalogue 8709"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Aquarius.",
     "type": "Étoile",
@@ -9469,13 +10783,18 @@
   },
   {
     "target": "HIP 113368",
-    "name": "Étoile HIP 113368",
-    "englishName": "HIP 113368",
+    "name": "Alpha Piscis Austrinus",
+    "englishName": "Alpha Piscis Austrinus",
     "searchTerms": [
       "HIP 113368",
       "HIP113368",
       "Hipparcos 113368",
-      "Star HIP 113368"
+      "Star HIP 113368",
+      "HR 8728",
+      "HR8728",
+      "24Alp PsA",
+      "Alpha Piscis Austrinus",
+      "Bright Star Catalogue 8728"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Piscis Austrinus.",
     "type": "Étoile",
@@ -9505,13 +10824,18 @@
   },
   {
     "target": "HIP 113881",
-    "name": "Étoile HIP 113881",
-    "englishName": "HIP 113881",
+    "name": "Beta Pegasus",
+    "englishName": "Beta Pegasus",
     "searchTerms": [
       "HIP 113881",
       "HIP113881",
       "Hipparcos 113881",
-      "Star HIP 113881"
+      "Star HIP 113881",
+      "HR 8775",
+      "HR8775",
+      "53Bet Peg",
+      "Beta Pegasus",
+      "Bright Star Catalogue 8775"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pegasus.",
     "type": "Étoile",
@@ -9523,13 +10847,18 @@
   },
   {
     "target": "HIP 113963",
-    "name": "Étoile HIP 113963",
-    "englishName": "HIP 113963",
+    "name": "Alpha Pegasus",
+    "englishName": "Alpha Pegasus",
     "searchTerms": [
       "HIP 113963",
       "HIP113963",
       "Hipparcos 113963",
-      "Star HIP 113963"
+      "Star HIP 113963",
+      "HR 8781",
+      "HR8781",
+      "54Alp Peg",
+      "Alpha Pegasus",
+      "Bright Star Catalogue 8781"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pegasus.",
     "type": "Étoile",
@@ -9577,13 +10906,18 @@
   },
   {
     "target": "HIP 114971",
-    "name": "Étoile HIP 114971",
-    "englishName": "HIP 114971",
+    "name": "Gamma Pisces",
+    "englishName": "Gamma Pisces",
     "searchTerms": [
       "HIP 114971",
       "HIP114971",
       "Hipparcos 114971",
-      "Star HIP 114971"
+      "Star HIP 114971",
+      "HR 8852",
+      "HR8852",
+      "6Gam Psc",
+      "Gamma Pisces",
+      "Bright Star Catalogue 8852"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Pisces.",
     "type": "Étoile",
@@ -9685,13 +11019,18 @@
   },
   {
     "target": "HIP 116727",
-    "name": "Étoile HIP 116727",
-    "englishName": "HIP 116727",
+    "name": "Gamma Cepheus",
+    "englishName": "Gamma Cepheus",
     "searchTerms": [
       "HIP 116727",
       "HIP116727",
       "Hipparcos 116727",
-      "Star HIP 116727"
+      "Star HIP 116727",
+      "HR 8974",
+      "HR8974",
+      "35Gam Cep",
+      "Gamma Cepheus",
+      "Bright Star Catalogue 8974"
     ],
     "description": "Étoile du catalogue Hipparcos utilisée pour tracer la constellation Cepheus.",
     "type": "Étoile",
