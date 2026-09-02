@@ -1,3 +1,24 @@
+@media (min-width: 768px) and (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .panel-interactive-edge {
+    --edge-glow-y: 50%;
+  }
+
+  .panel-interactive-edge::after {
+    position: absolute;
+    inset: 0 0 0 auto;
+    width: 1px;
+    pointer-events: none;
+    content: '';
+    background: radial-gradient(
+      34px 160px at center var(--edge-glow-y),
+      rgb(186 230 253 / 90%) 0,
+      rgb(56 189 248 / 58%) 34%,
+      transparent 72%
+    );
+    box-shadow: 0 0 12px rgb(56 189 248 / 28%);
+  }
+}
+
 @media (max-width: 767px) {
   :host(.quiz-answer-sheet) aside {
     height: auto;

@@ -10,11 +10,28 @@ body {
   min-height: 100dvh;
   overflow-x: hidden;
 
-  background: linear-gradient(to bottom, #07111f, #0f172a);
+  background:
+    radial-gradient(circle at 18% 0%, rgb(14 116 144 / 22%), transparent 31rem),
+    radial-gradient(circle at 92% 18%, rgb(37 99 235 / 18%), transparent 28rem),
+    linear-gradient(145deg, #050b15 0%, #0b1426 48%, #111d33 100%);
 
   color: #e2e8f0;
 
   font-family: Arial, sans-serif;
+}
+
+body::before {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  content: '';
+  opacity: 0.5;
+  background-image:
+    radial-gradient(circle at 20% 28%, rgb(186 230 253 / 42%) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 78% 14%, rgb(255 255 255 / 34%) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 66% 68%, rgb(125 211 252 / 28%) 0 1px, transparent 1.5px);
+  background-size: 190px 190px, 240px 240px, 290px 290px;
 }
 
 button,
@@ -23,14 +40,43 @@ input {
   font: inherit;
 }
 
+button,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #67e8f9;
+  outline-offset: 2px;
+}
+
+input,
+select {
+  transition: border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+input:focus,
+select:focus {
+  border-color: rgb(103 232 249 / 60%) !important;
+  box-shadow: 0 0 0 3px rgb(34 211 238 / 12%), 0 0 22px rgb(14 165 233 / 12%);
+}
+
 .button-green {
-  @apply rounded p-2 bg-emerald-600 hover:bg-emerald-700 hover:cursor-pointer transition-all duration-250;
+  @apply rounded-lg border border-emerald-300/20 bg-gradient-to-br from-emerald-400 to-emerald-600 p-2 font-semibold text-emerald-950 shadow-[0_8px_24px_rgba(16,185,129,0.2)] hover:cursor-pointer hover:from-emerald-300 hover:to-emerald-500 hover:shadow-[0_10px_28px_rgba(16,185,129,0.32)] active:scale-[0.98] transition-all duration-250;
 }
 
 .navigationLink-full {
-  @apply rounded-xl bg-space-blue hover:bg-space-glow/80 hover:cursor-pointer transition-all duration-250;
+  @apply rounded-xl border border-sky-300/25 bg-gradient-to-br from-blue-500 to-blue-700 font-semibold text-white shadow-[0_8px_22px_rgba(37,99,235,0.28)] hover:cursor-pointer hover:from-blue-400 hover:to-blue-600 hover:shadow-[0_10px_30px_rgba(56,189,248,0.3)] active:scale-[0.98] transition-all duration-250;
 }
 
 .navigationLink-ghost {
-  @apply rounded-xl bg-space-panel border border-white/10 hover:cursor-pointer hover:border-white/30 hover:bg-space-glow/20 transition-all duration-250;
+  @apply rounded-xl border border-white/10 bg-white/[0.045] font-semibold text-space-text hover:cursor-pointer hover:border-cyan-200/35 hover:bg-cyan-300/10 hover:text-white active:scale-[0.98] transition-all duration-250;
+}
+
+* {
+  scrollbar-color: rgb(56 189 248 / 45%) rgb(15 23 42 / 50%);
+  scrollbar-width: thin;
 }

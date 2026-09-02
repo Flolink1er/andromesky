@@ -12,6 +12,7 @@ export class QuizResults {
   public readonly totalQuestions = input.required<number>();
   public readonly resultMessage = input.required<string>();
   public readonly successRate = input.required<number>();
+  public readonly fastAnswers = input.required<number>();
   public readonly restartQuiz = output<void>();
   public readonly backToExploration = output<void>();
 }

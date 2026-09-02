@@ -3,6 +3,8 @@ import {
   Component,
   computed,
   effect,
+  ElementRef,
+  HostListener,
   inject,
   input,
   output,
@@ -36,6 +38,7 @@ import { QuizSettings } from '../quiz-settings/quiz-settings';
   styleUrl: './side-panel.css',
 })
 export class SidePanel {
+  private readonly hostElement = inject(ElementRef<HTMLElement>);
   public readonly currentObject = input.required<IAstronomicalObject>();
   public readonly currentIndex = input.required<number>();
 
@@ -83,5 +86,19 @@ export class SidePanel {
 
   public closePanel(): void {
     this.close.emit();
+  }
+
+  @HostListener('document:pointermove', ['$event'])
+  public updateEdgeGlow(event: PointerEvent): void {
+    const panel = this.hostElement.nativeElement.querySelector('aside') as HTMLElement | null;
+
+    if (!panel) {
+      return;
+    }
+
+    const bounds = panel.getBoundingClientRect();
+    const relativeY = Math.min(100, Math.max(0, ((event.clientY - bounds.top) / bounds.height) * 100));
+
+    panel.style.setProperty('--edge-glow-y', `${relativeY}%`);
   }
 }

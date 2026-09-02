@@ -1,5 +1,5 @@
 @if (currentObject()) {
-  <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
+  <div class="rounded-2xl border border-cyan-100/10 bg-gradient-to-br from-white/[0.075] to-white/[0.025] p-4 shadow-[0_14px_30px_rgba(2,6,23,0.18)]">
     <h2 class="text-xl font-semibold text-space-text text-center">
       {{ currentObject().name }}
     </h2>
@@ -18,7 +18,7 @@
         [src]="image.imageUrl"
         [alt]="image.title"
         [title]="image.title"
-        class="mb-2 max-h-56 w-full rounded-lg object-cover sm:max-h-none"
+        class="mb-2 max-h-56 w-full rounded-xl border border-white/10 object-cover shadow-lg sm:max-h-none"
       />
     } @else {
       <p>Aucune image NASA disponible.</p>

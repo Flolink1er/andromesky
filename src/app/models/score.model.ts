@@ -13,6 +13,7 @@ export interface IGameScore extends IScore {
 
   currentStreak: number;
   bestStreak: number;
+  fastAnswers: number;
 
   startedAt: Date;
   finishedAt?: Date;
@@ -27,6 +28,7 @@ export interface IScoreHistory extends IScore {
   correctAnswers: number;
   totalQuestions: number;
   bestStreak: number;
+  fastAnswers: number;
 }
 
 export interface IPlayerStatistics {

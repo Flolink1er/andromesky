@@ -48,6 +48,10 @@ export class ScoreService {
           updated.currentStreak++;
           updated.bestStreak = Math.max(updated.bestStreak, updated.currentStreak);
 
+          if (event === ScoreEvent.QuizFastCorrect) {
+            updated.fastAnswers++;
+          }
+
           break;
 
         case ScoreEvent.QuizWrong:
@@ -73,6 +77,7 @@ export class ScoreService {
       correctAnswers: game.correctAnswers,
       totalQuestions: game.nbQuestions,
       bestStreak: game.bestStreak,
+      fastAnswers: game.fastAnswers,
     };
 
     const history = [entry, ...this.history()].slice(0, ScoreService.MAX_HISTORY_ENTRIES);
@@ -93,7 +98,14 @@ export class ScoreService {
       }
 
       const history = JSON.parse(storedHistory) as IScoreHistory[];
-      return Array.isArray(history) ? history.filter((entry) => this.isValidHistoryEntry(entry)) : [];
+      return Array.isArray(history)
+        ? history
+            .filter((entry) => this.isValidHistoryEntry(entry))
+            .map((entry) => ({
+              ...entry,
+              fastAnswers: typeof entry.fastAnswers === 'number' ? entry.fastAnswers : 0,
+            }))
+        : [];
     } catch (error) {
       console.warn("Impossible de charger l'historique des scores.", error);
       return [];
@@ -122,6 +134,7 @@ export class ScoreService {
 
       currentStreak: 0,
       bestStreak: 0,
+      fastAnswers: 0,
 
       startedAt: new Date(),
     };

@@ -27,7 +27,7 @@
 
       <button
         type="button"
-        class="absolute left-4 top-4 z-10 inline-flex h-11 min-w-11 items-center justify-center rounded-lg border border-white/20 bg-space-panel/90 px-3 text-xl shadow-lg backdrop-blur transition hover:bg-space-blue md:hidden"
+        class="absolute left-4 top-4 z-10 inline-flex h-11 min-w-11 items-center justify-center rounded-xl border border-cyan-100/20 bg-space-panel/85 px-3 text-xl shadow-[0_8px_24px_rgba(2,6,23,0.42)] backdrop-blur-xl transition hover:border-cyan-200/45 hover:bg-space-blue md:hidden"
         [attr.aria-expanded]="isPanelOpen()"
         aria-controls="information-panel"
         aria-label="Ouvrir le panneau d'informations"
@@ -38,7 +38,7 @@
 
       @if (!appStateService.isQuiz() && currentObject(); as object) {
         <p
-          class="absolute left-16 top-4 z-10 flex h-11 max-w-[calc(100%-5rem)] items-center truncate rounded-lg border border-white/10 bg-space-panel/90 px-3 text-sm font-semibold text-space-text shadow-lg backdrop-blur md:hidden"
+          class="absolute left-16 top-4 z-10 flex h-11 max-w-[calc(100%-5rem)] items-center truncate rounded-xl border border-white/10 bg-space-panel/85 px-3 text-sm font-semibold text-space-text shadow-[0_8px_24px_rgba(2,6,23,0.42)] backdrop-blur-xl md:hidden"
           [title]="object.name"
         >
           {{ object.name }}
@@ -52,21 +52,21 @@
           as question
         ) {
           <p
-            class="absolute left-16 top-4 z-10 flex h-11 max-w-[calc(100%-5rem)] items-center truncate rounded-lg border border-white/10 bg-space-panel/90 px-3 text-sm font-semibold text-space-text shadow-lg backdrop-blur md:hidden"
+            class="absolute left-16 top-4 z-10 flex h-11 max-w-[calc(100%-5rem)] items-center truncate rounded-xl border border-white/10 bg-space-panel/85 px-3 text-sm font-semibold text-space-text shadow-[0_8px_24px_rgba(2,6,23,0.42)] backdrop-blur-xl md:hidden"
             [title]="question.correctAnswer.name"
           >
             À trouver : {{ question.correctAnswer.name }}
           </p>
         } @else {
           <p
-            class="absolute left-16 top-4 z-10 flex h-11 max-w-[calc(100%-5rem)] items-center truncate rounded-lg border border-white/10 bg-space-panel/90 px-3 text-sm font-semibold text-space-text shadow-lg backdrop-blur md:hidden"
+            class="absolute left-16 top-4 z-10 flex h-11 max-w-[calc(100%-5rem)] items-center truncate rounded-xl border border-white/10 bg-space-panel/85 px-3 text-sm font-semibold text-space-text shadow-[0_8px_24px_rgba(2,6,23,0.42)] backdrop-blur-xl md:hidden"
           >
             Question {{ quizService.currentQuestionIndex() + 1 }} / {{ quizService.totalQuestions() }}
           </p>
         }
 
         @if (quizService.currentQuizMode() === QuizModes.LocateObject) {
-          <div class="absolute inset-x-4 bottom-4 z-10 rounded-xl border border-white/10 bg-space-panel/90 p-3 text-center shadow-lg backdrop-blur md:hidden">
+          <div class="absolute inset-x-4 bottom-4 z-10 rounded-2xl border border-cyan-100/15 bg-space-panel/90 p-3 text-center shadow-[0_14px_36px_rgba(2,6,23,0.48)] backdrop-blur-xl md:hidden">
             @if (quizService.locationResult(); as result) {
               <p class="font-semibold" [class.text-emerald-300]="result.isCorrect" [class.text-red-300]="!result.isCorrect">
                 {{ result.isCorrect ? 'Bonne réponse !' : 'Pas tout à fait.' }}

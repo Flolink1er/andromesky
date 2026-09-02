@@ -3,6 +3,16 @@
 </h2>
 
 @if (quizService.currentQuizMode() === QuizMode.GuessObject) {
+  @if (quizService.fastAnswer()) {
+    <div class="fast-answer-feedback mt-4" role="status">
+      <span class="fast-answer-feedback__bolt" aria-hidden="true">⚡</span>
+      <div>
+        <p class="font-bold">Réponse éclair !</p>
+        <p class="text-xs text-amber-100/80">Bonus de rapidité : +15 points</p>
+      </div>
+    </div>
+  }
+
   <button
     type="button"
     class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-violet-400/50 bg-violet-500/15 px-3 py-2 text-sm font-semibold text-violet-200 shadow-sm transition hover:cursor-pointer hover:bg-violet-500/25 hover:text-white disabled:cursor-not-allowed disabled:border-violet-400/20 disabled:bg-violet-500/5 disabled:text-violet-300/50 disabled:opacity-70"

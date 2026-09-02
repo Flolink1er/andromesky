@@ -1,6 +1,11 @@
-<div class="flex h-full w-full items-center justify-center p-2 sm:p-4">
+<div
+  class="sky-map-stage flex h-full w-full items-center justify-center p-2 sm:p-4"
+  [class.sky-map-stage--dragging]="isDragging()"
+  (pointerdown)="onPointerDown($event)"
+  (pointermove)="onPointerMove($event)"
+>
 
-  <div class="
+  <div class="sky-map-frame
       h-full
       w-full
       rounded-xl

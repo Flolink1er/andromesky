@@ -10,9 +10,9 @@ declare let A: any;
 })
 export class SkyMapService {
   private static readonly DRAG_THRESHOLD_PX = 8;
-  private static readonly CONSTELLATION_LINE_COLOR = '#60A5FA';
-  private static readonly CONSTELLATION_STAR_COLOR = '#FFFFFF';
-  private static readonly CONSTELLATION_STAR_RADIUS = 0.08;
+  private static readonly CONSTELLATION_LINE_COLOR = '#7DD3FC';
+  private static readonly CONSTELLATION_STAR_COLOR = '#DBEAFE';
+  private static readonly CONSTELLATION_STAR_RADIUS = 0.055;
   private static readonly CURRENT_OBJECT_COLOR = '#22D3EE';
   private static readonly SELECTION_COLOR = '#FBBF24';
 
@@ -20,6 +20,8 @@ export class SkyMapService {
   private markerCatalog: any;
   private constellationOverlay: any;
   private selectionCatalog: any;
+  private selectionOverlay: any;
+  private currentObjectOverlay: any;
   private locationResultCatalog: any;
   private locationResultOverlay: any;
   private locationHintOverlay: any;
@@ -114,7 +116,7 @@ export class SkyMapService {
       name: 'Selection',
       shape: 'rhomb',
       color: SkyMapService.SELECTION_COLOR,
-      sourceSize: 10,
+      sourceSize: 7,
     });
     this.aladin.addCatalog(this.selectionCatalog);
 
@@ -122,7 +124,7 @@ export class SkyMapService {
       name: 'Current Object',
       shape: 'cross',
       color: SkyMapService.CURRENT_OBJECT_COLOR,
-      sourceSize: 12,
+      sourceSize: 9,
     });
     this.aladin.addCatalog(this.markerCatalog);
 
@@ -130,16 +132,30 @@ export class SkyMapService {
       name: 'Correct location',
       shape: 'cross',
       color: '#34D399',
-      sourceSize: 12,
+      sourceSize: 9,
     });
     this.aladin.addCatalog(this.locationResultCatalog);
 
     this.constellationOverlay = A.graphicOverlay({
-      color: '#60A5FA',
-      lineWidth: 3,
-      opacity: 0.8,
+      color: SkyMapService.CONSTELLATION_LINE_COLOR,
+      lineWidth: 2,
+      opacity: 0.72,
     });
     this.aladin.addOverlay(this.constellationOverlay);
+
+    this.selectionOverlay = A.graphicOverlay({
+      color: '#FDE68A',
+      lineWidth: 2,
+      opacity: 0.9,
+    });
+    this.aladin.addOverlay(this.selectionOverlay);
+
+    this.currentObjectOverlay = A.graphicOverlay({
+      color: '#67E8F9',
+      lineWidth: 2,
+      opacity: 0.9,
+    });
+    this.aladin.addOverlay(this.currentObjectOverlay);
 
     this.locationResultOverlay = A.graphicOverlay({
       color: '#FBBF24',
@@ -184,9 +200,18 @@ export class SkyMapService {
     }
 
     this.markerCatalog.clear();
+    this.currentObjectOverlay.removeAll();
     const marker = A.source(object.ra!, object.dec!, {});
 
     this.markerCatalog.addSources([marker]);
+    this.currentObjectOverlay.add(
+      A.circle(object.ra!, object.dec!, this.getMarkerRadius(), {
+        color: '#A5F3FC',
+        fill: false,
+        lineWidth: 2,
+        opacity: 0.9,
+      }),
+    );
   }
 
   private clickCallback?: (ra: number, dec: number) => void;
@@ -228,9 +253,10 @@ export class SkyMapService {
     for (const star of displayedStars.values()) {
       this.constellationOverlay.add(
         A.circle(star.ra!, star.dec!, this.getStarRadius(star), {
-          color: '#FFFFFF',
+          color: SkyMapService.CONSTELLATION_STAR_COLOR,
           fill: true,
-          lineWidth: 1,
+          lineWidth: 0.5,
+          opacity: 0.82,
         }),
       );
     }
@@ -244,24 +270,39 @@ export class SkyMapService {
     }
 
     if (star.magnitude <= 1) {
-      return 0.16;
+      return 0.11;
     }
 
     if (star.magnitude <= 2) {
-      return 0.12;
+      return 0.08;
     }
 
-    return 0.08;
+    return SkyMapService.CONSTELLATION_STAR_RADIUS;
+  }
+
+  private getMarkerRadius(): number {
+    const [fovWidth, fovHeight] = this.aladin.getFov();
+    return Math.max(0.035, Math.min(0.16, Math.min(fovWidth, fovHeight) * 0.012));
   }
 
   public showSelectionMarker(ra: number, dec: number): void {
     this.selectionCatalog.clear();
+    this.selectionOverlay.removeAll();
 
     this.selectionCatalog.addSources([A.source(ra, dec, {})]);
+    this.selectionOverlay.add(
+      A.circle(ra, dec, this.getMarkerRadius(), {
+        color: '#FDE68A',
+        fill: false,
+        lineWidth: 2,
+        opacity: 0.9,
+      }),
+    );
   }
 
   public clearSelectionMarker(): void {
     this.selectionCatalog.clear();
+    this.selectionOverlay.removeAll();
   }
 
   public showLocationFeedback(
@@ -272,6 +313,14 @@ export class SkyMapService {
     this.locationResultOverlay.removeAll();
 
     this.locationResultCatalog.addSources([A.source(correctObject.ra!, correctObject.dec!, {})]);
+    this.locationResultOverlay.add(
+      A.circle(correctObject.ra!, correctObject.dec!, this.getMarkerRadius(), {
+        color: '#6EE7B7',
+        fill: false,
+        lineWidth: 2,
+        opacity: 0.95,
+      }),
+    );
     this.locationResultOverlay.addFootprints(
       A.polyline([
         [selectedLocation.ra, selectedLocation.dec],
@@ -313,6 +362,7 @@ export class SkyMapService {
 
   public clearHighlightedObject(): void {
     this.markerCatalog.clear();
+    this.currentObjectOverlay.removeAll();
     this.constellationOverlay.removeAll();
   }
 }

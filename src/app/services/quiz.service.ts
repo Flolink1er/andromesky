@@ -48,6 +48,9 @@ export class QuizService {
 
   private readonly _questionStartedAt = signal(0);
 
+  private readonly _fastAnswer = signal(false);
+  public readonly fastAnswer = this._fastAnswer.asReadonly();
+
   private readonly _selectedLocation = signal<{
     ra: number;
     dec: number;
@@ -93,6 +96,7 @@ export class QuizService {
     this._selectedLocation.set(null);
     this._lastAnswerCorrect.set(null);
     this._locationResult.set(null);
+    this._fastAnswer.set(false);
     this.resetHint();
     this._questions.set(questions);
 
@@ -101,6 +105,7 @@ export class QuizService {
     this._currentDifficulty.set(difficulty);
 
     this._state.set(QuizState.Running);
+    this._questionStartedAt.set(Date.now());
 
     this.scoreService.startGame(questions.length);
   }
@@ -146,6 +151,7 @@ export class QuizService {
     this._selectedLocation.set(null);
     this._lastAnswerCorrect.set(null);
     this._locationResult.set(null);
+    this._fastAnswer.set(false);
     this.resetHint();
     this._currentQuestionIndex.set(next);
     this._questionStartedAt.set(Date.now());
@@ -165,8 +171,11 @@ export class QuizService {
 
     this._lastAnswerCorrect.set(isCorrect);
 
+    const isFastCorrect = isCorrect && elapsed < 5000;
+    this._fastAnswer.set(isFastCorrect);
+
     if (isCorrect) {
-      if (elapsed < 5000) {
+      if (isFastCorrect) {
         this.scoreService.addEvent(ScoreEvent.QuizFastCorrect, this.getScoreMultiplier());
       } else {
         this.scoreService.addEvent(ScoreEvent.QuizCorrect, this.getScoreMultiplier());
@@ -184,6 +193,7 @@ export class QuizService {
     this._selectedLocation.set(null);
     this._lastAnswerCorrect.set(null);
     this._locationResult.set(null);
+    this._fastAnswer.set(false);
     this.resetHint();
 
     this._questions.set([]);
