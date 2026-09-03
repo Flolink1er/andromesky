@@ -15,12 +15,28 @@ export interface ILocationResult {
   correctAnswer: IAstronomicalObject;
   distanceDegrees: number;
   isCorrect: boolean;
+  precisionLabel: string;
+  awardedScore: number;
 }
 
 @Injectable({
   providedIn: 'root',
 })
 export class QuizService {
+  private static readonly LOCATION_SCORE_TIERS = [
+    {
+      maximumDistanceDegrees: 0.5,
+      event: ScoreEvent.QuizLocatePrecise,
+      label: 'Position très précise',
+    },
+    { maximumDistanceDegrees: 1.5, event: ScoreEvent.QuizLocateClose, label: 'Bonne localisation' },
+    {
+      maximumDistanceDegrees: 3,
+      event: ScoreEvent.QuizLocateApproximate,
+      label: 'Localisation approximative',
+    },
+  ] as const;
+
   private readonly objectService = inject(AstronomicalObjectService);
   private readonly scoreService = inject(ScoreService);
 
@@ -215,15 +231,24 @@ export class QuizService {
       return false;
     }
 
-    const nearest = this.objectService.findNearestObject(location.ra, location.dec);
-    const isCorrect = nearest?.target === question.correctAnswer.target;
     const distanceDegrees = this.getAngularDistanceDegrees(location, question.correctAnswer);
+    const tier = QuizService.LOCATION_SCORE_TIERS.find(
+      ({ maximumDistanceDegrees }) => distanceDegrees <= maximumDistanceDegrees,
+    );
+    const isCorrect = tier !== undefined;
+    const awardedScore = tier ? tier.event * this.getScoreMultiplier() : 0;
 
     this._lastAnswerCorrect.set(isCorrect);
-    this._locationResult.set({ correctAnswer: question.correctAnswer, distanceDegrees, isCorrect });
+    this._locationResult.set({
+      correctAnswer: question.correctAnswer,
+      distanceDegrees,
+      isCorrect,
+      precisionLabel: tier?.label ?? 'Position trop éloignée',
+      awardedScore,
+    });
 
-    if (isCorrect) {
-      this.scoreService.addEvent(ScoreEvent.QuizCorrect, this.getScoreMultiplier());
+    if (tier) {
+      this.scoreService.addEvent(tier.event, this.getScoreMultiplier());
     } else {
       this.scoreService.addEvent(ScoreEvent.QuizWrong);
     }
@@ -240,7 +265,9 @@ export class QuizService {
       return false;
     }
 
-    const wrongChoices = question.choices.filter((choice) => choice.target !== question.correctAnswer.target);
+    const wrongChoices = question.choices.filter(
+      (choice) => choice.target !== question.correctAnswer.target,
+    );
     if (wrongChoices.length === 0) {
       return false;
     }

@@ -73,6 +73,9 @@
               </p>
               <p class="mt-1 text-sm text-space-text">Réponse : {{ result.correctAnswer.name }}</p>
               <p class="text-sm text-space-muted">Écart : {{ formatAngularDistance(result.distanceDegrees) }}</p>
+              <p class="mt-1 text-sm font-medium" [class.text-emerald-200]="result.isCorrect" [class.text-red-200]="!result.isCorrect">
+                {{ result.precisionLabel }}@if (result.isCorrect) { · +{{ formatScore(result.awardedScore) }} points }
+              </p>
             } @else {
               @if (quizService.selectedLocation()) {
                 <button type="button" class="button-green w-full" (click)="confirmQuizLocation()">

@@ -15,6 +15,7 @@ export class SkyMapService {
   private static readonly CONSTELLATION_STAR_RADIUS = 0.055;
   private static readonly CURRENT_OBJECT_COLOR = '#22D3EE';
   private static readonly SELECTION_COLOR = '#FBBF24';
+  private static readonly MIN_LOCATION_HINT_FOV_DEGREES = 120;
 
   private aladin: any;
   private markerCatalog: any;
@@ -53,25 +54,36 @@ export class SkyMapService {
       true,
     );
 
-    mapContainer?.addEventListener('pointerdown', (event) => {
-      if (event.button !== 0) {
-        return;
-      }
+    mapContainer?.addEventListener(
+      'pointerdown',
+      (event) => {
+        if (event.button !== 0) {
+          return;
+        }
 
-      this.pointerStart = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
-      this.didDrag = false;
-    }, true);
+        this.pointerStart = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
+        this.didDrag = false;
+      },
+      true,
+    );
 
-    mapContainer?.addEventListener('pointermove', (event) => {
-      if (!this.pointerStart || event.pointerId !== this.pointerStart.pointerId) {
-        return;
-      }
+    mapContainer?.addEventListener(
+      'pointermove',
+      (event) => {
+        if (!this.pointerStart || event.pointerId !== this.pointerStart.pointerId) {
+          return;
+        }
 
-      const distance = Math.hypot(event.clientX - this.pointerStart.x, event.clientY - this.pointerStart.y);
-      if (distance >= SkyMapService.DRAG_THRESHOLD_PX) {
-        this.didDrag = true;
-      }
-    }, true);
+        const distance = Math.hypot(
+          event.clientX - this.pointerStart.x,
+          event.clientY - this.pointerStart.y,
+        );
+        if (distance >= SkyMapService.DRAG_THRESHOLD_PX) {
+          this.didDrag = true;
+        }
+      },
+      true,
+    );
 
     const releasePointer = (event: PointerEvent): void => {
       if (!this.pointerStart || event.pointerId !== this.pointerStart.pointerId) {
@@ -340,6 +352,11 @@ export class SkyMapService {
   }
 
   public showLocationHint(object: IAstronomicalObject): void {
+    const currentFov = this.aladin.getFov();
+    if (Math.min(...currentFov) < SkyMapService.MIN_LOCATION_HINT_FOV_DEGREES) {
+      this.aladin.setFoV(SkyMapService.MIN_LOCATION_HINT_FOV_DEGREES);
+    }
+
     const [fovWidth, fovHeight] = this.aladin.getFov();
     const radius = Math.min(fovWidth, fovHeight) * 0.28;
     const angle = Math.random() * Math.PI * 2;
@@ -347,7 +364,8 @@ export class SkyMapService {
     const objectDeclination = (object.dec! * Math.PI) / 180;
     const centreDec = Math.max(-85, Math.min(85, object.dec! + offset * Math.sin(angle)));
     const centreRa =
-      (object.ra! + offset * Math.cos(angle) / Math.max(0.2, Math.cos(objectDeclination)) + 360) % 360;
+      (object.ra! + (offset * Math.cos(angle)) / Math.max(0.2, Math.cos(objectDeclination)) + 360) %
+      360;
 
     this.locationHintOverlay.removeAll();
     this.aladin.gotoRaDec(centreRa, centreDec);

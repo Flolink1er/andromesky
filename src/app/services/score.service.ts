@@ -44,6 +44,9 @@ export class ScoreService {
       switch (event) {
         case ScoreEvent.QuizCorrect:
         case ScoreEvent.QuizFastCorrect:
+        case ScoreEvent.QuizLocatePrecise:
+        case ScoreEvent.QuizLocateClose:
+        case ScoreEvent.QuizLocateApproximate:
           updated.correctAnswers++;
           updated.currentStreak++;
           updated.bestStreak = Math.max(updated.bestStreak, updated.currentStreak);

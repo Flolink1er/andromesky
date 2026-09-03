@@ -95,6 +95,9 @@
       <p class="text-sm text-space-muted">
         Écart : {{ formatAngularDistance(result.distanceDegrees) }}
       </p>
+      <p class="mt-1 text-sm font-medium" [class.text-emerald-200]="result.isCorrect" [class.text-red-200]="!result.isCorrect">
+        {{ result.precisionLabel }}@if (result.isCorrect) { · +{{ formatScore(result.awardedScore) }} points }
+      </p>
     </div>
   } @else if (quizService.selectedLocation()) {
     <button class="button-green mt-4 w-full" (click)="confirmLocation()">Confirmer</button>

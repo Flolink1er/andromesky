@@ -42,6 +42,10 @@ export enum ScoreEvent {
   QuizFastCorrect = 15,
   QuizWrong = 0,
 
+  QuizLocatePrecise = 50,
+  QuizLocateClose = 20,
+  QuizLocateApproximate = 5,
+
   SpaceGuessrClose = 50,
   SpaceGuessrMedium = 20,
   SpaceGuessrFar = 5,

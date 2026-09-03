@@ -67,4 +67,8 @@ export class QuizQuestions {
   public formatAngularDistance(distanceDegrees: number): string {
     return `${distanceDegrees < 1 ? distanceDegrees.toFixed(2) : distanceDegrees.toFixed(1)}°`;
   }
+
+  public formatScore(score: number): string {
+    return Number.isInteger(score) ? score.toString() : score.toFixed(1);
+  }
 }
