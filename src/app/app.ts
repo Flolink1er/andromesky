@@ -205,6 +205,10 @@ export class App {
     return `${distanceDegrees < 1 ? distanceDegrees.toFixed(2) : distanceDegrees.toFixed(1)}°`;
   }
 
+  public formatScore(score: number): string {
+    return Number.isInteger(score) ? score.toString() : score.toFixed(1);
+  }
+
   private isMobileViewport(): boolean {
     return typeof window !== 'undefined' && window.matchMedia('(max-width: 767px)').matches;
   }
