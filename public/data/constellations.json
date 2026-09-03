@@ -3,7 +3,7 @@
     "id": "Orion",
     "name": "Orion",
     "abbreviation": "Ori",
-    "description": "L'une des constellations les plus reconnaissables du ciel d'hiver, célèbre pour sa ceinture.",
+    "description": "Orion, le Chasseur, est l'une des constellations les plus reconnaissables du ciel d'hiver, célèbre pour sa ceinture.",
     "segments": [
       { "fromTarget": "Betelgeuse", "toTarget": "Bellatrix" },
       { "fromTarget": "Betelgeuse", "toTarget": "Alnitak" },
@@ -19,7 +19,7 @@
     "id": "Andromeda",
     "name": "Andromède",
     "abbreviation": "And",
-    "description": "Constellation boréale contenant la galaxie d'Andromède.",
+    "description": "L'Andromède (Andromeda) est une constellation boréale qui accueille la célèbre galaxie d'Andromède.",
     "segments": [
       { "fromTarget": "Alpheratz", "toTarget": "Mirach" },
       { "fromTarget": "Mirach", "toTarget": "Almach" }
@@ -29,7 +29,7 @@
     "id": "Taurus",
     "name": "Taureau",
     "abbreviation": "Tau",
-    "description": "Constellation du zodiaque abritant les Pléiades et la nébuleuse du Crabe.",
+    "description": "Le Taureau (Taurus), constellation du zodiaque, abrite les Pléiades, les Hyades et la nébuleuse du Crabe.",
     "segments": [
       { "fromTarget": "Aldebaran", "toTarget": "Elnath" },
       { "fromTarget": "Aldebaran", "toTarget": "Hyadum I" },
@@ -40,7 +40,7 @@
     "id": "Hercules",
     "name": "Hercule",
     "abbreviation": "Her",
-    "description": "Grande constellation boréale contenant le célèbre amas globulaire M13.",
+    "description": "Hercule (Hercules) est une vaste constellation boréale connue notamment pour l'amas globulaire M13.",
     "segments": [
       { "fromTarget": "HR 6092", "toTarget": "Eta Herculis" },
       { "fromTarget": "Pi Herculis", "toTarget": "Eta Herculis" },
@@ -62,7 +62,7 @@
     "id": "Lyra",
     "name": "Lyre",
     "abbreviation": "Lyr",
-    "description": "Petite constellation dominée par l'étoile Véga.",
+    "description": "La Lyre (Lyra) est une petite constellation estivale dominée par Véga, l'une des étoiles les plus brillantes du ciel.",
     "segments": [
       { "fromTarget": "Vega", "toTarget": "Sheliak" },
       { "fromTarget": "Sheliak", "toTarget": "Sulafat" },
@@ -73,7 +73,7 @@
     "id": "Sagittarius",
     "name": "Sagittaire",
     "abbreviation": "Sgr",
-    "description": "Constellation du zodiaque dirigée vers le centre de la Voie lactée.",
+    "description": "Le Sagittaire (Sagittarius), constellation du zodiaque, dirige son arc vers le centre de la Voie lactée.",
     "segments": [
       { "fromTarget": "Kaus Australis", "toTarget": "Kaus Media" },
       { "fromTarget": "Kaus Media", "toTarget": "Kaus Borealis" },
@@ -85,14 +85,14 @@
     "id": "Canes Venatici",
     "name": "Chiens de Chasse",
     "abbreviation": "CVn",
-    "description": "Petite constellation boréale contenant la galaxie du Tourbillon.",
+    "description": "Les Chiens de Chasse (Canes Venatici) sont une petite constellation boréale contenant la galaxie du Tourbillon.",
     "segments": [{ "fromTarget": "Cor Caroli", "toTarget": "Chara" }]
   },
   {
     "id": "Ursa Major",
     "name": "Grande Ourse",
     "abbreviation": "UMa",
-    "description": "Constellation célèbre pour son Grand Chariot.",
+    "description": "La Grande Ourse (Ursa Major) est célèbre pour l'astérisme du Grand Chariot, très utile pour retrouver l'étoile Polaire.",
     "segments": [
       { "fromTarget": "Dubhe", "toTarget": "Merak" },
       { "fromTarget": "Merak", "toTarget": "Phecda" },
@@ -106,7 +106,7 @@
     "id": "Vulpecula",
     "name": "Petit Renard",
     "abbreviation": "Vul",
-    "description": "Petite constellation estivale où se trouve M27.",
+    "description": "Le Petit Renard (Vulpecula) est une petite constellation estivale qui abrite M27, la nébuleuse de l'Haltère.",
     "segments": [{ "fromTarget": "Anser", "toTarget": "23 Vulpeculae" }]
   }
 ]
