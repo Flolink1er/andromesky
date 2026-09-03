@@ -1,9 +1,9 @@
 [
   {
     "id": "Apus",
-    "name": "Apus",
+    "name": "Oiseau de paradis",
     "abbreviation": "Aps",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Oiseau de paradis (Apus) est une constellation australe nommée d'après l'oiseau exotique.",
     "segments": [
       {
         "fromTarget": "HIP 72370",
@@ -21,9 +21,9 @@
   },
   {
     "id": "Aquarius",
-    "name": "Aquarius",
+    "name": "Verseau",
     "abbreviation": "Aqr",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Verseau (Aquarius), constellation du zodiaque, évoque le porteur d'eau de la tradition antique.",
     "segments": [
       {
         "fromTarget": "HIP 102618",
@@ -113,9 +113,9 @@
   },
   {
     "id": "Aquila",
-    "name": "Aquila",
+    "name": "Aigle",
     "abbreviation": "Aql",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Aigle (Aquila) traverse la Voie lactée et abrite la brillante étoile Altaïr.",
     "segments": [
       {
         "fromTarget": "HIP 98036",
@@ -177,9 +177,9 @@
   },
   {
     "id": "Ara",
-    "name": "Ara",
+    "name": "Autel",
     "abbreviation": "Ara",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Autel (Ara) est une constellation méridionale associée à un autel sacrificiel dans la mythologie.",
     "segments": [
       {
         "fromTarget": "HIP 85267",
@@ -217,9 +217,9 @@
   },
   {
     "id": "Auriga",
-    "name": "Auriga",
+    "name": "Cocher",
     "abbreviation": "Aur",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Cocher (Auriga) est une constellation du ciel d'hiver, facilement repérable grâce à Capella.",
     "segments": [
       {
         "fromTarget": "HIP 25428",
@@ -269,9 +269,9 @@
   },
   {
     "id": "Bootes",
-    "name": "Bootes",
+    "name": "Bouvier",
     "abbreviation": "Boo",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Bouvier (Bootes) accompagne la Grande Ourse et contient Arcturus, une étoile très lumineuse.",
     "segments": [
       {
         "fromTarget": "HIP 69673",
@@ -331,7 +331,7 @@
     "id": "Cancer",
     "name": "Cancer",
     "abbreviation": "Cnc",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Cancer, aussi appelé le Crabe (Cancer), est une discrète constellation du zodiaque avec l'amas de la Crèche.",
     "segments": [
       {
         "fromTarget": "HIP 44066",
@@ -357,9 +357,9 @@
   },
   {
     "id": "Canis Major",
-    "name": "Canis Major",
+    "name": "Grand Chien",
     "abbreviation": "CMa",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Grand Chien (Canis Major) est célèbre pour Sirius, l'étoile la plus brillante du ciel nocturne.",
     "segments": [
       {
         "fromTarget": "HIP 30324",
@@ -413,9 +413,9 @@
   },
   {
     "id": "Canis Minor",
-    "name": "Canis Minor",
+    "name": "Petit Chien",
     "abbreviation": "CMi",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Petit Chien (Canis Minor) forme un duo hivernal avec le Grand Chien et contient Procyon.",
     "segments": [
       {
         "fromTarget": "HIP 37279",
@@ -425,9 +425,9 @@
   },
   {
     "id": "Capricornus",
-    "name": "Capricornus",
+    "name": "Capricorne",
     "abbreviation": "Cap",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Capricorne (Capricornus) est une constellation du zodiaque dont la figure traditionnelle est mi-chèvre, mi-poisson.",
     "segments": [
       {
         "fromTarget": "HIP 100064",
@@ -469,9 +469,9 @@
   },
   {
     "id": "Carina",
-    "name": "Carina",
+    "name": "Carène",
     "abbreviation": "Car",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Carène (Carina) représente la quille du navire Argo et abrite la remarquable étoile Canopus.",
     "segments": [
       {
         "fromTarget": "HIP 30438",
@@ -537,9 +537,9 @@
   },
   {
     "id": "Centaurus",
-    "name": "Centaurus",
+    "name": "Centaure",
     "abbreviation": "Cen",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Centaure (Centaurus), vaste constellation australe, contient Alpha Centauri, voisine du Soleil.",
     "segments": [
       {
         "fromTarget": "HIP 61932",
@@ -653,9 +653,9 @@
   },
   {
     "id": "Cepheus",
-    "name": "Cepheus",
+    "name": "Céphée",
     "abbreviation": "Cep",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Céphée (Cepheus) est une constellation circumpolaire du nord rappelant le roi de la mythologie grecque.",
     "segments": [
       {
         "fromTarget": "HIP 102422",
@@ -709,9 +709,9 @@
   },
   {
     "id": "Circinus",
-    "name": "Circinus",
+    "name": "Compas",
     "abbreviation": "Cir",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Compas (Circinus) est une petite constellation australe introduite à l'époque moderne.",
     "segments": [
       {
         "fromTarget": "HIP 74824",
@@ -725,9 +725,9 @@
   },
   {
     "id": "Columba",
-    "name": "Columba",
+    "name": "Colombe",
     "abbreviation": "Col",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Colombe (Columba) se trouve au sud du Grand Chien et symbolise traditionnellement un oiseau pacifique.",
     "segments": [
       {
         "fromTarget": "HIP 26634",
@@ -753,9 +753,9 @@
   },
   {
     "id": "Corona Borealis",
-    "name": "Corona Borealis",
+    "name": "Couronne boréale",
     "abbreviation": "CrB",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Couronne boréale (Corona Borealis) dessine un élégant arc d'étoiles au nord du Bouvier.",
     "segments": [
       {
         "fromTarget": "HIP 76127",
@@ -785,9 +785,9 @@
   },
   {
     "id": "Corvus",
-    "name": "Corvus",
+    "name": "Corbeau",
     "abbreviation": "Crv",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Corbeau (Corvus) est une petite constellation printanière voisine de l'Hydre et de la Coupe.",
     "segments": [
       {
         "fromTarget": "HIP 60965",
@@ -813,9 +813,9 @@
   },
   {
     "id": "Crater",
-    "name": "Crater",
+    "name": "Coupe",
     "abbreviation": "Crt",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Coupe (Crater) est une constellation peu lumineuse placée sur le dos de l'Hydre.",
     "segments": [
       {
         "fromTarget": "HIP 53740",
@@ -869,9 +869,9 @@
   },
   {
     "id": "Crux",
-    "name": "Crux",
+    "name": "Croix du Sud",
     "abbreviation": "Cru",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Croix du Sud (Crux) est une constellation emblématique de l'hémisphère sud, utile pour repérer le pôle céleste sud.",
     "segments": [
       {
         "fromTarget": "HIP 60718",
@@ -889,9 +889,9 @@
   },
   {
     "id": "Cygnus",
-    "name": "Cygnus",
+    "name": "Cygne",
     "abbreviation": "Cyg",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Cygne (Cygnus) suit la Voie lactée estivale et dessine la célèbre Croix du Nord.",
     "segments": [
       {
         "fromTarget": "HIP 102098",
@@ -953,9 +953,9 @@
   },
   {
     "id": "Delphinus",
-    "name": "Delphinus",
+    "name": "Dauphin",
     "abbreviation": "Del",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Dauphin (Delphinus) est une petite constellation estivale reconnaissable à son losange d'étoiles.",
     "segments": [
       {
         "fromTarget": "HIP 101421",
@@ -981,9 +981,9 @@
   },
   {
     "id": "Dorado",
-    "name": "Dorado",
+    "name": "Dorade",
     "abbreviation": "Dor",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Dorade (Dorado) est une constellation australe qui abrite une partie du Grand Nuage de Magellan.",
     "segments": [
       {
         "fromTarget": "HIP 19893",
@@ -1021,9 +1021,9 @@
   },
   {
     "id": "Draco",
-    "name": "Draco",
+    "name": "Dragon",
     "abbreviation": "Dra",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Dragon (Draco) serpente entre les deux Ourses et entoure une région proche du pôle nord céleste.",
     "segments": [
       {
         "fromTarget": "HIP 56211",
@@ -1101,9 +1101,9 @@
   },
   {
     "id": "Eridanus",
-    "name": "Eridanus",
+    "name": "Éridan",
     "abbreviation": "Eri",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Éridan (Eridanus) figure un long fleuve céleste qui part de la région d'Orion vers le sud.",
     "segments": [
       {
         "fromTarget": "HIP 23875",
@@ -1233,9 +1233,9 @@
   },
   {
     "id": "Gemini",
-    "name": "Gemini",
+    "name": "Gémeaux",
     "abbreviation": "Gem",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Les Gémeaux (Gemini) sont une constellation du zodiaque dominée par les étoiles Castor et Pollux.",
     "segments": [
       {
         "fromTarget": "HIP 32362",
@@ -1333,9 +1333,9 @@
   },
   {
     "id": "Grus",
-    "name": "Grus",
+    "name": "Grue",
     "abbreviation": "Gru",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Grue (Grus) est une constellation australe moderne, visible dans le ciel du printemps austral.",
     "segments": [
       {
         "fromTarget": "HIP 108085",
@@ -1373,9 +1373,9 @@
   },
   {
     "id": "Horologium",
-    "name": "Horologium",
+    "name": "Horloge",
     "abbreviation": "Hor",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Horloge (Horologium) est une discrète constellation australe nommée en hommage aux instruments de mesure du temps.",
     "segments": [
       {
         "fromTarget": "HIP 19747",
@@ -1401,9 +1401,9 @@
   },
   {
     "id": "Hydra",
-    "name": "Hydra",
+    "name": "Hydre",
     "abbreviation": "Hya",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Hydre (Hydra) est la plus vaste constellation du ciel et s'étire sur une grande partie de l'hémisphère céleste.",
     "segments": [
       {
         "fromTarget": "HIP 43234",
@@ -1485,9 +1485,9 @@
   },
   {
     "id": "Hydrus",
-    "name": "Hydrus",
+    "name": "Hydre mâle",
     "abbreviation": "Hyi",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Hydre mâle (Hydrus) est une petite constellation australe distincte de la grande Hydre.",
     "segments": [
       {
         "fromTarget": "HIP 2021",
@@ -1509,9 +1509,9 @@
   },
   {
     "id": "Indus",
-    "name": "Indus",
+    "name": "Indien",
     "abbreviation": "Ind",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Indien (Indus) est une constellation australe introduite par les cartographes célestes de la Renaissance.",
     "segments": [
       {
         "fromTarget": "HIP 103227",
@@ -1537,9 +1537,9 @@
   },
   {
     "id": "Lacerta",
-    "name": "Lacerta",
+    "name": "Lézard",
     "abbreviation": "Lac",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Lézard (Lacerta) est une constellation septentrionale discrète située entre Cassiopée et Andromède.",
     "segments": [
       {
         "fromTarget": "HIP 111022",
@@ -1601,9 +1601,9 @@
   },
   {
     "id": "Leo",
-    "name": "Leo",
+    "name": "Lion",
     "abbreviation": "Leo",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Lion (Leo), constellation du zodiaque, se reconnaît notamment à la faucille formée autour de Régulus.",
     "segments": [
       {
         "fromTarget": "HIP 49669",
@@ -1677,9 +1677,9 @@
   },
   {
     "id": "Leo Minor",
-    "name": "Leo Minor",
+    "name": "Petit Lion",
     "abbreviation": "LMi",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Petit Lion (Leo Minor) est une faible constellation située entre le Lion et la Grande Ourse.",
     "segments": [
       {
         "fromTarget": "HIP 46952",
@@ -1705,9 +1705,9 @@
   },
   {
     "id": "Lepus",
-    "name": "Lepus",
+    "name": "Lièvre",
     "abbreviation": "Lep",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Lièvre (Lepus) se trouve sous Orion et représente l'animal poursuivi par le chasseur céleste.",
     "segments": [
       {
         "fromTarget": "HIP 23685",
@@ -1761,9 +1761,9 @@
   },
   {
     "id": "Libra",
-    "name": "Libra",
+    "name": "Balance",
     "abbreviation": "Lib",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Balance (Libra) est la seule constellation du zodiaque qui représente un objet plutôt qu'un être vivant.",
     "segments": [
       {
         "fromTarget": "HIP 72622",
@@ -1797,9 +1797,9 @@
   },
   {
     "id": "Lupus",
-    "name": "Lupus",
+    "name": "Loup",
     "abbreviation": "Lup",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Loup (Lupus) occupe une région australe de la Voie lactée, près du Scorpion et du Centaure.",
     "segments": [
       {
         "fromTarget": "HIP 71860",
@@ -1855,7 +1855,7 @@
     "id": "Lynx",
     "name": "Lynx",
     "abbreviation": "Lyn",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Lynx (Lynx) est une constellation boréale peu lumineuse, baptisée ainsi car il faut une bonne vue pour la distinguer.",
     "segments": [
       {
         "fromTarget": "HIP 45860",
@@ -1889,9 +1889,9 @@
   },
   {
     "id": "Musca",
-    "name": "Musca",
+    "name": "Mouche",
     "abbreviation": "Mus",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Mouche (Musca) est une petite constellation australe proche de la Croix du Sud.",
     "segments": [
       {
         "fromTarget": "HIP 57363",
@@ -1921,9 +1921,9 @@
   },
   {
     "id": "Octans",
-    "name": "Octans",
+    "name": "Octant",
     "abbreviation": "Oct",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Octant (Octans) entoure le pôle céleste sud et porte le nom d'un instrument de navigation.",
     "segments": [
       {
         "fromTarget": "HIP 70638",
@@ -1941,9 +1941,9 @@
   },
   {
     "id": "Ophiuchus",
-    "name": "Ophiuchus",
+    "name": "Serpentaire",
     "abbreviation": "Oph",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Serpentaire (Ophiuchus) représente un porteur de serpent et traverse une région riche de la Voie lactée.",
     "segments": [
       {
         "fromTarget": "HIP 86032",
@@ -2049,9 +2049,9 @@
   },
   {
     "id": "Pavo",
-    "name": "Pavo",
+    "name": "Paon",
     "abbreviation": "Pav",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Paon (Pavo) est une constellation australe dont les étoiles dessinent une silhouette étalée.",
     "segments": [
       {
         "fromTarget": "HIP 100751",
@@ -2113,9 +2113,9 @@
   },
   {
     "id": "Pegasus",
-    "name": "Pegasus",
+    "name": "Pégase",
     "abbreviation": "Peg",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Pégase (Pegasus) est une grande constellation automnale connue pour le carré de Pégase.",
     "segments": [
       {
         "fromTarget": "HIP 109410",
@@ -2173,9 +2173,9 @@
   },
   {
     "id": "Perseus",
-    "name": "Perseus",
+    "name": "Persée",
     "abbreviation": "Per",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Persée (Perseus) est une constellation du ciel d'hiver associée au héros grec et à l'étoile variable Algol.",
     "segments": [
       {
         "fromTarget": "HIP 17448",
@@ -2277,9 +2277,9 @@
   },
   {
     "id": "Pictor",
-    "name": "Pictor",
+    "name": "Peintre",
     "abbreviation": "Pic",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Peintre (Pictor) est une petite constellation australe qui rend hommage aux arts visuels.",
     "segments": [
       {
         "fromTarget": "HIP 32607",
@@ -2293,9 +2293,9 @@
   },
   {
     "id": "Pisces",
-    "name": "Pisces",
+    "name": "Poissons",
     "abbreviation": "Psc",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Les Poissons (Pisces) forment une vaste et discrète constellation du zodiaque, traversée par l'écliptique.",
     "segments": [
       {
         "fromTarget": "HIP 5742",
@@ -2365,9 +2365,9 @@
   },
   {
     "id": "Piscis Austrinus",
-    "name": "Piscis Austrinus",
+    "name": "Poisson austral",
     "abbreviation": "PsA",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Poisson austral (Piscis Austrinus) est surtout repérable grâce à Fomalhaut, son étoile principale.",
     "segments": [
       {
         "fromTarget": "HIP 113368",
@@ -2409,9 +2409,9 @@
   },
   {
     "id": "Puppis",
-    "name": "Puppis",
+    "name": "Poupe",
     "abbreviation": "Pup",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Poupe (Puppis) représente la partie arrière du navire Argo dans le ciel austral.",
     "segments": [
       {
         "fromTarget": "HIP 39953",
@@ -2461,9 +2461,9 @@
   },
   {
     "id": "Pyxis",
-    "name": "Pyxis",
+    "name": "Boussole",
     "abbreviation": "Pyx",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Boussole (Pyxis) est une constellation australe moderne dédiée à l'instrument de navigation.",
     "segments": [
       {
         "fromTarget": "HIP 39429",
@@ -2481,9 +2481,9 @@
   },
   {
     "id": "Reticulum",
-    "name": "Reticulum",
+    "name": "Réticule",
     "abbreviation": "Ret",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Réticule (Reticulum) est une petite constellation australe nommée d'après le réseau d'un instrument optique.",
     "segments": [
       {
         "fromTarget": "HIP 19780",
@@ -2505,9 +2505,9 @@
   },
   {
     "id": "Sagitta",
-    "name": "Sagitta",
+    "name": "Flèche",
     "abbreviation": "Sge",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Flèche (Sagitta) est l'une des plus petites constellations et dessine une pointe près de l'Aigle.",
     "segments": [
       {
         "fromTarget": "HIP 98337",
@@ -2529,9 +2529,9 @@
   },
   {
     "id": "Scorpius",
-    "name": "Scorpius",
+    "name": "Scorpion",
     "abbreviation": "Sco",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Scorpion (Scorpius), constellation du zodiaque, est remarquable par Antarès et sa longue courbe d'étoiles.",
     "segments": [
       {
         "fromTarget": "HIP 78820",
@@ -2609,9 +2609,9 @@
   },
   {
     "id": "Scutum",
-    "name": "Scutum",
+    "name": "Écu de Sobieski",
     "abbreviation": "Sct",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "L'Écu de Sobieski (Scutum) est une petite constellation de la Voie lactée dédiée au roi Jean III Sobieski.",
     "segments": [
       {
         "fromTarget": "HIP 92175",
@@ -2633,9 +2633,9 @@
   },
   {
     "id": "Serpens",
-    "name": "Serpens",
+    "name": "Serpent",
     "abbreviation": "Ser",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Serpent (Serpens) est la seule constellation séparée en deux parties par le Serpentaire.",
     "segments": [
       {
         "fromTarget": "HIP 77233",
@@ -2693,9 +2693,9 @@
   },
   {
     "id": "Telescopium",
-    "name": "Telescopium",
+    "name": "Télescope",
     "abbreviation": "Tel",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Télescope (Telescopium) est une constellation australe moderne, nommée pour l'instrument d'observation.",
     "segments": [
       {
         "fromTarget": "HIP 89112",
@@ -2709,9 +2709,9 @@
   },
   {
     "id": "Triangulum Australe",
-    "name": "Triangulum Australe",
+    "name": "Triangle austral",
     "abbreviation": "TrA",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Triangle austral (Triangulum Australe) forme un triangle compact et lumineux dans le ciel du sud.",
     "segments": [
       {
         "fromTarget": "HIP 82273",
@@ -2733,9 +2733,9 @@
   },
   {
     "id": "Tucana",
-    "name": "Tucana",
+    "name": "Toucan",
     "abbreviation": "Tuc",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Toucan (Tucana) est une constellation australe située près des Nuages de Magellan.",
     "segments": [
       {
         "fromTarget": "HIP 2484",
@@ -2765,9 +2765,9 @@
   },
   {
     "id": "Ursa Minor",
-    "name": "Ursa Minor",
+    "name": "Petite Ourse",
     "abbreviation": "UMi",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Petite Ourse (Ursa Minor) abrite l'étoile Polaire, proche du pôle nord céleste.",
     "segments": [
       {
         "fromTarget": "HIP 11767",
@@ -2801,9 +2801,9 @@
   },
   {
     "id": "Vela",
-    "name": "Vela",
+    "name": "Voiles",
     "abbreviation": "Vel",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Les Voiles (Vela) représentent les voiles du navire Argo et traversent la Voie lactée australe.",
     "segments": [
       {
         "fromTarget": "HIP 42913",
@@ -2841,9 +2841,9 @@
   },
   {
     "id": "Virgo",
-    "name": "Virgo",
+    "name": "Vierge",
     "abbreviation": "Vir",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "La Vierge (Virgo), vaste constellation du zodiaque, contient Spica et de nombreuses galaxies lointaines.",
     "segments": [
       {
         "fromTarget": "HIP 60129",
@@ -2929,9 +2929,9 @@
   },
   {
     "id": "Volans",
-    "name": "Volans",
+    "name": "Poisson volant",
     "abbreviation": "Vol",
-    "description": "Constellation représentée avec ses segments de la tradition occidentale.",
+    "description": "Le Poisson volant (Volans) est une petite constellation australe introduite par les navigateurs européens.",
     "segments": [
       {
         "fromTarget": "HIP 44382",
